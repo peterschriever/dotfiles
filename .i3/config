@@ -166,13 +166,15 @@ bindsym	$mod+Mod1+C workspace prev
 popup_during_fullscreen smart
 
 # take a scrot!
-bindsym $mod+Print exec scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/shots/'
+bindsym $mod+Print exec scrot '%Y-%m-%d-%H:%M:%S_$wx$h.png' -e 'mv $f ~/shots/'
 
 # custom background
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/wallhaven-159008.png
 
 #disable touchpad
 exec --no-startup-id xinput --set-prop "ETPS/2 Elantech Touchpad" "Device Enabled" 0
+bindsym $mod+Mod1+T exec --no-startup-id xinput --set-prop "ETPS/2 Elantech Touchpad" "Device Enabled" 1
+bindsym $mod+Shift+T exec --no-startup-id xinput --set-prop "ETPS/2 Elantech Touchpad" "Device Enabled" 0
 
 # set razer mouse sensitivity
 exec --no-startup-id razercfg -r 600
@@ -192,21 +194,27 @@ bindsym XF86AudioNext exec banshee --next
 bindsym XF86AudioPrev exec banshee --previous
 
 # Create Log out, Reboot, Poweroff bindings
+set $Locker i3lock && sleep 1
+
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-# TODO: Does not work :(
-    bindsym l exec --no-startup-id $HOME/bin/i3exit lock, mode "default"
-    bindsym e exec --no-startup-id $HOME/bin/i3exit logout, mode "default"
-    bindsym s exec --no-startup-id $HOME/bin/i3exit suspend, mode "default"
-    bindsym h exec --no-startup-id $HOME/bin/i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id $HOME/bin/i3exit reboot, mode "default"
-    bindsym Shift+s exec shutdown -P 0, mode "default"  
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
 bindsym $mod+Shift+Q mode "$mode_system"
+
+# start up programs
+# TODO
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
