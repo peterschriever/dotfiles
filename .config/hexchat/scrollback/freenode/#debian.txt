@@ -1,0 +1,8 @@
+T 1440601763 19*	Now talking on 22#debian
+T 1440601763 22*	Topic for 22#debian is: Debian 8 Jessie released! /msg dpkg jessie ; /msg dpkg wheezy->jessie ; /msg dpkg install jessie | current point releases: /msg dpkg 8.1; /msg dpkg 7.8 | NO FLOOD: /msg dpkg paste | /msg bots NOT people | offtopic: #debian-offtopic | testing/unstable: #debian-next (irc.oftc.net) | chanlogs: /msg dpkg irclog
+T 1440601763 22*	Topic for 22#debian set by 26jelly!~me@pdpc/supporter/active/jelly (24Mon Jun  8 10:47:34 2015)
+T 1440601763 -18ChanServ-	[#debian] Welcome to #Debian. This is a discussion channel; if you have a question about Debian GNU/Linux, ask and we will try our best to answer it. Newcomers should read the channel's guidelines by typing "/msg dpkg guidelines". Please do not paste in the channel; use #flood instead. Thank you.
+T 1440601763 22*	Channel 22#debian url: 24http://www.debian.org
+T 1440601766 24*	meinaeiner has quit (Ping timeout: 250 seconds)
+T 1440601799 24*	Ad1_RnR has quit (Ping timeout: 250 seconds)
+T 1440601815 23*	ws2k3 (freenodeyc@bnc.freegamehosting.eu23) has joined

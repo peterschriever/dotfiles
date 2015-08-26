@@ -1,0 +1,6 @@
+T 1440601840 19*	Now talking on 22#deltion
+T 1440601840 22*	Topic for 22#deltion is: SHB™ | Serious HomeBrew | http://xkcd.com/1546/ | ⚘
+T 1440601840 22*	Topic for 22#deltion set by 26Chameleon!~spoon@4dae57fd.ftth.telfortglasvezel.nl (24Mon Jul  6 13:01:20 2015)
+T 1440601840 19<Spoonbot>	Welcome back, peterzen
+T 1440601841 22*	26corne gives voice to 18peterzen
+T 1440601845 20<peterzen>30	Hellooo
