@@ -1,0 +1,45 @@
+{
+  "name": "laravel-forms-bootstrap-snippets",
+  "main": "./lib/laravel-forms-bootstrap-snippets",
+  "version": "0.2.6",
+  "description": "Handy Atom editor snippets to create Laravel Collective Forms inputs preformated for Twitter's Bootstrap 3",
+  "keywords": [
+    "snippets",
+    "laravel",
+    "bootstrap",
+    "forms",
+    "inputs"
+  ],
+  "activationCommands": {
+    "atom-workspace": "laravel-forms-bootstrap-snippets:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redgluten/laravel-form-bootstrap-snippets-atom.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# Laravel Collective Forms + Bootstrap Snippets for Atom Editor\n\nHandy [Atom editor](http://www.atom.io/) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.1/html) inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).\n\n## Installation\n\nYou need to install the [language-blade](https://atom.io/packages/language-blade) package before installing this one. You can do it via the GUI (`Preferences > Install`) or with the command line:\n\n  `apm install language-blade`\n  `apm install laravel_forms_boostrap_snippets`\n\nThen reload your Atom.\n\n\n## Usage\n\nWhen you're editing your view in Atom, type the snippet shortcut then press `tab` key.\n\n## Available snippets\n\n### General\n\n|      Input       |      Shortcut     |\n|------------------|-------------------|\n| **Form**         | `bootform`        |\n| **Form model**   | `bootformmodel`   |\n\n### Inputs\n\n|      Input      |      Shortcut     |\n|-----------------|-------------------|\n| **Button**      | `bootbutton`      |\n| **Checkbox**    | `bootcheckbox`    |\n| **Date**        | `bootdate`        |\n| **Email**       | `bootemail`       |\n| **File**        | `bootfile`        |\n| **Hidden**      | `boothidden`      |\n| **Number**      | `bootnumber`      |\n| **Password**    | `bootpassword`    |\n| **Radio**       | `bootradio`       |\n| **Select**      | `bootselect`      |\n| **SelectMonth** | `bootselectmonth` |\n| **SelectRange** | `bootselectrange` |\n| **Text**        | `boottextarea`    |\n| **Textarea**    | `boottext`        |\n\n### Horizontal inputs\n\n|      Input      |      Shortcut     |\n|-----------------|-------------------|\n| **Checkbox**    | `bootcheckboxh`    |\n| **Date**        | `bootdateh`        |\n| **Email**       | `bootemailh`       |\n| **File**        | `bootfileh`        |\n| **Number**      | `bootnumberh`      |\n| **Password**    | `bootpasswordh`    |\n| **Select**      | `bootselecth`      |\n| **SelectMonth** | `bootselectmonthh` |\n| **SelectRange** | `bootselectrangeh` |\n| **Text**        | `boottextareah`    |\n| **Textarea**    | `boottexth`        |\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/redgluten/laravel-form-bootstrap-snippets-atom/issues"
+  },
+  "homepage": "https://github.com/redgluten/laravel-form-bootstrap-snippets-atom#readme",
+  "_id": "laravel-forms-bootstrap-snippets@0.2.6",
+  "_shasum": "7703986fa2cdb9b52c07c1da67e246c9532fba40",
+  "_resolved": "file:../d-116110-5058-79cv8m/package.tgz",
+  "_from": "../d-116110-5058-79cv8m/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

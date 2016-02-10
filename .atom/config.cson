@@ -1,0 +1,27 @@
+"*":
+  "atom-autocomplete-php": {}
+  "atom-material-ui":
+    fonts:
+      useRobotoInUI: true
+    tabs:
+      showTabIcons: "Show on active tab"
+      tabMinWidth: true
+      tabSize: "Small"
+    treeView: {}
+    ui:
+      slimScrollbar: true
+  core:
+    projectHome: "/home/peterzen/Code/Atom"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  docblockr: {}
+  editor:
+    fontFamily: "\"Fira Code\""
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "aaaf4c71-ed83-f551-d025-d16343cd69b1"
+  welcome:
+    showOnStartup: false

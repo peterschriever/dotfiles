@@ -1,0 +1,21 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-workspace': [
+    { 'label': 'Execute', 'command': 'data-atom:execute' }
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Data Atom'
+      'submenu': [
+        { 'label': 'New Connection...', 'command': 'data-atom:new-connection' }
+        { 'label': 'Execute', 'command': 'data-atom:execute' }
+        { 'label': 'Toggle results view', 'command': 'data-atom:toggle-results-view' }
+        { 'label': 'Toggle details view', 'command': 'data-atom:toggle-details-view' }
+        { 'label': 'Edit connections', 'command': 'data-atom:edit-connections' }
+      ]
+    ]
+  }
+]
