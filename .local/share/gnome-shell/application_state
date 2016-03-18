@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-control-center.desktop" open-window-count="1" score="80.1875" last-seen="1458295765"/>
+    <application id="deluge.desktop" open-window-count="0" score="2" last-seen="1458247992"/>
+    <application id="gnome-calculator.desktop" open-window-count="0" score="4.875" last-seen="1458130018"/>
+    <application id="gnome-disks.desktop" open-window-count="0" score="7" last-seen="1458235377"/>
+    <application id="hexchat.desktop" open-window-count="0" score="68.8125" last-seen="1458138381"/>
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="0" last-seen="1458247035"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="96.6181640625" last-seen="1458247269"/>
+    <application id="pavucontrol.desktop" open-window-count="0" score="5.5" last-seen="1458233244"/>
+    <application id="eog.desktop" open-window-count="0" score="33.5" last-seen="1458078008"/>
+    <application id="atom.desktop" open-window-count="0" score="0" last-seen="1458247853"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="16271.552850404245" last-seen="1458299412"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="1" last-seen="1458245428"/>
+    <application id="gnome-terminal.desktop" open-window-count="0" score="91.4375" last-seen="1458250556"/>
+    <application id="gimp.desktop" open-window-count="0" score="18.5" last-seen="1458135095"/>
+    <application id="sublime_text.desktop" open-window-count="0" score="0" last-seen="1458247928"/>
+    <application id="libreoffice-writer.desktop" open-window-count="0" score="2.5" last-seen="1458071149"/>
+    <application id="jetbrains-idea.desktop" open-window-count="0" score="232.125" last-seen="1458135101"/>
+  </context>
+</application-state>
