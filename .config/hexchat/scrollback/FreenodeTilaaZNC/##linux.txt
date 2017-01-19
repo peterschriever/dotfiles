@@ -1,0 +1,675 @@
+T 1482321193 18<25masber18>	hi
+T 1482321193 18<25masber18>	i need some assistance with my nics configuration
+T 1482321193 18<25masber18>	I am getting this error message when I try to restart network service
+T 1482321193 18<25masber18>	Shutting down interface eth3:  Device eth3 has MAC address 00:1B:21:CD:45:94, instead of configured address 00:1B:21:CD:45:95. Ignoring.
+T 1482321193 18<25masber18>	so apparently I put the wrong mac address on my ifcfg-eth3 file
+T 1482321193 18<25masber18>	however --> [root@kaigun-4-3 ~]# ethtool -P eth3
+T 1482321193 18<25masber18>	Permanent address: 00:1b:21:cd:45:95
+T 1482321193 18<26[R]18>	masber: and what does ip or ifconfig say?
+T 1482321193 18<25masber18>	ip a says that mac for eth3 is 00:1b:21:cd:45:94
+T 1482321193 18<26[R]18>	well there you go
+T 1482321193 18<25masber18>	my question is, why is ethtool showing a different mac address?
+T 1482321193 18<26[R]18>	because it was changed
+T 1482321193 18<25masber18>	[R], ok, how can I change a mac address?
+T 1482321193 18<26[R]18>	masber: http://lmgtfy.com/?q=linux+change+mac+address
+T 1482321193 18<26hexnewbie18>	Is that a virtual Intel card, or a physical one?
+T 1482321193 18<19Jhlorn18>	masber: What distribution of Linux?
+T 1482321193 18<25masber18>	Jhlorn, centos 6
+T 1482321193 18<19Jhlorn18>	masber: Perhaps the /etc/sysconfig/ifcfg-eth3 is misconfigured.
+T 1482321193 18<25masber18>	hexnewbie, it's a physical card
+T 1482321193 18<25masber18>	Jhlorn, http://pastebin.com/raw/2BGEBpaq
+T 1482321193 18<22django_18>	how can you open .ppt in ubuntu?
+T 1482321193 18<26[R]18>	django_: openoffice
+T 1482321193 18<22django_18>	[R], I have LibreOffice
+T 1482321193 18<26[R]18>	ok, then use that
+T 1482321193 18<25hero_biz18>	guys I have a question about tun interface. I'm trying to build something like a packet sniffer using tun interface (coding, just a test app). but I wonder if it is possible to forward captured packet from tun interface or not.
+T 1482321193 18<28meretrix18>	is there any reason why "unshare -r" shouldn't work when run inside a chroot?
+T 1482321193 18<28meretrix18>	(it results in "Operation not permitted")
+T 1482321193 18<28meretrix18>	but works fine outside of a chroot
+T 1482321193 18<19Mannn18>	Hey I used this aptitude command which opened one of those old console-style GUIs, kind of like DOS. Well, how do you access the menu at the top, what key is it?
+T 1482321193 18<19Mannn18>	(menu = File, Edit, Help)
+T 1482321193 18<19Mannn18>	Question 2: Is it possible to make ll default to "ll -b=M" ?
+T 1482321193 18<19Mannn18>	I mean "ll -b M"
+T 1482321193 18<29zefferno18>	Mannn: Q2: you can edit your shell profile, assuming you using bash use nano ~/.bashprofile and add the following line: "alias ll="ll --blocksize=MB"
+T 1482321193 18<27MasterGberry18>	Ok i'm blanking stupid terribly atm. I am trying to encrypt a file remotely and decrypt it on a local system one way (only server can encrypt it and only client can decrypt it)
+T 1482321193 18<29zefferno18>	Mannn: Q1: use F10
+T 1482321193 18<27MasterGberry18>	What type of encryption system am i looking for? i apparently have had public/private keys backwards in my head for the past 6 months .-.
+T 1482321193 18<26[R]18>	MasterGberry: gpg
+T 1482321193 18<19Mannn18>	Is it normal to not have a bash profile file
+T 1482321193 18<26[R]18>	Mannn: you might have ~/.profile
+T 1482321193 18<19Mannn18>	Thanks R
+T 1482321193 18<19Mannn18>	If I put an echo statement in here, it'll show up every time I open a new terminal
+T 1482321193 18<26[R]18>	man bash to explain when the profile gets used
+T 1482321193 18<19Mannn18>	Aw mannn
+T 1482321193 18<26jim18>	in man bash, that's in the FILES section... for general reading of the bash docs, you might want to try the info page
+T 1482321193 18<19dimm18>	hello, All! is this bad message in dmesg? http://dpaste.com/0R2X8C9
+T 1482321193 18<26[R]18>	well tons of stuff is crashing
+T 1482321193 18<26[R]18>	so... depends on what you definition of "bad" is
+T 1482321193 18<24storge18>	zing
+T 1482321193 18<22kiely18>	how useful is RHCSA in the job market?
+T 1482321193 18<22bazhang18>	redhat?
+T 1482321193 18<22bazhang18>	why not check some of the IT web boards and see
+T 1482321193 18<22kiely18>	searching jobs here in Seattle, there's not one RHCSA job
+T 1482321193 18<28poutine18>	I would really doubt it matters much, although I will admit I say this based on gut feeling, as I work doing software programming, but I bet it's worth less than toilet paper
+T 1482321193 18<22bazhang18>	'gut feeling'
+T 1482321193 18<26[R]18>	kiely: they've probably realized they're not worth the paper they are printed on
+T 1482321193 18<20alankila18>	certified engineers are the sort of crap that appears in mature markets where everyone appears equally competent and rackets like professional certifications start up
+T 1482321193 18<20alankila18>	so you can get an edge worth $x by getting one, and by coincidence the free market ensures that the certificate costs approximately $x * factor_near_1, leaving you almost no better off having acquired it in the worst case.
+T 1482321193 18<20erdos18>	hello! question, does it make sense to try to put a virus scanner on servers that have very minimal stuff on them, and all the other big security precautions have been taken?
+T 1482321193 18<20erdos18>	i'm being told that we should by some corp guys but i don't get it, what's it even going to scan?
+T 1482321193 18<24survietamine18>	it can be, would depend on what you service
+T 1482321193 18<20erdos18>	it's a standard sort of web application, api providing functionality to phones
+T 1482321193 18<24survietamine18>	for example, it can be useful on a mail server or a samba server
+T 1482321193 18<20erdos18>	ah right, yeah i'm just talking about a bunch of machines running coreos, and the application parts running as containers
+T 1482321193 18<20erdos18>	almost zero 3rd party stuff
+T 1482321193 18<24survietamine18>	but, if you have advanced security like apparmor, selinux, TPM, tripwire, etc. Maybe not useful
+T 1482321193 18<20erdos18>	i was looking at ossec
+T 1482321193 18<24survietamine18>	on mail servers and file servers, it protects clients of the services, not the server itself
+T 1482321193 18<20erdos18>	you mean ossec doesn't protect the server?
+T 1482321193 18<22folatt18>	If I want to encrypt a partition, does it matter what filetypet it is before I encrypt it?
+T 1482321193 18<20__heisenbug18>	folatt: No.
+T 1482321193 18<20erdos18>	folatt: you want to encrypt a file or a partition?
+T 1482321193 18<22folatt18>	A partition.
+T 1482321193 18<20erdos18>	partitions have a file type?
+T 1482321193 18<22folatt18>	eerrr
+T 1482321193 18<22folatt18>	file system type
+T 1482321193 18<22folatt18>	fs-type
+T 1482321193 18<20erdos18>	oh right
+T 1482321193 18<26reser18>	So, I have a machine with 64gb ram, but now I only have 2gb free. When trying to look in /proc/meminfo, the only really high values are "HighTotal","CommitLimit" and "MemTotal" - where could my memory be used up?
+T 1482321193 18<20erdos18>	nah i don't think it would matter
+T 1482321193 18<22folatt18>	mkpart part-type fs-type start end
+T 1482321193 18<22folatt18>	And I'm wondering what part-type and fs-type I should choose.
+T 1482321193 18<22folatt18>	primary ext2?
+T 1482321193 18<22folatt18>	extended?
+T 1482321193 18<20__heisenbug18>	reser: You could use top or htop to list those processes too. Maybe better
+T 1482321193 18<26jim18>	erdos, partitions have a type code, a byte (in msdos style partition tables), and 2 bytes in GPTs
+T 1482321193 18<26reser18>	__heisenbug: Actually /proc/meminfo does not give process specific info. When checking top there is no process taking up much memory either =/
+T 1482321193 18<26jim18>	folatt, for which purpose?
+T 1482321193 18<20__heisenbug18>	reser: Hm. What I could think of is that there are so many processes using a few of your RAM such they use much in sum
+T 1482321193 18<26reser18>	__heisenbug: =) Nope, I summed them and got to less than 10gb
+T 1482321193 18<22folatt18>	jim, for an encrypted root partition.
+T 1482321193 18<20__heisenbug18>	reser: Hmm. Hm. Hm. Hm. No idea. Sorry.
+T 1482321193 18<26reser18>	Oh well, thanks __heisenbug
+T 1482321193 18<22folatt18>	so I'm going to "cryptsetup -y -v luksFormat /dev/sda2" and then mkfs a partition in there.
+T 1482321193 18<22folatt18>	And I can vaguely recall that with Ubuntu, the luks partition was an extended partition, so I'm hesitating whether I should choose primary or extended.
+T 1482321193 18<22folatt18>	I'm installing Arch now, Ubuntu did this whole thing for me.
+T 1482321193 18<20alankila18>	Use GPT and there's no such thing as primary or extended
+T 1482321193 18<22folatt18>	So for GPT it doesn't matter?
+T 1482321193 18<20alankila18>	I don't think it really matters for linux either. The primary-extended thing is some ancient compatibility thing dating back from like DOS
+T 1482321193 18<22folatt18>	That means I should choose "primary ext2" as that's the default although it really doesn't matter.
+T 1482321193 18<22folatt18>	Okay thanks
+T 1482321193 18<20alankila18>	the key benefit is that with DOS partition tables you can get more than 4 partitions by embedding another partition table within a partition
+T 1482321193 18<20alankila18>	these embedded partitions are called extended partitions
+T 1482321193 18<22folatt18>	Thanks alankila, you've helped a lot.
+T 1482321193 18<20alankila18>	With modern computers, you have GPT tables which support, was it, 16 partitions out of the box, or was it 128, I don't remember, and there's no need to put a boot block into the first partition either as the system firmware is capable of reading boot files off a VFAT filesystem called ESP
+T 1482321193 18<26reser18>	q
+T 1482321193 18<26reser18>	Oh, wrong window =)
+T 1482321193 18<26reser18>	Heres outputs of free, vmstat meminfo and df: https://paste.linux.community/view/54f1600e
+T 1482321193 18<26reser18>	Why only 2gb free when nothing seems to use my memory
+T 1482321193 18<19Mannn18>	What kind of things do you type into that alt+f2 dialogue? I can't think of anything useful besides xed, or launching programs like that, but if that's the case it's faster to simply do windows key > xed rather than alt+f2 > xed. So what shortcuts do you use it for?
+T 1482321193 18<22Flonk18>	Bash question... I have some lines of text in stdout, and I want to pass each line as an argument to some command. I have `ls | egrep -e foo | bar` but `bar` doesn't support piping stuff in from stdin. How do I best do that?
+T 1482321193 18<22Flonk18>	I recall an `xarg` command or something that does something similar.
+T 1482321193 18<28bocaneri18>	Flonk, do you mean xargs?
+T 1482321193 18<27hit_18>	Hi, I've just installed Windows 10 for dual boot and looks like grub is not detecting it...
+T 1482321193 18<27hit_18>	The best option will be to reinstall windows 10 without uefi right?
+T 1482321193 18<28bocaneri18>	hit_, the best option is to install windows first, and *then* linux.
+T 1482321193 18<24survietamine18>	Flonk: bash questions should go to #bash
+T 1482321193 18<22Flonk18>	survietamine, noted
+T 1482321193 18<22Flonk18>	I just used a for-in for now though.
+T 1482321193 18<24survietamine18>	ok, but don't try to parse ls, it's wrong
+T 1482321193 18<27hit_18>	bocaneri: I know but that linux cannot be deleted, I have everything there
+T 1482321193 18<28bocaneri18>	hit_, second best option is to install Windows and then fire up a Linux liveCD.
+T 1482321193 18<27hit_18>	yes, I can boot my linux system and install grub
+T 1482321193 18<27hit_18>	the problem is grub-mkconfing doesnt see windows 10
+T 1482321193 18<27hit_18>	it just detect linux
+T 1482321193 18<24survietamine18>	add it in 40_custom
+T 1482321193 18<28bocaneri18>	Isn't there some os-prober or something?
+T 1482321193 18<27hit_18>	Yep os-prober is installed but finds nothing else
+T 1482321193 18<27hit_18>	how to add it on 40_custom?
+T 1482321193 18<27hit_18>	I added this: http://pastebin.com/wP0viE82
+T 1482321193 18<27hit_18>	but nothing
+T 1482321193 18<25kishore9618>	How would I go about detecting the reason for a machine check exception which appears only if I'm on a kernel version above 4.3?
+T 1482321193 18<24survietamine18>	hit_: are you sure it's hd1?
+T 1482321193 18<24survietamine18>	hd1 is second drive
+T 1482321193 18<27hit_18>	yep
+T 1482321193 18<27hit_18>	/dev/sdb is windows drive
+T 1482321193 18<24survietamine18>	so, you added that section, then you did grub-mkconfig?
+T 1482321193 18<27hit_18>	yes
+T 1482321193 18<27hit_18>	I booted but it dont work
+T 1482321193 18<24survietamine18>	ah weird, last time, I followed arch's wiki, and had no problems: https://wiki.archlinux.org/index.php/GRUB#Chainloading_a_disk.2Fdrive
+T 1482321193 18<27hit_18>	aaa
+T 1482321193 18<24survietamine18>	my computer is still in MBR mode, I didn't read if yours is uefi
+T 1482321193 18<27hit_18>	gpt instead of msdos
+T 1482321193 18<27hit_18>	that must be
+T 1482321193 18<27hit_18>	brb
+T 1482321193 18<25masber18>	hi
+T 1482321193 18<25masber18>	do I need to run any command to apply the changes on visudo?
+T 1482321193 18<24survietamine18>	no
+T 1482321193 18<24survietamine18>	just save the sudoers when you quit visudo
+T 1482321193 18<25masber18>	survietamine, ok thanks!
+T 1482321193 18<24survietamine18>	"normally", you are prompted for
+T 1482321193 18<27hit_18>	nah its not working yet
+T 1482321193 18<27hit_18>	now it doesnt shows any errors, just reset the grub screen
+T 1482321193 18<27hit_18>	just a tip: never ever EVER switch to uefi :)
+T 1482321193 18<22loganlee18>	hmmmm
+T 1482321193 18<28sysx100018>	hello
+T 1482321193 18<22loganlee18>	hey
+T 1482321193 18<28sysx100018>	how can I convert pcf font to xbm?
+T 1482321193 18<22bazhang18>	hi
+T 1482321193 18<26jim18>	hit_, unfortunately, we may all have to...
+T 1482321193 18<28sysx100018>	curious, tried many utilities and... no result :)
+T 1482321193 18<26Sabotender18>	when I switch distros, would it be better or advantageous for me to preserve my home folder?
+T 1482321193 18<26ikonia18>	Sabotender: your home data, not your home folder,
+T 1482321193 18<26Sabotender18>	home...data?
+T 1482321193 18<26Sabotender18>	:-(
+T 1482321193 18<29altcmd18>	dir?
+T 1482321213 24*	tbsf has quit (Ping timeout: 258 seconds)
+T 1482321213 24*	Cabanossi has quit (Ping timeout: 258 seconds)
+T 1482321227 24*	cdown has quit ()
+T 1482321237 23*	Gi0 (~Gi0@unaffiliated/gi023) has joined
+T 1482321298 23*	nimomo (~nimomo@amex-lod.bb.netvision.net.il23) has joined
+T 1482333104 20*	Disconnected (20Connection timed out)
+T 1482333114 19*	Now talking on 22##linux
+T 1482333114 22*	Topic for 22##linux is: Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!
+T 1482333114 22*	Topic for 22##linux set by 26bocaneri (24Sun Dec  4 08:21:21 2016)
+T 1482333114 18<26PickAndMix18>	Thanks for the intro
+T 1482333114 18<26PickAndMix18>	How I do my work currently is
+T 1482333114 18<26PickAndMix18>	I edit locally, and then push to dev server via sftp (previously filezilla)
+T 1482333114 18<26PickAndMix18>	than*
+T 1482333114 18<26PickAndMix18>	so it's tedious because every single line change, I have to do a upload
+T 1482333114 18<28baum18>	PickAndMix: ah, that might not change your workflow too much
+T 1482333114 18<28baum18>	PickAndMix: why not just ssh on the machine and edit the file there?
+T 1482333114 18<26PickAndMix18>	I'm working in a startup, and there's a few other developers working in the same server
+T 1482333114 18<26PickAndMix18>	So we follow the gitflow concept actually. The dev server is just there for us to test our code.
+T 1482333114 18<26PickAndMix18>	Do you have any thoughts on how I could improve my workflow?
+T 1482333114 18<28baum18>	PickAndMix: uhm, then we are you using ftp instead of git to roll out your changes?
+T 1482333114 18<26PickAndMix18>	I have to test my code. So I need the dev server to test out.
+T 1482333114 18<26PickAndMix18>	I can't test locally.
+T 1482333114 18<26PickAndMix18>	Git is used to store my own feature branch
+T 1482333114 18<28baum18>	PickAndMix: which stack are you using?
+T 1482333114 18<28FedgeNo18>	ah so once your testing is done you actually push the git changes to your team
+T 1482333114 18<26PickAndMix18>	Yeah
+T 1482333114 18<26PickAndMix18>	We have production and dev server.
+T 1482333114 18<26PickAndMix18>	I'm hoping to start using tools like docker
+T 1482333114 18<26PickAndMix18>	baum: Flask, MySQL
+T 1482333114 18<28baum18>	PickAndMix: uhm, yep, going with docker sounds good
+T 1482333114 18<28FedgeNo18>	well since you have version control and probably multiple copies, you might as well just use sshfs. if you hose a file you can revert your changes. then you can just treat them like local files. that's really bad advice but it's way faster
+T 1482333114 18<26PickAndMix18>	But it going to take some time. There's so much things to do. This isn't a priority right now as we have to push stuffs out instead of working on internal tools.
+T 1482333114 18<26jim18>	you should probably find somewhere to push the feature branch
+T 1482333114 18<26PickAndMix18>	FedgeNo: I used sshfs previously
+T 1482333114 18<28FedgeNo18>	one thing that sucks is gnome shell sometimes freezes if the connection drops
+T 1482333114 18<26PickAndMix18>	Is this a common way of developing though?
+T 1482333114 18<26PickAndMix18>	I ain't a good dev, and it would be nice to find a way to improve our workflow
+T 1482333114 18<28FedgeNo18>	i don't think most sysadmins would approve of you mounting their server as a subdirectory of your own machine. maybe under a user account that had limited access to the server but not as root
+T 1482333114 18<28baum18>	PickAndMix: well you already know how to improve your workflow -> docker
+T 1482333114 18<26PickAndMix18>	baum: Alright! Look's like I'm on the right path then.
+T 1482333114 18<28FedgeNo18>	so my method is probably not common for people who work for someone else
+T 1482333114 18<26PickAndMix18>	FedgeNo: Not really. I used your method before.
+T 1482333114 18<26PickAndMix18>	Just that I think currently doing locally is way neater and efficient as compared to editing right on the dev machine.
+T 1482333114 18<26jim18>	PickAndMix, that's not quite specific enough... if you're not a good dev, what makes you that way, and what says you're that way? also, what are the consequences of that, which would inform what you're asking for here and now?
+T 1482333114 18<26PickAndMix18>	It feels cleaner, and I commit my code very often.
+T 1482333114 18<26jim18>	which is a good thing
+T 1482333114 18<26PickAndMix18>	Yeah but I feel very amateur. I previously love to jump right in and start coding. As compared to my CEO, he does things really smartly. Spend so much time thinking/designing instead.
+T 1482333114 18<28FedgeNo18>	has that planning stage greatly reduced the amount of refactoring and bugfixing you need to do near the middle/end of a project?
+T 1482333114 18<26jim18>	PickAndMix, was the ceo who hired you?
+T 1482333114 18<19jmd18>	After I have re-partitioned  the disk, how do I inform the kernel that the partition table has changed?
+T 1482333114 18<26PickAndMix18>	jmd: CTO
+T 1482333114 18<26PickAndMix18>	my CEO does everything LOL.
+T 1482333114 18<26PickAndMix18>	From sales to customer service to coding.
+T 1482333114 18<26PickAndMix18>	FedgeNo: Yeah
+T 1482333114 18<26jim18>	and you're working on the same project he is?
+T 1482333114 18<26PickAndMix18>	Yup
+T 1482333114 18<26PickAndMix18>	He's currently working on the frontned
+T 1482333114 18<26PickAndMix18>	I'm working on the backend, building RESTful APIs
+T 1482333114 18<26jim18>	so then, he's probably watching your commits?
+T 1482333114 18<28baum18>	PickAndMix: once again: docker, now!
+T 1482333114 18<26PickAndMix18>	Not really
+T 1482333114 18<26PickAndMix18>	baum: !!! Yeah!@
+T 1482333114 18<26PickAndMix18>	I have 1 week off next week. Last week of the year
+T 1482333114 18<26PickAndMix18>	I'm going to take up some time to learn Docker.
+T 1482333114 18<19jmd18>	PickAndMix: CTO: command not found
+T 1482333114 18<26PickAndMix18>	:P
+T 1482333114 18<26jim18>	how does code review happen?
+T 1482333114 18<26PickAndMix18>	Yeah
+T 1482333114 18<26PickAndMix18>	I work with the Dev team more
+T 1482333114 18<26PickAndMix18>	So there's always code review.
+T 1482333114 18<28baum18>	PickAndMix: oh and: https://github.com/diepm/vim-rest-console
+T 1482333114 18<26PickAndMix18>	My code are horrible
+T 1482333114 18<26PickAndMix18>	Holy shit. bookmarked.
+T 1482333114 18<26PickAndMix18>	But I'm glad I'm influencing the team into the VIM/TMUX CLI culture.
+T 1482333114 18<28baum18>	stuff like that should end up in your vimrc, not the bookmarks :P
+T 1482333114 18<26PickAndMix18>	I'm like hardcore terminal guy :D
+T 1482333114 18<26PickAndMix18>	:P Sorry, am fixing one bug right now.
+T 1482333114 18<26jim18>	do you think that's useful?
+T 1482333114 18<28FedgeNo18>	well sounds like you're on your way to being what you consider a good dev anyway so there you go
+T 1482333114 18<28baum18>	PickAndMix: and since you go full-cli, mabybe checkout the wonderful world of tiling wm's
+T 1482333114 18<26PickAndMix18>	baum: OMG
+T 1482333114 18<26PickAndMix18>	I'm a awesome WM fanatic.
+T 1482333114 18<26PickAndMix18>	I used to run Arch Linux + Awesome WM
+T 1482333114 18<26PickAndMix18>	FedgeNo: I hope so! I have been coding for slightly more than a year now.
+T 1482333114 18<28baum18>	i see
+T 1482333114 18<26PickAndMix18>	I do feel like I'm lacking seriously in theory.
+T 1482333114 18<20eset18>	Hey. I'm running ddrescue (disk to image) , is there a way to check long does it gonna take?
+T 1482333114 18<20eset18>	how*
+T 1482333114 18<25rumpel18>	eset, dd usually accepts USR1 signal which reports progress
+T 1482333114 18<26PickAndMix18>	baum: But I changed to MacOS now.
+T 1482333114 18<26PickAndMix18>	I previously run Gentoo on Mac, such a bad combination lol.
+T 1482333114 18<26PickAndMix18>	I decided not to fight against hardware anymore.
+T 1482333114 18<20eset18>	rumpel: by dd you don't mean ddrescue which is currently running :)
+T 1482333114 18<29Kurvivor18>	hello! in bsd-style system (withoput systemd), how can one replace startup shell with a script?
+T 1482333114 18<28baum18>	PickAndMix: uhm, a mate of me is running debian on his macbook just fine
+T 1482333114 18<25rumpel18>	eset, hm... "man ddrescue" doesn't mention anything about handling that signal
+T 1482333114 18<29Kurvivor18>	i remember there was a certain file in the filesystem that listed shells for users
+T 1482333114 18<19snixor18>	Would you guys recommend any special optimizations for NVMe devices under latest stable Debian?
+T 1482333114 18<26PickAndMix18>	baum: My fan is speeding like crazy.
+T 1482333114 18<26PickAndMix18>	Powertop isn't doing it's work. And I spent alot of time configuring it.
+T 1482333114 18<28baum18>	PickAndMix: meh, just get a real computer next time....
+T 1482333114 18<26PickAndMix18>	Instead of the time spent fighting against this issues. I'll just use MacOS and do some coding.
+T 1482333114 18<26PickAndMix18>	Haha I got a Mac just awhile back.
+T 1482333114 18<28FedgeNo18>	i have been coding for 32 years and i still feel like a noob
+T 1482333114 18<26jim18>	Kurvivor, what's NVMe?
+T 1482333114 18<26PickAndMix18>	Wanted to do iOS coding as well.
+T 1482333114 18<26PickAndMix18>	Hahaha. I'm going to NTU next year. Studying part time for the first 2 years.
+T 1482333114 18<26PickAndMix18>	Hopefully I'll find more friends/like-minded people there.
+T 1482333114 18<19snixor18>	jim: intel pcie ssd?
+T 1482333114 18<29Kurvivor18>	jim: do not know and do not care at the moment unless it has something to do with my question
+T 1482333114 18<20eset18>	rumpel: didn't found anything :P
+T 1482333114 18<26PickAndMix18>	baum: Gonna work on the plugin you just sent me. Thanks alot  man
+T 1482333114 18<28baum18>	PickAndMix: yw, maybe have a look at my vimrc, maybe you can find one or two other usefull plugins: https://github.com/thebaum/dotfiles/blob/master/vimrc
+T 1482333114 18<28baum18>	PickAndMix: disclaimer: the file isn't up-to-date, and desperately needs refactoring
+T 1482333114 18<25farciarz8418>	hi folks. Interesting problem. I have an archive that contains file having exactly same file name. Can I extract it without overriding the file name?
+T 1482333114 18<28ilhami18>	Which DE do you guys use?
+T 1482333114 18<25farciarz8418>	I mean tar archive with 10 files that are having exactly same name
+T 1482333114 18<28ilhami18>	I need a stacking DE
+T 1482333114 18<28ilhami18>	stackable
+T 1482333114 18<28ilhami18>	or whatever it is called
+T 1482333114 18<28baum18>	ilhami: none, only a wm here
+T 1482333114 18<28ilhami18>	baum, which one?
+T 1482333114 18<28baum18>	xmonad
+T 1482333114 18<26PickAndMix18>	baum: Not sure if you want/need. But here's my vimrc too http://pastebin.com/zbM9b7Ap
+T 1482333114 18<26PickAndMix18>	Maybe you could find some plugins here useful as well
+T 1482333114 18<28ilhami18>	can I get it for Ubuntu? baum
+T 1482333114 18<28ilhami18>	oh yeah I can
+T 1482333114 18<26jim18>	farciarz84, all ten files in the archive have the same name?
+T 1482333114 18<28baum18>	ilhami: the question is if you want it, not if you can get it :P
+T 1482333114 18<26PickAndMix18>	It's quite untidy now though
+T 1482333114 18<28ilhami18>	baum, I want it.
+T 1482333114 18<28ilhami18>	I need it.
+T 1482333114 18<28ilhami18>	either that or Openbox
+T 1482333114 18<28baum18>	apt-get it then :P
+T 1482333114 18<26PickAndMix18>	baum: what are the branch, cpp for?
+T 1482333114 18<28ilhami18>	so I can choose it on the login screen, right?
+T 1482333114 18<28baum18>	PickAndMix: line?
+T 1482333114 18<28ilhami18>	it is installing now.
+T 1482333114 18<28baum18>	ilhami: i think so, depends on your current setup
+T 1482333114 18<28ilhami18>	brb.. need to start a new session.
+T 1482333114 18<26PickAndMix18>	baum: line 39 for example
+T 1482333114 18<26PickAndMix18>	{ 'for': 'haskell'
+T 1482333114 18<26PickAndMix18>	}
+T 1482333114 18<28baum18>	PickAndMix: ah, means that the plugin will only work with filetype=haskell
+T 1482333114 18<26PickAndMix18>	Wow
+T 1482333114 18<26PickAndMix18>	what about do, make and branch
+T 1482333114 18<26PickAndMix18>	I never knew this. Haha
+T 1482333114 18<28baum18>	that's on-demand-loading though, 'branch' is a different command
+T 1482333114 18<28baum18>	e.g. { 'branch': 'stable'} pulls the plugin from the stable branch
+T 1482333114 18<28baum18>	PickAndMix: do exectues a script
+T 1482333114 18<28baum18>	PickAndMix: https://github.com/junegunn/vim-plug
+T 1482333114 18<26PickAndMix18>	baum: I use NeoBundle
+T 1482333114 18<28baum18>	i know
+T 1482333114 18<28FedgeNo18>	farciarz84: you probably want the --occurrence[=number] option and you can extract them one at a time. obviously extracting them all to the same directory with the same name will overwrite them
+T 1482333114 18<19Jhlorn18>	vim-plug is rather nice. Especially the load-on-demand rather than always load.
+T 1482333114 18<28baum18>	Jhlorn: yep, faster and much more convenient, that's why i switched to it from bundle
+T 1482333114 18<28baum18>	*vundle
+T 1482333114 18<26PickAndMix18>	I see.
+T 1482333114 18<25farciarz8418>	FedgeNo: so how to avoid extracting them to the same dir?
+T 1482333114 18<26PickAndMix18>	Noted, I'll migrate to Vim-plug when I have the time then :)
+T 1482333114 18<28baum18>	PickAndMix: go with docker first, prolly more important
+T 1482333114 18<28FedgeNo18>	you could extract one occurrence, move it somewhere or rename it, do the next one, etc. there's got to be a better way but i don't know of it. i just found that option by googling your issue
+T 1482333114 18<28FedgeNo18>	i have never seen a tar file like that
+T 1482333114 18*	19c-c is brave and just copies plugin files in ~/.vim/plugin
+T 1482333114 18<19c-c18>	much hac. wow.
+T 1482333114 18<28FedgeNo18>	night, all. nice chatting
+T 1482333114 18<28baum18>	c-c: not brave, just inconvenient :P
+T 1482333114 18<19c-c18>	baum: linux filesystem is "inconvinient"?
+T 1482333114 18<25farciarz8418>	FedgeNo: many thanks
+T 1482333114 18<19c-c18>	lol
+T 1482333114 18<27mqu18>	hey, i bet there are lot macbook users, maybe you can help me? official apple channel seems dead
+T 1482333114 18<19c-c18>	mqu: grr
+T 1482333114 18<25kepler18>	ill help. get rid of it!
+T 1482333114 18<28baum18>	c-c: depends on your usecase
+T 1482333114 18<27mqu18>	i see "progress bar" every boot on my mbp13 pro, so it's startup time more than 30 seconds
+T 1482333114 18<19c-c18>	mqu go away
+T 1482333114 18<25kepler18>	mqu, booting osx or linux?
+T 1482333114 18<27mqu18>	kepler: no matter what, they behave the same
+T 1482333114 18<28baum18>	c-c: and yes, i want to be able to source-control my dotfiles, and roll that out on other computers by one command - doesn't work like that with plugins directly on the filesystem
+T 1482333114 18<25kepler18>	so it is pre-OS?
+T 1482333114 18<27mqu18>	seems so
+T 1482333114 18<19c-c18>	baum: what do you mean "doesn't work like that"
+T 1482333114 18<25kepler18>	did you do all that clear pmem or whatever that crap is for macs?
+T 1482333114 18<27mqu18>	yeah, i did it a few times
+T 1482333114 18<19c-c18>	this is not an Apple support channel, mqu
+T 1482333114 18<19c-c18>	mqu: you are pretty tarded for not using the paid OS support channels
+T 1482333114 18<25kepler18>	mqu: it is just that they are junk then
+T 1482333114 18<27mqu18>	okay, i'll try something else, don't get mad xd
+T 1482333114 18<19c-c18>	mqu: did you buy it new?
+T 1482333114 18<19c-c18>	nm
+T 1482333114 18<28baum18>	c-c: means that versioning plugins copied to the filesystem makes less sense
+T 1482333114 18<19c-c18>	you seem confused
+T 1482333114 18<19c-c18>	baum: why do you confuse versioning and useless plugin managers is beyond me
+T 1482333114 18<25kepler18>	mqu: nvram, that is what i was thinking. clear that?
+T 1482333114 18<28baum18>	c-c: well, you know, amateurs...
+T 1482333114 18<19c-c18>	amateurs don't know how to use vim so they learn weird plugins instead?
+T 1482333114 18<19c-c18>	lol
+T 1482333114 18<20WeiJing18>	all hail the number of the beast VI VI VI
+T 1482333114 18<28baum18>	c-c: on a seriouse note: you might want to read through the past few messages and try to re-evaluate their meaining. seems like you got more than confused :)
+T 1482333114 18<19c-c18>	baum: no, I'm still interested in hearing why is it so hard to wget files into ~/.vim/plugin
+T 1482333114 18<28baum18>	c-c: hint: vcs's and the file system wern't confused
+T 1482333114 18<28baum18>	c-c: not hard, just inconvenient
+T 1482333114 18<19c-c18>	lol
+T 1482333114 18<28baum18>	c-c: why roll your own solution if you got something like vim-plug?
+T 1482333114 18<19c-c18>	so, like I said, you are arguing that "the filesystem is 'inconvinient'"
+T 1482333114 18<28baum18>	c-c: easier to update, easier to maintain
+T 1482333114 18<19c-c18>	So, "linux" is now "your own solution" 8D
+T 1482333114 18<28baum18>	c-c: no, i'm arguing that there is a reason to use a db instead of just going with fs
+T 1482333114 18<19c-c18>	naw
+T 1482333114 18<19c-c18>	baum: there is absolutely no difference between a bash file that dl's those plugins and vimplug conf
+T 1482333114 18<19c-c18>	except, you have to install vim-plug
+T 1482333114 18<26MrElendig18>	and that vim-plug have a update feature etc
+T 1482333114 18<28baum18>	c-c: that's like arguing there is no difference between a make and a bashfile
+T 1482333114 18<26MrElendig18>	and downloads asyncroniusly
+T 1482333114 18<19c-c18>	baum: no, thats like having to argue that you don't need an additional abstraction layer on top of "ls"
+T 1482333114 18<19c-c18>	Do you guys use "mc"?
+T 1482333114 18<19c-c18>	lol
+T 1482333114 18<20triceratux18>	yep its the only thing i use & the first thing in install if its not there
+T 1482333114 18<20triceratux18>	*i install
+T 1482333114 18<20WeiJing18>	+1 to that
+T 1482333114 18<29tlvb18>	I just use ls,mv,cp etc
+T 1482333114 18<22folatt18>	How do I output journalctl to a text file?
+T 1482333114 18<22folatt18>	or a log file?
+T 1482333114 18<28baum18>	c-c: https://github.com/junegunn/vim-plug
+T 1482333114 18<19c-c18>	baum: I know
+T 1482333114 18<26MrElendig18>	folatt: sounds like a xyproblem
+T 1482333114 18<26MrElendig18>	folatt: what are you actually trying to do?
+T 1482333114 18<19c-c18>	baum: I don't use pathogen or other git bs either, just plain straight git
+T 1482333114 18<28baum18>	folatt: journalctl > jounral.txt
+T 1482333114 18<26MrElendig18>	baum: doesn't really give a useful output in most cases though
+T 1482333114 18<28baum18>	MrElendig: it doesn't? why?
+T 1482333114 18<20triceratux18>	mc simplifies everything: tree navigation, textfile browsing, copy/move veto, searching, symlinking, program binding & invocation, menuing. i only have to debug a grep when im deep into debugging a script i need
+T 1482333114 18<22folatt18>	Well, I'm having problems with installing an OS. Multiple problems. The main one being that I installed a DE, but it's not starting.
+T 1482333114 18<26MrElendig18>	because when people want to direct it to a file they usually want to parse it
+T 1482333114 18<22folatt18>	It gets core dumped.
+T 1482333114 18<26MrElendig18>	and parsing the direct output is stupid
+T 1482333114 18<22folatt18>	So I'm gathering logs
+T 1482333114 18<22folatt18>	So I can pastebin it.
+T 1482333114 18<26MrElendig18>	folatt: you do know about coredumpctl btw?
+T 1482333114 18<20WeiJing18>	https://www.loggly.com/ultimate-guide/using-journalctl/ <-This is a good start
+T 1482333114 18<22folatt18>	As one other problem is that the network isn't working well either.
+T 1482333114 18<22folatt18>	For some reason it can reach only Ipv6
+T 1482333114 18<26MrElendig18>	folatt: why dump to a file if you just want it in a pastebin?
+T 1482333114 18<22folatt18>	MrElendig, no.
+T 1482333114 18<26MrElendig18>	folatt: man coredumpctl
+T 1482333114 18<26MrElendig18>	folatt: as for putting in a pastebin, curl etc is quite handy
+T 1482333114 18<22folatt18>	MrElendig, because it needs to go to a USB stick first.
+T 1482333114 18<26MrElendig18>	if you have working ipv6 then you can paste directly
+T 1482333114 18<22folatt18>	It hangs before I can reach any tty's.
+T 1482333114 18<20triceratux18>	btw this xubuntu-core comes with *all* the fonts even tho it doesnt have a browser of any kind. https://unit193.net/xubuntu/core/index.html thats brilliant. you just drop in vivaldi 1.6 & youre watching anna news
+T 1482333114 18<19c-c18>	triceratux: is there a mc -plugin for vim?
+T 1482333114 18<22BluesKaj18>	Hi all
+T 1482333114 18<28baum18>	c-c: no, that's why people use vifm
+T 1482333114 18<28baum18>	c-c: yw
+T 1482333114 18<26MrElendig18>	folatt: btw, you can simply copy over the binary log and open on another machine and do all the required filtering etc there
+T 1482333114 18<20triceratux18>	c-c: cant say. theres vifm tho which uses less python than ranger
+T 1482333114 18<20triceratux18>	c-c: rofl or what baum said
+T 1482333114 18<22folatt18>	MrElendig, I don't know how to do that.
+T 1482333114 18<26MrElendig18>	man journalctl
+T 1482333114 18<26MrElendig18>	see the --file option
+T 1482333114 18<19c-c18>	baum: I just have :Lex
+T 1482333114 18<26MrElendig18>	quite handy
+T 1482333114 18<19c-c18>	baum: people who don't know vim need plugins
+T 1482333114 18<22folatt18>	Probably if I knew how it worked.
+T 1482333114 18<26MrElendig18>	c-c: people who knows vim wants plugins to fix some of the stupidity in vim
+T 1482333114 18<28baum18>	c-c: http://vifm.info/
+T 1482333114 18<19c-c18>	- excluding linters and some formatters
+T 1482333114 18<26MrElendig18>	c-c: like vim-repeat
+T 1482333114 18<19c-c18>	looks like mc https://www.youtube.com/watch?v=qPg7m90WXMo
+T 1482333114 18<28baum18>	c-c: vifm is stand-alone, but also offers a vim plugin
+T 1482333114 18<28baum18>	c-c: that's the point!
+T 1482333114 18<20triceratux18>	c-c: i just add vim to the menu of editors mc brings up & away i go. you could get all 3 of them tightly integrated a bunch of ways actually
+T 1482333114 18<19c-c18>	but netrw has tree mode: :Lex<enter>iii
+T 1482333114 18<19c-c18>	b-but!
+T 1482333114 18<19c-c18>	So is there a curses gui for find?
+T 1482333114 18<20triceratux18>	actually, ive got a question. seems like the cooperation between arbitrary gui filemanagers & udev at mount time is manifestly threatened by the gvfs/dbus/udisks2/polkit nexus & im wondering if i should start standardising on my native solution https://paste.fedoraproject.org/510502/ which coincidentally has always been mc based & relies solely upon
+T 1482333114 18<20triceratux18>	device enumeration provided by the kernel in /dev/disk/by-label
+T 1482333114 18<20triceratux18>	is this a good approach or are there already tools that will mount the same partitions at distro-specific mountpoints the way attempting to cooperate with udevd via a gui always has ?
+T 1482333114 18<22jerit18>	my dad gave a blade server from his work and I'm trying to reformat it with ubuntu (it has Red Hat Server 6.1 on it currently but its secure)
+T 1482333114 18<28baum18>	jerit: why ubuntu on a server?
+T 1482333114 18<22jerit18>	baum because its what I have
+T 1482333114 18<19c-c18>	triceratux: isn't that for gnomeland
+T 1482333114 18<22jerit18>	I think my new install disc isn't bootable though which is a problem because I don't think I wrote it as a rewritable :/
+T 1482333114 18<19c-c18>	jerit: $ fdisk -l
+T 1482333114 18<19c-c18>	Assuming you are on the system
+T 1482333114 18<20triceratux18>	c-c: yes but gnome creep has broken thunar recently in a handful of highprofile distros & im still reeling from the shock. indeed one solution was to run tde 3.5.13 & everything is better
+T 1482333114 18<19c-c18>	triceratux: whatabout ranger
+T 1482333114 18<20triceratux18>	c-c: im a noob & ive always just had a strategic direction of using the delivered gui filemanagers for nothing other than mounting partitions, as theyre setup to enumerate them properly & mount them where they belong according to the distro
+T 1482333114 18<20triceratux18>	c-c: if i knew less about polkit i wouldnt think the 30sec waits im experiencing at mounttime are something prompting for unnecessary credentials then timing out before proceeding
+T 1482333114 18<20triceratux18>	fortunately i have no experience with polkit so i have no clue
+T 1482333114 18<19c-c18>	Ranger is for Vim users
+T 1482333114 18<19c-c18>	it seems *great* for peeking into /opt/proc and /dev/* and such places for context
+T 1482333114 18<22jerit18>	c-c I can't access the current OS. Its asking for login which I don't have
+T 1482333114 18<20triceratux18>	exactly. you need a fhs point & browse navigator. sure you can ls -al & more all day. sometimes you have to
+T 1482333114 18<19c-c18>	jerit: ok does it have usb conn? install debian iso on a usb stick and boot off that
+T 1482333114 18<19c-c18>	jerit: make sure its the debian iso with firmware included
+T 1482333114 18<19c-c18>	jerit: then either enable boot flag on the server -- or if you feel like hax0r chroot into the redhat to reset the password
+T 1482333114 18<22jerit18>	c-c not even sure how to correctly make a usb bootable (I only have Windows available to do it)
+T 1482333114 18<19c-c18>	triceratux: sorry "fhs"?
+T 1482333114 18<20triceratux18>	c-c: btw while youre digging thru those take a look at vfu. its in debian & ubuntu repos. its on the old side so its a little buggy. sometimes i wonder if i could fix it
+T 1482333114 18<20triceratux18>	c-c: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+T 1482333114 18<26MrElendig18>	jerit: https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_USBwriter
+T 1482333114 18<26MrElendig18>	jerit: works for any sane distro
+T 1482333114 18<28baum18>	jerit: dd if=/path/to/iso of=/dev/sdXXXXX bs=4m
+T 1482333114 18<26MrElendig18>	or you can install dd on windows
+T 1482333114 18<20eset18>	Hey I manage to ddrescue whole parttition VMFS_Volume_Member to an image to another partition. I can mount that image with vmfs-fuse but when I ran fsck.vmfs on that image I Get Pointer Block is Lost. I'm afraid that When I copy content from that image I will get the same result When I tried to copy from corruptet disk. Should I repair that image ?
+T 1482333114 18<28mmlj418>	anyone got complaints about a chromebook?
+T 1482333114 18<19c-c18>	wow, I really like ranger
+T 1482333114 18<20triceratux18>	ranger ftw
+T 1482333114 18*	19c-c wonders if he gonna install vim-plug next
+T 1482333114 18*	22jerit should probably not format usb stick with ntfs right? Will it make any difference in installing from it?
+T 1482333114 18<26MrElendig18>	jerit: you don't format it at all when writing a image to it
+T 1482333114 18<26MrElendig18>	jerit: because the image will just overwrite whatever is on the stick anyway.....
+T 1482333114 18<19c-c18>	- With vims :Lex iii one has a nice tree fileview, but to see inside f.ex /proc -process files, need to hit enter -- Ranger shows the content immediately. I wish Ranger had a tree view on the left, instead of the parent dir only
+T 1482333114 18<28baum18>	c-c: vifm beats ranger by far
+T 1482333114 18<22jerit18>	MrElendig I'm still making it bootable per TechNet since its the first result on Google https://technet.microsoft.com/en-us/library/jj200124(v=ws.11).aspx
+T 1482333114 18<19c-c18>	jerit: I think you can only have fat32 on usb
+T 1482333114 18<26MrElendig18>	jerit: what
+T 1482333114 18<26MrElendig18>	jerit: that article is 100% irrelevant
+T 1482333114 18<19c-c18>	baum: but, it doesn't offer a view into the fs content, unlike vim+:Lex or Ranger
+T 1482333114 18<22jerit18>	MrElendig: windows won't let me write the image to the usb stick unless I format the usb stick
+T 1482333114 18<26MrElendig18>	jerit: please see the url I gave you
+T 1482333114 18<26MrElendig18>	you are just overcomplicating it
+T 1482333114 18<22jerit18>	MrElendig: if I had a linux shell to work from, I could use that. I don't, unfortunately, have a linux shell to do it with
+T 1482333114 18<26MrElendig18>	jerit: ffs read the url
+T 1482333114 18<26MrElendig18>	or better, click the url and read the page it links to :p
+T 1482333114 18<28baum18>	c-c: how doesn'T it offer you a view into the fs content? it's pretty much built to do just that
+T 1482333114 18<19c-c18>	MrElendig really likes urls 8]
+T 1482333114 18<22manuelschneid3r18>	what is the current linux scheduling algorithm/strategy?
+T 1482333114 18<19c-c18>	baum: it only offers a view into the filetree
+T 1482333114 18<26MrElendig18>	c-c: more of a dislike of people who just totally ignore simple instructions given and then goes off doing something totally different that won't work at all anyway
+T 1482333114 18<28baum18>	c-c: uhm, and you are looking for? a hex representation?
+T 1482333114 18<22jerit18>	yay I just love downloading miscellanous software from websites I've never heard of before
+T 1482333114 18<19c-c18>	baum it shows it open immediately - for example I like to look in /proc/PID -files - see here: https://youtu.be/qooLR8NmYKs?t=179
+T 1482333114 18<26MrElendig18>	jerit: you might not have heard of it, but it is the "official" tool eg ubuntu reconmmended before
+T 1482333114 18<28baum18>	c-c: ah, the file preview?
+T 1482333114 18<26MrElendig18>	jerit: and you could always just google it to see if it is legit or not
+T 1482333114 18<26MrElendig18>	jerit: or you know, read the source
+T 1482333114 18<26MrElendig18>	:p
+T 1482333114 18<19c-c18>	baum: yes, same as vims :Lex but without having to hit enter
+T 1482333114 18<28baum18>	c-c: i think that works with vifm too (not using it though) - the only difference is that vifm can't preview images in terminal, while ranger can
+T 1482333114 18<28baum18>	c-c: however, vifm got way more sane bindings, offers you things like undo & remote file access
+T 1482333114 18<26MrElendig18>	better than following some totally irrelevant guide on technet
+T 1482333114 18<22jerit18>	right so now I've formatted the drive with Rufus, but now do I copy the .iso file to it or the contents of the .iso file?
+T 1482333114 18<26MrElendig18>	as I said you don't have to format anything
+T 1482333114 18*	22jerit waits for MrElendig's helpful condescention
+T 1482333114 18<22jerit18>	that's not what I asked
+T 1482333114 18<26MrElendig18>	you simply write the damn iso directly to the usb stick, without modifying it in any way
+T 1482333114 18<28baum18>	c-c: i used ranger for about a year before switching to vifm, havn't looked back since
+T 1482333114 18<26MrElendig18>	if you do modify it then it will most likely not work
+T 1482333114 18<26MrElendig18>	modifying includes "makeing it bootable", using unetbootin, using some of the silly "features" of rufus
+T 1482333114 18<19c-c18>	baum how do you get the split+preview? :vspl?
+T 1482333114 18<26MrElendig18>	rufus is fine if you tell it to simply write the image bit by bit to the usb stick without messing with it
+T 1482333114 18<28baum18>	c-c: vifm is split by default
+T 1482333114 18<22jerit18>	maybe I should just install a copy of Windows Server on here... Far less finicky and the community is more patient
+T 1482333114 18<26MrElendig18>	jerit: if you had just followed the instructions give then you would have been done by now
+T 1482333114 18<26PickAndMix18>	vifm is a file manager?
+T 1482333114 18<26MrElendig18>	you consistently do the oposite of that though, so whatever
+T 1482333114 18<26PickAndMix18>	Isn't that ranger then?
+T 1482333114 18<28baum18>	PickAndMix: yes, similair to mc
+T 1482333114 18*	26MrElendig gives up on jerit
+T 1482333114 18<19c-c18>	baum: sure, but how do you get the instant file preview?
+T 1482333114 18<26PickAndMix18>	Oh. It's MC-like? Cool.
+T 1482333114 18<22jerit18>	how cool you know how fast things write to and from my usb stick in my current setup... at least this is what I'm assuming based on your statement
+T 1482333114 18<28baum18>	PickAndMix: like mc, just with vi-bindings/logic
+T 1482333114 18<26MrElendig18>	jerit: even with usb 1.1 you would be done
+T 1482333114 18<28baum18>	c-c: i don't know, never used that, you'll have to look that up in the docs
+T 1482333114 18<25FManTX18>	Windows Server sounds bad... as much as Linux sucks at desktop, it is quite good as a server OS
+T 1482333114 18<19c-c18>	baum: yeah couldn't find it in the docs
+T 1482333114 18<19c-c18>	baum: so, what you said about vifm being able to do it - you don't know if it can
+T 1482333114 18<19c-c18>	8D
+T 1482333114 18<26MrElendig18>	FManTX: windows server is fine (asuming you have a pointy hair and never actually have to touch it, but only have to brag about it to investors)
+T 1482333114 18<26MrElendig18>	:p
+T 1482333114 18<28baum18>	c-c: no, i recalled reading about it while digging through the docs
+T 1482333114 18<25FManTX18>	I know ppl who say Linux sucks at server and it has to be BSD :)
+T 1482333114 18<19c-c18>	ok it is :fileview * / tree %c and :view
+T 1482333114 18<22jerit18>	MrElendig: you're making a lot of stupid assumptions about what I need to do given the current configuration of things that I'm working with.
+T 1482333114 18<26MrElendig18>	what configuration?
+T 1482333114 18<25FManTX18>	Rufus writes the ISO onto the drive
+T 1482333114 18<19Jhlorn18>	FManTX: I've used UNIX and Linux all my life, and have never used Windows more than just seeing it on someone else's computer.
+T 1482333114 18<26MrElendig18>	there is no configuration needed to write a image to an usb stick
+T 1482333114 18<28baum18>	c-c: got prais the docs! see, rtfm pays off!
+T 1482333114 18<22jerit18>	FManTX: I used Rufus... It didn't even ask me for an iso... Just formatted the drive
+T 1482333114 18<22jerit18>	allegedly making it bootable
+T 1482333114 18<28baum18>	jerit: rufus allows you to select the iso
+T 1482333114 18<28baum18>	jerit: maybe have a second look at it's gui
+T 1482333114 18<25FManTX18>	maybe you did it wrong... I used Rufus to make a bootable USB drive from Ubuntu ISO
+T 1482333114 18<22jerit18>	baum I understand that but it didn't
+T 1482333114 18<25FManTX18>	try again :)
+T 1482333114 18<26MrElendig18>	rufus clearly says "Create a bootable disk using [ISO Image v]"
+T 1482333114 18<28redrabbit18>	use win32diskimager
+T 1482333114 18<22jerit18>	I'm now looking at FreeDOS kernel 2041
+T 1482333114 18<28baum18>	c-c: %s/got/god/g
+T 1482333114 18<26MrElendig18>	rufus is rather strange though in asking for filesystem etc
+T 1482333114 18<26MrElendig18>	which is totally irrelevant when just writing a image to the stick
+T 1482333114 18*	26MrElendig dislikes rufus due to ^
+T 1482333114 18<28redrabbit18>	win32diskimager > rufus for linux installs
+T 1482333114 18<26MrElendig18>	redrabbit: or usbwriter, which is pretty much identical to win32diskimager in operation
+T 1482333114 18<28redrabbit18>	and there is no way to get confused with it
+T 1482333114 18<28redrabbit18>	no options
+T 1482333114 18<26MrElendig18>	you just select the image and where you want to write it to and press ok
+T 1482333114 18<28redrabbit18>	win32diskimager is fast
+T 1482333114 18<22jerit18>	this has not booted from the iso I put on the usb stick
+T 1482333114 18<28redrabbit18>	seems to pick a good block size
+T 1482333114 18<28redrabbit18>	id be curious which bs they use
+T 1482333114 18<26MrElendig18>	probably because it was not simply written directly to the stick
+T 1482333114 18<22jerit18>	MrElendig: I know how to copy/paste
+T 1482333114 18<26MrElendig18>	redrabbit: don't get much easier than http://www.freewarefiles.com/screenshot/usbwriter.jpg
+T 1482333114 18<22jerit18>	It's booted FreeDOS, not the iso
+T 1482333114 18<26MrElendig18>	doesn't*
+T 1482333114 18<26MrElendig18>	jerit: so it did stupid things
+T 1482333114 18<22jerit18>	really? I hadn't noticed...
+T 1482333114 18<28redrabbit18>	MrElendig: there is no read option
+T 1482333114 18<22jerit18>	how do I fix it?
+T 1482333114 18<28redrabbit18>	deal breaker
+T 1482333114 18<25r7st18>	so i got a free iphone. obviously not going to use it as a phone but is there a way i can make it boot something that isn't awful?
+T 1482333114 18<26MrElendig18>	jerit: post a screenshot of the exact options you used for rufus
+T 1482333114 18<26MrElendig18>	jerit: or just use usbwriter
+T 1482333114 18<28redrabbit18>	make a fancy freezebee out of it r7st
+T 1482333114 18<26MrElendig18>	r7st: sell it and get a nexus
+T 1482333114 18<26MrElendig18>	r7st: and then install copperos on it
+T 1482333114 18<26MrElendig18>	copperheados*
+T 1482333114 18<25unixparty18>	copperos is ?
+T 1482333114 18<26MrElendig18>	https://copperhead.co/android/
+T 1482333114 18<25unixparty18>	debian ? ,
+T 1482333114 18<26MrElendig18>	android made less insecure
+T 1482333114 18<25unixparty18>	ic ic
+T 1482333114 18<25r7st18>	yea it's been more annoying that i thought to make this thing useful
+T 1482333114 18<25r7st18>	they want a ton of information to even turn it on
+T 1482333114 18<25r7st18>	i figured netbsd at least might run on it but unfortunately not
+T 1482333114 18<25r7st18>	just want a damn media device that isn't spyware!
+T 1482333114 18<28redrabbit18>	mh
+T 1482333114 18<20Ubuntulove18>	Hello all, I have encountered this bug: https://bugzilla.redhat.com/show_bug.cgi?id=955379  - I tried to update systemd without luck, any other suggestions?
+T 1482333114 18<20triceratux18>	Ubuntulove: in the former cccp that bug encountered YOU
+T 1482333114 18<20Ubuntulove18>	Sorry im not sure i understand?
+T 1482333114 18<20Ubuntulove18>	have i provoked this bug?
+T 1482333114 18<25FManTX18>	I think he meant that you should install Windows
+T 1482333114 18<20triceratux18>	Ubuntulove: what distro & version are you running & why are you running into such an ancient snarly bug ?
+T 1482333114 18<20Ubuntulove18>	I am running Linux Mint trying to set up an SSH service in systemd ( I think this bug happens to any systemd service though)
+T 1482333114 18<20Ubuntulove18>	And yes I have windows but I installed Linux on my laptop now to try to learn it better
+T 1482333114 18<19spm_draget18>	If I run in a script 'myprogramm $USERVAR' - is this always garantueed to pass the whole '$USERVAR' to myprogramm or can this be exploited somehow by setting USERVAR to something like 'foo ; evilcommand' ?
+T 1482333114 18<20triceratux18>	Ubuntulove: your best bet is be sure youre running current mint 18 & then yeah that looks like its always been broken & they cant always agree on a workaround but it looks like they kludged up a couple dozen
+T 1482333114 18<19spm_draget18>	(Tested it, does not work. But the question is: Is this somehow exploitable?)
+T 1482333114 18<20Ubuntulove18>	Oh dam, thank you triceratux :) Hmm I couldnt see any solutions but i will keep looking
+T 1482333114 18<20triceratux18>	Ubuntulove: imho that isnt going to be a systemd upgrade fixaroo. youre going to have to spoonfeed it a systemd savvy workaround
+T 1482333114 18<20Ubuntulove18>	arggh
+T 1482333114 18<20Ubuntulove18>	My very few experiences with systemd is horrible so far
+T 1482333114 18<20Ubuntulove18>	And yes it is most likely my fault
+T 1482333114 18<20triceratux18>	classic systemd first encounter indeed rofl. the rest of linux isnt like this but its close sometimes ;)
+T 1482333114 18<20Ubuntulove18>	lol
+T 1482333114 18<20Ubuntulove18>	Yea its absolutely raising my patience bar which is good
+T 1482333114 18<26MrElendig18>	Ubuntulove: and what is wrong with simply doing systemctl enable --now sshd?
+T 1482333114 18<20Ubuntulove18>	How do you mean MrElendig? I am using /etc/systemd/system $ sudo systemctl enable autossh.service
+T 1482333114 18<26MrElendig18>	wtf is autossh?
+T 1482333114 18<28redrabbit18>	why would you deal with that ?
+T 1482333114 18<20Ubuntulove18>	Its a service to have persistent SSH tunnels
+T 1482333114 18<26MrElendig18>	you said sshd service
+T 1482333114 18<26MrElendig18>	ssh*
+T 1482333114 18<20Ubuntulove18>	yes i have made a service with ssh
+T 1482333114 18<20Ubuntulove18>	in it
+T 1482333114 18<26MrElendig18>	this is quite different
+T 1482333114 18<20Ubuntulove18>	The service works great, I just  cant enable it (Have it start on boot)
+T 1482333114 18<24Duality18>	hi
+T 1482333114 18<27DLange18>	what do you need autossh for?
+T 1482333114 18<26MrElendig18>	and what is the actual errors?
+T 1482333114 18<24Duality18>	how do i debug a kernel that doesn't start ?
+T 1482333114 18<20Ubuntulove18>	Failed to execute operation: Too many levels of symbolic links
+T 1482333114 18<26MrElendig18>	Duality: debug=....
+T 1482333114 18<26MrElendig18>	Duality: also define "doesn't start"
+T 1482333114 18<26MrElendig18>	Ubuntulove: that is usually a pebcak
+T 1482333114 18<27DLange18>	Duality: by looking at the error message either on the screen or on a serial terminal (depending on when the boot fails)
+T 1482333114 18<20Ubuntulove18>	MrElendig: I have no idea of a pebcak, but it seems to be a bug: https://bugzilla.redhat.com/show_bug.cgi?id=955379
+T 1482333114 18<24Duality18>	my bootloader (uboot) loads it, then a message is printed "starting kernel ..."
+T 1482333114 18<24Duality18>	and then nothing
+T 1482333114 18<26MrElendig18>	Ubuntulove: what exactly did you do?
+T 1482333114 18<26MrElendig18>	Duality: see if it happens in qemu too
+T 1482333114 18<24Duality18>	here is a paste http://pastebin.com/NxDcTY6P
+T 1482333114 18<20Ubuntulove18>	MrElendig: I have been following this guide: http://logan.tw/posts/2015/11/15/autossh-and-systemd-service/ - Making a service, linking it and making the environment file. Starting the service, checking the status and now trying to "enable" it
+T 1482333114 18<24Duality18>	haven't used qemu before :)
+T 1482333114 18<26MrElendig18>	ok, stop following crappy guides
+T 1482333114 18<27DLange18>	Duality: enable early printk and attach a serial port (or watch it on screen if that is getting initialized=
+T 1482333114 18<20Ubuntulove18>	And the service works fine to manually start, its just he systemctl enable that is bad
+T 1482333114 18<27DLange18>	Duality: https://blackfin.uclinux.org/doku.php?id=linux-kernel:debug:early_printk for pointers
+T 1482333114 18<26MrElendig18>	Ubuntulove: that guide is full of fail
+T 1482333114 18<20triceratux18>	rofl
+T 1482333114 18<20Ubuntulove18>	Well allright I am no expert so thats why I use a guide
+T 1482333114 18<20triceratux18>	war of the dueling spurious guides
+T 1482333114 18<24Duality18>	DLange: paste is of serial port :)
+T 1482333114 18<26MrElendig18>	Ubuntulove: do NOT link from /lib/systemd/system to /etc/systemd/system
+T 1482333114 18<26MrElendig18>	Ubuntulove: if you want to edit a unit then use systemctl edit
+T 1482333114 18<20Ubuntulove18>	So if I dont link should i just make the same file both places?
+T 1482333114 18<26MrElendig18>	no, you should use systemctl edit
+T 1482333114 18<26MrElendig18>	optionally with --full
+T 1482333114 18<20Ubuntulove18>	have no idea what that is let me look it up
+T 1482333114 18<26MrElendig18>	Ubuntulove: https://wiki.archlinux.org/index.php/Systemd#Editing_provided_units
+T 1482333114 18<26MrElendig18>	unless you are on a system that have a 10 year old version of systemd which doesn't have edit
+T 1482333114 18<26MrElendig18>	in which cause use cp, not ln
+T 1482333114 18<20Ubuntulove18>	Its a updated mint
+T 1482333114 18<26MrElendig18>	(also use openvpn instead :p)
+T 1482333114 18<20Ubuntulove18>	hmm
+T 1482333114 18<26MrElendig18>	mint is famous for having old versions
+T 1482333114 18<20Ubuntulove18>	Well i just really need to have this done fast and i am so close to it all I need is to start it on boot
+T 1482333114 18<20Ubuntulove18>	But im looking at the system edit
+T 1482333114 18<24Duality18>	DLange: i am unable to find the option under the menu item kernelhacking
+T 1482333114 18<20Ubuntulove18>	So what you suggest is I delete the link between my /etc/ and /lib/ service MrElendig and create a new link using systemctl edit?
+T 1482333114 18<26MrElendig18>	Ubuntulove: do mint ship with a atuossh.service at all?
+T 1482333114 18<26MrElendig18>	yes delete whatever you made
+T 1482333114 18<20Ubuntulove18>	Well I think the guide is not actually using autossh but its creating autossh
+T 1482333114 18<20Ubuntulove18>	using normal ssh
+T 1482333117 18<26MrElendig18>	it clearly is using autossh

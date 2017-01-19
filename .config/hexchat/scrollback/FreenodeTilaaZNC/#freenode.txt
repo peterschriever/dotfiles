@@ -1,0 +1,501 @@
+T 1484814080 18<29Antioch18>	Thank you
+T 1484814080 18<22thumbs18>	Antioch: irssi/weechat should be able to do that quite trivially
+T 1484814080 18<29Antioch18>	Am using Quassel. It looks like there are advanced ignore rules, so I will try them out. :)
+T 1484814080 18<20][_R_][18>	Antioch: Set it to ignore that phrase from a channel named SalServ (should work. Set it to all of Freenode otherwise).  The messages should be fairly regular.
+T 1484814080 18<29Time-Warp18>	grumble: if you build an irc server with 2 leaf servera and 1 hub does that make it a manly server
+T 1484814080 18<29Antioch18>	Tried, but the setting in Quassel doesn't appear to be working. :(
+T 1484814080 18<22thumbs18>	hrm
+T 1484814080 18<20][_R_][18>	Antioch: Dynamic, Message, "whatever common part of ignored message is", Channel, "SalServ" are the options chosen (top to bottom, left to right)?
+T 1484814080 18<20][_R_][18>	SaslServ*
+T 1484814080 18<29Antioch18>	Yeah, I had that typo, too. I think that's the problem.
+T 1484814080 18<29Antioch18>	Thank you for taking the time to share those details.
+T 1484814080 18<22thumbs18>	Antioch: let's hope that fix works.
+T 1484814080 18<29Antioch18>	Much appreciated, all. :D
+T 1484814080 18<29seed_18>	hey, i have a shitgun
+T 1484814080 18<29seed_18>	errr
+T 1484814080 18<29seed_18>	hey, i have a shotgun
+T 1484814080 18<22tx18>	first word would have still worked.
+T 1484814080 18<29seed_18>	how many people here have a shotgun?
+T 1484814080 18<22tx18>	Hopefully it's just oyu.
+T 1484814080 18<22tx18>	you*
+T 1484814080 18<29seed_18>	really? ok then, give me all  your money!
+T 1484814080 18<28laowai18>	tx you 2
+T 1484814080 18<22tx18>	?
+T 1484814080 18<27l0de18>	Did you know? If you go into the audio store with your shotgun you can get large discounts on shotgun microphones
+T 1484814080 18<29seed_18>	i think we should let black people rule USA
+T 1484814080 18<29seed_18>	they're doing a fine job in Africa
+T 1484814080 18<28laowai18>	sounds cool
+T 1484814080 18<28laowai18>	but not gonna happen
+T 1484814080 18<29seed_18>	who doens't like life in nigeria
+T 1484814080 18<29seed_18>	or in gongo
+T 1484814080 18<29seed_18>	they're doing fine
+T 1484814080 18<29seed_18>	somalia, another success
+T 1484814080 18<28binaryhermit18>	umm...
+T 1484814080 18*	28binaryhermit wonders if he should state the obvious
+T 1484814080 18<29seed_18>	there's not even one black country that's not a shit hole lol
+T 1484814080 18<29seed_18>	there's not even one arab country that's not a shit hole lol
+T 1484814080 18<29seed_18>	there's not even one asian country that's not a shit hole lol
+T 1484814080 18<29seed_18>	why is that?
+T 1484814080 18<28binaryhermit18>	seed_: enjoy Trump
+T 1484814080 18<29seed_18>	answer to what im saying
+T 1484814080 18<29seed_18>	black.asian,arab countries are all shit holes. why
+T 1484814080 18<29seed_18>	we need to face it.
+T 1484814080 18<24addict3d18>	doot doot
+T 1484814080 18<22MarcoP18>	lol
+T 1484814080 18<29seed_18>	CNN posted a report about an artist protesting against Trump who painted something using HUMAN BLOOD
+T 1484814080 18<29seed_18>	i shit you not
+T 1484814080 18<29seed_18>	and they posted it in pride lol
+T 1484814080 18<22MarcoP18>	there are some hispanic countries semi nice better than some of those other shit holes
+T 1484814080 18<22MarcoP18>	china is a huge shit hole you can get lung cancer breathing that shit air for one day
+T 1484814080 18<29seed_18>	call me old fashion, but if you protest by with painting in human blood, support the other side lol
+T 1484814080 18<29seed_18>	call me old fashion, but if you protest by painting in human blood, I support the other side lol
+T 1484814080 18<28laowai18>	talk this shit in ##chat
+T 1484814080 18<22MarcoP18>	lol
+T 1484814080 18<22MarcoP18>	well it is partly true what they are saying about those other countries
+T 1484814080 18<29seed_18>	iyou consider it "party true" because soem tourists go there and have a nice time
+T 1484814080 18<29seed_18>	but this has NOTHING to do with what life is there.
+T 1484814080 18<29seed_18>	partly*
+T 1484814080 18<22MarcoP18>	I did not say that those place are not shit holes I hear what your saying
+T 1484814080 18<26fwilson18>	er maybe this is off-topic
+T 1484814080 18<27_wintermute18>	Hey all, how do I go about deleting certification fingerprints via nickserv? I would like to delete all and then supply one.
+T 1484814080 18<20Maple__18>	wheee
+T 1484814080 18<28laowai18>	wad
+T 1484814080 18<27jcjordyn12018>	oh no.
+T 1484814080 18<27jcjordyn12018>	my bot got caught in the split D:
+T 1484814080 18<20svanheulen18>	hello, who do i need to talk to to get a unaffiliated cloak?
+T 1484814080 18<26gry18>	svanheulen: a member of staff in here would get back to you soon; alternatively message the one on '/stats p' to chage a response off-channel
+T 1484814080 18<20svanheulen18>	gry: thanks :)
+T 1484814080 18<20flora18>	im trying to join a python coding chat but it wont let me send messages :/
+T 1484814080 18<26gry18>	 flora: which channel name please?
+T 1484814080 18<26gry18>	oh ignore that, it quit
+T 1484814080 18<28laowai18>	it quit?
+T 1484814080 18<20Ellenor18>	http://www.cbc.ca/comedy/canada-announces-shitty-remake-of-flashy-american-show-1.3940897
+T 1484814080 18<25Wharncliffe18>	Likely #python-unregistered
+T 1484814080 18<24sneakyness18>	Would like to request a cloak
+T 1484814080 18<24sneakyness18>	also need an active staff member to PM me regarding a server with a freenode domain name participating in DDoS attacks
+T 1484814080 18<20Hello7118>	"server with a freenode domain name"
+T 1484814080 18<24sneakyness18>	has already been successfully reported to linode and addressed
+T 1484814080 18<20Hello7118>	translation: their PTR has the word "freenode" in it
+T 1484814080 18<24sneakyness18>	that is correct
+T 1484814080 18<20Hello7118>	lol
+T 1484814080 18<27flora_18>	why cant i send things in my python chat
+T 1484814080 18<27flora_18>	it says Cannot send to channel: #python-unregistered
+T 1484814080 18<25Wharncliffe18>	Because you need to have an account to be able to join #python
+T 1484814080 18<25Wharncliffe18>	If you don't, then you get redirected to #python-unregistered and that channel doesn't allow anyone to speak in there.
+T 1484814080 18<20svanheulen18>	flora_: https://freenode.net/kb/answer/registration
+T 1484814080 18<24sneakyness18>	Hello71: fwiw that freenode server no longer seems to be in operation after linode confirmed they terminated it e
+T 1484814080 18<20Hello7118>	lol
+T 1484814080 18<20Hello7118>	please tell me you don't run a mail server
+T 1484814080 18<24sneakyness18>	you don't run a mail server
+T 1484814080 18<24sneakyness18>	:V
+T 1484814080 18<20duckgoose18>	:V
+T 1484814080 18<24sneakyness18>	Hello71: not mail related though, just SYN floods to the tune of a few million an hour, nothing particularly impressive or disruptive
+T 1484814080 18<27flora_18>	hi
+T 1484814080 18<24naf18>	the primary issue with slack
+T 1484814080 18<24naf18>	is that they do not allow communities to enable themselves as "open communities"
+T 1484814080 18<24naf18>	like you can't just search up a list of all the communities which wish to be public and join
+T 1484814080 18<24naf18>	everything's just invite this or invite that
+T 1484814080 18<24naf18>	irc master race
+T 1484814080 18<26gry18>	they can probably easily fix that drawback, while leaving other drawbacks in place :p
+T 1484814080 18<20svanheulen18>	naf: https://xkcd.com/1782/
+T 1484814080 18<24naf18>	inb4
+T 1484814080 18<24naf18>	singularity
+T 1484814080 18<24naf18>	ah how did i know
+T 1484814080 18<26Gimme218>	0_о
+T 1484814080 18<20svanheulen18>	too slow haha
+T 1484814080 18<26Gimme218>	gry, Privet
+T 1484814080 18<24naf18>	lmao
+T 1484814080 18<24naf18>	i shall never leave irc
+T 1484814080 18<24naf18>	i use it too much to leave it
+T 1484814080 18<27THB18>	what software video/audio player do you people recommend for PC ?
+T 1484814080 18<24naf18>	vlc
+T 1484814080 18<20mniip18>	mpv
+T 1484814080 18<28laowai18>	i recommend chinese app
+T 1484814080 18<27THB18>	laowai which one
+T 1484814080 18<27THB18>	mniip what is with all the mpv hype these days
+T 1484814080 18<24naf18>	https://www.reddit.com/r/Ubuntu/comments/43l40j/vlc_vs_mpv_which_one_is_your_choice_and_why/
+T 1484814080 18<24naf18>	first result on google for "vlc vs mpv"
+T 1484814080 18<20mniip18>	well I used to use mplayer, but mpv is objectively better
+T 1484814080 18<24naf18>	there doesn't seem to be a consensus
+T 1484814080 18<24naf18>	i haven't tried mpv yet though
+T 1484814080 18<24naf18>	i've just used vlc for a long time
+T 1484814080 18<27THB18>	mniip how is mpv better may i ask
+T 1484814080 18<20mniip18>	well
+T 1484814080 18<20mniip18>	vlc vs mpv is like sublime vs vim
+T 1484814080 18<20mniip18>	I would say
+T 1484814080 18<24naf18>	its domain ends in .io, duh
+T 1484814080 18<20mniip18>	mpv is fairly minimalistic
+T 1484814080 18<20mniip18>	THB, less clicking?
+T 1484814080 18<28laowai18>	THB: i heard its name is ttplayer
+T 1484814080 18<27THB18>	how much less clicking can it be though?
+T 1484814080 18<20svanheulen18>	mniip: may i bother you for a cloak real quick?
+T 1484814080 18<20mniip18>	sure
+T 1484814080 18<26gry18>	svanheulen: here is one.
+T 1484814080 18<20mniip18>	svanheulen, you want unaffiliated?
+T 1484814080 18<26gry18>	oh, you already did.
+T 1484814080 18<20svanheulen18>	yes, please
+T 1484814080 18<20mniip18>	THB, zero clicking?
+T 1484814080 18<20mniip18>	svanheulen, cloaked
+T 1484814080 18<20svanheulen18>	mniip: thank you :)
+T 1484814080 18<20mniip18>	THB, there is not a single button in mpv, well, there are, but I'm not using any
+T 1484814080 18<20mniip18>	's all keycombos
+T 1484814080 18<24naf18>	mniip: why is it called ircd-seven? is it the seventh generation of the src?
+T 1484814080 18<20mniip18>	seven is a magical number
+T 1484814080 18<24naf18>	what makes it more magical than five?
+T 1484814080 18<20mniip18>	ever notice how cloaks have 7 digits after /x-
+T 1484814080 18<20mniip18>	I'll leave it to you to discover the rest
+T 1484814080 18<27THB18>	what is the difference between cmode +p and +s ?
+T 1484814080 18<20mniip18>	+p disables /knock
+T 1484814080 18<24naf18>	hmm
+T 1484814080 18<20mniip18>	and I'm not sure if +p has all the features that +s has
+T 1484814080 18<24sneakyness18>	mniip: would also like to bother you for a cloak
+T 1484814080 18<20mniip18>	you are now cloaked
+T 1484814080 18<27THB18>	what does /knock do
+T 1484814080 18<24sneakyness18>	thanks dude
+T 1484814080 18<20mniip18>	THB, request for invite
+T 1484814080 18<28laowai18>	gitgud is dead
+T 1484814080 18<24naf18>	gitgud?
+T 1484814080 18<24naf18>	gitgud is ~GitGud@2602:ffc5:20::1:b7f4 * gagagugu / gitgud on #mongodb #freenode / gitgud using / wolfe.freenode.net Stockholm, SE, EU / gitgud is using a secure connection / gitgud is logged in as GitGud / gitgud End of /WHOIS list.
+T 1484814080 18<24naf18>	wb sveta
+T 1484814080 18<28laowai18>	wb
+T 1484814080 18<26anna218>	naf: hii
+T 1484814080 18<28laowai18>	naf: how can you send pic to tinypic
+T 1484814080 18<26Gimme218>	anna2, hi
+T 1484814080 18<24naf18>	laowai,
+T 1484814080 18<26gry18>	may i help you anna2 ?
+T 1484814080 18<24naf18>	you just go to their site and upload it
+T 1484814080 18<24naf18>	anna2 gry can i help either of you
+T 1484814080 18<26Gimme218>	:(
+T 1484814080 18<24naf18>	Gimme2 are you okay?
+T 1484814080 18<26Gimme218>	@}--'--,--
+T 1484814080 18<26Gimme218>	ya
+T 1484814080 18<26anna218>	sorry i just create an account
+T 1484814080 18<24naf18>	congrats !
+T 1484814080 18<26Gimme218>	new user?
+T 1484814080 18<26Gimme218>	welcome
+T 1484814080 18<24naf18>	anna2: nickserv registration is a rite of passage!
+T 1484814080 18<24naf18>	:D
+T 1484814080 18<24naf18>	hopefully you will only have to do it once here
+T 1484814080 18<24naf18>	so
+T 1484814080 18<24naf18>	welcome to the other side
+T 1484814080 18<26Gimme218>	:)
+T 1484814080 18<26anna218>	i can not register nickserv
+T 1484814080 18<26Gimme218>	anna2, show your photo?
+T 1484814080 18<26Gimme218>	you have a profile no facebbok?
+T 1484814080 18<19mike80218>	this is not a social channel
+T 1484814080 18<25ohnx18>	anna2: why not?
+T 1484814080 18<28laowai18>	咯了
+T 1484814080 18<26Gimme218>	: (
+T 1484814080 18<28laowai18>	lol
+T 1484814080 18<26anna218>	Gimme2, what for?
+T 1484814080 18<19mike80218>	not cool
+T 1484814080 18<28laowai18>	he thinks you are girl
+T 1484814080 18<25ohnx18>	anna2: what have you tried?
+T 1484814080 18<19mike80218>	HELP
+T 1484814080 18<19mike80218>	I WOULD LIKE TO REPORT HARSSMENT
+T 1484814080 18<26anna218>	ohnx i do not now???
+T 1484814080 18<25ohnx18>	ah
+T 1484814080 18<19mike80218>	HARSSMENT
+T 1484814080 18<19mike80218>	HELP
+T 1484814080 18<26Gimme218>	I want to meet with you and make friends
+T 1484814080 18<19mike80218>	HARSSMENT IN PLACE
+T 1484814080 18<19mike80218>	HELP
+T 1484814080 18<25ohnx18>	./msg nickserv REGISTER <your password> <your email>
+T 1484814080 18<19mike80218>	I WOULD LIKE TO REPORT HARASMENT
+T 1484814080 18<20mniip18>	w h a t
+T 1484814080 18<19mike80218>	HELP
+T 1484814080 18*	24naf slaps mike802 around a bit with a large trout
+T 1484814080 18<19mike80218>	HARASSMENT IN PLACE
+T 1484814080 18<28laowai18>	Gimme2: shut up already
+T 1484814080 18<26Gimme218>	turn off Caps
+T 1484814080 18<19mike80218>	k
+T 1484814080 18<24naf18>	mike802: this is not an all caps channel
+T 1484814080 18<19mike80218>	oh, ok
+T 1484814080 18<19mike80218>	neat
+T 1484814080 18<19mike80218>	go on more about channel policy
+T 1484814080 18<26gry18>	Gimme2: hopping on people and asking for photos out of the blue is rude, please don't
+T 1484814080 18<25ohnx18>	and kind of creepy
+T 1484814080 18<19mike80218>	oh snap, creepy is back
+T 1484814080 18<26gry18>	Gimme2: (resent #2) hopping on people and asking for photos out of the blue is rude, please don't
+T 1484814080 18<24naf18>	there are a ton of irc creeps
+T 1484814080 18<24naf18>	not uncommon at all
+T 1484814080 18<26gry18>	anna2: to register your nick, please, '/msg nickserv register PASS E@MAIL' and check your email
+T 1484814080 18<25ohnx18>	where PASS is your password :p
+T 1484814080 18<24naf18>	join any irc social channel (especially try dalnet or mibbit!) and try lurking in it for more than a few hours, and i guarantee you some unsolicited requests
+T 1484814080 18<26Gimme218>	gry, me need true Eanglish freand
+T 1484814080 18<26gry18>	anna2: for example '/msg nickserv register myl33tp4ss gry@gmail.com'; replace your pass and email as you need
+T 1484814080 18<26gry18>	Gimme2: English?
+T 1484814080 18<24naf18>	asl? hey asl? hey gurl, asl?
+T 1484814080 18<25ohnx18>	oml
+T 1484814080 18<26gry18>	Gimme2: are you in England right now yourself?
+T 1484814080 18<26Gimme218>	desirable
+T 1484814080 18<24naf18>	Gimme2 have you hit your head?
+T 1484814080 18<26gry18>	Gimme2: what continent are you on?
+T 1484814080 18<26Gimme218>	I was cured, thanks
+T 1484814080 18<26Gimme218>	I on Russia
+T 1484814080 18<24naf18>	ah, zdrasvootsya
+T 1484814080 18<26Gimme218>	Moscow
+T 1484814080 18<26gry18>	maybe you want to join ##russian then?
+T 1484814080 18<26anna218>	gry not understanding
+T 1484814080 18<26Gimme218>	Vihino
+T 1484814080 18<24naf18>	kak vas zavoot?
+T 1484814080 18<26Gimme218>	Alexey
+T 1484814080 18<26Gimme218>	Kuleshov
+T 1484814080 18<26gry18>	anna2: you have to type that command. it will send nickserv a private message
+T 1484814080 18<25ohnx18>	anna2: run ./msg NickServ register [your password to keep your account safe] [your email]
+T 1484814080 18<26gry18>	oh, hi cooleshow
+T 1484814080 18<26Gimme218>	Hi
+T 1484814080 18<25ohnx18>	nickserv is who to message when you want to register a nick
+T 1484814080 18<26Gimme218>	glad to see you all
+T 1484814080 18<24naf18>	you too rooski
+T 1484814080 18<26gry18>	anna2: may I help you? what is the problem?
+T 1484814080 18<28laowai18>	Gimme2: gry is russian
+T 1484814080 18<24naf18>	zdrasvoy
+T 1484814080 18<28laowai18>	Gimme2: she
+T 1484814080 18<25ohnx18>	._. so much random chatter lol we're probably confusing anna2 so much
+T 1484814080 18<26Gimme218>	Zdravstvuite
+T 1484814080 18<26gry18>	laowai: i can introduce myself if I need to. there is no need for you to do that.
+T 1484814080 18<26Gimme218>	Kak vashi dela?
+T 1484814080 18*	28laowai hides
+T 1484814080 18<26anna218>	gry: I'll try it later again
+T 1484814080 18<26gry18>	anna2: ok thanks :)
+T 1484814080 18<26gry18>	sorry it's a quick process but it takes time to learn
+T 1484814080 18<24naf18>	horosho spasiba
+T 1484814080 18<24naf18>	kak vui?
+T 1484814080 18<26anna218>	gry: it's ok
+T 1484814080 18<24buriedalive18>	so many russians i see :)
+T 1484814080 18<24naf18>	i am american
+T 1484814080 18<26Gimme218>	U mena vse horosh, spasibo
+T 1484814080 18<24naf18>	but i took a couple rooski classes
+T 1484814080 18<26Gimme218>	Vi neploho znaete russkii
+T 1484814080 18<26Gimme218>	gde vi uchilis?
+T 1484814080 18<26Gimme218>	vas uchili v shcole?
+T 1484814080 18<24naf18>	v universitat, spasiba
+T 1484814080 18<24naf18>	ochen priyatna Gimme2
+T 1484814080 18<26Gimme218>	v kakom gorode vi givete v Americe?
+T 1484814080 18<26anna218>	gry: where do you come form?
+T 1484814080 18<24naf18>	da, da
+T 1484814080 18<28laowai18>	what language
+T 1484814080 18<24naf18>	america
+T 1484814080 18<24naf18>	land of the free?
+T 1484814080 18<26Gimme218>	in what city you live in America
+T 1484814080 18<26Gimme218>	?
+T 1484814080 18<24naf18>	ah, philadelphia
+T 1484814080 18<26Gimme218>	nice
+T 1484814080 18<24buriedalive18>	flyers :)
+T 1484814080 18<24naf18>	yeah flyers are here, unfortunately not much of a hockey guy
+T 1484814080 18<24naf18>	Gimme2 one day i'd like to live in Moscow, for a little while at least
+T 1484814080 18<22tonymec|away18>	Здесь говорят по-английски; а я думаю, что такие простые приветы все-таки принимаемы, если не слишком долгие.
+T 1484814080 18<26Gimme218>	Why do you need Moscow?
+T 1484814080 18<26Gimme218>	You need a wife to get a passport
+T 1484814080 18<26Gimme218>	You have a good russian
+T 1484814080 18<26Gimme218>	I want the same in America, in Washington, but I'm afraid to fly
+T 1484814080 18<28laowai18>	take this talk to ##chat or maybe ##
+T 1484814080 18<26Gimme218>	but for this can take the risk
+T 1484814080 18<26Gimme218>	of use to me, I can embroider a cross
+T 1484814080 18<26Gimme218>	:(
+T 1484814080 18<28laowai18>	Gimme2: what language you speak
+T 1484814080 18<26Gimme218>	I will sew flags
+T 1484814080 18<26Gimme218>	Мой родной - русский
+T 1484814080 18<28laowai18>	…
+T 1484814080 18<20duckgoose18>	laowai how about you take yourself away from here
+T 1484814080 18<28laowai18>	duckgoose: how about you stop working on get a gf on freenode? you have hands
+T 1484814080 18<27NotsoRoyal18>	👀
+T 1484814080 18<24naf18>	lmfao
+T 1484814080 18<24naf18>	hands for typing!
+T 1484814080 18<24naf18>	and other things
+T 1484814080 18<28laowai18>	take it to ##chat
+T 1484814080 18<24naf18>	ok sorry
+T 1484814080 18<28laowai18>	you break the peaceful atmosphere in here
+T 1484814080 18<24naf18>	;/
+T 1484814080 18<24naf18>	to me, it stops being peaceful when you say so
+T 1484814080 18<24inigo18>	hmm i'm sorry to have to do the same
+T 1484814080 18<24inigo18>	some say they hand out cloaks here?
+T 1484814080 18<24naf18>	that's true
+T 1484814080 18<24inigo18>	glad to have found the place
+T 1484814080 18<24naf18>	you just need to ask politely
+T 1484814080 18<24naf18>	and magically a vhost will appear where your cloak was
+T 1484814080 18<24inigo18>	gentlemen of the freenode channel, it is with pleasure that I politely request from you a cloak
+T 1484814080 18<24naf18>	there are gentlewomen too
+T 1484814080 18<24inigo18>	it was meant in a gender neutral way
+T 1484814080 18<26Gimme218>	naf, say me pls, whot the cloack (часы) qwest peaple?
+T 1484814080 18<24naf18>	ah, fair enough
+T 1484814080 18<24naf18>	Gimme2: /whois naf
+T 1484814080 18<24naf18>	= naf!~more_flag@unaffiliated/naf
+T 1484814080 18<24inigo18>	it should have read gentlepeople
+T 1484814080 18<24inigo18>	in hindsight
+T 1484814080 18<24naf18>	instead of naf!~more_flag@ip.ip.ip.ip
+T 1484814080 18<26Gimme218>	ok
+T 1484814080 18<26Gimme218>	thx
+T 1484814080 18<24naf18>	np
+T 1484814080 18<26Gimme218>	vertual host
+T 1484814080 18<24naf18>	exactly
+T 1484814080 18<24inigo18>	so generally, what happens after such a request is made?
+T 1484814080 18<24naf18>	inigo, it helps if an irc op is around
+T 1484814080 18<24naf18>	you may have to ask again later
+T 1484814080 18<24inigo18>	so politeness isn't everything
+T 1484814080 18<24inigo18>	can I recognize these ops with a certain symbol in my thunderbird client participants list? seems to be clear text
+T 1484814080 18<24inigo18>	some are in [brackets]
+T 1484814080 18<24Judoka18>	Hi
+T 1484814080 18<28Danilochka18>	Im getting this when trying to detach a servo Arduino: "Arduino Nano, ATmega328"  Servo:24: error: no matching function for call to 'Servo::detach(int)'
+T 1484814080 18<28Danilochka18>	i just have myservo.detach(3); for some reason it only gives me an error on the second detach
+T 1484814080 18<28Danilochka18>	https://codepaste.net/mv1etj
+T 1484814080 18<25inigomontoya18>	aight @naf, thanks for the help, will try later in 6 hours
+T 1484814080 18<24Speiros18>	Hi folks.
+T 1484814080 18<24Speiros18>	Are there any admin on at present?
+T 1484814080 18<25ohnx18>	Speiros: bigpresh shows as being on
+T 1484814080 18<24Speiros18>	thanks ohnx:)
+T 1484814080 18<24Speiros18>	bigpresh are you available mate?
+T 1484814080 18<20mniip18>	hi
+T 1484814080 18<24Speiros18>	Hey mniip:)  I have a query regarding my sign in.
+T 1484814080 18<20mniip18>	PM?
+T 1484814080 18<24Speiros18>	mniip I think it's okay publicly.
+T 1484814080 18<20mniip18>	I think I know what you're talking about
+T 1484814080 18<24Speiros18>	mniip The "illegal" character in my name...which one?
+T 1484814080 18<20mniip18>	looking into it
+T 1484814080 18<24Speiros18>	mniip Thanks:)
+T 1484814080 18<29bilb_ono18>	does anyone know how to join #python?
+T 1484814080 18<24Speiros18>	bilb_ono type "/join #python"
+T 1484814080 18<29bilb_ono18>	Speiros: nothing happens
+T 1484814080 18<29bilb_ono18>	I can message nickserv, etc.
+T 1484814080 18<24Speiros18>	bilb-ono Interesting.  It's not the server end, as I confirmed it's there.
+T 1484814080 18<29bilb_ono18>	weird thanks
+T 1484814080 18<24Speiros18>	bilb-ono I went in and out.
+T 1484814080 18<24Speiros18>	Not a typo?
+T 1484814080 18<24Speiros18>	Or a space before the /?
+T 1484814080 18<29bilb_ono18>	nope
+T 1484814080 18<29bilb_ono18>	maybe its my client, idk
+T 1484814080 18<29bilb_ono18>	colloquy
+T 1484814080 18<24Speiros18>	Ok, I don't know I'm afraid.
+T 1484814080 18<29bilb_ono18>	thanks
+T 1484814080 18<24Speiros18>	:)
+T 1484814080 18<27RusAlex18>	hi all who I can chat for hiding my IP ident ?
+T 1484814080 18<27RusAlex18>	cloak
+T 1484814080 18<25inigomontoya18>	hello people of freenode
+T 1484814080 18<25inigomontoya18>	i would appreciate an OP to my aid
+T 1484814080 18<22tx18>	No original posters here
+T 1484814080 18<22tx18>	only reposts.
+T 1484814080 18<24Speiros18>	tx ?
+T 1484814080 18<25inigomontoya18>	is it meta content?
+T 1484814080 18<25inigomontoya18>	i stand corrected, i need an op
+T 1484814080 18<25inigomontoya18>	@tx i got the joke :)
+T 1484814080 18<22tx18>	Well done you!
+T 1484814080 18<25inigomontoya18>	\o_
+T 1484814080 18<25inigomontoya18>	is an op present?
+T 1484814080 18<20mniip18>	hi
+T 1484814080 18<19c18>	in soviet freenode, mniip presents you
+T 1484814080 18<28poutine18>	fact: mniip runs cryptocurrency exchange bots used in drug transactions
+T 1484814080 18<28poutine18>	and gambling
+T 1484814080 18<28poutine18>	/whois doger
+T 1484814080 18<28poutine18>	probably worse things than drugs and gambling also, this is just what I've observed personally
+T 1484814080 18<20duckgoose18>	I have proof freenode is ran by the Illuminati
+T 1484814080 18<28poutine18>	what I claimed is actually really easy to verify
+T 1484814080 18<20duckgoose18>	really?
+T 1484814080 18*	24wraeth can prove that his coffee is empty
+T 1484814080 18<24wraeth18>	it saddens me
+T 1484814080 18<20duckgoose18>	fix that asap
+T 1484814080 18<26alexoni18>	y
+T 1484814080 18<24wraeth18>	on it
+T 1484814080 18<28grapevine18>	this channel seems to be the usual crazy
+T 1484814080 18<20duckgoose18>	you hear that through the grapevine?
+T 1484814080 18<28grapevine18>	duckgoose: old one
+T 1484814080 18<27Dope_A_Mean18>	whats the best peanut butter cookie recipe
+T 1484814080 18<24Speiros18>	lol...
+T 1484814080 18<24Speiros18>	Dope_A_Mean There is a channel called #ironpeanut which might help, but not sure.
+T 1484814080 18<20mniip18>	Speiros, I figured why it said that
+T 1484814080 18<20mniip18>	figured out
+T 1484814080 18<24Speiros18>	mniip What is the reason?
+T 1484814080 18<20mniip18>	it is a side effect of something else being broken right now...
+T 1484814080 18<24Speiros18>	mniip Ah, okay.  So nothing to worry about?
+T 1484814080 18<20mniip18>	nothing *you* should worry about yes
+T 1484814080 18<24Speiros18>	mniip lol, okay.  Sounds like a bit of a can of worms on your end?
+T 1484814080 18<20mniip18>	yes
+T 1484814080 18<26TheSilentLink18>	Hi anyone know why I lose connection at about 2am uk time? Is there maintenance?
+T 1484814080 18<24MetaNova18>	your ISP might do maintenance at that time, sure
+T 1484814080 18<26TheSilentLink18>	What about Freenode?
+T 1484814080 18<24Speiros18>	mniip I hope it works out ok for you mate.
+T 1484814080 18<26TheSilentLink18>	Cause also me Nick changes on when I reconnect
+T 1484814080 18<26TheSilentLink18>	My*
+T 1484814080 18<24MetaNova18>	TheSilentLink: there's no regular maintenance which would cause you to disconnect at the same time on a regular basis, no
+T 1484814080 18<24MetaNova18>	not on freenodes end
+T 1484814080 18<27SemiNus18>	hi
+T 1484814080 18<27SemiNus18>	I have a short question
+T 1484814080 18<27SemiNus18>	I am located in Central Europe
+T 1484814080 18<24Speiros18>	Fire away SemiNus
+T 1484814080 18<26TheSilentLink18>	MetaNova: oh ok thanks also you know why my nick is changing? It was TheSilentLi-
+T 1484814080 18<27SemiNus18>	Now I have to following problem:
+T 1484814080 18<27SemiNus18>	Netflix works.  Google Works.  Yahoo works.
+T 1484814080 18<27SemiNus18>	but when I click a link in google, nothing happens
+T 1484814080 18<27SemiNus18>	same with Yahoo etc.
+T 1484814080 18<20mniip18>	TheSilentLink, looks like a server failed
+T 1484814080 18<27SemiNus18>	I cannot reach the search results
+T 1484814080 18<24MetaNova18>	TheSilentLink: after a dropped connection, when your client reconnects, your previous connections' "ghost" is still connected, occupying your usual nick, and your client is forced to use an alternative
+T 1484814080 18<24MetaNova18>	until the ghost is gone
+T 1484814080 18<24MetaNova18>	likely guess
+T 1484814080 18<27SemiNus18>	it feels like  "stackoverflow.com"  is down,  "itunes" is down,  "css-tricks.com" is down
+T 1484814080 18<26TheSilentLink18>	Ah I see thanks just a bit annoying lol
+T 1484814080 18<25inigomontoya18>	@seminus sounds like you are blocking .js
+T 1484814080 18<27SemiNus18>	can anyone verify if there is a major problem going on at the moment?
+T 1484814080 18<27SemiNus18>	inigomontoya, nope, JS in enabled
+T 1484814080 18<27SemiNus18>	can anyone reach stackoverflow.com ?
+T 1484814080 18<27SemiNus18>	or css-tricks.com ?
+T 1484814080 18<20mniip18>	I can
+T 1484814080 18<27SemiNus18>	mniip, that's weird
+T 1484814080 18<27SemiNus18>	I can connect to IRC
+T 1484814080 18<24MetaNova18>	SemiNus: I can reach all three of those without issue
+T 1484814080 18<27SemiNus18>	and netflix works
+T 1484814080 18<24Speiros18>	I need to go.  Speak soon.  Thanks for your help too, mniip.
+T 1484814080 18<27SemiNus18>	hold on I try an other browser
+T 1484814080 18<25inigomontoya18>	same here, no issues with the services you named
+T 1484814080 18<27SemiNus18>	sorry for bothering
+T 1484814080 18<24MetaNova18>	SemiNus: are you having connectivity issues with your DNS server? cached results making some things work and some things not might explain it
+T 1484814080 18<27SemiNus18>	MetaNova, that could be an idea!!!
+T 1484814080 18<27SemiNus18>	MetaNova, of course, I totally forget about that option
+T 1484814080 18<24MetaNova18>	:)
+T 1484814080 18<27SemiNus18>	there was a free DNS a loooong time ago when I was a kid
+T 1484814080 18<27SemiNus18>	does that still exist?
+T 1484814080 18<24MetaNova18>	there are better options now
+T 1484814080 18<24MetaNova18>	like 8.8.8.8
+T 1484814080 18<27SemiNus18>	what?
+T 1484814080 18<24MetaNova18>	but yes, there are still plenty of free DNS servers
+T 1484814080 18<27SemiNus18>	I should use 8.8.8.8 as DNS server?
+T 1484814080 18<24inigo18>	dnscrypt
+T 1484814080 18<24MetaNova18>	SemiNus: 8.8.8.8 is Google's primary DNS server
+T 1484814080 18<27SemiNus18>	and I can use that for free?
+T 1484814080 18<24inigo18>	provides security and DNSSEC
+T 1484814080 18<24MetaNova18>	massive bandwidth, never goes down, recently updated results
+T 1484814080 18<27SemiNus18>	is 8.8.8.8 even a valid IP address?
+T 1484814080 18<24MetaNova18>	yes
+T 1484814080 18<27SemiNus18>	wow
+T 1484814080 18<20mniip18>	why wouldn't it be
+T 1484814080 18<27SemiNus18>	why did nobody tell me yet?
+T 1484814080 18<24inigo18>	no google harvests your data, so it is not free
+T 1484814080 18<24MetaNova18>	because you didn't ask
+T 1484814080 18<27SemiNus18>	I think that was somewhere in the /etc/resolv.conf if I am right
+T 1484814080 18<27SemiNus18>	one instance please
+T 1484814080 18<27SemiNus18>	what the heck
+T 1484814080 18<27SemiNus18>	my /etc/resolv.conf contains:
+T 1484814080 18<27SemiNus18>	nameserver 127.0.1.1
+T 1484814080 18<27SemiNus18>	can this be correct under any circumstance?
+T 1484814080 18<20mniip18>	yes
+T 1484814080 18<24MetaNova18>	yes
+T 1484814080 18<20mniip18>	your system could be running a dns server of its own for caching
+T 1484814080 18<24MetaNova18>	^
+T 1484814080 18<27SemiNus18>	there is a warning in this file, that I should not change it
+T 1484814080 18<27SemiNus18>	# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+T 1484814080 18<27SemiNus18>	#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+T 1484814080 18<27SemiNus18>	I guess this should work:  "chattr +i /etc/resolv.conf"
+T 1484814080 18<24MetaNova18>	yes that would work to prevent further changes
+T 1484814080 18<24MetaNova18>	but you're troubleshooting ..
+T 1484814080 18<20mniip18>	and then your dhcp will break one day
+T 1484814080 18<24MetaNova18>	mniip: don't be such a worrywart, let's deal with problems as they come
+T 1484814080 18<24MetaNova18>	no need to worry about them too soon
+T 1484814080 18<24MetaNova18>	SemiNus: that was a joke, don't chattr +i /etc/hosts
+T 1484814080 18<24MetaNova18>	s/hosts/resolv.conf/
+T 1484814080 18<27vahe18>	hi all, I'm looking for the manual for manual (operator )of its channel in freenode ,I can't find how to login as the operator of the channel
+T 1484814080 18<24MetaNova18>	vahe: identify to nickserv (/msg nickserv help identify)
+T 1484814080 18<24MetaNova18>	vahe: ask chanserv to op you (/msg chanserv help op)
+T 1484814080 18<24MetaNova18>	vahe: then do things (/mode or /topic or /kick or /invite or whatever)
+T 1484814080 18<25Matthew_Griffin18>	nick nouveaupseudo
+T 1484814080 18<27vahe18>	MetaNova:  thanks
+T 1484814138 24*	BaW has quit (Ping timeout: 240 seconds)

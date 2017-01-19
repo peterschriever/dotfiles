@@ -1,0 +1,8 @@
+T 1473011965 18<*status>	+----------+-------+-----------------------+----------------------------------------------------+----------+
+T 1473011965 18<*status>	| Network  | OnIRC | IRC Server            | IRC User                                           | Channels |
+T 1473011965 18<*status>	+----------+-------+-----------------------+----------------------------------------------------+----------+
+T 1473011965 18<*status>	| Freenode | Yes   | sinisalo.freenode.net | Peterzen_!~Peterzen@vps-10743-1534.cloud.tilaa.com | 2        |
+T 1473011965 18<*status>	| EsperNet | Yes   | anarchy.esper.net     | Peterzen!~Peterzen@vps-10743-1534.cloud.tilaa.com  | 1        |
+T 1473011965 18<*status>	| Rizon    | Yes   | irc.sxci.net          | Peterzen!~Peterzen@Rizon-E3AC14E.cloud.tilaa.com   | 1        |
+T 1473011965 18<*status>	+----------+-------+-----------------------+----------------------------------------------------+----------+
+T 1478689190 18<*status>	Connected!

@@ -1,0 +1,4 @@
+T 1478345917 19*	Now talking on 22#avrlibc
+T 1478345917 22*	26verne.freenode.net sets mode 24+n on 22#avrlibc
+T 1478345917 22*	26verne.freenode.net sets mode 24+s on 22#avrlibc
+T 1478345917 22*	26Peterzen sets mode 24+t on 22#avrlibc

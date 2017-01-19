@@ -1,0 +1,500 @@
+T 1484814080 18<26arij_work18>	yea
+T 1484814080 18<28sauerkrause18>	I think you should stop saying "stick out" then
+T 1484814080 18<26cdsboy18>	^
+T 1484814080 18<26arij_work18>	STICK OUT
+T 1484814080 18<26cdsboy18>	seriously lol
+T 1484814080 18<22Slasher18>	jfc
+T 1484814080 18<28sauerkrause18>	and just say it needs to be X mm thick
+T 1484814080 18<28sauerkrause18>	unless you're using said rubber as a mousepad
+T 1484814080 18*	26arij_work kills self
+T 1484814080 18<28sauerkrause18>	and it needs to stick out to the left or right
+T 1484814080 18<26arij_work18>	draw it
+T 1484814080 18<26cdsboy18>	arij_work: anything that protrudes past the base of the keyboard and has a high friction coefficient should work...
+T 1484814080 18<26arij_work18>	yea but what is a good amount to protrude? 1mm? 2mm?
+T 1484814080 18<26cdsboy18>	aka, I don't think there's a minimum thickness as long as none of the keyboard hangs past it
+T 1484814080 18<26arij_work18>	1/4 is too much
+T 1484814080 18<26cdsboy18>	I'd aim for 2-3mm IMO
+T 1484814080 18<28sauerkrause18>	no such thing as too much
+T 1484814080 18<26arij_work18>	yea but it also needs to look good, i think if it was too thick it wouldnt look good
+T 1484814080 18<26arij_work18>	2-3mm, that sounds good iwas thinking around 2mm
+T 1484814080 18<28sauerkrause18>	you want the keyboard to feel like it's on rubbery towers
+T 1484814080 18<28sauerkrause18>	so like 5inches
+T 1484814080 18*	26arij_work smacks sauerkrause
+T 1484814080 18<28sauerkrause18>	it won't slide...
+T 1484814080 18*	19xveamvx smacks arij_work
+T 1484814080 18<28sauerkrause18>	it'll just sway
+T 1484814080 18<29SlabDabs18>	arij_work: glue these on the bottom https://www.amazon.com/Glorious-Gaming-Mouse-Wrist-Rest/dp/B0191YRNE6/ref=sr_1_10?ie=UTF8&qid=1484781619&sr=8-10&keywords=wrist+pad
+T 1484814080 18<22Slasher18>	arij_work: http://www.ebay.com/itm/Western-Safety-12-in-x-12-in-Self-Adhesive-Rubber-Safety-Mat-with-Tread-Surface-/322291636549?hash=item4b0a141945:g:yV0AAOSw8gVX~kGx you should cut this and throw it on
+T 1484814080 18<26cdsboy18>	arij_work: have you considered using a thin layer of ballistic jelly?
+T 1484814080 18<26arij_work18>	you guys are jsut trolling now
+T 1484814080 18<28sauerkrause18>	this is what a normal keyboard looks like on the bottom https://goo.gl/photos/RJ1ku6632PKbivDA9
+T 1484814080 18<26arij_work18>	cdsboy: nope this sounded the easiest
+T 1484814080 18<19xveamvx18>	You should use tannerite
+T 1484814080 18<26arij_work18>	and i like 3m
+T 1484814080 18<26arij_work18>	i also have a cnc so i can use it with a razer to cut the rubber sheets into the shape i need
+T 1484814080 18<28sauerkrause18>	arij_work: you should just route a hole out in your desk
+T 1484814080 18<28sauerkrause18>	and fit the keyboard into your desk
+T 1484814080 18<26cdsboy18>	!
+T 1484814080 18<28sauerkrause18>	for the ultimate pro-ness
+T 1484814080 18<26cdsboy18>	especially if you have a CNC
+T 1484814080 18<26arij_work18>	its not for me
+T 1484814080 18<26arij_work18>	its for mass production
+T 1484814080 18<26arij_work18>	since everyone will have a p30
+T 1484814080 18<19xveamvx18>	Lololol
+T 1484814080 18*	26arij_work smacks xveamvx
+T 1484814080 18<28sauerkrause18>	https://goo.gl/photos/vDPF9QcxLuYScV4x5
+T 1484814080 18<19xveamvx18>	Marco
+T 1484814080 18<28sauerkrause18>	that looks to be about a millimeter thick
+T 1484814080 18<22Slasher18>	arij_work: did you figure out that chatter issue?
+T 1484814080 18<19xveamvx18>	Marco
+T 1484814080 18<26arij_work18>	Slasher: some one else has the keeb right now
+T 1484814080 18<28sauerkrause18>	POLO
+T 1484814080 18<26arij_work18>	they are going to look at it for me
+T 1484814080 18<22Slasher18>	arij_work: so they havent figured it out yet?
+T 1484814080 18<19xveamvx18>	There it is
+T 1484814080 18<26arij_work18>	Slasher: i did mill a few cases out of maple tho - they feel really nice
+T 1484814080 18<19xveamvx18>	Thnx sauerkrause
+T 1484814080 18<22Slasher18>	arij_work: damn
+T 1484814080 18<22Slasher18>	cant wait
+T 1484814080 18<28sauerkrause18>	yw
+T 1484814080 18<28sauerkrause18>	maple is good wood
+T 1484814080 18<28sauerkrause18>	I like guitar necks made out of maple
+T 1484814080 18<28slaytaner18>	exm I applied to a couple, I look forward to not hearing back
+T 1484814080 18<26arij_work18>	i like human necks made out of human
+T 1484814080 18<26cdsboy18>	arij_work: if this is for mass production then the $1k roll of SJ5808 probably fits exactly what you need :P
+T 1484814080 18<28sauerkrause18>	arij_work: gross humans
+T 1484814080 18<28sauerkrause18>	gibe robot neck
+T 1484814080 18<26arij_work18>	not that mass
+T 1484814080 18<26arij_work18>	still prototyping
+T 1484814080 18<26arij_work18>	cdsboy: did you see the keyboard?
+T 1484814080 18<20ifohancroft18>	Hi guys. When making your keyboard case or even a whole keyboard and not using an already made case, does the PCB usually just sit on a flat layer of the case or should you use some risers?
+T 1484814080 18<26cdsboy18>	arij_work: contact company and ask for a manufacturers sample
+T 1484814080 18<26cdsboy18>	arij_work: no I did not
+T 1484814080 18<28sauerkrause18>	slaytaner: jobs!? https://www.youtube.com/watch?v=KT4vhl8slbE
+T 1484814080 18<28slaytaner18>	that's basically me
+T 1484814080 18<26arij_work18>	cdsboy: https://usercontent.irccloud-cdn.com/file/uHxZQbeI/dffdf.jpg
+T 1484814080 18<26cdsboy18>	arij_work: hi, I think your keyboard is missing a few keys
+T 1484814080 18<26arij_work18>	did i just get split
+T 1484814080 18<26arij_work18>	cdsboy: like what? everything else is on the 2nd layer
+T 1484814080 18<26cdsboy18>	arij_work: sorry, bad joke
+T 1484814080 18<26cdsboy18>	arij_work: also, P30 collides with a piano keyboard name :P
+T 1484814080 18<19xveamvx18>	arij_work use tannerite
+T 1484814080 18<28slaytaner18>	or any contact explosive
+T 1484814080 18<19xveamvx18>	Yeah
+T 1484814080 18<20ifohancroft18>	Sry for the repeat but since we all experienced a net split: When making a custom case, does the PCB usually sit on a flat layer of the case or should you use some spacers? How is it usually done/what's best?
+T 1484814080 18<19xveamvx18>	Supes safe
+T 1484814080 18<28slaytaner18>	ifohancroft spacers
+T 1484814080 18<20ifohancroft18>	Thank you, slaytaner! Do you place as much as you can so the PCB won't be hanging much and you don't get any echoing/pingy sounds or am I understanding things wrong?
+T 1484814080 18<28slaytaner18>	you don't want any of the solder joints touching the case
+T 1484814080 18<26arij_work18>	cdsboy: my p30 is best p30
+T 1484814080 18<26cdsboy18>	arij_work: still makes SEO hard because I doubt you're ever going to beat Technics P30 for googling "P30 Keyboard"
+T 1484814080 18<20ifohancroft18>	Yes, I've guessed that. I mean besides that what would be the difference between the PCB hanging a lot and every part of it that doesn't have a solder joint resting on something
+T 1484814080 18<26cdsboy18>	ifohancroft: my keyboard has a plate for the keys and the case attaches to that. The PCB is simply held in place by all of the key solder joints
+T 1484814080 18<19xveamvx18>	My p30 will be best p30
+T 1484814080 18<20ifohancroft18>	cdsboy and is that enough to support the PCB so you doesn't resonate when typing and producing unneccessary sounds and stuff?
+T 1484814080 18<26cdsboy18>	ifohancroft: yup
+T 1484814080 18<20ifohancroft18>	awesome, thank you
+T 1484814080 18<26cdsboy18>	ifohancroft: the switches themselves are held very solidly in the plate, so when you type on them they're not moving at all
+T 1484814080 18<19xveamvx18>	Marco
+T 1484814080 18<20ifohancroft18>	cdsboy I know that but I wasn't sure how to support the PCB and if that's needed because most of the custom keybaords I've seen it seems the plate for the switches is big enough so it's sides rest on the sides of the case and it's not my case so the weight of the plate and the switches rest on the PCB and it will rest on whatever i put it
+T 1484814080 18<28slaytaner18>	mine has spacers between the case and the pcb with screws through them
+T 1484814080 18<25Berzerker18>	ifohancroft: there are so many joints (solder joints) throughout the PCB that all of the collectively are enough to evenly support the PCB
+T 1484814080 18<25Berzerker18>	without causing any issues of downward force
+T 1484814080 18<20ifohancroft18>	In my scenario where the plate itself is not connected in anyway to a case and I don't think I can make it to unless I unsolder the switches (using everything besides the case from already existing keyboard) is my best guest creating a plate that has holes where the solder joints are to rest the whole thing and rest that plate on the bottom of what would be the case?
+T 1484814080 18<22Slasher18>	need a recommendation for a cheap but halfway decent cherry profile keyset
+T 1484814080 18<26arij_work18>	hyperfuse
+T 1484814080 18<26arij_work18>	terminal?
+T 1484814080 18<26arij_work18>	dolch?
+T 1484814080 18<26arij_work18>	dolch.
+T 1484814080 18<22Slasher18>	:|
+T 1484814080 18<26arij_work18>	whats wrong with dolch
+T 1484814080 18<22Slasher18>	i said cheaper
+T 1484814080 18<22Slasher18>	cheap*
+T 1484814080 18<26arij_work18>	isnt dolch cheaper than all of the other ones i listted
+T 1484814080 18<26arij_work18>	Slasher: blank from mk.com
+T 1484814080 18<26arij_work18>	like $30-$40
+T 1484814080 18<22Slasher18>	no blanks
+T 1484814080 18<22Slasher18>	with legends
+T 1484814080 18<26arij_work18>	check o.co ? dont have have white on black or somthin
+T 1484814080 18<26arij_work18>	brb food
+T 1484814080 18<26arij_work18>	yay my grab bag status got updated to shipped
+T 1484814080 18<26switchy18>	woo
+T 1484814080 18*	24murkey grabs arij's bag
+T 1484814080 18*	19xveamvx slaps arij_work's bag
+T 1484814080 18<22roflb18>	wait gmk penumbras? time to cancel the sp set
+T 1484814080 18<22munchT18>	:D
+T 1484814080 18<22roflb18>	is gmk calm depths happening too?
+T 1484814080 18<26arij_work18>	roflb: where do you see gmk penumbra
+T 1484814080 18<22roflb18>	arij_work: orignative co instagram
+T 1484814080 18<22roflb18>	its one of the hashtags
+T 1484814080 18<22roflb18>	apparently waikane deleted his comments about calm depths but supposedly happening too
+T 1484814080 18<26arij_work18>	roflb: are we cancelling our orders or what
+T 1484814080 18<22roflb18>	well we have until penumbra ships to decide to cancel
+T 1484814080 18<22roflb18>	and these sets arent really confirmed
+T 1484814080 18<26arij_work18>	its not the first i heard about gmk penumbra
+T 1484814080 18<22roflb18>	so im waiting until we have a sanple or something
+T 1484814080 18<22roflb18>	*sample
+T 1484814080 18<22roflb18>	im pretty meh about the gmk sets so far though
+T 1484814080 18<22roflb18>	terminal/honeywell/soware
+T 1484814080 18<26arij_work18>	i didnt buy any of those
+T 1484814080 18<22roflb18>	same
+T 1484814080 18<26arij_work18>	i got penumbra and dasher
+T 1484814080 18<26arij_work18>	or dancer
+T 1484814080 18<26arij_work18>	i forget which one
+T 1484814080 18<22roflb18>	i forgot to order dancer lol
+T 1484814080 18<22roflb18>	i like the soware colorway but if only they were centered
+T 1484814080 18<26arij_work18>	gmk isnt centered tho
+T 1484814080 18<26arij_work18>	is it
+T 1484814080 18<29pikajude18>	why is everything gray
+T 1484814080 18<22roflb18>	yeah i dont they theyve centered before
+T 1484814080 18<26switchy18>	pikajude, there is no colour left in the world
+T 1484814080 18<22roflb18>	i also got in on the elvish pbt sa but im debating canceling cuz they cant pick a damn factory
+T 1484814080 18<26arij_work18>	cancel
+T 1484814080 18<26arij_work18>	do it
+T 1484814080 18<26switchy18>	keycap gbs are lame
+T 1484814080 18<22roflb18>	but i like the colors :(
+T 1484814080 18<26arij_work18>	wait o.co was selling nantucket selectric?
+T 1484814080 18<26arij_work18>	wat
+T 1484814080 18<22roflb18>	like 3 months ago?
+T 1484814080 18<22roflb18>	well calm depths is "being worked on"
+T 1484814080 18<22roflb18>	since its o.co and hyped colorway and gmk maybe he'll charge $250 now
+T 1484814080 18<29SlabDabs18>	lmao clicking on o.co took me to https://www.overstock.com/?prop45=o.co
+T 1484814080 18<22roflb18>	im surprised the sa hyperfuse hasnt sold out
+T 1484814080 18<22munchT18>	it's SA!
+T 1484814080 18<26arij_work18>	yea sa hyperfuse is the worst out of all of the i think
+T 1484814080 18<26arij_work18>	dsa/gmk/sa
+T 1484814080 18<22roflb18>	yah but people eat up sp and hyperfuse
+T 1484814080 18<22munchT18>	maybe people are waking up
+T 1484814080 18<26arij_work18>	hopefully oco overestimated how many people will buy it and they will be stuck with a ton of them
+T 1484814080 18<26arij_work18>	and take a huge loss on it
+T 1484814080 18<29SlabDabs18>	i'd like to try gmk and sa at some point
+T 1484814080 18<29SlabDabs18>	but at like... china blank prices
+T 1484814080 18<22roflb18>	lol
+T 1484814080 18<26arij_work18>	SlabDabs: stop being cheap
+T 1484814080 18<29SlabDabs18>	no
+T 1484814080 18<26arij_work18>	just buy a proper gmk set
+T 1484814080 18<22roflb18>	or a proper sa set
+T 1484814080 18*	26arij_work donates hyperfuse to SlabDabs
+T 1484814080 18<29SlabDabs18>	if i made more money i'd give it a shot
+T 1484814080 18<22roflb18>	just skip some meals
+T 1484814080 18<26arij_work18>	work harder
+T 1484814080 18<26arij_work18>	sell more keebs
+T 1484814080 18<22roflb18>	live in a cardboard box
+T 1484814080 18*	29SlabDabs donates keebs to arij for hyperfuse
+T 1484814080 18<22roflb18>	mine some btc duh
+T 1484814080 18<29SlabDabs18>	yeah the living in an apartment is the bitch
+T 1484814080 18<29SlabDabs18>	yay colorado rent prices
+T 1484814080 18<26arij_work18>	how is the rent
+T 1484814080 18<26arij_work18>	expensive?
+T 1484814080 18<22roflb18>	theyre not that bad are they
+T 1484814080 18<26arij_work18>	more than $1500/mo for a 1br?
+T 1484814080 18<29SlabDabs18>	not that bad
+T 1484814080 18<22roflb18>	youre not in nyc/sf/boston
+T 1484814080 18<29SlabDabs18>	but close
+T 1484814080 18<26arij_work18>	i was paying $3425/mo for a 1br in nyc
+T 1484814080 18<29SlabDabs18>	you hit 1k living alone
+T 1484814080 18<29SlabDabs18>	mminimum
+T 1484814080 18<22munchT18>	but you probably made enough money to afford that in nyc :P
+T 1484814080 18<26arij_work18>	yea
+T 1484814080 18<26arij_work18>	kind of
+T 1484814080 18<26arij_work18>	i had help
+T 1484814080 18<29SlabDabs18>	i paid $300/mo before i moved out here ha
+T 1484814080 18<26arij_work18>	wat
+T 1484814080 18<24josephle18>	to afford and barely survive
+T 1484814080 18<29SlabDabs18>	so closer to 1300 with utilities hurts
+T 1484814080 18<26arij_work18>	did you live in the cardboard box down at the street corner
+T 1484814080 18<22munchT18>	I pay 1700 for a 500sqft place here
+T 1484814080 18<26arij_work18>	i think ive been past your place
+T 1484814080 18<26arij_work18>	munchT: where is here?
+T 1484814080 18<22munchT18>	vancouver canada
+T 1484814080 18<26arij_work18>	how is kelowna
+T 1484814080 18<26arij_work18>	my cousin lives in toronto
+T 1484814080 18<22munchT18>	never been there
+T 1484814080 18<29SlabDabs18>	parents owned the building, so i got hella cheap rent while in school was a 2 bed + office apartment lmao
+T 1484814080 18<22munchT18>	nice SlabDabs
+T 1484814080 18<29SlabDabs18>	no dryer, but i had a washer
+T 1484814080 18<22roflb18>	damn
+T 1484814080 18<22munchT18>	I'm paying less than avg for my area, and building is only 5yrs old
+T 1484814080 18<26arij_work18>	dryers are a gift
+T 1484814080 18<22munchT18>	6 now nvm
+T 1484814080 18<28kroms18>	SlabDabs hook it up :)
+T 1484814080 18<26arij_work18>	loans are a gift too
+T 1484814080 18<29SlabDabs18>	yeah i'd just wash and lug it to the laundromat a block away
+T 1484814080 18<26arij_work18>	yea SlabDabs i want a apartment in your parents building
+T 1484814080 18<26arij_work18>	hook it up
+T 1484814080 18<22roflb18>	300 sounds pretty good
+T 1484814080 18<28kroms18>	I'll pay 400
+T 1484814080 18<26arij_work18>	we can all get one at that price
+T 1484814080 18<29SlabDabs18>	lawl
+T 1484814080 18<29SlabDabs18>	yeah everyone else had higher rents and less space
+T 1484814080 18<26arij_work18>	you would just hear constant loud clicking noises coming from the building
+T 1484814080 18<29SlabDabs18>	i also improved it while i was there
+T 1484814080 18<29SlabDabs18>	put in wood floors
+T 1484814080 18<26arij_work18>	oh you fancy
+T 1484814080 18<26arij_work18>	i had bamboo floors at one point
+T 1484814080 18<26arij_work18>	those were nice
+T 1484814080 18<26arij_work18>	but would get scratched up easily
+T 1484814080 18<26arij_work18>	so easily that i had to pay a few thousand when i was moving out to have them fixed
+T 1484814080 18<29SlabDabs18>	damn
+T 1484814080 18<22munchT18>	RIP
+T 1484814080 18<22roflb18>	rip
+T 1484814080 18<22roflb18>	wtf did you do to scratch the floor
+T 1484814080 18<26arij_work18>	idk my freakin bed must have had a staple sticking out of the edge or something
+T 1484814080 18<26arij_work18>	it was just the box frame with a matress ontop
+T 1484814080 18<29SlabDabs18>	heh
+T 1484814080 18<29SlabDabs18>	we kept carpet in the bedroom
+T 1484814080 18<24seoushi18>	ugh carpet.. hold so much nasty
+T 1484814080 18<26arij_work18>	yea carpet sucks
+T 1484814080 18<26arij_work18>	maybe a small rug is ok
+T 1484814080 18<28slaytaner18>	I had painted concrete
+T 1484814080 18<26arij_work18>	why painted
+T 1484814080 18<26arij_work18>	i feel like bare concrete would be better
+T 1484814080 18<28slaytaner18>	well some sort of finishing
+T 1484814080 18<27uvlight18>	nice tiles is good.  but kinda cold in the winter.
+T 1484814080 18<26arij_work18>	i love the cold
+T 1484814080 18<29SlabDabs18>	at 3am and i have to go piss i don't
+T 1484814080 18<29SlabDabs18>	lol
+T 1484814080 18<27uvlight18>	I have cold feet during winter without my slippers on.
+T 1484814080 18<28slaytaner18>	so when you wear slippers you stop rethinking your relationship?
+T 1484814080 18<29SlabDabs18>	haaah
+T 1484814080 18<27uvlight18>	:P
+T 1484814080 18<27uvlight18>	soemthing that I never tell my girlfriend.
+T 1484814080 18<28slaytaner18>	switchy pls
+T 1484814080 18<26switchy18>	slaytaner, problem?
+T 1484814080 18<28slaytaner18>	.357 sig is too expensive
+T 1484814080 18<26switchy18>	I feel like this lady on airbnb is trying to scam me
+T 1484814080 18<28slaytaner18>	probably
+T 1484814080 18<27firebort18>	guys
+T 1484814080 18<27firebort18>	should i buy an unsaver
+T 1484814080 18<26switchy18>	somebody should let me stay on their couch
+T 1484814080 18<28slaytaner18>	a what
+T 1484814080 18<27firebort18>	model f
+T 1484814080 18<26switchy18>	slaytaner, why do you need a gun?
+T 1484814080 18<27firebort18>	https://www.modelfkeyboards.com/wp-content/uploads/2016/10/DSC_6470.jpg
+T 1484814080 18<28slaytaner18>	switchy not the gun, the ammo
+T 1484814080 18<26switchy18>	slaytaner, so you already have the gun?
+T 1484814080 18<28slaytaner18>	I inherited it
+T 1484814080 18<26switchy18>	ah
+T 1484814080 18<28slaytaner18>	no way I could afford a $1k gun
+T 1484814080 18<28slaytaner18>	can't even afford the $30/box for ammo lol
+T 1484814080 18<27firebort18>	what gun
+T 1484814080 18<28slaytaner18>	p229
+T 1484814080 18<26arij_work18>	thats already trademarked by p.kb
+T 1484814080 18<26arij_work18>	thanks
+T 1484814080 18<28slaytaner18>	lol
+T 1484814080 18<26arij_work18>	p30, p65, p229 (tm)
+T 1484814080 18<28slaytaner18>	p99
+T 1484814080 18<28slaytaner18>	p226
+T 1484814080 18<26arij_work18>	all of the p's
+T 1484814080 18<28slaytaner18>	p220
+T 1484814080 18<28slaytaner18>	p239
+T 1484814080 18<28slaytaner18>	p238
+T 1484814080 18<28slaytaner18>	p320
+T 1484814080 18<28slaytaner18>	p938
+T 1484814080 18<29SlabDabs18>	firebort: if you think blues aren't noisy enough, yes
+T 1484814080 18<29SlabDabs18>	also iirc they are nkey roll over
+T 1484814080 18<29SlabDabs18>	at least the one NeverSummer has
+T 1484814080 18<26arij_work18>	wasnt some one making a mx sized buckling spring switch
+T 1484814080 18<24c-pin18>	Sounds like a party lol
+T 1484814080 18<24c-pin18>	Metal leaf of membrane
+T 1484814080 18<28slaytaner18>	arij_work they didn't meet their crowdfunding goal
+T 1484814080 18<26arij_work18>	slaytaner: i kind of made that up... it was really a thing?
+T 1484814080 18<26arij_work18>	link?
+T 1484814080 18<28slaytaner18>	yeah
+T 1484814080 18<26arij_work18>	or what should i google
+T 1484814080 18<28slaytaner18>	arij_work: https://geekhack.org/index.php?topic=79219.0
+T 1484814080 18<26arij_work18>	thx
+T 1484814080 18<28slaytaner18>	that whole ddos thing on dyn story is a trip
+T 1484814080 18<28slaytaner18>	https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/
+T 1484814080 18<28slaytaner18>	switchy ^ this story is nuts
+T 1484814080 18<26switchy18>	slaytaner, gee
+T 1484814080 18<26switchy18>	they should make a movie out of this
+T 1484814080 18<28slaytaner18>	his attribution of mincraft to microsoft is kind of dumb
+T 1484814080 18<26switchy18>	poor notch
+T 1484814080 18<28slaytaner18>	notch deserves all the blame :P
+T 1484814080 18<29SlabDabs18>	well doesn't MS own them now
+T 1484814080 18<28slaytaner18>	now
+T 1484814080 18*	29SlabDabs didn't look at the link
+T 1484814080 18<28slaytaner18>	SlabDabs you should, it's a bizzaro story
+T 1484814080 18<29SlabDabs18>	long one, going to leave it open for once i get some dinner down
+T 1484814080 18<19xveamvx18>	Marco
+T 1484814080 18<22munchT18>	poopoo
+T 1484814080 18<19xveamvx18>	Hi
+T 1484814080 18<26na_th_an18>	hi evening people
+T 1484814080 18<29arij18>	hey
+T 1484814080 18<26na_th_an18>	how's the clacks
+T 1484814080 18<26na_th_an18>	i just sold my very first mechanical keyboard for $30
+T 1484814080 18<26na_th_an18>	an old thermaltake tt poseidon z
+T 1484814080 18<26na_th_an18>	the kaihl switches were honestly pretty good, but I hate full sized keyboards now
+T 1484814080 18<29arij18>	where did you sell it?
+T 1484814080 18<29catfriend18>	hi
+T 1484814080 18<26na_th_an18>	to my coworker's roommate
+T 1484814080 18<26na_th_an18>	hi ms catfriend
+T 1484814080 18<29slwb18>	na_th_an, ermagerd, we are first mech eskimo brothers
+T 1484814080 18<29slwb18>	what switches did it have?
+T 1484814080 18<26na_th_an18>	kaihl blues
+T 1484814080 18<29slwb18>	ermagerd
+T 1484814080 18<29slwb18>	are you me?
+T 1484814080 18<26na_th_an18>	no
+T 1484814080 18<29catfriend18>	im watchiung "72 cutest animals" on netflix
+T 1484814080 18<26na_th_an18>	i am me
+T 1484814080 18<29catfriend18>	this is the best thing ever
+T 1484814080 18<22Slasher18>	WEW LAD
+T 1484814080 18<22Slasher18>	THANKS FREENODE
+T 1484814080 18<26switchy18>	Slasher, you survived
+T 1484814080 18<22Slasher18>	ja
+T 1484814080 18<22Slasher18>	lol
+T 1484814080 18<25Berzerker18>	zekkin: Slasher tbh kinda wanna put LEDs in this EX lol
+T 1484814080 18<28slaytaner18>	jeeze freenode
+T 1484814080 18<28slaytaner18>	switchy are you watching the australian open
+T 1484814080 18<26switchy18>	slaytaner, lolno
+T 1484814080 18<26switchy18>	I hate tennis
+T 1484814080 18<26switchy18>	everyone except federer is a dick
+T 1484814080 18<26switchy18>	slaytaner, but the cricket is starting soon
+T 1484814080 18<28slaytaner18>	federer is probably a dick too
+T 1484814080 18<26switchy18>	he seems to be a nice dick at least
+T 1484814080 18<28slaytaner18>	you can type his name with one hand
+T 1484814080 18<26switchy18>	I can't >:(
+T 1484814080 18<26switchy18>	in fact every letter alternates for me
+T 1484814080 18<26switchy18>	slaytaner, have you seen the new mozilla logo/
+T 1484814080 18<28slaytaner18>	lolol
+T 1484814080 18<28slaytaner18>	i think mos://a is ok, the rest is shit
+T 1484814080 18<26switchy18>	I liked the old one better
+T 1484814080 18<29arij18>	hey
+T 1484814080 18<29arij18>	how can  i clean laser residue off of acrylic without damaging the acrylic
+T 1484814080 18<26switchy18>	laser residue?
+T 1484814080 18<26switchy18>	is that like melty stuff?
+T 1484814080 18<28slaytaner18>	arij: very carefully
+T 1484814080 18<29SlabDabs18>	YOU CANT MUAHAHAHA
+T 1484814080 18<29SlabDabs18>	but uh, how much residue?
+T 1484814080 18<29SlabDabs18>	maybe a soapy water
+T 1484814080 18<29arij18>	its not melted plastic
+T 1484814080 18<28Saimeidae18>	soapy water
+T 1484814080 18<28slaytaner18>	hi Saimeidae
+T 1484814080 18<28slaytaner18>	switchy did you know there's DRM in the linux kernel
+T 1484814080 18<26switchy18>	slaytaner, huehue
+T 1484814080 18<26switchy18>	those rendering manangers!
+T 1484814080 18<29arij18>	these mod h switches feel pretty nice
+T 1484814080 18<26switchy18>	arij, :)
+T 1484814080 18<26switchy18>	arij, did the fusion stuff work?
+T 1484814080 18<29arij18>	Didn't get to try it... It's too loud to run at night
+T 1484814080 18<26switchy18>	but did it load up and could you configure it for your machine?
+T 1484814080 18<26switchy18>	or just not going to bother unless you can actually run it?
+T 1484814080 18<29SlabDabs18>	i need to make sure i get some 3d programs on my laptop :D
+T 1484814080 18<28sauerkrause18>	like overwatch?
+T 1484814080 18<29SlabDabs18>	loool
+T 1484814080 18<29SlabDabs18>	that's on my other laptop
+T 1484814080 18<28sauerkrause18>	minceraft?
+T 1484814080 18<25missalaire18>	any LoL players here want to join a fantasy league for this split?
+T 1484814080 18<26switchy18>	SlabDabs, why?
+T 1484814080 18<24murkey18>	i finished my MX hhkb
+T 1484814080 18<24murkey18>	http://i.imgur.com/zfR7GHX.jpg
+T 1484814080 18<24murkey18>	sorry i'm not a photographer :P
+T 1484814080 18<22munchT18>	nice
+T 1484814080 18<24murkey18>	are you feeling any better, munchT?
+T 1484814080 18<22munchT18>	sort of, my stomach isn't awful anymore
+T 1484814080 18<24murkey18>	:)
+T 1484814080 18<22munchT18>	thanks for asking
+T 1484814080 18<24murkey18>	yw
+T 1484814080 18<29pikajude18>	darn it
+T 1484814080 18<29pikajude18>	i thought having gmk 9009 would bring me happiness
+T 1484814080 18<29pikajude18>	but i'm still sad and alone
+T 1484814080 18<24murkey18>	daytime pic: http://i.imgur.com/Ux2aQ9N.jpg
+T 1484814080 18<29pikajude18>	nice board
+T 1484814080 18<29pikajude18>	which keyboard is that
+T 1484814080 18<24murkey18>	it's a Face.W pcb, low-profile alu case from massdrop, custom plate from lasergist
+T 1484814080 18<29pikajude18>	oh ok
+T 1484814080 18<24murkey18>	brand new clears are so stiff :D
+T 1484814080 18<29pikajude18>	( ͡° ͜ʖ ͡°)
+T 1484814080 18<24murkey18>	( ͝° ͜ʖ͡°)
+T 1484814080 18<24murkey18>	9009 is nice looking
+T 1484814080 18<29pikajude18>	it is
+T 1484814080 18<29pikajude18>	but it doesn't solve the problem
+T 1484814080 18<24murkey18>	i like the stepped ctrl key
+T 1484814080 18<29pikajude18>	yea
+T 1484814080 18<29pikajude18>	i use the stepped capslock key because i like the capslock
+T 1484814080 18<29pikajude18>	symbol
+T 1484814080 18<29pikajude18>	even though i use it as ctrl
+T 1484814080 18<29pikajude18>	maybe i should get a hhkb
+T 1484814080 18<29pikajude18>	hmm. nope
+T 1484814080 18<24murkey18>	it definitely doesn't look like a lock to me
+T 1484814080 18<24murkey18>	hah
+T 1484814080 18<29pikajude18>	it looks like a boat with a nipple
+T 1484814080 18<29SlabDabs18>	i'd clack it
+T 1484814080 18<28TraceEv18>	murkey: what keycap set is that?
+T 1484814080 18<24murkey18>	TraceEv: https://www.originativeco.com/products/classic-black
+T 1484814080 18<29pikajude18>	TraceEv: is that a reflex reference
+T 1484814080 18<29pikajude18>	nice, black on black
+T 1484814080 18<24murkey18>	definitely one of my favorite sets. the light catches it in a really nice way
+T 1484814080 18<29pikajude18>	it wouldn't work on a case that isn't black
+T 1484814080 18<24murkey18>	probably true
+T 1484814080 18<29pikajude18>	#opinions
+T 1484814080 18<29pikajude18>	also it doesn't work if you can't buy it because it's sold out
+T 1484814080 18<24murkey18>	although i think this setup looks better than with just a all-black case
+T 1484814080 18<29pikajude18>	it has a nice look
+T 1484814080 18<29dvorak18>	quick question: is a plate needed for a pcb mounted keyboard?
+T 1484814080 18<24murkey18>	contrast
+T 1484814080 18<29pikajude18>	i love contrast
+T 1484814080 18<29pikajude18>	i'm a single color case person though
+T 1484814080 18<24murkey18>	yeah? you always match your plate?
+T 1484814080 18<29pikajude18>	i've only ever owned one mech
+T 1484814080 18<24murkey18>	ah :)
+T 1484814080 18<29pikajude18>	so technically yes
+T 1484814080 18<29pikajude18>	always
+T 1484814080 18<29dvorak18>	a plate is needed for a pcb mounted keyboard?
+T 1484814080 18<29pikajude18>	dvorak: i don't know so i'm not answering
+T 1484814080 18<29dvorak18>	k
+T 1484814080 18<24murkey18>	dvorak: not required, but unless you have a very stiff PCB i'd recommend it
+T 1484814080 18<24murkey18>	( ͡° ͜ʖ ͡°)
+T 1484814080 18*	29pikajude uses dvorak
+T 1484814080 18<28TraceEv18>	murkey: Thanks.  That's a sharp looking board you have there.
+T 1484814080 18<28TraceEv18>	pikajude: not sure I understand the question.
+T 1484814080 18<24murkey18>	ty
+T 1484814080 18<29dvorak18>	nah it's relatively short. winkeyless is pretty gud m8
+T 1484814080 18<29pikajude18>	TraceEv: it's a no then
+T 1484814080 18<29dvorak18>	specifically the b.mini design
+T 1484814080 18<29pikajude18>	b.mini would be so good if they made alu cases
+T 1484814080 18<29pikajude18>	but that would be expensive probably
+T 1484814080 18<24murkey18>	he used to sell them
+T 1484814080 18<24murkey18>	or at least plates
+T 1484814080 18<29pikajude18>	damn you, b.mini guy
+T 1484814080 18<24murkey18>	lol. he's nice
+T 1484814080 18<29dvorak18>	and better customer service than most companies
+T 1484814080 18<24murkey18>	sounded like he was looking for a vendor for a while
+T 1484814080 18<29dvorak18>	he actually follows up on your order
+T 1484814080 18<24murkey18>	^
+T 1484814080 18<29dvorak18>	now that's quality service
+T 1484814080 18<29pikajude18>	that's 100% better than gon
+T 1484814080 18<24murkey18>	haha
+T 1484814080 18<29dvorak18>	you know when I emailed him about building a case out of wood( because he noticed that I didn't buy a case) he cringed
+T 1484814080 18<24murkey18>	y tho
+T 1484814080 18<29dvorak18>	I save money and I also have a very nice piece of wood that is just begging to be carved
+T 1484814080 18<24murkey18>	why would he cringe?
+T 1484814080 18<29dvorak18>	"Wow… out of wood…" - Winkeyless
+T 1484814080 18<24murkey18>	odd response
+T 1484814080 18<29catfriend18>	hi
+T 1484814080 18<24murkey18>	:3
+T 1484814080 18<29dvorak18>	maybe it was his odd way of persuading me to buy more stuff from his store lol
+T 1484814080 18<24murkey18>	hah. "well you could technically get an alu or wood case. you COULD do that. if you want to be one of THOSE people"
+T 1484814080 18<29dvorak18>	"what do you have against wood people"
+T 1484814080 18<28slaytaner18>	dvorak they're too flammable
+T 1484814080 18<29dvorak18>	well, yeah. It's wood.
+T 1484814080 18<26switchy18>	heh, I didn't realise that was a nick and I was very confused
+T 1484814080 18<24murkey18>	lol
+T 1484814080 18<28slaytaner18>	dvorak wood people are people too, unlike Larry Ellison
+T 1484814080 18<28slaytaner18>	rip switchy
+T 1484814080 18<26switchy18>	hi slaytaner
+T 1484814080 18<26switchy18>	slaytaner: it's too cold
+T 1484814080 18<28slaytaner18>	switchy I saw it was 70F at the open
+T 1484814080 18<28slaytaner18>	in melbourne
+T 1484814080 18<26switchy18>	freezing
+T 1484814080 18<26switchy18>	awful
+T 1484814080 18<26switchy18>	slaytaner: it's going to rain like fuck tomorrow
+T 1484814080 18<26switchy18>	and probably be cold too
+T 1484814080 18<26switchy18>	I just want it to stay fuck-off hot for a while
+T 1484814080 18<28slaytaner18>	switchy blame climate change
+T 1484814080 18<26switchy18>	slaytaner: okay
+T 1484814080 18<29pikajude18>	it rained like fuck today here in california
+T 1484814080 18<29pikajude18>	at least i think it did
+T 1484814080 18<29pikajude18>	i don't know how fuck rains
+T 1484814080 18<28slaytaner18>	they don't think it be like it is, but it do

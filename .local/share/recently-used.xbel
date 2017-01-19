@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/peterzen/Downloads" added="2016-09-08T18:50:28Z" modified="2017-01-09T13:39:28Z" visited="2016-09-08T18:50:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2017-01-09T13:39:28Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/VeraCrypt/myVolume" added="2016-10-18T07:00:27Z" modified="2017-01-11T17:57:27Z" visited="2016-10-18T07:00:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="veracrypt" exec="&apos;veracrypt %u&apos;" modified="2017-01-11T17:57:27Z" count="25"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/RevicedSystem/.git/COMMIT_EDITMSG" added="2016-11-21T20:42:03Z" modified="2016-12-28T11:06:53Z" visited="2016-11-21T20:42:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-28T11:06:53Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/blackboard-files" added="2016-12-09T15:31:38Z" modified="2016-12-22T21:11:44Z" visited="2016-12-09T15:31:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2016-12-22T21:11:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/blackboard-files/output.xml" added="2016-12-09T15:32:39Z" modified="2017-01-09T10:33:41Z" visited="2016-12-09T15:32:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-09T10:33:41Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/PHP/goVoyage/.env" added="2016-12-09T19:21:20Z" modified="2016-12-19T20:53:56Z" visited="2016-12-09T19:21:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T19:21:20Z" count="2"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2016-12-19T20:53:56Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/blackboard-files.zip" added="2016-12-17T21:25:25Z" modified="2016-12-22T21:12:30Z" visited="2016-12-17T21:25:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-12-22T21:12:30Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-19%2012%3A01%3A14.png" added="2016-12-19T11:01:45Z" modified="2016-12-19T11:01:45Z" visited="2016-12-19T11:01:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2016-12-19T11:01:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Agenda_2016-12-19.pdf" added="2016-12-19T11:15:19Z" modified="2016-12-19T11:15:19Z" visited="2016-12-19T11:15:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-19T11:15:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/opdracht-netwerken-week5(2).pdf" added="2016-12-19T12:48:04Z" modified="2016-12-19T12:48:04Z" visited="2016-12-19T12:48:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-19T12:48:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/opdrachten%20OS%20week%205.pdf" added="2016-12-19T12:50:34Z" modified="2016-12-19T12:50:34Z" visited="2016-12-19T12:50:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-19T12:50:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/7.%20Wireshark_Ethernet_ARP_v6.01.pdf" added="2016-12-19T13:00:56Z" modified="2016-12-19T13:00:56Z" visited="2016-12-19T13:00:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-19T13:00:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/.git/MERGE_MSG" added="2016-12-19T14:43:31Z" modified="2016-12-19T14:43:37Z" visited="2016-12-19T14:43:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-19T14:43:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Formal%20letter%20clients" added="2016-12-19T22:05:10Z" modified="2016-12-19T22:05:10Z" visited="2016-12-19T22:05:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-19T22:05:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/invitation-meeting-2017-01-09.pdf" added="2016-12-19T22:42:39Z" modified="2016-12-19T22:42:39Z" visited="2016-12-19T22:42:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-19T22:42:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-20%2011%3A14%3A37.png" added="2016-12-20T10:14:40Z" modified="2016-12-20T10:14:40Z" visited="2016-12-20T10:14:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2016-12-20T10:14:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-20%2011:14:37.png" added="2016-12-20T10:15:00Z" modified="2016-12-20T10:15:00Z" visited="2016-12-20T10:15:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-20T10:15:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-20%2013%3A37%3A36.png" added="2016-12-20T12:37:44Z" modified="2016-12-20T12:37:44Z" visited="2016-12-20T12:37:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2016-12-20T12:37:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/RevicedSystem/.env" added="2016-12-20T16:01:55Z" modified="2016-12-20T18:29:26Z" visited="2016-12-20T16:01:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2016-12-20T18:29:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.gitconfig" added="2016-12-20T16:17:17Z" modified="2016-12-20T16:17:17Z" visited="2016-12-20T16:17:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-20T16:17:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.ssh/id_rsa.pub" added="2016-12-20T16:31:50Z" modified="2016-12-20T16:31:50Z" visited="2016-12-20T16:31:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2016-12-20T16:31:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-20%2020%3A43%3A34.png" added="2016-12-20T19:43:36Z" modified="2016-12-20T19:43:36Z" visited="2016-12-20T19:43:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2016-12-20T19:43:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-20%2020:43:34.png" added="2016-12-20T19:44:24Z" modified="2016-12-20T19:44:24Z" visited="2016-12-20T19:44:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-20T19:44:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Wireshark/week3-dl-zip/ethernet-ethereal-trace-1" added="2016-12-21T08:58:56Z" modified="2016-12-21T08:58:56Z" visited="2016-12-21T08:58:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="wireshark" exec="&apos;wireshark %u&apos;" modified="2016-12-21T08:58:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/mysql-connector-java-5.1.40.tar.gz" added="2016-12-21T15:03:42Z" modified="2016-12-21T15:03:42Z" visited="2016-12-21T15:03:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-12-21T15:03:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-a7YNsw/mysql-connector-java-5.1.40/README" added="2016-12-21T15:04:02Z" modified="2016-12-21T15:04:02Z" visited="2016-12-21T15:04:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-21T15:04:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-uYvrp8/mysql-connector-java-5.1.40/README.txt" added="2016-12-21T15:05:01Z" modified="2016-12-21T15:05:01Z" visited="2016-12-21T15:05:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-21T15:05:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/UnwdmiGenerator22.rar" added="2016-12-22T21:08:37Z" modified="2016-12-22T21:11:32Z" visited="2016-12-22T21:08:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-12-22T21:11:32Z" count="2"/>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-22T21:09:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-Ljz5Da/readme.txt" added="2016-12-22T21:09:18Z" modified="2016-12-22T21:09:18Z" visited="2016-12-22T21:09:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-22T21:09:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Leertaak2_C1_FemkeHoornveld-PeterSchriever%20(1).pdf" added="2016-12-23T13:27:19Z" modified="2016-12-23T13:27:19Z" visited="2016-12-23T13:27:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-23T13:27:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Documents/todoRev" added="2016-12-27T18:18:44Z" modified="2016-12-27T18:18:45Z" visited="2016-12-27T18:18:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-27T18:18:45Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/RevicedSystem/.git/MERGE_MSG" added="2016-12-28T11:46:27Z" modified="2016-12-28T11:50:21Z" visited="2016-12-28T11:46:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-28T11:50:21Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/RevicedSystem/resources/assets/images/bg18.jpg" added="2016-12-28T14:01:09Z" modified="2016-12-28T14:01:09Z" visited="2016-12-28T14:01:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2016-12-28T14:01:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202016-12-28%2015%3A12%3A48.png" added="2016-12-28T14:12:50Z" modified="2016-12-28T14:12:50Z" visited="2016-12-28T14:12:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2016-12-28T14:12:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/2016-2017%20P2%20wk%2047-06%20Tentamens%20-%20Exams%20(1).xlsx" added="2017-01-02T14:59:51Z" modified="2017-01-02T14:59:51Z" visited="2017-01-02T14:59:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 4.3" exec="&apos;soffice %u&apos;" modified="2017-01-02T14:59:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/.git/COMMIT_EDITMSG" added="2017-01-02T21:12:06Z" modified="2017-01-02T21:15:56Z" visited="2017-01-02T21:12:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-02T21:15:56Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/todo-2017-01-03.txt" added="2017-01-03T09:41:55Z" modified="2017-01-03T15:22:38Z" visited="2017-01-03T09:41:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-03T15:22:38Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-03%2014%3A20%3A07.png" added="2017-01-03T13:20:46Z" modified="2017-01-03T13:20:46Z" visited="2017-01-03T13:20:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-01-03T13:20:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Java/2-2-infrastructures-leertaak-2/src/com/tempus_indicium/app/db/Measurement.java" added="2017-01-03T17:15:25Z" modified="2017-01-03T17:15:25Z" visited="2017-01-03T17:15:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-03T17:15:25Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Taalbestanden%20v2%20(1).zip" added="2017-01-05T13:24:02Z" modified="2017-01-05T13:24:02Z" visited="2017-01-05T13:24:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-01-05T13:24:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Reviced-LanguageFiles-Pending-Translation%20(1).zip" added="2017-01-05T13:24:55Z" modified="2017-01-05T13:24:55Z" visited="2017-01-05T13:24:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-01-05T13:24:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-7ogb2K/Reviced-LanguageFiles-Pending-Translation/mail/invoice.php" added="2017-01-05T13:25:01Z" modified="2017-01-05T13:25:01Z" visited="2017-01-05T13:25:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-05T13:25:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/datawecanprovide.pdf" added="2017-01-09T10:41:55Z" modified="2017-01-09T10:41:55Z" visited="2017-01-09T10:41:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-09T10:41:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/Conceptmeetingagenda%20(1).pdf" added="2017-01-09T10:52:04Z" modified="2017-01-09T10:52:04Z" visited="2017-01-09T10:52:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-09T10:52:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/eigenagenda.pdf" added="2017-01-09T11:38:58Z" modified="2017-01-09T11:38:58Z" visited="2017-01-09T11:38:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-09T11:38:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/avrdude-6.3.tar.gz" added="2017-01-09T13:38:33Z" modified="2017-01-09T13:38:33Z" visited="2017-01-09T13:38:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-01-09T13:38:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-0fYZRB/avrdude-6.3/README" added="2017-01-09T13:38:49Z" modified="2017-01-09T13:38:49Z" visited="2017-01-09T13:38:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-09T13:38:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.cache/.fr-NG8UuF/avrdude-6.3/install-sh" added="2017-01-09T13:39:10Z" modified="2017-01-09T13:39:10Z" visited="2017-01-09T13:39:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-09T13:39:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-09%2019%3A54%3A25.png" added="2017-01-09T18:55:10Z" modified="2017-01-09T18:55:10Z" visited="2017-01-09T18:55:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-01-09T18:55:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-09%2019:54:25.png" added="2017-01-09T18:55:23Z" modified="2017-01-09T18:55:23Z" visited="2017-01-09T18:55:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-09T18:55:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/peterzen/SETTINGS/noobs.conf" added="2017-01-11T09:34:10Z" modified="2017-01-11T09:34:10Z" visited="2017-01-11T09:34:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-11T09:34:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/peterzen/SETTINGS/wpa_supplicant.conf" added="2017-01-11T09:34:39Z" modified="2017-01-11T09:34:39Z" visited="2017-01-11T09:34:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-11T09:34:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/WeFact_Hosting_4.0.0%20(2).zip" added="2017-01-12T10:02:18Z" modified="2017-01-12T12:21:43Z" visited="2017-01-12T10:02:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-01-12T10:21:31Z" count="2"/>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-12T12:21:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-12%2011%3A44%3A32.png" added="2017-01-12T10:44:34Z" modified="2017-01-12T10:44:34Z" visited="2017-01-12T10:44:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-01-12T10:44:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-12%2011:44:32.png" added="2017-01-12T10:45:16Z" modified="2017-01-12T10:45:16Z" visited="2017-01-12T10:45:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-12T10:45:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-12%2011-44-32.png" added="2017-01-12T10:45:57Z" modified="2017-01-12T10:45:57Z" visited="2017-01-12T10:45:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-12T10:45:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Downloads/registrar-class%20(1).zip" added="2017-01-12T11:08:20Z" modified="2017-01-12T11:08:20Z" visited="2017-01-12T11:08:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2017-01-12T11:08:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/WeFactIntergration" added="2017-01-12T11:13:57Z" modified="2017-01-12T11:13:57Z" visited="2017-01-12T11:13:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2017-01-12T11:13:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/veracrypt1/RevicedCode/WeFactIntergration/examples" added="2017-01-12T11:25:49Z" modified="2017-01-12T11:25:49Z" visited="2017-01-12T11:25:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2017-01-12T11:25:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-14%2016%3A35%3A51.png" added="2017-01-14T15:35:56Z" modified="2017-01-14T15:35:56Z" visited="2017-01-14T15:35:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-01-14T15:35:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/shots/Screenshot%20from%202017-01-14%2016:35:51.png" added="2017-01-14T15:36:18Z" modified="2017-01-14T15:36:34Z" visited="2017-01-14T15:36:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2017-01-14T15:36:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/Python/School/2.1/femke/project2-1/control-units/Makefile" added="2017-01-16T12:57:51Z" modified="2017-01-16T12:57:51Z" visited="2017-01-16T12:57:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2017-01-16T12:57:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/AVR-C/2.1-assignments/week_4/distance.h" added="2017-01-16T13:03:56Z" modified="2017-01-16T13:03:56Z" visited="2017-01-16T13:03:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2017-01-16T13:03:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/Code/AVR-C/2.1-assignments/week_4/distance.c" added="2017-01-16T13:03:56Z" modified="2017-01-16T13:03:56Z" visited="2017-01-16T13:03:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2017-01-16T13:03:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.homestead/Homestead.yaml" added="2017-01-19T10:39:10Z" modified="2017-01-19T10:39:10Z" visited="2017-01-19T10:39:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:39:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/keyrings/user.keystore" added="2017-01-19T10:40:53Z" modified="2017-01-19T10:40:53Z" visited="2017-01-19T10:40:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:40:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/keyrings/user.keystore.1IP6MY" added="2017-01-19T10:41:02Z" modified="2017-01-19T10:41:02Z" visited="2017-01-19T10:41:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:41:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/composer/.htaccess" added="2017-01-19T10:43:21Z" modified="2017-01-19T10:43:21Z" visited="2017-01-19T10:43:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:43:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/gsettings-data-convert" added="2017-01-19T10:44:27Z" modified="2017-01-19T10:44:27Z" visited="2017-01-19T10:44:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:44:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/.converted-launchers" added="2017-01-19T10:44:40Z" modified="2017-01-19T10:44:40Z" visited="2017-01-19T10:44:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:44:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peterzen/.local/share/recently-used.xbel" added="2017-01-19T10:44:47Z" modified="2017-01-19T10:44:47Z" visited="2017-01-19T10:44:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-01-19T10:44:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

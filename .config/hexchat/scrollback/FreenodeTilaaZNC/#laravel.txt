@@ -1,0 +1,503 @@
+T 1484814080 18<20asteele18>	if the docs are there
+T 1484814080 18<20asteele18>	i would say within 1-2 days
+T 1484814080 18<28Utils18>	asteele: I think I know what I did. By using a hasMany relationship, you can get a blocklist but it will only contain ids. So you need to use the belongsTo relationship to get the user from the id.
+T 1484814080 18<28Utils18>	asteele: so it looks like this: http://laravel.io/bin/roNx1
+T 1484814080 18<28Utils18>	Problem is, if you have 10 blocks... you have your query to get the 10 blocks, but you still need to query the user table to get the username so you're doing an additioanl 10 queries just to get that right?
+T 1484814080 18<24blackwater18>	Utils: Auth::user()->blocks()->with('target') will load target users in the same query
+T 1484814080 18<28Utils18>	will try that. also whats the difference between: `Auth::user()->blocks` and `Auth::user()->blocks()` ?
+T 1484814080 18<24blackwater18>	->blocks() is the relation/query object, ->blocks is magic for ->blocks()->get()
+T 1484814080 18<24blackwater18>	which returns a collection
+T 1484814080 18<28Utils18>	ahhhh okay.
+T 1484814080 18<28Utils18>	blackwater: maybe you can explain what's going on here: http://laravel.io/bin/9v9MD both methods of receiving the blocklist well...
+T 1484814080 18<28Utils18>	thelatter, with ->target, has duplicate queries.
+T 1484814080 18<28Utils18>	Ifeel like there shouldn't be duplicate queries?
+T 1484814080 18<24blackwater18>	i dont know why you have duplicate queries
+T 1484814080 18<24blackwater18>	but obviously it did load both targets in the same query
+T 1484814080 18<28Utils18>	I'll block a 3rd user and see if I have 3 queries of the same.
+T 1484814080 18<24blackwater18>	out of curiosity try adding more targets
+T 1484814080 18<24blackwater18>	yes
+T 1484814080 18<28Utils18>	Oh I think I know what I've done.
+T 1484814080 18<28Utils18>	In my code, I do this: `@if (Auth::user()->blocks->isEmpty())` as well
+T 1484814080 18<28Utils18>	If I specified the updated query twice, would it be cached?
+T 1484814080 18<24blackwater18>	do blocks()->exists() rather than blocks->isEmpty
+T 1484814080 18<24blackwater18>	no
+T 1484814080 18<28Utils18>	oh
+T 1484814080 18<24blackwater18>	if you're really trying to cut down, pass the query to the view from the controller
+T 1484814080 18<28Utils18>	I also thought about that too
+T 1484814080 18<28Utils18>	Nice, that works.
+T 1484814080 18<24blackwater18>	e.g. view('some.view.here', ['blocks' => $user->blocks()])
+T 1484814080 18<24blackwater18>	then in the view you do @if($blocks->exists()) ... @foreach($blocks->get() as $block) ...
+T 1484814080 18<28Utils18>	yeah I know about passing data to the view ^^
+T 1484814080 18<28Utils18>	->with should come in mega handy now though. Thank you very much!
+T 1484814080 18<24blackwater18>	should be 1 query for blocks and 1 query for targets assuming you loaded ->with('target')
+T 1484814080 18<24blackwater18>	personally if I'm going to display the results regardless, I do @if(count($blocks = $some->relation)) @foreach($blocks) ...
+T 1484814080 18<24blackwater18>	but that's just my personal preference
+T 1484814080 18<28Utils18>	blackwater: does ->exists() return a boolean?
+T 1484814080 18<24blackwater18>	yes
+T 1484814080 18<25Liona18>	StackOverflow: Showing the month SUM and year SUM in one query http://stackoverflow.com/questions/41733238/showing-the-month-sum-and-year-sum-in-one-query
+T 1484814080 18<25Liona18>	StackOverflow: Select2 - How to set value of id string http://stackoverflow.com/questions/41732951/select2-how-to-set-value-of-id-string
+T 1484814080 18<25Liona18>	StackOverflow: Laravel 5.3 Aggregate Sum with Accessor http://stackoverflow.com/questions/41732941/laravel-5-3-aggregate-sum-with-accessor
+T 1484814080 18<25Liona18>	StackOverflow: Uncaught Error: Bootstrap tooltips require Tether ... http://stackoverflow.com/questions/41733889/uncaught-error-bootstrap-tooltips-require-tether-http-tether-io-at-bootstr
+T 1484814080 18<25Liona18>	StackOverflow: Laravel, pass variable to view http://stackoverflow.com/questions/41733731/laravel-pass-variable-to-view
+T 1484814080 18<25Liona18>	StackOverflow: Showing the month SUM and year SUM in one query http://stackoverflow.com/questions/41733238/showing-the-month-sum-and-year-sum-in-one-query
+T 1484814080 18<19Malgorath18>	I'm setting up a new box for doing laravel, is there a 'preferred' editor to use? maybe one that integrates well with Laravel? I was looking at ATOM but I've heard both good and bad.
+T 1484814080 18<20asteele18>	phpstorm is the boss overlord
+T 1484814080 18<20asteele18>	atom is probably the best if you have to go with free
+T 1484814080 18<20asteele18>	Malgorath ^
+T 1484814080 18<20asteele18>	if you make any money doing development stuff, phpstorm is well worth the money though
+T 1484814080 18<19Malgorath18>	asteele, actually I already have a sub for phpstorm so I'll use it, was looking for something a bit lighter but I guess I'll be 'happy' with this
+T 1484814080 18<20asteele18>	if you want your ide to function well with laravel, the laravel ide helper package might be helpful
+T 1484814080 18<19Malgorath18>	asteele, thats for phpstorm?
+T 1484814080 18<20asteele18>	will be the first result on google for those words
+T 1484814080 18<20asteele18>	it works with many ide's
+T 1484814080 18<20asteele18>	it generates a helper facade for all of laravels facades
+T 1484814080 18<20asteele18>	er
+T 1484814080 18<20asteele18>	a helper file for the facades*
+T 1484814080 18<26sisve18>	You mean IDEAJ? ;)
+T 1484814080 18<26sisve18>	I guess IdeaJ is the opposite of "a bit lighter".
+T 1484814080 18<26sisve18>	And it's appearantly called "IntelliJ IDEA"
+T 1484814080 18<20asteele18>	wat
+T 1484814080 18<26sisve18>	It's when you've had enough and want it all.
+T 1484814080 18<20asteele18>	the intellij ide's are strong
+T 1484814080 18<26sisve18>	It's the parent of phpstorm.
+T 1484814080 18<20asteele18>	i know what it is  lol just trying to understand what you are talking about
+T 1484814080 18<26sisve18>	I'm rambling.
+T 1484814080 18<19Malgorath18>	sisve, its okay, happens :D
+T 1484814080 18<20asteele18>	that addon basically makes a huge php file with actual php docs
+T 1484814080 18<20asteele18>	for all of laravels classes that get used as facades and such all over
+T 1484814080 18<20asteele18>	so it works with any ide that understands phpdocs
+T 1484814080 18<20asteele18>	a lot of them do that, phpstorm just provides you with more functionality related to php docs
+T 1484814080 18<20asteele18>	Malgorath imo though, its worth spending 15-30 mins googling and slimming down your phpstorm install if its acting 'heavy' for you, rather than switching ide's
+T 1484814080 18<20asteele18>	you can make it as minimal and light as you want, most people just leave a lot of the default stuff on and have lots of plugins running
+T 1484814080 18<19Malgorath18>	asteele, its actually more I haven't been using it for a while, using VIM mostly at work and setting up to do some work from home tonight
+T 1484814080 18<20asteele18>	i have my dev environment setup so that i can use all of my native and best tools, regardless of the VM/env i am working with
+T 1484814080 18<26sisve18>	I have my IDE setup so I can quickly start Cities Skylines at any time.
+T 1484814080 18<20asteele18>	i guess you dont have phpstorm at home or something, or your home env is different from your normal dev?
+T 1484814080 18<19Malgorath18>	asteele, No both are running 16.04 I just have not setup this computer before from home to do work
+T 1484814080 18<20asteele18>	in that case yeah you have vim and nano if you dont wanna download anything ;p
+T 1484814080 18<19Malgorath18>	asteele, I'm just being a bit lazy and not wanting to write out my .vimrc file tbh :D
+T 1484814080 18<20asteele18>	go download phpstorm then u lazy bastad
+T 1484814080 18<19Malgorath18>	oh I already did while we was chatting, and setup that laravel helper ide thingy
+T 1484814080 18<20asteele18>	ok
+T 1484814080 18<20asteele18>	well thats about as much of a 'preferred' editor setup as you can get imo
+T 1484814080 18<20asteele18>	besides getting all the little fixins going
+T 1484814080 18<20asteele18>	like xdebug within your VM and all that
+T 1484814080 18<20asteele18>	thats side stuff
+T 1484814080 18<19Malgorath18>	I setup Homestead since it kinda is out of the box goodness
+T 1484814080 18<20asteele18>	you should be good to go then
+T 1484814080 18<20asteele18>	with phpstorm and the ide helper
+T 1484814080 18<20asteele18>	you should have almost full autocompletion and docs
+T 1484814080 18<20asteele18>	not a lot more you can ask for
+T 1484814080 18<19Malgorath18>	asteele, thanks
+T 1484814080 18<20asteele18>	np
+T 1484814080 18<20asteele18>	is it working?
+T 1484814080 18<28alexweis_18>	what term can I use to mean "a web api that serves machine-consumable data, rather than HTML documents"
+T 1484814080 18<26sisve18>	alexweissman, "api".
+T 1484814080 18<20asteele18>	alexweissman what is 'machine consumable data' ?
+T 1484814080 18<20alexweissman18>	JSON, XML, etc
+T 1484814080 18<26sisve18>	machine goes nom nom nom json
+T 1484814080 18<26sisve18>	I bet we could build a json parser that made sounds.
+T 1484814080 18<20asteele18>	i dont think an api ever conventionally serves html documents
+T 1484814080 18<20asteele18>	so as sisve said, an api generally refers to that
+T 1484814080 18<20alexweissman18>	I think a lot of people call it a "REST API"
+T 1484814080 18<20alexweissman18>	but HTML docs can be served RESTfully as well.
+T 1484814080 18<20asteele18>	REST api implies something different
+T 1484814080 18<26sisve18>	A lot of people are wrong. A rest api is a api built on rest standard. The rest is the important thing there, not the nom nom nom json
+T 1484814080 18<20alexweissman18>	yeah I know
+T 1484814080 18<20alexweissman18>	but this is a marketing question ;-)
+T 1484814080 18<20asteele18>	O_O
+T 1484814080 18<20asteele18>	marketers dont know about json vs html
+T 1484814080 18<20asteele18>	so i think the question is flawed
+T 1484814080 18<20asteele18>	;o
+T 1484814080 18<26sisve18>	alexweissman, "restful api returning json/xml"
+T 1484814080 18<20alexweissman18>	I need to say "this is a user management application, but since it's actually a full-fledged web framework, you can build any webpage and also ___ APIs with it"
+T 1484814080 18<20alexweissman18>	ooh
+T 1484814080 18<20alexweissman18>	like.
+T 1484814080 18<26sisve18>	alexweissman, "normal" is the word you're looking for.
+T 1484814080 18<20alexweissman18>	haha
+T 1484814080 18<20asteele18>	i would say just
+T 1484814080 18<20asteele18>	you can build any webpage or [enterprise] API with it
+T 1484814080 18<20asteele18>	if its marketing content
+T 1484814080 18<20alexweissman18>	I like that
+T 1484814080 18<20asteele18>	if either party reads that and is interested
+T 1484814080 18<20asteele18>	they click to read more
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20asteele18>	where you actually talk about wtf is going on
+T 1484814080 18<20alexweissman18>	basically, the front page will have a "market to the boss" section, and a "market to the dev" section
+T 1484814080 18<20asteele18>	saying you are building an API
+T 1484814080 18<20asteele18>	implies that its not a standard html website
+T 1484814080 18<26sisve18>	An enterprise api is like a normal api, except it is the boss's son that does the coding.
+T 1484814080 18<20alexweissman18>	boss will get pretty pictures and features
+T 1484814080 18<20alexweissman18>	ha
+T 1484814080 18<20asteele18>	he said marketing lol, so yeah, enterprise is a pure marketing word
+T 1484814080 18<20asteele18>	but it solidifies the concept if your target market is larger companies
+T 1484814080 18<20alexweissman18>	actually, my target market tends to be the little guys
+T 1484814080 18<20asteele18>	then it doesnt add much value
+T 1484814080 18<20alexweissman18>	with one poor sob "tech guy"
+T 1484814080 18<20alexweissman18>	well by "little" I mean 5-50 employees
+T 1484814080 18<20asteele18>	if the lonely dev reads 'you can build any API with it' he wil immediately think, oh really, can i build a clean restful json api? and click for more details
+T 1484814080 18<20alexweissman18>	well TBH if his priority is just developing a JSON api and nothing else, I'd probably direct him to Laravel or Slim
+T 1484814080 18<20asteele18>	well i dont know what your product does or your market
+T 1484814080 18<20asteele18>	im just speaking to my opinion of the thought of the average dev
+T 1484814080 18<20asteele18>	nobody is actively looking to develop XML apis....
+T 1484814080 18<20alexweissman18>	thank god
+T 1484814080 18<20alexweissman18>	well, there are a lot of legacy applications though...
+T 1484814080 18<20asteele18>	what is your product
+T 1484814080 18<20alexweissman18>	basically, it's a fully-functioning barebones application that handles user account management
+T 1484814080 18<20asteele18>	does it cost money
+T 1484814080 18<20alexweissman18>	and, it's also a fully functional web framework, based largely on Slim and Laravel
+T 1484814080 18<20alexweissman18>	no, it's FOSS
+T 1484814080 18<20alexweissman18>	built on top of Slim and Laravel*
+T 1484814080 18<20asteele18>	once they set it up
+T 1484814080 18<20asteele18>	do they use your docs and guides? or laravel? or symfony?
+T 1484814080 18<20alexweissman18>	Our docs, Laravel's for Eloquent, Slim's for HTTP/PSR-7, Twig for templating
+T 1484814080 18<20alexweissman18>	our docs are the starting point for everything though, and give basic examples
+T 1484814080 18<20asteele18>	so the main selling point is?
+T 1484814080 18<20alexweissman18>	https://learn.userfrosting.com
+T 1484814080 18<20alexweissman18>	the main selling point is, a lot of crap is already implemented for you
+T 1484814080 18<20alexweissman18>	all you have to do is extend it with your custom features and widgets
+T 1484814080 18<20asteele18>	based on the homepage it would seem only 'user management' is impleneted for me
+T 1484814080 18<20alexweissman18>	i.e., application-specific features and widgets
+T 1484814080 18<20asteele18>	as a senior dev, that seems like a useless point to me, what do you mean you provide user management
+T 1484814080 18<20alexweissman18>	sorry, I'm working on the new version of the main website
+T 1484814080 18<20alexweissman18>	learn is just the documentation website
+T 1484814080 18<20asteele18>	sorry only trying to provide useful feedback
+T 1484814080 18<20asteele18>	no offense intended
+T 1484814080 18<20alexweissman18>	www.userfrosting.com is the old main website
+T 1484814080 18<20alexweissman18>	I'm working on the update for the new version
+T 1484814080 18<20alexweissman18>	no, that's a good point
+T 1484814080 18<20alexweissman18>	but yeah, you're thinking like a senior dev ;-)
+T 1484814080 18<20alexweissman18>	I'm targeting non-techs, and amateur techs
+T 1484814080 18<20asteele18>	lol
+T 1484814080 18<20asteele18>	and i understand that, but i still think, even to be successful with a junior dev, you need to be clear about the value add
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20asteele18>	provides user management is not clear to me at all, what does it do? should i just use sentry?
+T 1484814080 18<25Liona18>	StackOverflow: Take variable outside foreach loop in Laravel http://stackoverflow.com/questions/41734629/take-variable-outside-foreach-loop-in-laravel
+T 1484814080 18<25Liona18>	StackOverflow: Request::query(&#39;sort_by&#39;) always returns n... http://stackoverflow.com/questions/41734502/requestquerysort-by-always-returns-null-in-view-on-laravel-5-3
+T 1484814080 18<25Liona18>	StackOverflow: Joining a table where reference exists http://stackoverflow.com/questions/41734262/joining-a-table-where-reference-exists
+T 1484814080 18<20alexweissman18>	well, you could
+T 1484814080 18<20alexweissman18>	but you're going to have to integrate that yourself
+T 1484814080 18<20alexweissman18>	set up all your endpoints, all your forms and pages, all your frontend widgets
+T 1484814080 18<20asteele18>	i would think about changing the tagline to something more direct for developers
+T 1484814080 18<20asteele18>	i really like the concept
+T 1484814080 18<20alexweissman18>	well, my theory is this:
+T 1484814080 18<20alexweissman18>	1. Boss has tech guy develop some web application
+T 1484814080 18<20alexweissman18>	2. Boss says "looks great, but can you put it behind a login?"
+T 1484814080 18<26sisve18>	Have you ever had a customer that said "I want my login page to look exactly like that other guy" so you can reuse the forms and pages?
+T 1484814080 18<20alexweissman18>	for internal stuff, most people really don't care how it looks
+T 1484814080 18<20alexweissman18>	as long as it works efficiently
+T 1484814080 18<20alexweissman18>	and it's all completely extendable
+T 1484814080 18<20asteele18>	that seems like a very narrow problem to solve
+T 1484814080 18<20alexweissman18>	you can overwrite any template in your custom sprinkle
+T 1484814080 18<20alexweissman18>	you'd be surprised...
+T 1484814080 18<26sisve18>	You could add a simple basic-auth middleware on those routes.
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20alexweissman18>	but then you need a way to manage users
+T 1484814080 18<20alexweissman18>	edit profiles, disable accounts, etc
+T 1484814080 18<20asteele18>	if that is your target market
+T 1484814080 18<20alexweissman18>	assign permissions
+T 1484814080 18<20asteele18>	i would aim more directly for it
+T 1484814080 18<20asteele18>	you dont want laravel developers...
+T 1484814080 18<20alexweissman18>	go ahead and google "php user management"
+T 1484814080 18<26sisve18>	I'm pretty sure that will never happen from someone that forgot to tell you about the login requirement up-front.
+T 1484814080 18<20asteele18>	you want 'add a simple and secure login system to your php content'
+T 1484814080 18<20alexweissman18>	hmm
+T 1484814080 18<26sisve18>	I'm always this negative and bitter.
+T 1484814080 18<20alexweissman18>	I actually do like the sound of that
+T 1484814080 18<20asteele18>	im also a very skeptical person, but im trying to give you as real and useful feedback as i can
+T 1484814080 18<20asteele18>	you need to target your market very directly
+T 1484814080 18<20alexweissman18>	well the problem asteele is that I also have to balance expectations
+T 1484814080 18<20asteele18>	if you are targetting anyone who is a laravel dev, they will look at that homepage and be like what the hell
+T 1484814080 18<20alexweissman18>	that homepage is changing
+T 1484814080 18<26sisve18>	But you're not targetting Laravel developers, right?
+T 1484814080 18<20alexweissman18>	I don't want people to think that the'll be able to just plug in their ball of spaghetti code
+T 1484814080 18<20alexweissman18>	right
+T 1484814080 18<20asteele18>	and that is good, but im just trying to make you think about these things mostly :)  To think like a business, who is your market really? and how should you target them
+T 1484814080 18<20alexweissman18>	the target market is amateur devs, and devs who are still stuck in the 00's
+T 1484814080 18<20alexweissman18>	who tend to be working at smaller companies or solo
+T 1484814080 18<20asteele18>	so you need to have a huge solid answer to: why would that market not just use laravel, or symfony?  what separates those people from the market you are targetting?
+T 1484814080 18<20alexweissman18>	well, they could start with Laravel
+T 1484814080 18<20asteele18>	are people using laravel really going to upgrade to your system? that seems like a huge stretch to me
+T 1484814080 18<20alexweissman18>	but they're not going to see any value in reimplementing their spaghetti in Laravel
+T 1484814080 18<20alexweissman18>	no, I'm not targeting current Laravel users
+T 1484814080 18<20alexweissman18>	we don't even use the entire Laravel framework
+T 1484814080 18<26sisve18>	Waaait. Are you using some parts of it?
+T 1484814080 18<20alexweissman18>	yep
+T 1484814080 18<20asteele18>	okay so back to my Q, why would someone use yours?
+T 1484814080 18<26sisve18>	Are you actually building a product you intend to sell on Laravel?
+T 1484814080 18<20asteele18>	not trying to be a dick sorry if im being tough
+T 1484814080 18<20asteele18>	no he said its FOSS
+T 1484814080 18<20alexweissman18>	no, sisve it is FOSS
+T 1484814080 18<20alexweissman18>	https://github.com/userfrosting/UserFrosting/blob/dev/app/sprinkles/core/composer.json
+T 1484814080 18<20asteele18>	im only giving you tough questions that i think you should have answers to, and if you can, you will have a clear idea on how to execute
+T 1484814080 18<26sisve18>	alexweissman, you're not supporting Laravel 5.1 LTS?
+T 1484814080 18<20alexweissman18>	yeah I appreciate that
+T 1484814080 18<20alexweissman18>	LTS?
+T 1484814080 18<26sisve18>	long-term support.
+T 1484814080 18<26sisve18>	The only Laravel version supported for 2 years instead of the usual 6 months.
+T 1484814080 18<20alexweissman18>	oh
+T 1484814080 18<20alexweissman18>	I think there are a few things in 5.2 we depend on
+T 1484814080 18<20alexweissman18>	should probably bump that to 5.3, actually...
+T 1484814080 18<26sisve18>	Laravel 5.3 requires PHP 5.6, so you can increase your required php version too.
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<26sisve18>	Also, use "5.3.*" as requirement, not ^5.3
+T 1484814080 18<26sisve18>	Laravel is not semver, and 5.4 is not 100% compatible with 5.3
+T 1484814080 18<20alexweissman18>	yeah the composer docs weren't super-clear about that
+T 1484814080 18<20alexweissman18>	5.5 is EOL so I shouldn't feel bad about bumping the min version to 5.6
+T 1484814080 18<26sisve18>	PHP 5.5 that is.
+T 1484814080 18<20alexweissman18>	but anyway asteele, maybe I should emphasize the "rapid prototype" aspect of it
+T 1484814080 18<26sisve18>	Note that 5.6 is also out of active support and is currently only receiving security fixes.
+T 1484814080 18<26debjit18>	Can anyone help me with Eloquent ORM? I want to update value of the result with 10%(or dynamic) and return to a function
+T 1484814080 18<20alexweissman18>	debjit: not sure what you mean
+T 1484814080 18<26sisve18>	debjit, and what have you tried?
+T 1484814080 18<26debjit18>	well i am truing to get result as an aray then take value and key separate and update value and then add them as array
+T 1484814080 18<26debjit18>	this is not that smart i think
+T 1484814080 18<20alexweissman18>	asteele: this is the kind of stuff I am competing with: https://codecanyon.net/item/pro-login-advanced-secure-php-user-management-system/12388905
+T 1484814080 18<26sisve18>	alexweissman, so, how will you earn money on this?
+T 1484814080 18<20alexweissman18>	debjit: can you paste your code in gist or http://laravel.io/bin
+T 1484814080 18<20alexweissman18>	sisve: I don't really have any monetization plans ATM
+T 1484814080 18<20alexweissman18>	people donate to the project sometimes
+T 1484814080 18<26sisve18>	alexweissman, then stop doing whatever you're doing. This will take huge amounts of your time, and Laravel is not an appropriate framework to be building products on.
+T 1484814080 18<26debjit18>	well it will take some time but yah sure.....
+T 1484814080 18<26sisve18>	alexweissman, every 6 months you get an upgrade with breaking changes, and the old version is no longer supported.
+T 1484814080 18<26sisve18>	alexweissman, you cannot maintain a product on those conditions.
+T 1484814080 18<20alexweissman18>	well, the alternative is to write my own ORM
+T 1484814080 18<20alexweissman18>	and my own HTTP router
+T 1484814080 18<26sisve18>	alexweissman, Symfony has your back.
+T 1484814080 18<26sisve18>	Dont ask why Symfony took your spine...
+T 1484814080 18<20alexweissman18>	my spine!
+T 1484814080 18<26sisve18>	alexweissman, https://symfony.com/doc/current/contributing/code/bc.html
+T 1484814080 18<26sisve18>	alexweissman, that page is pure erotic fan-fiction for maintainers.
+T 1484814080 18<20alexweissman18>	well, how bad could the BC in new versions of Laravel be?
+T 1484814080 18<26sisve18>	Heh. HEHEH. HAHAHAHAHAAA!
+T 1484814080 18<20alexweissman18>	them's some nice standards there
+T 1484814080 18<26sisve18>	Laravel 5.2 introduced changes to the Route object, now every Route has a reference to the Router.
+T 1484814080 18<20alexweissman18>	I really like Eloquent and the query builder, though
+T 1484814080 18<20asteele18>	i just dont think there is any room for a 'framework' on top of laravel and symfony
+T 1484814080 18<20asteele18>	both laravel and symfony make very litte money, i guess i am biased, i think of ways that you can be profitable and make money, not just general FOSS
+T 1484814080 18<26sisve18>	Laravel 5.2 did "The password reminder engine has been changed to provide greater developer flexibility when validating passwords, ..."
+T 1484814080 18<26sisve18>	Have fun debugging exactly what that means.
+T 1484814080 18<20alexweissman18>	oh, well I have my own business..
+T 1484814080 18<20alexweissman18>	our business software is built on top of UserFrosting so...
+T 1484814080 18<20asteele18>	if you just want some general FOSS, you should just get very clear as to what the benefit for a FOSS developer is.  think about the type of foss dev that would choose to use your library and why they would over alternatives, and market to that person, for max success
+T 1484814080 18<26sisve18>	Laravel 5.3 moves the sending of password-reset-mails from the password-reset system ... to the User model!
+T 1484814080 18<26sisve18>	Because, clearly, the User model is the one that should be sending mails.
+T 1484814080 18<20alexweissman18>	that's one fat model
+T 1484814080 18<26Dilaz18>	big boned
+T 1484814080 18<20alexweissman18>	where do I do the email sending?
+T 1484814080 18<20alexweissman18>	hmm...
+T 1484814080 18<26sisve18>	And did you know that Model::where(...) does different comparison depending on Laravel version? Have fun! http://laraveldaily.com/whereloose-wherestrict-know/
+T 1484814080 18<20alexweissman18>	oh, I do it in the controller
+T 1484814080 18<20alexweissman18>	https://github.com/userfrosting/UserFrosting/blob/dev/app/sprinkles/account/src/Controller/AccountController.php#L163-L173
+T 1484814080 18<20alexweissman18>	my controllers are HUGE
+T 1484814080 18<20alexweissman18>	I've got the best controllers...
+T 1484814080 18<20asteele18>	:o
+T 1484814080 18<20alexweissman18>	oh shit, that should be using Carbon
+T 1484814080 18<20alexweissman18>	crap
+T 1484814080 18<26sisve18>	Did you know that Laravel 5.3 changed the Arr::first/last/where from function($key, $value) to function($value, $key)?
+T 1484814080 18<20alexweissman18>	unsubscribe laravel-bc-facts
+T 1484814080 18<20alexweissman18>	oh yeah, I think I remember that one
+T 1484814080 18<20asteele18>	could be so many fewer lines in javascript :P
+T 1484814080 18<26sisve18>	Did you know that Laravel 5.2 removed the ability for your own ControllerDispatcher because they are "not needed"? https://github.com/laravel/framework/commit/4711590c0820f06a028ccf34d06e8093bb9801f3
+T 1484814080 18<20asteele18>	we are in the middle of the death of laravel
+T 1484814080 18<20asteele18>	what a time to be alive
+T 1484814080 18<20alexweissman18>	oh good
+T 1484814080 18<20alexweissman18>	then there will be no new versions to break compatibility
+T 1484814080 18<20alexweissman18>	check.mate.
+T 1484814080 18<20asteele18>	lol
+T 1484814080 18<20asteele18>	yep
+T 1484814080 18<20asteele18>	eventually you end up with the last version
+T 1484814080 18<20asteele18>	laravel had so much potential
+T 1484814080 18<20asteele18>	why does taylor insist on so many breaking changes constantly?
+T 1484814080 18<20asteele18>	laravel was the last hope for php
+T 1484814080 18<26sisve18>	Did you know that Laravel does not support parallel requests within the same session? https://github.com/laravel/framework/issues/14385
+T 1484814080 18<20alexweissman18>	I always thought of it as more of a new hope
+T 1484814080 18<26sisve18>	(if those requests does session changes)
+T 1484814080 18<20asteele18>	nah php was still on life support before
+T 1484814080 18<20asteele18>	thanks to facebook
+T 1484814080 18<20alexweissman18>	I mean, according to managewp.com, "WP powers 26% of the web"
+T 1484814080 18<20alexweissman18>	and last time I checked, WP was written in PHP
+T 1484814080 18<20asteele18>	yes php is still alive and well in the low tier software development world
+T 1484814080 18<20asteele18>	and will be for awhile
+T 1484814080 18<20alexweissman18>	exactly
+T 1484814080 18<20alexweissman18>	that's the point of my project
+T 1484814080 18<20alexweissman18>	is to pull people up out of the world of shitty software
+T 1484814080 18<20alexweissman18>	people on that tier don't think in abstractions
+T 1484814080 18<20alexweissman18>	they think in concretions
+T 1484814080 18<20alexweissman18>	they think about features
+T 1484814080 18<26sisve18>	Laravel does currently require MySql 5.7.7. https://github.com/laravel/framework/issues/11518#issuecomment-167406157 https://github.com/laravel/framework/issues/17337
+T 1484814080 18<20alexweissman18>	so I'm giving them features, but at the same time, forcing them to write better code
+T 1484814080 18<20alexweissman18>	and design their applications properly
+T 1484814080 18<20asteele18>	i wish you luck
+T 1484814080 18<26sisve18>	alexweissman, regarding breaking changes... it's hard to break things if they aren't documented! https://github.com/laravel/framework/issues/12250#issuecomment-182817704
+T 1484814080 18<20alexweissman18>	I mean, I can't even count how many people I've introduced to Composer
+T 1484814080 18<20asteele18>	its a funny dichotomy, i dont like to hate on anyone, but for some people, there iis no amount of patience you can give them, its an honest pure waste of time to try and help them
+T 1484814080 18<20asteele18>	and thats how i view most of the low tier market
+T 1484814080 18<26sisve18>	alexweissman, and you're not using $request->get(), right? https://github.com/laravel/docs/pull/2269#issuecomment-209411095
+T 1484814080 18<20asteele18>	all of these people have the opportunity to become better
+T 1484814080 18<20alexweissman18>	well, sorta
+T 1484814080 18<20alexweissman18>	if you are constantly being prodded to add more features, you don't have time to step back and think about software architecture
+T 1484814080 18<20alexweissman18>	that's why people get degrees in software engineering, I think...
+T 1484814080 18<20asteele18>	that said, one of my favorite business ideas for solo dev, is developer education
+T 1484814080 18<20alexweissman18>	code camp?
+T 1484814080 18<20asteele18>	not code camp
+T 1484814080 18<20asteele18>	more like a subscription education model
+T 1484814080 18<20alexweissman18>	code gulag?
+T 1484814080 18<20asteele18>	like laracasts
+T 1484814080 18<20alexweissman18>	oh
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20asteele18>	but more generalized
+T 1484814080 18<20alexweissman18>	subscription == $$$.  education == $$$
+T 1484814080 18<20alexweissman18>	model == ?
+T 1484814080 18<20asteele18>	since php is as good as dead in the hir tier dev market
+T 1484814080 18<26debjit18>	it is possible to get only result array using eloquent orm? execpt all those extra optios
+T 1484814080 18<20asteele18>	model = subscription/2 + education / education
+T 1484814080 18<20alexweissman18>	debjit: as an array instead of a Collection?
+T 1484814080 18<20alexweissman18>	math checks out
+T 1484814080 18<26debjit18>	yes
+T 1484814080 18<20alexweissman18>	debjit: http://stackoverflow.com/questions/20776656/db-query-builder-toarray-laravel-4/32730177#32730177
+T 1484814080 18<20asteele18>	i want to take jeffryes great teaching style, and apply it to general web dev
+T 1484814080 18<20asteele18>	in many languages
+T 1484814080 18<20asteele18>	and not just dev concepts but other concepts you deal with as a developer
+T 1484814080 18<20alexweissman18>	project management
+T 1484814080 18<20asteele18>	such as job placement, goal fulfillment, becoming a leader, managing people, etc
+T 1484814080 18<20alexweissman18>	I could use some training in project management, actually
+T 1484814080 18<26sisve18>	https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397/
+T 1484814080 18<20asteele18>	theres lots of books on this stuff
+T 1484814080 18<26sisve18>	https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113/
+T 1484814080 18<20alexweissman18>	lol
+T 1484814080 18<20alexweissman18>	I love that illustration
+T 1484814080 18<20asteele18>	the market is screaming for a simple subscription model to the best of this content, compiled, and explained
+T 1484814080 18<20alexweissman18>	"Chapter 1: getting a prescription for adderall"
+T 1484814080 18<20asteele18>	lol
+T 1484814080 18<20asteele18>	dat ish is amazing for dev
+T 1484814080 18<20alexweissman18>	indeed
+T 1484814080 18<20asteele18>	have done many hours of code with it
+T 1484814080 18<20asteele18>	one of my favorites when i have a very clear goal with lots of work to be done :p
+T 1484814080 18<20alexweissman18>	yes, like alphabetizing the laundry
+T 1484814080 18<20asteele18>	lol
+T 1484814080 18<20alexweissman18>	or, do I order by surface area?
+T 1484814080 18<20asteele18>	yes hopefully you have larger aspirations when it is on hand ;p
+T 1484814080 18<20alexweissman18>	crap, how do I map a woven fabric to a mathematical surface?!?!?
+T 1484814080 18<20alexweissman18>	do I just use a convex hull?!!?!
+T 1484814080 18<26sisve18>	alexweissman, remove all seams and put down the textile.
+T 1484814080 18<20alexweissman18>	:_D
+T 1484814080 18<26sisve18>	It makes it lot easier to measure.
+T 1484814080 18<20asteele18>	lol to me addy was an investment
+T 1484814080 18<20asteele18>	for every $5-10, i got $500+ in return from clients.  when i applied it to my startup it ended up in a much larger payout lol
+T 1484814080 18<20alexweissman18>	I mean, it's basically assumed that all of Silicon Valley is fueled on the stuff.
+T 1484814080 18<20asteele18>	its kind of like (semi) legal cheat codes
+T 1484814080 18<20asteele18>	except in the real world and with lots of $$ on the line
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20asteele18>	so yeah, expected
+T 1484814080 18<20alexweissman18>	but you never hear about that in the news
+T 1484814080 18<20asteele18>	true
+T 1484814080 18<20asteele18>	its not hurting anyone
+T 1484814080 18<20alexweissman18>	all you hear is
+T 1484814080 18<20asteele18>	besides the ones subjecting themselves to it
+T 1484814080 18<20alexweissman18>	"Dumbass kid takes way too much Adderall and flips the fuck out and then goes into cardiac arrest"
+T 1484814080 18<20alexweissman18>	Comment #1: Doctors r bad
+T 1484814080 18<20asteele18>	but tech is definitely a weird and cool place
+T 1484814080 18<20alexweissman18>	Comment #2: parents r bad
+T 1484814080 18<20asteele18>	where you can actually 10x someone elses output, with the same or less energy input
+T 1484814080 18<20alexweissman18>	Comment #3: drug companies r bad
+T 1484814080 18<20alexweissman18>	well yeah, automation goes a long way
+T 1484814080 18<20asteele18>	not just automation
+T 1484814080 18<20asteele18>	im talking about pure skill experience
+T 1484814080 18<20alexweissman18>	oh
+T 1484814080 18<20alexweissman18>	yeah
+T 1484814080 18<20alexweissman18>	you know what works, and what doesn't
+T 1484814080 18<20asteele18>	where you end up in a situation, whre you have someone who can 10x someone else, and then they add drugs on the side, its a crazy difference the amount of output humans can have
+T 1484814080 18<20asteele18>	its what drives the crazy salaries for developers in SV, i live in SF so im in the middle of it
+T 1484814080 18<20alexweissman18>	  /r/transhuman
+T 1484814080 18<20alexweissman18>	well I also assumed that in SV, there is also access to more capital
+T 1484814080 18<20asteele18>	adderall is a lot like steroids though
+T 1484814080 18<20alexweissman18>	which also magnifies ability
+T 1484814080 18<20asteele18>	it magnifies your abilities
+T 1484814080 18<20asteele18>	but you still have to workout to have any benefit
+T 1484814080 18<20asteele18>	and work hard
+T 1484814080 18<20alexweissman18>	yep
+T 1484814080 18<20asteele18>	i havent actually seen a lot of open drug culture in SF
+T 1484814080 18<20asteele18>	surprisingly
+T 1484814080 18<20asteele18>	all of the devs i know keep their usage of that stuff mostly behind doors
+T 1484814080 18<20alexweissman18>	makes sense
+T 1484814080 18<20alexweissman18>	people have a lot of strong opinions about drug use
+T 1484814080 18<20asteele18>	yeah definitely
+T 1484814080 18<20asteele18>	some of it is warranted
+T 1484814080 18<20asteele18>	some of it isnt
+T 1484814080 18<20asteele18>	its a complex issue ;p
+T 1484814080 18<20alexweissman18>	indeed
+T 1484814080 18<20alexweissman18>	but crowd thinking lacks nuance
+T 1484814080 18<20asteele18>	generally though i say let people do whatever the fk they want.  private companies can prosecute how they want to. federal governments should just let people do their shit though, and fucking die to drugs if they want to - while providing as much assistance as possible
+T 1484814080 18<20asteele18>	drug addictions should be treated as mental or addiction isses though, not criminal
+T 1484814080 18<20alexweissman18>	yep
+T 1484814080 18<20alexweissman18>	but, probably easier to moralize and scapegoat
+T 1484814080 18<20alexweissman18>	at any rate, I think it's probably easier to keep up with Laravel's BCs, than to create and maintain my own ORM
+T 1484814080 18<26debjit18>	return $this->hasOne('\App\properties', 'item_id', 'id' )->toArray(); ITs showing "Call to undefined method Illuminate\Database\Query\Builder::toArray()"
+T 1484814080 18<20asteele18>	yeah probably, eloquent is a pretty damn good orm
+T 1484814080 18<20asteele18>	the best ive seen on the scene in my 8+ years messing with php
+T 1484814080 18<19atlaz18>	debjit: as it should. Why are you trying to array the collection?
+T 1484814080 18<20alexweissman18>	otherwise, I try to use popular and well-maintained components
+T 1484814080 18<26debjit18>	Well, tell you what i want to do then i think you can help me with that
+T 1484814080 18<20alexweissman18>	sisve has a good point though, I don't know if it will ever become self-maintaining
+T 1484814080 18<26debjit18>	I want to take static properties of a component and then modify the values of it
+T 1484814080 18<19atlaz18>	debjit: no my bad, that should actually work. Does it return anything without the ->toArray();?
+T 1484814080 18<20asteele18>	if what will ever become self maintaining
+T 1484814080 18<20alexweissman18>	UserFrosting
+T 1484814080 18<26debjit18>	Yes its returning a collection but not an array
+T 1484814080 18<26debjit18>	When I add toArray() its showing the error.
+T 1484814080 18<19atlaz18>	debjit: have you tried $foo->your_relation->toArray(); ?
+T 1484814080 18<26debjit18>	oh no not that one.. let me try
+T 1484814080 18<25Liona18>	StackOverflow: Laravel Attach another relationship to existing Mo... http://stackoverflow.com/questions/41735968/laravel-attach-another-relationship-to-existing-model-object
+T 1484814080 18<25Liona18>	StackOverflow: How to create a custom registration page for two s... http://stackoverflow.com/questions/41735700/how-to-create-a-custom-registration-page-for-two-step-registration-of-a-user-in
+T 1484814080 18<25Liona18>	StackOverflow: PDF displaying in laravel http://stackoverflow.com/questions/41735055/pdf-displaying-in-laravel
+T 1484814080 18<26debjit18>	Yeah thats works actually...
+T 1484814080 18<26debjit18>	Is there a way to change this array values ,well every values
+T 1484814080 18<27jemaclus18>	what values
+T 1484814080 18<26debjit18>	''key"=>'value'
+T 1484814080 18<19midori-rus18>	Hello there. Is it possible to profile application and find why my application works so slowly? Booting (60.44ms) Application (207.6ms) sql queries 68.9ms
+T 1484814080 18<24uvarovserge18>	hi, I'm using Eloquent to wrap my code in transactions, but when I do UPDATE, I still receive the old data on SELECT, that causes some weird bugs. do you know how to get new, not-yet-committed data *inside the transaction*?
+T 1484814080 18<24uvarovserge18>	Target db is mysql
+T 1484814080 18<20alexweissman18>	what are you trying to do, that requires a select after an update inside your transaction?
+T 1484814080 18<27jemaclus18>	debjit: $array['key'] = $newvalue; ?
+T 1484814080 18<24uvarovserge18>	alexweissman: well, I do two financial transactions, one is deposit and another is commission. the second one doesn't receive the updated wallet's amount
+T 1484814080 18<27jemaclus18>	$model->update($new_data); $model->fresh();
+T 1484814080 18<20alexweissman18>	yeah, make sure that the issue isn't just with the model, as opposed to the database
+T 1484814080 18<26debjit18>	Well i have a morethen 32 ass arr to update ,, i will make the code and share with you so you can see what i am trying to do
+T 1484814080 18<26debjit18>	Please wait a bit
+T 1484814080 18<24uvarovserge18>	alexweissman, jemaclus: well, it was a great idea, but unfortunately, same thing, even though I inserted ->fresh() call on a model both after UPDATE and before SELECT
+T 1484814080 18<27jemaclus18>	share code
+T 1484814080 18<27jemaclus18>	!paste
+T 1484814080 18<25Liona18>	You may paste your code at https://gist.github.com http://kopy.io or http://laravel.io/bin   Please avoid using pastebin.com - we hate slow load times and ads :)
+T 1484814080 18<24uvarovserge18>	jemaclus: http://paste.ofcode.org/AFxaa8nHEGaUPtmNn8v5RE. $this being instanceof Transaction class
+T 1484814080 18<24uvarovserge18>	jemaclus: I do it twice (it has one more nesting \DB::transaction), and the second time it blows up on line 46, because the diff is wrong
+T 1484814080 18<27jemaclus18>	why are you doing the DB::update() instead of $this->source_wallet->update(['source_wallet_id' => $this->source_wallet_id, 'amount' => $this-amount]) ?
+T 1484814080 18<24uvarovserge18>	jemaclus: just noticed, I think fresh() call will not work (on lines 23 and 32), because I'm querying the DB directly, not using the model
+T 1484814080 18<24uvarovserge18>	jemaclus: I'm doing DB::update exactly because I thought this scenario might happen. doing UPDATE wallets SET amount = amount - diff  is more consistent and safe than manipulating it in php code
+T 1484814080 18<24uvarovserge18>	because DB knows the best
+T 1484814080 18<27jemaclus18>	how is it more consistent?
+T 1484814080 18<24uvarovserge18>	because if there is a race condition with multiple queries like this, I'm sure DB will do it consistently. not so sure about PHP code though, even with transaction wrapper. because of SELECT expired data weirdness
+T 1484814080 18<27jemaclus18>	you know the models just use DB under the hood, right?
+T 1484814080 18<24uvarovserge18>	but model is a cached version of db
+T 1484814080 18<24uvarovserge18>	while DB has the access to the raw data
+T 1484814080 18<27jemaclus18>	uh
+T 1484814080 18<27jemaclus18>	ok
+T 1484814080 18<27jemaclus18>	cool, good luck
+T 1484814080 18<25Liona18>	Welcome to our home. Please place your thumbprint on the legal waivers and deposit your admission fee in the slot by the door. Remember, my house is my house, kutagh! (Ferengi)
+T 1484814080 18<24uvarovserge18>	jemaclus: I was hoping someone could hint at the solution of the error I'm getting instead of just asking questions about the reason it's done this way (or suggest a better way way), but ok, good talk
+T 1484814080 18<28KL18>	Hey, I am wondered if you have a trick to organize the folders/files in PHPStorm ?
+T 1484814080 18<28KL18>	The defaul structure of Laravel bad to navigate .. many directories and many locations
+T 1484814080 18<20oal18>	What do I need to make this work with my own models? In controller: "function edit(Client $client)". It works for User $user but not any of my own models
+T 1484814080 18<20oal18>	So I want laravel to find the matching client by ID instead of passing in $id and doing it myself first line inside the controller method
+T 1484814080 18<24uvarovserge18>	KL: use Search Everywhere feature, bind it to some comfortable shortcut. then just type first characters of the file name and press Enter. no need to navigate the stuff
+T 1484814080 18<24uvarovserge18>	KL: well, there is need, sometimes, but not as often
+T 1484814080 18<22larsemil18>	i want to run a command as soon as the facades are registered. how do i go about to do that? Tried adding i file in the bootstrap/autoload.php but it seems that is before facades.
+T 1484814080 18<24uvarovserge18>	oal: check your routes, you should have /{client} instead of /{user} there, the name of the variable in the route should match the name of the variable in the method
+T 1484814080 18<20oal18>	uvarovserge, I have Route::resource('clients', 'Clients\ClientController'); and a similar one for UserController
+T 1484814080 18<27jemaclus18>	Well, you're updating something with DB, then complaining when models are out of date. The obvious thing to do is just use the model throughout.
+T 1484814080 18<27jemaclus18>	So... that's the "better way".
+T 1484814080 18<27jemaclus18>	but you seem convinced that Eloquent does something fundamentally different than the normal Query Builder, so I'm not going to spend a ton of time trying to explain why that's not the case, other than to say, well, that's not the case.
+T 1484814080 18<27jemaclus18>	plus, it's past my bedtime, so.. good luck.
+T 1484814101 18<28KL18>	uvarovserge: Thanks for your reply :) ... I really do it like that ( double shift to show the search floating form )
+T 1484814174 18<24uvarovserge18>	jemaclus: ok, thanks, I'll think this through
+T 1484814295 23*	systemovich (~systemovi@197.89.184.8923) has joined

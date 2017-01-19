@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin version="2">
+    <change-notes><![CDATA[
+        <div xmlns="http://www.w3.org/1999/html">
+            <h3>1.5.0 - Bug Fix &amp; Optimization Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Add: patch release and eap update streams</li>
+                <li>Fix: syntax highlighting inline elements in definition text</li>
+                <li>Add: HTML entity syntax highlighting.</li>
+                <li>Fix: Comments with todo items would not show up in to do list when syntax highlighting was set   to annotator. Now comments are parsed by the plain text lexer used to disable lexer syntax   highlighting.</li>
+                <li>Fix: update highlight.js to version 9.3.0 and include all available languages.</li>
+                <li>Add: live templates starting with <code>.</code>
+                    <table>
+                        <thead>
+                            <tr><th>Element       </th><th>Abbreviation    </th><th>Expansion                                               </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Abbreviation  </td><td><code>.abbreviation</code> </td><td><code>*[]:</code>                                                 </td>
+                            </tr>
+                            <tr><td>Code fence    </td><td><code>.codefence</code>    </td><td>``` ... ```                                       </td>
+                            </tr>
+                            <tr><td>Explicit link </td><td><code>.link</code>         </td><td><code>[]()</code>                                                  </td>
+                            </tr>
+                            <tr><td>Footnote      </td><td><code>.footnote</code>     </td><td><code>[^]:</code>                                                 </td>
+                            </tr>
+                            <tr><td>Footnote Ref  </td><td><code>.rfootnote</code>    </td><td><code>[^]</code>                                                   </td>
+                            </tr>
+                            <tr><td>Image         </td><td><code>.image</code>        </td><td><code>![]()</code>                                                 </td>
+                            </tr>
+                            <tr><td>Ref image     </td><td><code>.rimage</code>       </td><td><code>![][]</code>                                                 </td>
+                            </tr>
+                            <tr><td>Ref link      </td><td><code>.rlink</code>        </td><td><code>[][]</code>                                                  </td>
+                            </tr>
+                            <tr><td>Reference     </td><td><code>.reference</code>    </td><td><code>[]:</code>                                                  </td>
+                            </tr>
+                            <tr><td>Table         </td><td><code>.table</code>        </td><td><pre><code><code>|   |</code>&#10;<code>|---|</code>&#10;<code>|   |</code></code></pre> </td>
+                            </tr>
+                            <tr><td>Task          </td><td><code>.task</code>         </td><td><code>- [ ]</code>                                                </td>
+                            </tr>
+                            <tr><td>Wiki link     </td><td><code>.wikilink</code>     </td><td><code>[[]]</code>                                                  </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+            <h4>Enhanced Edition</h4>
+            <ul>
+                <li>Fix: #195, License activation being reset when no network connection is available.</li>
+                <li>Fix: #196, Incorrect parsing of compound reference links</li>
+                <li>Fix: #198, Image links that don't end with an extension don't get recognized. Now image links   without extension are assumed to be correct. No error or warning is generated for these links.   Query strings are also stripped from the link address before looking for an extension.</li>
+                <li>Fix: #199, Multi-line image URLs not parsed correctly when terminating ) is followed by white   space characters file and without EOL.</li>
+                <li>Fix: #201, Image link completion in wiki pages leaves out subdirectories</li>
+                <li>Fix: #211, Completions for some empty link elements show no suggestions.</li>
+                <li>Add: highlighting of auto-inserted <code>*</code>, <code>_</code> or <code>~</code> that would be deleted if a space is typed.</li>
+                <li>Change: Auto-format table on typing and smart <code>*</code> <code>~</code> duplication to be off by default.</li>
+                <li>Add: Auto inserted <code>*</code>, <code>_</code> and <code>~</code> that will be deleted by typing a space are now colored in   the scheme's comment color to highlight that they can be deleted by typing a space</li>
+                <li>Fix: block quote prefix on fenced code would not be stripped off. Prefix needs to be   consistent on all the lines for the prefix to be properly stripped for the injected language   fragment.</li>
+                <li>
+                    <p><strong>List editing features</strong></p>
+                    <ul>
+                        <li>Add: #210, List item un-indent/indent toolbar buttons, and actions. List item   un-indent/indent toolbar buttons, assigned to Ctrl-Y/Ctrl-U respectively.</li>
+                        <li>Fix: #209, lines ending in <code>*</code> or <code>-</code> would be erroneously handled as empty list items   by BACKSPACE handler.</li>
+                        <li>Fix: second list items would not enable the indent list action.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>Table editing features</strong></p>
+                    <ul>
+                        <li>Fix: #212, Table formatting while typing sometimes causes the cursor to jump erratically   to end of table.</li>
+                        <li>Add: #214, Feature: add insert table toolbar button</li>
+                        <li>Add: #215, Feature: table insert/delete row/column toolbar buttons</li>
+                        <li>Add: #216, On ENTER insert table row with configuration options</li>
+                        <li>Add: #217, On BACKSPACE delete empty table row/column with configuration options</li>
+                        <li>Add: Syntax highlighting colors for table header cells separate from table body cells.</li>
+                        <li>Fix: as you type table parsing changed to use pegdown instead of hand rolled parser.   Handles escaped pipes and pipes in code spans correctly.</li>
+                        <li>Fix: toggle actions: bold, italic, code, strikethrough; to select text when toggling the   effect off.</li>
+                        <li>Add: logic to disable <code>auto-format table on typing</code> when modifying a table causes it to no   longer have the same number of columns on all rows for editing actions that may be partial   modifications and if <code>Add missing columns</code> is enabled. ie. backspacing or typing back   ticks, backslash or pipe characters.</li>
+                        <li>Fix: reformatting tables without lead/trail pipes would loose the last columns that were   blank. Now a trailing pipe is added if the column is blank to preserve the correct column   count.</li>
+                        <li>Fix: reformatting tables that were not terminated by a blank line would delete text after   table up to a blank line.</li>
+                        <li>Fix: Mitigate effects of table cell containing unterminated strong, emphasis or strike   through markers which absorb all text until a blank line. Now this condition is detected   and wrap on typing and auto-format table are turned off to prevent messing up the format.</li>
+                        <li>Fix: Adjust caret to be at the pipe symbol when typing before the first table column.   Otherwise indentation could be changed causing the table to no longer be valid.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>Auto-format and Wrap on typing features</strong></p>
+                    <ul>
+                        <li>Add: Toolbar buttons for toggle Auto-format and toggle wrap on typing.</li>
+                        <li>Fix: #202, Plain text paragraphs that have indentation spaces do not get properly wrapped   as you type.</li>
+                        <li>Fix: made wiki link elements non-wrap so that they will not be wrapped across lines.</li>
+                        <li>Fix: intermittent wrap on typing failure to wrap paragraphs</li>
+                        <li>Fix: #205, Wrap on typing of paragraphs with embedded multi-line URL images will only wrap   text before the image. Now for the purpose of wrapping these image links are treated as   paragraph breaks and each segment is wrapped separately.</li>
+                        <li>Fix: extra spaces added at end of wrapped text lines. Now only hard break spaces will be   kept at end of text lines.</li>
+                        <li>Add: #206, Wrap on typing continuation line indenting now has the following options:
+                            <ul>
+                                <li>None - continuation lines will start at column 1</li>
+                                <li><strong>Align text edge - default</strong>. Will align continuation lines with the text of the   first line</li>
+                                <li>Indent - continuation lines will start at indent of first line</li>
+                                <li>Indent +1 level - continuation lines will start at indent of first line + 4 spaces</li>
+                                <li>Indent +2 levels - continuation lines will start at indent of first line + 8 spaces</li>
+                            </ul>
+                        </li>
+                        <li>Fix: #207, Markdown hard break spaces are not always be preserved when formatting   paragraphs</li>
+                        <li>Fix: #208, Auto links are not recognized as inline elements during wrap on typing   reformatting op</li>
+                        <li>Fix: #213, Enabling HARD WRAPS in parser options prevents wrap on typing of list items   that span multiple lines. HARD WRAPS parser extension is now disabled for purposes of   syntax highlighting and PSI generation. It is only used for HTML rendering.</li>
+                        <li>Add: logic to disable <code>wrap on typing</code> when modifying a table causes it to no longer be a   valid markdown table</li>
+                        <li>Add: tooltip when <code>wrap on typing</code> or <code>auto-format table on typing</code> is automatically   disabled.</li>
+                        <li>Add: logic to disable <code>wrap on typing</code> when a block is not terminated by a blank line and   the following block can be potentially merged into the paragraph.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>Typing response optimizations</strong></p>
+                    <ul>
+                        <li>Fix: #19, Optimize typing response with or without wrap on typing and table reformat</li>
+                        <li>minimize updates to unchanged parts of the paragraph or table</li>
+                        <li>handle IDE skipping calls to handlers when fast typing (or rolling forehead on the   keyboard).</li>
+                        <li>HTML generation was not disabled when only main editor was shown. This would cause</li>
+                        <li>Changed default syntax highlighter to external annotator based to reduce typing delay. If   you want to use lexer based syntax highlighting you will need to change it in   settings/preferences.</li>
+                        <li>disabled html generation when preview is not shown</li>
+                    </ul>
+                    <p>Fastest typing response is achieved when:</p>
+                    <ul>
+                        <li>syntax highlighting is turned off</li>
+                        <li>wrap on typing is disabled</li>
+                        <li>auto-format tables is disabled</li>
+                        <li>all previews are turned off</li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>Jekyll front matter handling</strong></p>
+                    <ul>
+                        <li>Fix: #200, Jekyll front matter is not recognized if the terminating marker is at the end   of file.</li>
+                        <li>#222 Inspection to detect Jekyll front matter presence in the file, with option to enable   or ignore.</li>
+                        <li>Code style option to not splice image and explicit links which are start of line to   previous line during paragraph reformatting.</li>
+                        <li>Jekyll front matter folding region and config</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>1.4.10 - Bug Fix &amp; Optimization Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Fix: book icon in preview would not open document in browser</li>
+                <li>Fix: incorrect HTML rendering of undefined reference link <code>[some-text][]</code> as   <code>[some-text][some-text]</code></li>
+            </ul>
+            <h4>Enhanced Edition</h4>
+            <ul>
+                <li>Add: list item handling on <kbd>ENTER</kbd> and <kbd>BACKSPACE</kbd>. <kbd>ENTER</kbd> will   add unordered item or ordered item depending on what is preceding caret location.   <kbd>ENTER</kbd> and <kbd>BACKSPACE</kbd> will remove empty list items. Configuration to   enable/disable in Editor &gt; Code Style &gt; MultiMarkdown under <code>List Items</code></li>
+                <li>Improve: auto format handling on typing, <kbd>ENTER</kbd> and <kbd>BACKSPACE</kbd></li>
+                <li>Add: table formatting via the format toolbar button</li>
+                <li>Add: table formatting option to format as you type in table separator line</li>
+            </ul>
+            <h3>1.4.9 - Bug Fix &amp; Optimization Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Add: formatting buttons</li>
+                <li>Add: markdown specific soft-wrap setting. This only affects the editor when it is first   opened. Thereafter use keyboard shortcuts to toggle soft wrap mode.
+                    <ul>
+                        <li>default - uses global setting</li>
+                        <li>disabled - always opens editor with soft-wraps turned off</li>
+                        <li>enabled - always opens editor with soft-wraps turned on</li>
+                    </ul>
+                </li>
+                <li>Fix #190, Incorrect parsing of HTML blocks. This also fixes improper handling of HTML block   suppression.</li>
+            </ul>
+            <h4>Enhanced Edition</h4>
+            <ul>
+                <li>Add: handling of Jekyll front matter in markdown documents. Document must start with <code>---</code> and   have another <code>---</code> terminating the front matter for it not to be parsed as Markdown.</li>
+                <li>Add: option to embed CSS resources into the HTML document instead of URL links</li>
+            </ul>
+            <h3>1.4.8 - Bug Fix &amp; Optimization Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Add: option for syntax highlighting type either lexer based, external annotator or none at all</li>
+                <li>Fix: #176, Exception: Panel is guaranteed to be not null now</li>
+                <li>Fix: #180, code syntax highlighting has border around code blocks in HTML preview.</li>
+                <li>Fix: #183, Incomplete Tasks in Task list not rendering correctly</li>
+                <li>Fix: #182, Light scroll bars showing in dark theme. Added CSS to change WebView scroll bar   colors.</li>
+                <li>Fix: #178, Chinese character display problem. Headings would be empty if they contained only   non-ascii alpha characters.</li>
+                <li>Fix: #184, Smooth scroll issues with preview. Reduce frequency of on scroll callbacks to   reduce delay during scrolling.</li>
+                <li>Fix: #185, IntelliJ IDEA performance is heavily affected by this plug-in. Pegdown bug causes   exponential parse time for markdown with unclosed HTML tags and fenced code blocks that   contain HTML.</li>
+            </ul>
+            <h4>Enhanced Edition</h4>
+            <ul>
+                <li>Add: parsing of HTML anchor elements with id for resolving, annotating duplicates and finding   usages for ref anchors. Only the opening tag is significant: <code>&lt;a id=&#39;ref-anchor&#39;&gt;</code> or <code>&lt;a
+                    id=&quot;ref-anchor&quot;&gt;</code></li>
+                <li>Change: anchor ref completion shows header level and text, for ref anchors shows complete   opening tag</li>
+                <li>Fix: optimizations that skip reformatting to be less optimistic improving wrap on typing   results.</li>
+                <li>Add: handling of non-wrap inline elements that cannot handle being wrapped across lines.   Embedded spaces in these elements are now treated as non-break spaces.</li>
+                <li>Add: reformat document action which for now formats the current paragraph.</li>
+            </ul>
+            <h3>1.4.7 - Bug Fix &amp; Optimization Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Fix: #164, PyCharm &amp; RubyMine highlight a single space at the end of the line as Markdown HARD   BREAK</li>
+                <li>Fix: #167, NoSuchMethodError when typing text</li>
+                <li>Fix: #169, IndexOutOfBoundsException chars sequence.length:5, start:-1, end:5</li>
+                <li>Add: external annotator to reduce typing delay.</li>
+            </ul>
+            <h4>Enhanced Edition</h4>
+            <ul>
+                <li>Fix: #165, Reference Images and Links split across a line boundary show as unresolved</li>
+                <li>Fix: #166, Image Links embedded in text are not recognized as inline elements that can be   wrapped.</li>
+                <li>Fix: #168, Optimize wrap on typing to not reformat text block on every typed character</li>
+            </ul>
+            <h3>1.4.6 - Bug Fix Release</h3>
+            <h4>Basic &amp; Enhanced Editions</h4>
+            <ul>
+                <li>Fix: #163, NullPointerException on new files</li>
+            </ul>
+            <h3>1.4.5 - Bug Fix &amp; Enhancements Release</h3>
+
+        </div>
+        ]]></change-notes>
+</idea-plugin>

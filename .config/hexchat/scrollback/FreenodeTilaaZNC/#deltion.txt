@@ -1,0 +1,603 @@
+T 1484142347 18<26xehbit18>	Mogguh!!
+T 1484142347 20<Peterzen>30	Morning
+T 1484142347 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484142347 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484142347 19<xehbit>	Peterzen yea :P
+T 1484142347 19<xehbit>	Peterzen ik ben er al xD
+T 1484142347 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484142347 19<xehbit>	Peterzen ah nice
+T 1484142347 20<Peterzen>30	Ik ben er ook!
+T 1484142347 20<Peterzen>30	yeey
+T 1484142347 18<26xehbit18>	\o/
+T 1484142347 18<20SpoonBot18>	Welcome back, osunix
+T 1484142347 18<26xehbit18>	xD
+T 1484142347 20<Peterzen>30	#Mechboards
+T 1484142347 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484142347 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484142347 18<20SpoonBot18>	Welcome back, timon_
+T 1484142347 18<28timon_18>	Yoo
+T 1484142347 18<28timon_18>	/lusers/LUSERS
+T 1484142347 18<29wilvin18>	Gooood day again
+T 1484142347 18<29wilvin18>	you magnificent basterds
+T 1484142347 18<29wilvin18>	o/
+T 1484142347 20<Peterzen>30	halloo
+T 1484142347 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484142347 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484142347 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484142347 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484142347 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484142347 20<Peterzen>30	Haha
+T 1484142347 20<Peterzen>30	sick
+T 1484142347 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484142347 18<26xehbit18>	Zijn nu weg*
+T 1484142347 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484142347 18<26xehbit18>	20x20x25cm print inhoud
+T 1484142347 20<Peterzen>30	haha wauw
+T 1484142347 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484142347 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484142347 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484142347 18<20SpoonBot18>	Size 285KB
+T 1484142347 20<Peterzen>30	dat is wel nice ja
+T 1484142347 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484142347 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484142347 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484142347 18<26xehbit18>	splitnet
+T 1484142347 18<26xehbit18>	netsplit
+T 1484142347 20<Peterzen>30	spliterino neterino?
+T 1484142347 18<20SpoonBot18>	Welcome back, Jens1
+T 1484142347 18<20SpoonBot18>	Welcome back, timon
+T 1484142347 18<26xehbit18>	Channel zo goed als dood
+T 1484142347 20<Peterzen>30	asdasd
+T 1484142347 20<Peterzen>30	xehbit: ping
+T 1484142347 18<26xehbit18>	pong
+T 1484142347 20<Peterzen>30	wow heftig
+T 1484142347 20<Peterzen>30	goed verhaal man
+T 1484142347 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484142347 19<xehbit>	Peterzen beetje
+T 1484142347 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484142347 18<20SpoonBot18>	Spotify
+T 1484142347 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484142347 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484142347 18<29Chameleon18>	!random
+T 1484142347 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484142347 18<25corne18>	ok
+T 1484142347 18<29Chameleon18>	ok
+T 1484142347 18<29Chameleon18>	dat die nog online is
+T 1484142347 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484142347 18<26xehbit18>	!help
+T 1484142347 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484142347 18<26xehbit18>	!commands
+T 1484142347 18<26xehbit18>	ah
+T 1484142347 18<26xehbit18>	Uhm?
+T 1484142347 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484142347 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484142347 18<29Chameleon18>	morge
+T 1484142347 18<26xehbit18>	hi
+T 1484142347 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484142347 18<25corne18>	lol idd
+T 1484142347 18<25Peterzen_18>	de leegte van 2017
+T 1484142347 18<25corne18>	hehe
+T 1484142347 18<26xehbit18>	xD
+T 1484162973 20*	Disconnected (20Connection timed out)
+T 1484162983 19*	Now talking on 22#deltion
+T 1484162983 22*	Topic for 22#deltion is: ◢◤ SHB™ ◢◤. SERIOUS HOMEBREW ◢◤ https://xkcd.com/ ◢◤
+T 1484162983 22*	Topic for 22#deltion set by 26xehbit!~xehbit@unaffiliated/xehbit (24Mon Oct 10 11:53:26 2016)
+T 1484162983 20<Peterzen>30	Im back!
+T 1484162983 20<Peterzen>30	Kon niet bij znc door stom netwerk van hackathon dus dingen
+T 1484162983 18<20SpoonBot18>	Welcome back, __timon
+T 1484162983 18<20SpoonBot18>	Welcome back, xehbit_
+T 1484162983 18<26xehbit18>	ls
+T 1484162983 18<29wilvin18>	Good daaaaaay
+T 1484162983 18<29wilvin18>	ich bin back
+T 1484162983 18<29wilvin18>	back for a party...
+T 1484162983 18<29wilvin18>	echt niemand hier is irc dood of zo ? :C
+T 1484162983 18<26xehbit18>	o/
+T 1484162983 18<26xehbit18>	Ik ben er wel :P
+T 1484162983 18<29wilvin18>	he xehbit:
+T 1484162983 18<29wilvin18>	net op het moment dat ik weg ga van school xD zit nu in de trein
+T 1484162983 18<29wilvin18>	im bored
+T 1484162983 18<29wilvin18>	what are you guys up to
+T 1484162983 18<26xehbit18>	wilvin o/
+T 1484162983 18<26xehbit18>	x'D
+T 1484162983 18<26xehbit18>	Bezig met React stuff
+T 1484162983 18<20SpoonBot18>	Welcome back, testac3
+T 1484162983 20<Peterzen>30	o/
+T 1484162983 18<26xehbit18>	o/
+T 1484162983 18<26xehbit18>	Mogguh!!
+T 1484162983 20<Peterzen>30	Morning
+T 1484162983 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484162983 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484162983 19<xehbit>	Peterzen yea :P
+T 1484162983 19<xehbit>	Peterzen ik ben er al xD
+T 1484162983 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484162983 19<xehbit>	Peterzen ah nice
+T 1484162983 20<Peterzen>30	Ik ben er ook!
+T 1484162983 20<Peterzen>30	yeey
+T 1484162983 18<26xehbit18>	\o/
+T 1484162983 18<20SpoonBot18>	Welcome back, osunix
+T 1484162983 18<26xehbit18>	xD
+T 1484162983 20<Peterzen>30	#Mechboards
+T 1484162983 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484162983 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484162983 18<20SpoonBot18>	Welcome back, timon_
+T 1484162983 18<28timon_18>	Yoo
+T 1484162983 18<28timon_18>	/lusers/LUSERS
+T 1484162983 18<29wilvin18>	Gooood day again
+T 1484162983 18<29wilvin18>	you magnificent basterds
+T 1484162983 18<29wilvin18>	o/
+T 1484162983 20<Peterzen>30	halloo
+T 1484162983 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484162983 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484162983 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484162983 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484162983 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484162983 20<Peterzen>30	Haha
+T 1484162983 20<Peterzen>30	sick
+T 1484162983 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484162983 18<26xehbit18>	Zijn nu weg*
+T 1484162983 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484162983 18<26xehbit18>	20x20x25cm print inhoud
+T 1484162983 20<Peterzen>30	haha wauw
+T 1484162983 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484162983 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484162983 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484162983 18<20SpoonBot18>	Size 285KB
+T 1484162983 20<Peterzen>30	dat is wel nice ja
+T 1484162983 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484162983 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484162983 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484162983 18<26xehbit18>	splitnet
+T 1484162983 18<26xehbit18>	netsplit
+T 1484162983 20<Peterzen>30	spliterino neterino?
+T 1484162983 18<20SpoonBot18>	Welcome back, Jens1
+T 1484162983 18<20SpoonBot18>	Welcome back, timon
+T 1484162983 18<26xehbit18>	Channel zo goed als dood
+T 1484162983 20<Peterzen>30	asdasd
+T 1484162983 20<Peterzen>30	xehbit: ping
+T 1484162983 18<26xehbit18>	pong
+T 1484162983 20<Peterzen>30	wow heftig
+T 1484162983 20<Peterzen>30	goed verhaal man
+T 1484162983 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484162983 19<xehbit>	Peterzen beetje
+T 1484162983 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484162983 18<20SpoonBot18>	Spotify
+T 1484162983 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484162983 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484162983 18<29Chameleon18>	!random
+T 1484162983 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484162983 18<25corne18>	ok
+T 1484162983 18<29Chameleon18>	ok
+T 1484162983 18<29Chameleon18>	dat die nog online is
+T 1484162983 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484162983 18<26xehbit18>	!help
+T 1484162983 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484162983 18<26xehbit18>	!commands
+T 1484162983 18<26xehbit18>	ah
+T 1484162983 18<26xehbit18>	Uhm?
+T 1484162983 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484162983 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484162983 18<29Chameleon18>	morge
+T 1484162983 18<26xehbit18>	hi
+T 1484162983 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484162983 18<25corne18>	lol idd
+T 1484162983 18<25Peterzen_18>	de leegte van 2017
+T 1484162983 18<25corne18>	hehe
+T 1484162983 18<26xehbit18>	xD
+T 1484208210 20*	Disconnected (20Invalid argument)
+T 1484208222 19*	Now talking on 22#deltion
+T 1484208222 22*	Topic for 22#deltion is: ◢◤ SHB™ ◢◤. SERIOUS HOMEBREW ◢◤ https://xkcd.com/ ◢◤
+T 1484208222 22*	Topic for 22#deltion set by 26xehbit!~xehbit@unaffiliated/xehbit (24Mon Oct 10 11:53:26 2016)
+T 1484208222 20<Peterzen>30	Im back!
+T 1484208222 20<Peterzen>30	Kon niet bij znc door stom netwerk van hackathon dus dingen
+T 1484208222 18<20SpoonBot18>	Welcome back, __timon
+T 1484208222 18<20SpoonBot18>	Welcome back, xehbit_
+T 1484208222 18<26xehbit18>	ls
+T 1484208222 18<29wilvin18>	Good daaaaaay
+T 1484208222 18<29wilvin18>	ich bin back
+T 1484208222 18<29wilvin18>	back for a party...
+T 1484208222 18<29wilvin18>	echt niemand hier is irc dood of zo ? :C
+T 1484208222 18<26xehbit18>	o/
+T 1484208222 18<26xehbit18>	Ik ben er wel :P
+T 1484208222 18<29wilvin18>	he xehbit:
+T 1484208222 18<29wilvin18>	net op het moment dat ik weg ga van school xD zit nu in de trein
+T 1484208222 18<29wilvin18>	im bored
+T 1484208222 18<29wilvin18>	what are you guys up to
+T 1484208222 18<26xehbit18>	wilvin o/
+T 1484208222 18<26xehbit18>	x'D
+T 1484208222 18<26xehbit18>	Bezig met React stuff
+T 1484208222 18<20SpoonBot18>	Welcome back, testac3
+T 1484208222 20<Peterzen>30	o/
+T 1484208222 18<26xehbit18>	o/
+T 1484208222 18<26xehbit18>	Mogguh!!
+T 1484208222 20<Peterzen>30	Morning
+T 1484208222 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484208222 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484208222 19<xehbit>	Peterzen yea :P
+T 1484208222 19<xehbit>	Peterzen ik ben er al xD
+T 1484208222 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484208222 19<xehbit>	Peterzen ah nice
+T 1484208222 20<Peterzen>30	Ik ben er ook!
+T 1484208222 20<Peterzen>30	yeey
+T 1484208222 18<26xehbit18>	\o/
+T 1484208222 18<20SpoonBot18>	Welcome back, osunix
+T 1484208222 18<26xehbit18>	xD
+T 1484208222 20<Peterzen>30	#Mechboards
+T 1484208222 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484208222 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484208222 18<20SpoonBot18>	Welcome back, timon_
+T 1484208222 18<28timon_18>	Yoo
+T 1484208222 18<28timon_18>	/lusers/LUSERS
+T 1484208222 18<29wilvin18>	Gooood day again
+T 1484208222 18<29wilvin18>	you magnificent basterds
+T 1484208222 18<29wilvin18>	o/
+T 1484208222 20<Peterzen>30	halloo
+T 1484208222 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484208222 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484208222 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484208222 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484208222 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484208222 20<Peterzen>30	Haha
+T 1484208222 20<Peterzen>30	sick
+T 1484208222 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484208222 18<26xehbit18>	Zijn nu weg*
+T 1484208222 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484208222 18<26xehbit18>	20x20x25cm print inhoud
+T 1484208222 20<Peterzen>30	haha wauw
+T 1484208222 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484208222 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484208222 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484208222 18<20SpoonBot18>	Size 285KB
+T 1484208222 20<Peterzen>30	dat is wel nice ja
+T 1484208222 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484208222 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484208222 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484208222 18<26xehbit18>	splitnet
+T 1484208222 18<26xehbit18>	netsplit
+T 1484208222 20<Peterzen>30	spliterino neterino?
+T 1484208222 18<20SpoonBot18>	Welcome back, Jens1
+T 1484208222 18<20SpoonBot18>	Welcome back, timon
+T 1484208222 18<26xehbit18>	Channel zo goed als dood
+T 1484208222 20<Peterzen>30	asdasd
+T 1484208222 20<Peterzen>30	xehbit: ping
+T 1484208222 18<26xehbit18>	pong
+T 1484208222 20<Peterzen>30	wow heftig
+T 1484208222 20<Peterzen>30	goed verhaal man
+T 1484208222 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484208222 19<xehbit>	Peterzen beetje
+T 1484208222 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484208222 18<20SpoonBot18>	Spotify
+T 1484208222 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484208222 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484208222 18<29Chameleon18>	!random
+T 1484208222 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484208222 18<25corne18>	ok
+T 1484208222 18<29Chameleon18>	ok
+T 1484208222 18<29Chameleon18>	dat die nog online is
+T 1484208222 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484208222 18<26xehbit18>	!help
+T 1484208222 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484208222 18<26xehbit18>	!commands
+T 1484208222 18<26xehbit18>	ah
+T 1484208222 18<26xehbit18>	Uhm?
+T 1484208222 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484208222 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484208222 18<29Chameleon18>	morge
+T 1484208222 18<26xehbit18>	hi
+T 1484208222 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484208222 18<25corne18>	lol idd
+T 1484208222 18<25Peterzen_18>	de leegte van 2017
+T 1484208222 18<25corne18>	hehe
+T 1484208222 18<26xehbit18>	xD
+T 1484214113 20*	Disconnected (20Connection timed out)
+T 1484214123 19*	Now talking on 22#deltion
+T 1484214123 22*	Topic for 22#deltion is: ◢◤ SHB™ ◢◤. SERIOUS HOMEBREW ◢◤ https://xkcd.com/ ◢◤
+T 1484214123 22*	Topic for 22#deltion set by 26xehbit!~xehbit@unaffiliated/xehbit (24Mon Oct 10 11:53:26 2016)
+T 1484214123 20<Peterzen>30	Im back!
+T 1484214123 20<Peterzen>30	Kon niet bij znc door stom netwerk van hackathon dus dingen
+T 1484214123 18<20SpoonBot18>	Welcome back, __timon
+T 1484214123 18<20SpoonBot18>	Welcome back, xehbit_
+T 1484214123 18<26xehbit18>	ls
+T 1484214123 18<29wilvin18>	Good daaaaaay
+T 1484214123 18<29wilvin18>	ich bin back
+T 1484214123 18<29wilvin18>	back for a party...
+T 1484214123 18<29wilvin18>	echt niemand hier is irc dood of zo ? :C
+T 1484214123 18<26xehbit18>	o/
+T 1484214123 18<26xehbit18>	Ik ben er wel :P
+T 1484214123 18<29wilvin18>	he xehbit:
+T 1484214123 18<29wilvin18>	net op het moment dat ik weg ga van school xD zit nu in de trein
+T 1484214123 18<29wilvin18>	im bored
+T 1484214123 18<29wilvin18>	what are you guys up to
+T 1484214123 18<26xehbit18>	wilvin o/
+T 1484214123 18<26xehbit18>	x'D
+T 1484214123 18<26xehbit18>	Bezig met React stuff
+T 1484214123 18<20SpoonBot18>	Welcome back, testac3
+T 1484214123 20<Peterzen>30	o/
+T 1484214123 18<26xehbit18>	o/
+T 1484214123 18<26xehbit18>	Mogguh!!
+T 1484214123 20<Peterzen>30	Morning
+T 1484214123 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484214123 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484214123 19<xehbit>	Peterzen yea :P
+T 1484214123 19<xehbit>	Peterzen ik ben er al xD
+T 1484214123 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484214123 19<xehbit>	Peterzen ah nice
+T 1484214123 20<Peterzen>30	Ik ben er ook!
+T 1484214123 20<Peterzen>30	yeey
+T 1484214123 18<26xehbit18>	\o/
+T 1484214123 18<20SpoonBot18>	Welcome back, osunix
+T 1484214123 18<26xehbit18>	xD
+T 1484214123 20<Peterzen>30	#Mechboards
+T 1484214123 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484214123 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484214123 18<20SpoonBot18>	Welcome back, timon_
+T 1484214123 18<28timon_18>	Yoo
+T 1484214123 18<28timon_18>	/lusers/LUSERS
+T 1484214123 18<29wilvin18>	Gooood day again
+T 1484214123 18<29wilvin18>	you magnificent basterds
+T 1484214123 18<29wilvin18>	o/
+T 1484214123 20<Peterzen>30	halloo
+T 1484214123 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484214123 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484214123 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484214123 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484214123 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484214123 20<Peterzen>30	Haha
+T 1484214123 20<Peterzen>30	sick
+T 1484214123 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484214123 18<26xehbit18>	Zijn nu weg*
+T 1484214123 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484214123 18<26xehbit18>	20x20x25cm print inhoud
+T 1484214123 20<Peterzen>30	haha wauw
+T 1484214123 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484214123 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484214123 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484214123 18<20SpoonBot18>	Size 285KB
+T 1484214123 20<Peterzen>30	dat is wel nice ja
+T 1484214123 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484214123 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484214123 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484214123 18<26xehbit18>	splitnet
+T 1484214123 18<26xehbit18>	netsplit
+T 1484214123 20<Peterzen>30	spliterino neterino?
+T 1484214123 18<20SpoonBot18>	Welcome back, Jens1
+T 1484214123 18<20SpoonBot18>	Welcome back, timon
+T 1484214123 18<26xehbit18>	Channel zo goed als dood
+T 1484214123 20<Peterzen>30	asdasd
+T 1484214123 20<Peterzen>30	xehbit: ping
+T 1484214123 18<26xehbit18>	pong
+T 1484214123 20<Peterzen>30	wow heftig
+T 1484214123 20<Peterzen>30	goed verhaal man
+T 1484214123 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484214123 19<xehbit>	Peterzen beetje
+T 1484214123 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484214123 18<20SpoonBot18>	Spotify
+T 1484214123 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484214123 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484214123 18<29Chameleon18>	!random
+T 1484214123 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484214123 18<25corne18>	ok
+T 1484214123 18<29Chameleon18>	ok
+T 1484214123 18<29Chameleon18>	dat die nog online is
+T 1484214123 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484214123 18<26xehbit18>	!help
+T 1484214123 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484214123 18<26xehbit18>	!commands
+T 1484214123 18<26xehbit18>	ah
+T 1484214123 18<26xehbit18>	Uhm?
+T 1484214123 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484214123 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484214123 18<29Chameleon18>	morge
+T 1484214123 18<26xehbit18>	hi
+T 1484214123 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484214123 18<25corne18>	lol idd
+T 1484214123 18<25Peterzen_18>	de leegte van 2017
+T 1484214123 18<25corne18>	hehe
+T 1484214123 18<26xehbit18>	xD
+T 1484568869 19*	Now talking on 22#deltion
+T 1484568869 22*	Topic for 22#deltion is: ◢◤ SHB™ ◢◤. SERIOUS HOMEBREW ◢◤ https://xkcd.com/ ◢◤
+T 1484568869 22*	Topic for 22#deltion set by 26xehbit!~xehbit@unaffiliated/xehbit (24Mon Oct 10 11:53:26 2016)
+T 1484568869 20<Peterzen>30	Im back!
+T 1484568869 20<Peterzen>30	Kon niet bij znc door stom netwerk van hackathon dus dingen
+T 1484568869 18<20SpoonBot18>	Welcome back, __timon
+T 1484568869 18<20SpoonBot18>	Welcome back, xehbit_
+T 1484568869 18<26xehbit18>	ls
+T 1484568869 18<29wilvin18>	Good daaaaaay
+T 1484568869 18<29wilvin18>	ich bin back
+T 1484568869 18<29wilvin18>	back for a party...
+T 1484568869 18<29wilvin18>	echt niemand hier is irc dood of zo ? :C
+T 1484568869 18<26xehbit18>	o/
+T 1484568869 18<26xehbit18>	Ik ben er wel :P
+T 1484568869 18<29wilvin18>	he xehbit:
+T 1484568869 18<29wilvin18>	net op het moment dat ik weg ga van school xD zit nu in de trein
+T 1484568869 18<29wilvin18>	im bored
+T 1484568869 18<29wilvin18>	what are you guys up to
+T 1484568869 18<26xehbit18>	wilvin o/
+T 1484568869 18<26xehbit18>	x'D
+T 1484568869 18<26xehbit18>	Bezig met React stuff
+T 1484568869 18<20SpoonBot18>	Welcome back, testac3
+T 1484568869 20<Peterzen>30	o/
+T 1484568869 18<26xehbit18>	o/
+T 1484568869 18<26xehbit18>	Mogguh!!
+T 1484568869 20<Peterzen>30	Morning
+T 1484568869 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484568869 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484568869 19<xehbit>	Peterzen yea :P
+T 1484568869 19<xehbit>	Peterzen ik ben er al xD
+T 1484568869 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484568869 19<xehbit>	Peterzen ah nice
+T 1484568869 20<Peterzen>30	Ik ben er ook!
+T 1484568869 20<Peterzen>30	yeey
+T 1484568869 18<26xehbit18>	\o/
+T 1484568869 18<20SpoonBot18>	Welcome back, osunix
+T 1484568869 18<26xehbit18>	xD
+T 1484568869 20<Peterzen>30	#Mechboards
+T 1484568869 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484568869 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484568869 18<20SpoonBot18>	Welcome back, timon_
+T 1484568869 18<28timon_18>	Yoo
+T 1484568869 18<28timon_18>	/lusers/LUSERS
+T 1484568869 18<29wilvin18>	Gooood day again
+T 1484568869 18<29wilvin18>	you magnificent basterds
+T 1484568869 18<29wilvin18>	o/
+T 1484568869 20<Peterzen>30	halloo
+T 1484568869 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484568869 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484568869 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484568869 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484568869 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484568869 20<Peterzen>30	Haha
+T 1484568869 20<Peterzen>30	sick
+T 1484568869 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484568869 18<26xehbit18>	Zijn nu weg*
+T 1484568869 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484568869 18<26xehbit18>	20x20x25cm print inhoud
+T 1484568869 20<Peterzen>30	haha wauw
+T 1484568869 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484568869 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484568869 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484568869 18<20SpoonBot18>	Size 285KB
+T 1484568869 20<Peterzen>30	dat is wel nice ja
+T 1484568869 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484568869 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484568869 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484568869 18<26xehbit18>	splitnet
+T 1484568869 18<26xehbit18>	netsplit
+T 1484568869 20<Peterzen>30	spliterino neterino?
+T 1484568869 18<20SpoonBot18>	Welcome back, Jens1
+T 1484568869 18<20SpoonBot18>	Welcome back, timon
+T 1484568869 18<26xehbit18>	Channel zo goed als dood
+T 1484568869 20<Peterzen>30	asdasd
+T 1484568869 20<Peterzen>30	xehbit: ping
+T 1484568869 18<26xehbit18>	pong
+T 1484568869 20<Peterzen>30	wow heftig
+T 1484568869 20<Peterzen>30	goed verhaal man
+T 1484568869 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484568869 19<xehbit>	Peterzen beetje
+T 1484568869 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484568869 18<20SpoonBot18>	Spotify
+T 1484568869 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484568869 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484568869 18<29Chameleon18>	!random
+T 1484568869 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484568869 18<25corne18>	ok
+T 1484568869 18<29Chameleon18>	ok
+T 1484568869 18<29Chameleon18>	dat die nog online is
+T 1484568869 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484568869 18<26xehbit18>	!help
+T 1484568869 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484568869 18<26xehbit18>	!commands
+T 1484568869 18<26xehbit18>	ah
+T 1484568869 18<26xehbit18>	Uhm?
+T 1484568869 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484568869 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484568869 18<29Chameleon18>	morge
+T 1484568869 18<26xehbit18>	hi
+T 1484568869 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484568869 18<25corne18>	lol idd
+T 1484568869 18<25Peterzen_18>	de leegte van 2017
+T 1484568869 18<25corne18>	hehe
+T 1484568869 18<26xehbit18>	xD
+T 1484814080 19*	Now talking on 22#deltion
+T 1484814080 22*	Topic for 22#deltion is: ◢◤ SHB™ ◢◤. SERIOUS HOMEBREW ◢◤ https://xkcd.com/ ◢◤
+T 1484814080 22*	Topic for 22#deltion set by 26xehbit!~xehbit@unaffiliated/xehbit (24Mon Oct 10 11:53:26 2016)
+T 1484814080 20<Peterzen>30	Im back!
+T 1484814080 20<Peterzen>30	Kon niet bij znc door stom netwerk van hackathon dus dingen
+T 1484814080 18<20SpoonBot18>	Welcome back, __timon
+T 1484814080 18<20SpoonBot18>	Welcome back, xehbit_
+T 1484814080 18<26xehbit18>	ls
+T 1484814080 18<29wilvin18>	Good daaaaaay
+T 1484814080 18<29wilvin18>	ich bin back
+T 1484814080 18<29wilvin18>	back for a party...
+T 1484814080 18<29wilvin18>	echt niemand hier is irc dood of zo ? :C
+T 1484814080 18<26xehbit18>	o/
+T 1484814080 18<26xehbit18>	Ik ben er wel :P
+T 1484814080 18<29wilvin18>	he xehbit:
+T 1484814080 18<29wilvin18>	net op het moment dat ik weg ga van school xD zit nu in de trein
+T 1484814080 18<29wilvin18>	im bored
+T 1484814080 18<29wilvin18>	what are you guys up to
+T 1484814080 18<26xehbit18>	wilvin o/
+T 1484814080 18<26xehbit18>	x'D
+T 1484814080 18<26xehbit18>	Bezig met React stuff
+T 1484814080 18<20SpoonBot18>	Welcome back, testac3
+T 1484814080 20<Peterzen>30	o/
+T 1484814080 18<26xehbit18>	o/
+T 1484814080 18<26xehbit18>	Mogguh!!
+T 1484814080 20<Peterzen>30	Morning
+T 1484814080 20<Peterzen>30	Ook in de trein xehbit ?
+T 1484814080 20<Peterzen>30	Ohnee waarschijnlijk ben jij er net uit
+T 1484814080 19<xehbit>	Peterzen yea :P
+T 1484814080 19<xehbit>	Peterzen ik ben er al xD
+T 1484814080 20<Peterzen>30	Ik ben er bijna :P, op de helft ongeveer
+T 1484814080 19<xehbit>	Peterzen ah nice
+T 1484814080 20<Peterzen>30	Ik ben er ook!
+T 1484814080 20<Peterzen>30	yeey
+T 1484814080 18<26xehbit18>	\o/
+T 1484814080 18<20SpoonBot18>	Welcome back, osunix
+T 1484814080 18<26xehbit18>	xD
+T 1484814080 20<Peterzen>30	#Mechboards
+T 1484814080 18<20SpoonBot18>	Welcome back, hhfsg
+T 1484814080 18<20SpoonBot18>	Welcome back, hhfsg`
+T 1484814080 18<20SpoonBot18>	Welcome back, timon_
+T 1484814080 18<28timon_18>	Yoo
+T 1484814080 18<28timon_18>	/lusers/LUSERS
+T 1484814080 18<29wilvin18>	Gooood day again
+T 1484814080 18<29wilvin18>	you magnificent basterds
+T 1484814080 18<29wilvin18>	o/
+T 1484814080 20<Peterzen>30	halloo
+T 1484814080 18<26xehbit18>	hmmm, zit nu weer eens op irssi
+T 1484814080 20<Peterzen>30	Ayyy op Linux xehbit?
+T 1484814080 19<xehbit>	Peterzen: yea, bezig op de thinkpad met de hackrf :P
+T 1484814080 18<26xehbit18>	Net replay attack gedaan op de auto van de buren xD
+T 1484814080 18<26xehbit18>	Fucking scary dat het gewoon werkt :|
+T 1484814080 20<Peterzen>30	Haha
+T 1484814080 20<Peterzen>30	sick
+T 1484814080 18<26xehbit18>	Zijn nu wel, als auto er weer staat zal ik wel ff video maken xD
+T 1484814080 18<26xehbit18>	Zijn nu weg*
+T 1484814080 19<xehbit>	Peterzen: oh ja, mocht je stukje plastic nodig hebben, ik heb een 3D printer op blackfriday gekocht xD
+T 1484814080 18<26xehbit18>	20x20x25cm print inhoud
+T 1484814080 20<Peterzen>30	haha wauw
+T 1484814080 18<26xehbit18>	Kan ik eindelijk behuizingen maken voor mn hardware projects :P
+T 1484814080 18<26xehbit18>	ipv dat alles rond slingert qua bekabeling
+T 1484814080 18<26xehbit18>	https://file.up.serioushomebrew.nl/cqtmwy.png
+T 1484814080 18<20SpoonBot18>	Size 285KB
+T 1484814080 20<Peterzen>30	dat is wel nice ja
+T 1484814080 18<26xehbit18>	https://files.kevinvdburgt.com/homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484814080 18<20SpoonBot18>	Index of /homework/greatscottgadgets-hackrf-sdr/lesson1/
+T 1484814080 18<20SpoonBot18>	Welcome back, Chameleo1
+T 1484814080 18<26xehbit18>	splitnet
+T 1484814080 18<26xehbit18>	netsplit
+T 1484814080 20<Peterzen>30	spliterino neterino?
+T 1484814080 18<20SpoonBot18>	Welcome back, Jens1
+T 1484814080 18<20SpoonBot18>	Welcome back, timon
+T 1484814080 18<26xehbit18>	Channel zo goed als dood
+T 1484814080 20<Peterzen>30	asdasd
+T 1484814080 20<Peterzen>30	xehbit: ping
+T 1484814080 18<26xehbit18>	pong
+T 1484814080 20<Peterzen>30	wow heftig
+T 1484814080 20<Peterzen>30	goed verhaal man
+T 1484814080 20<Peterzen>30	xehbit: weet jij wat van PostgreSQL?
+T 1484814080 19<xehbit>	Peterzen beetje
+T 1484814080 20<Peterzen>30	https://play.spotify.com/user/rdenooijer/playlist/3vtTkTsQuLjSyBTheRfUCa
+T 1484814080 18<20SpoonBot18>	Spotify
+T 1484814080 18<20SpoonBot18>	Welcome back, CyanoTex
+T 1484814080 18<20SpoonBot18>	Welcome back, ChubbyBreakfast
+T 1484814080 18<29Chameleon18>	!random
+T 1484814080 18<20SpoonBot18>	​Donkey Poo Can Make You Chorophobic​
+T 1484814080 18<25corne18>	ok
+T 1484814080 18<29Chameleon18>	ok
+T 1484814080 18<29Chameleon18>	dat die nog online is
+T 1484814080 18<29Chameleon18>	die heeft een beste uptime! normaal houd die het niet zo lang vol
+T 1484814080 18<26xehbit18>	!help
+T 1484814080 18<20SpoonBot18>	xehbit: Check your private messages.
+T 1484814080 18<26xehbit18>	!commands
+T 1484814080 18<26xehbit18>	ah
+T 1484814080 18<26xehbit18>	Uhm?
+T 1484814080 18<26xehbit18>	Oh ik weet al, ik heb +R aan staan :P
+T 1484814080 18<26xehbit18>	Chameleon kan je je bot niet autorizen met nickserv :P ?
+T 1484814080 18<29Chameleon18>	morge
+T 1484814080 18<26xehbit18>	hi
+T 1484814080 18<26xehbit18>	Wow is ineens vet leeg hier haha
+T 1484814080 18<25corne18>	lol idd
+T 1484814080 18<25Peterzen_18>	de leegte van 2017
+T 1484814080 18<25corne18>	hehe
+T 1484814080 18<26xehbit18>	xD

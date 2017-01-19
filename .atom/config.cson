@@ -1,0 +1,54 @@
+"*":
+  "atom-autocomplete-php": {}
+  "atom-material-ui":
+    fonts: {}
+    tabs: {}
+    treeView: {}
+    ui: {}
+  "autocomplete-python": {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter-python"
+      "metrics"
+      "linter-gcc"
+      "spell-check"
+      "linter-phpcs"
+    ]
+    projectHome: "/home/peterzen/Code/Atom"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  "django-templates":
+    defaultToDjangoTemplatesForFilePathsContaining: [
+      "userpanel"
+    ]
+  docblockr: {}
+  editor:
+    fontFamily: "\"Fira Code\""
+    fontSize: 19
+    invisibles: {}
+    tabLength: 4
+  emmet: {}
+  "exception-reporting":
+    userId: "aaaf4c71-ed83-f551-d025-d16343cd69b1"
+  linter:
+    errorPanelHeight: 165
+  "linter-gcc":
+    execPath: "/usr/bin/avr-gcc"
+    gccIncludePaths: "/usr/lib/gcc/avr/4.8.1/include/*"
+  "linter-phpcs": {}
+  "linter-python":
+    executablePath: "/usr/local/bin/pylama"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+".editorconfig.source":
+  editor:
+    tabLength: 4

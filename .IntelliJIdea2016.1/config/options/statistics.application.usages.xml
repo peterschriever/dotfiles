@@ -1,0 +1,203 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type-temp">
+      <project id="week-2" values="Application" collectionTime="1481035830317" />
+      <project id="CarParkingProject" values="Application" collectionTime="1477857785726" />
+      <project id="JavaTesting" values="Application" collectionTime="1477858138337" />
+      <project id="11.34-showInputDialog" values="Application" collectionTime="1459416112904" />
+      <project id="Koen-CarParkSimulation" values="Application" collectionTime="1460113976092" />
+      <project id="javaTest" values="Application" collectionTime="1459444158485" />
+      <project id="Research2Werkcollege3" values="Application" collectionTime="1481877600125" />
+      <project id="10.50-foxes-and-rabbit" values="Application" collectionTime="1459534236926" />
+      <project id="BSS-Anticheat" values="Application" collectionTime="1481291116606" />
+      <project id="2-2-infrastructures-leertaak-2" values="Application" collectionTime="1484408785873" />
+      <project id="BSS-AntiCheat" values="Application" collectionTime="1481292858047" />
+      <project id="OSAssignmentsWeek2" values="executeSpecs,Application" collectionTime="1480589020619" />
+      <project id="week-3" values="Application" collectionTime="1482138516255" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="2-2-infrastructures-leertaak-2" values="MySQL/5.5.52-0+deb8u1" collectionTime="1484408786191" />
+    </group>
+    <group name="vcs">
+      <project id="CarParkingProject" values="Git" collectionTime="1477857785724" />
+      <project id="Koen-CarParkSimulation" values="Git" collectionTime="1460113976091" />
+      <project id="BSS-AntiCheat" values="Git" collectionTime="1481292858046" />
+      <project id="2-2-infrastructures-leertaak-2" values="Git" collectionTime="1484408785871" />
+      <project id="CarParkingProjecttest" values="Git" collectionTime="1459431563698" />
+      <project id="week-3" values="Git" collectionTime="1482138516253" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="OSAssignmentsWeek2" values="ECMAScript 5.1" collectionTime="1480589020846" />
+      <project id="11.34-showInputDialog" values="ECMAScript 5.1" collectionTime="1459416113180" />
+      <project id="JavaTesting" values="ECMAScript 5.1" collectionTime="1477858138392" />
+      <project id="CarParkingProject" values="ECMAScript 5.1" collectionTime="1477857786311" />
+      <project id="example" values="ECMAScript 5.1" collectionTime="1459787745070" />
+      <project id="javaTest" values="ECMAScript 5.1" collectionTime="1459444158506" />
+      <project id="10.50-foxes-and-rabbits" values="ECMAScript 5.1" collectionTime="1458312646244" />
+      <project id="Koen-CarParkSimulation" values="ECMAScript 5.1" collectionTime="1460113976342" />
+      <project id="2-2-infrastructures-leertaak-2" values="ECMAScript 5.1" collectionTime="1484408786192" />
+      <project id="week-3" values="ECMAScript 5.1" collectionTime="1482138516585" />
+      <project id="week-2" values="ECMAScript 5.1" collectionTime="1481035830583" />
+      <project id="10.50-foxes-and-rabbit" values="ECMAScript 5.1" collectionTime="1459534237188" />
+      <project id="Research2Werkcollege3" values="ECMAScript 5.1" collectionTime="1481877600449" />
+      <project id="BSS-Anticheat" values="ECMAScript 5.1" collectionTime="1481291116921" />
+      <project id="network-v2" values="ECMAScript 5.1" collectionTime="1459427685609" />
+      <project id="ModDevTesting" values="ECMAScript 5.1" collectionTime="1459594696561" />
+      <project id="CarParkingProjectt" values="ECMAScript 5.1" collectionTime="1459431664275" />
+      <project id="BSS-AntiCheat" values="ECMAScript 5.1" collectionTime="1481292858239" />
+      <project id="CarParkingProjecttest" values="ECMAScript 5.1" collectionTime="1459431563715" />
+      <project id="MinecraftRPG" values="ECMAScript 5.1" collectionTime="1459784569164" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="MinecraftRPG" values="Application" collectionTime="1459784568894" />
+      <project id="ModDevTesting" values="Application,GradleRunConfiguration" collectionTime="1459594696478" />
+      <project id="example" values="Application" collectionTime="1459787745036" />
+      <project id="javaTest" values="Application" collectionTime="1459444158485" />
+    </group>
+    <group name="Git">
+      <project id="OSAssignmentsWeek2" values="config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.force.push.enabled" collectionTime="1480589020672" />
+      <project id="11.34-showInputDialog" values="config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.ssh.enabled" collectionTime="1459416113000" />
+      <project id="JavaTesting" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled" collectionTime="1477858138391" />
+      <project id="CarParkingProject" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.push.autoupdate.disabled,data.remote.branches.count.8+,config.warn.about.detached.enabled,config.ssh.enabled,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,data.local.branches.count.5+,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1477857785990" />
+      <project id="example" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled" collectionTime="1459787745070" />
+      <project id="javaTest" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.ssh.enabled" collectionTime="1459444158505" />
+      <project id="10.50-foxes-and-rabbits" values="config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled" collectionTime="1458312646064" />
+      <project id="Koen-CarParkSimulation" values="config.warn.about.detached.enabled,config.save.policy.STASH,config.ssh.enabled,config.force.push.enabled,data.remote.branches.count.5+,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.2+" collectionTime="1460113976162" />
+      <project id="2-2-infrastructures-leertaak-2" values="config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.force.push.enabled,config.warn.about.detached.enabled,data.remote.branches.count.1,config.push.update.all.roots.enabled,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.crlf.enabled" collectionTime="1484408785984" />
+      <project id="week-3" values="config.save.policy.STASH,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.push.autoupdate.disabled" collectionTime="1482138516358" />
+      <project id="week-2" values="config.warn.about.detached.enabled,config.save.policy.STASH,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1481035830418" />
+      <project id="10.50-foxes-and-rabbit" values="config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.force.push.enabled" collectionTime="1459534237008" />
+      <project id="Research2Werkcollege3" values="config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1481877600221" />
+      <project id="BSS-Anticheat" values="config.force.push.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled" collectionTime="1481291116742" />
+      <project id="network-v2" values="config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1459427685606" />
+      <project id="ModDevTesting" values="config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled" collectionTime="1459594696560" />
+      <project id="CarParkingProjectt" values="config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED" collectionTime="1459431664274" />
+      <project id="BSS-AntiCheat" values="config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,data.remote.branches.count.1,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.ssh.enabled,config.warn.about.detached.enabled,data.local.branches.count.1" collectionTime="1481292858104" />
+      <project id="CarParkingProjecttest" values="config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,data.local.branches.count.1,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,data.remotes.in.project.1,config.push.update.all.roots.enabled,data.remote.branches.count.2+" collectionTime="1459431563714" />
+      <project id="MinecraftRPG" values="config.force.push.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.save.policy.STASH,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1459784569041" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="2-2-infrastructures-leertaak-2" values="com.mysql.jdbc.Driver" collectionTime="1484408786191" />
+    </group>
+    <group name="file-type">
+      <project id="11.34-showInputDialog" values="JAVA,IDEA_MODULE" collectionTime="1459416112989" />
+      <project id="JavaTesting" values="IDEA_MODULE,JAVA" collectionTime="1477858138391" />
+      <project id="CarParkingProject" values="JAVA,PLAIN_TEXT,Git file,Markdown,Manifest,IDEA_MODULE" collectionTime="1477857785971" />
+      <project id="example" values="Properties,Groovy,JAVA,IDEA_MODULE,IDEA_WORKSPACE,Git file,ARCHIVE,IDEA_PROJECT,UNKNOWN,PLAIN_TEXT,XML" collectionTime="1459787745069" />
+      <project id="javaTest" values="IDEA_MODULE,JAVA" collectionTime="1459444158505" />
+      <project id="10.50-foxes-and-rabbits" values="PLAIN_TEXT,JAVA,IDEA_MODULE" collectionTime="1458312646052" />
+      <project id="Koen-CarParkSimulation" values="PLAIN_TEXT,Markdown,IDEA_MODULE,JAVA,Git file" collectionTime="1460113976147" />
+      <project id="2-2-infrastructures-leertaak-2" values="Markdown,SQL,Properties,XML,UNKNOWN,ARCHIVE,JAVA,Git file,PLAIN_TEXT,DTD" collectionTime="1484408785946" />
+      <project id="BSS-AntiCheat" values="Git file,JAVA,PLAIN_TEXT,IDEA_MODULE,Manifest,ARCHIVE" collectionTime="1481292858094" />
+      <project id="week-2" values="JAVA,IDEA_MODULE" collectionTime="1481035830409" />
+      <project id="week-3" values="IDEA_MODULE,JAVA" collectionTime="1482138516344" />
+      <project id="10.50-foxes-and-rabbit" values="JAVA,IDEA_MODULE" collectionTime="1459534236995" />
+      <project id="Research2Werkcollege3" values="Properties,Manifest,JAVA,XML,PLAIN_TEXT,ARCHIVE,UNKNOWN,CLASS" collectionTime="1481877600211" />
+      <project id="network-v2" values="PLAIN_TEXT,JAVA" collectionTime="1459427685605" />
+      <project id="ModDevTesting" values="Groovy,Properties,IDEA_PROJECT,JAVA,Images,ARCHIVE,PLAIN_TEXT,IDEA_MODULE,JSON,IDEA_WORKSPACE" collectionTime="1459594696559" />
+      <project id="CarParkingProjectt" values="JAVA,IDEA_MODULE" collectionTime="1459431664274" />
+      <project id="CarParkingProjecttest" values="Git file,PLAIN_TEXT,JAVA" collectionTime="1459431563713" />
+      <project id="MinecraftRPG" values="JSON,JAVA,ARCHIVE,Images,IDEA_WORKSPACE,IDEA_MODULE,PLAIN_TEXT,Groovy,UNKNOWN,IDEA_PROJECT,Properties" collectionTime="1459784569014" />
+    </group>
+    <group name="module type">
+      <project id="OSAssignmentsWeek2" values="JAVA_MODULE" collectionTime="1480589020618" />
+      <project id="11.34-showInputDialog" values="JAVA_MODULE" collectionTime="1459416112903" />
+      <project id="JavaTesting" values="JAVA_MODULE" collectionTime="1477858138337" />
+      <project id="CarParkingProject" values="JAVA_MODULE" collectionTime="1477857785725" />
+      <project id="example" values="JAVA_MODULE" collectionTime="1459787745036" />
+      <project id="javaTest" values="JAVA_MODULE" collectionTime="1459444158485" />
+      <project id="10.50-foxes-and-rabbits" values="JAVA_MODULE" collectionTime="1458312645989" />
+      <project id="Koen-CarParkSimulation" values="JAVA_MODULE" collectionTime="1460113976091" />
+      <project id="2-2-infrastructures-leertaak-2" values="JAVA_MODULE" collectionTime="1484408785872" />
+      <project id="week-3" values="JAVA_MODULE" collectionTime="1482138516254" />
+      <project id="week-2" values="JAVA_MODULE" collectionTime="1481035830317" />
+      <project id="10.50-foxes-and-rabbit" values="JAVA_MODULE" collectionTime="1459534236926" />
+      <project id="Research2Werkcollege3" values="JAVA_MODULE" collectionTime="1481877600124" />
+      <project id="BSS-Anticheat" values="JAVA_MODULE" collectionTime="1481291116606" />
+      <project id="network-v2" values="JAVA_MODULE" collectionTime="1459427685590" />
+      <project id="ModDevTesting" values="JAVA_MODULE" collectionTime="1459594696478" />
+      <project id="CarParkingProjectt" values="JAVA_MODULE" collectionTime="1459431664262" />
+      <project id="BSS-AntiCheat" values="JAVA_MODULE" collectionTime="1481292858046" />
+      <project id="CarParkingProjecttest" values="JAVA_MODULE" collectionTime="1459431563698" />
+      <project id="MinecraftRPG" values="JAVA_MODULE" collectionTime="1459784568893" />
+    </group>
+    <group name="language-level">
+      <project id="OSAssignmentsWeek2" values="JDK_1_8" collectionTime="1480589020671" />
+      <project id="11.34-showInputDialog" values="JDK_1_7" collectionTime="1459416112999" />
+      <project id="JavaTesting" values="JDK_1_7" collectionTime="1477858138391" />
+      <project id="CarParkingProject" values="JDK_1_7" collectionTime="1477857785986" />
+      <project id="example" values="JDK_1_6" collectionTime="1459787745070" />
+      <project id="javaTest" values="JDK_1_7" collectionTime="1459444158505" />
+      <project id="10.50-foxes-and-rabbits" values="JDK_1_7" collectionTime="1458312646062" />
+      <project id="Koen-CarParkSimulation" values="JDK_1_7" collectionTime="1460113976155" />
+      <project id="2-2-infrastructures-leertaak-2" values="JDK_1_8" collectionTime="1484408785979" />
+      <project id="week-3" values="JDK_1_8" collectionTime="1482138516354" />
+      <project id="week-2" values="JDK_1_8" collectionTime="1481035830417" />
+      <project id="10.50-foxes-and-rabbit" values="JDK_1_7" collectionTime="1459534237007" />
+      <project id="Research2Werkcollege3" values="JDK_1_8" collectionTime="1481877600220" />
+      <project id="BSS-Anticheat" values="JDK_1_3" collectionTime="1481291116736" />
+      <project id="network-v2" values="JDK_1_3" collectionTime="1459427685606" />
+      <project id="ModDevTesting" values="JDK_1_6" collectionTime="1459594696560" />
+      <project id="CarParkingProjectt" values="JDK_1_7" collectionTime="1459431664274" />
+      <project id="BSS-AntiCheat" values="JDK_1_8" collectionTime="1481292858101" />
+      <project id="CarParkingProjecttest" values="JDK_1_7" collectionTime="1459431563714" />
+      <project id="MinecraftRPG" values="JDK_1_6" collectionTime="1459784569040" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="OSAssignmentsWeek2" values="Project,Project" collectionTime="1480589020846" />
+      <project id="11.34-showInputDialog" values="Project,Project" collectionTime="1459416113180" />
+      <project id="JavaTesting" values="Project,Project" collectionTime="1477858138392" />
+      <project id="CarParkingProject" values="Project,Project" collectionTime="1477857786311" />
+      <project id="example" values="Project,Project" collectionTime="1459787745070" />
+      <project id="javaTest" values="Project,Project" collectionTime="1459444158506" />
+      <project id="10.50-foxes-and-rabbits" values="Project,Project" collectionTime="1458312646244" />
+      <project id="Koen-CarParkSimulation" values="Project,Project" collectionTime="1460113976342" />
+      <project id="2-2-infrastructures-leertaak-2" values="Project,Project" collectionTime="1484408786192" />
+      <project id="week-3" values="Project,Project" collectionTime="1482138516585" />
+      <project id="week-2" values="Project,Project" collectionTime="1481035830583" />
+      <project id="10.50-foxes-and-rabbit" values="Project,Project" collectionTime="1459534237188" />
+      <project id="Research2Werkcollege3" values="Project,Project" collectionTime="1481877600449" />
+      <project id="BSS-Anticheat" values="Project,Project" collectionTime="1481291116921" />
+      <project id="network-v2" values="Project,Project" collectionTime="1459427685609" />
+      <project id="ModDevTesting" values="Project,Project" collectionTime="1459594696561" />
+      <project id="CarParkingProjectt" values="Project,Project" collectionTime="1459431664275" />
+      <project id="BSS-AntiCheat" values="Project,Project" collectionTime="1481292858239" />
+      <project id="CarParkingProjecttest" values="Project,Project" collectionTime="1459431563715" />
+      <project id="MinecraftRPG" values="Project,Project" collectionTime="1459784569164" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="6" />
+      <entry feature="execute.Application.Debug" count="50" />
+      <entry feature="execute.Application.Run" count="567" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="1" />
+      <entry feature="execute.executeSpecs.Run" count="1" />
+      <entry feature="git.branch.checkout.local" count="43" />
+      <entry feature="git.branch.checkout.remote" count="3" />
+      <entry feature="git.branch.create.new" count="7" />
+      <entry feature="git.branch.delete.local" count="3" />
+      <entry feature="git.branch.delete.remote" count="5" />
+      <entry feature="ide.settings.Appearance" count="14" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.Console_Font" count="1" />
+      <entry feature="ide.settings.Edit_File_Template" count="1" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="5" />
+      <entry feature="ide.settings.Font" count="6" />
+      <entry feature="ide.settings.General" count="1" />
+      <entry feature="ide.settings.Inspections" count="1" />
+      <entry feature="ide.settings.Keymap" count="7" />
+      <entry feature="ide.settings.Plugins" count="4" />
+      <entry feature="ide.settings.Project_Structure" count="7" />
+      <entry feature="ideaapp.started" count="83" />
+      <entry feature="terminal.linux" count="5" />
+      <entry feature="uml.ShowDiagram.JAVA" count="24" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="2" />
+      <entry feature="uml.ShowDiagram.MODULES" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="8" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="7" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="14" />
+    </counts>
+  </component>
+</application>

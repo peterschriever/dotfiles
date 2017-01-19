@@ -1,0 +1,9 @@
+[user]
+	name = Peter Schriever
+	email = peterzen72@gmail.com
+[core]
+	editor = gedit
+[push]
+	default = simple
+[merge]
+	tool = gedit

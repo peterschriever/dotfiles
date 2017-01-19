@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2015-2016 Vladimir Schneider <vladimir.schneider@gmail.com>
+  ~
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<idea-plugin version="2">
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.header.EqualizeSetextMarkerIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.headers</categoryKey>
+            <descriptionDirectoryName>EqualizeSetextMarkerIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.header.ChangeToSetextHeaderIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.headers</categoryKey>
+            <descriptionDirectoryName>ChangeToSetextHeaderIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.header.ChangeToAtxHeaderIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.headers</categoryKey>
+            <descriptionDirectoryName>ChangeToAtxHeaderIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.reference.InlineReferenceIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.references</categoryKey>
+            <descriptionDirectoryName>InlineReferenceIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.reference.ChangeLinkToReferenceIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkToReferenceIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.reference.DeleteUnusedReferenceIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.references</categoryKey>
+            <descriptionDirectoryName>DeleteUnusedReferenceIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.ChangeExplicitToWikiLinkIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeExplicitToWikiLinkIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.ChangeWikiToExplicitLinkIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.wiki</categoryKey>
+            <descriptionDirectoryName>ChangeWikiToExplicitLinkIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.DeleteUnusedWikiLinkTextIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.wiki</categoryKey>
+            <descriptionDirectoryName>DeleteUnusedWikiLinkTextIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.DeleteResolvableWikiLinkTextIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.wiki</categoryKey>
+            <descriptionDirectoryName>DeleteResolvableWikiLinkTextIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.DeleteWikiLinkRefIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.wiki</categoryKey>
+            <descriptionDirectoryName>DeleteWikiLinkRefIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.wiki.SwapWikiLinkTextAndRefIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.wiki</categoryKey>
+            <descriptionDirectoryName>SwapWikiLinkTextAndRefIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToPageRelIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToPageRelIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToRawIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToRawIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToRepoRelIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToRepoRelIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToShorterIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToShorterIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToUrlIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToUrlIntention</descriptionDirectoryName>
+        </intentionAction>
+
+        <intentionAction>
+            <className>com.vladsch.idea.multimarkdown.intentions.link.ChangeLinkRefFormatToUriIntention</className>
+            <bundleName>com.vladsch.idea.multimarkdown.intentions.IntentionsBundle</bundleName>
+            <categoryKey>intention.category.links</categoryKey>
+            <descriptionDirectoryName>ChangeLinkRefFormatToUriIntention</descriptionDirectoryName>
+        </intentionAction>
+    </extensions>
+</idea-plugin>

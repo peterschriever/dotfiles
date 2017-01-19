@@ -1,0 +1,524 @@
+T 1478635332 18<20blacktronics18>	d3jake: basically you write a byte to the register which determines whether a port is Input or Output, and then you can simply write a byte to the register and turn all ports on or off based on which bits are flipped
+T 1478635332 18<25d3jake18>	blacktronics: I don't think I articulated my question correctly: What is the syntax look like, comparitively?
+T 1478635332 18<20blacktronics18>	DDRA = 0b00000000; would set the entire port as output
+T 1478635332 18<20blacktronics18>	input*
+T 1478635332 18<20blacktronics18>	flipping individual bits in that would turn the corresponding pin in that port into an output
+T 1478635332 18<25d3jake18>	Although this may be "faster", or more elegant, etc., it's also a lot more cryptic to someone just learning how to call functions.
+T 1478635332 18<28nonasuomy_18>	but once you do that you well off just not using the bootloader :D
+T 1478635332 18<28nonasuomy_18>	and then you can join #avr
+T 1478635332 18<20blacktronics18>	and then you can just PORTA=0b10101010 to turn every second pin on
+T 1478635332 18<20blacktronics18>	you can still do this while using the bootloader
+T 1478635332 18<28nonasuomy_18>	wow that was spooky close
+T 1478635332 18<28nonasuomy_18>	we live in a simulation.
+T 1478635332 18<20blacktronics18>	idk I kinda think digitalWrite is toxic
+T 1478635332 18<20blacktronics18>	the cool thing is that you can just make a binary clock by hooking up leds to the port and then just incrementing the port
+T 1478635332 18<25d3jake18>	If you know how to do it, it's fabulous. For a user just starting, using digitalWrite is fine.
+T 1478635332 18<28nonasuomy_18>	well it's better than using a RPi to blink an led
+T 1478635332 18<20blacktronics18>	PORTA=0b11111111, PORTA=0xFF and PORTA=255 are the same thing
+T 1478635332 18<20blacktronics18>	this is the first thing I learned when I was like 12 and messing around with some ATTiny, I did not find it particularily difficult
+T 1478635332 18<20blacktronics18>	I am by no means a pro programmer, give me a milling machine and a lathe and I am happy
+T 1478635332 18<28nonasuomy_18>	it's not, it's just a different learning curve
+T 1478635332 18<28nonasuomy_18>	someone should make an arduinoIDE conversion with all the easy libraries etc to show you the basics on how to get it going on a raw avr.
+T 1478635332 18<28nonasuomy_18>	as it's not really far off from one another.
+T 1478635332 18<28nonasuomy_18>	make it all run off git to grab the libraries
+T 1478635332 18<28nonasuomy_18>	d3jake, https://balau82.wordpress.com/2011/03/29/programming-arduino-uno-in-pure-c/
+T 1478635332 18<28nonasuomy_18>	there's a basic blink
+T 1478635332 18<25d3jake18>	nonasuomy_: Interesting.
+T 1478635332 18<25tsquar3d18>	Hey all -- quick question. Say you have a bus that can only handle 8 bits, but you have a larger bus connected to it -- is there an accepted way to truncate the data?
+T 1478635332 18<25timemage18>	tsquar3d, ehh, not in general.  assuming there are different devices on the bus with different widths, you'd negotiate the width.  you pretty much don't get in the situation where you mismatch your bus sizes.  if you have device designed for 16bits and you don't have that many pins to use, you can use multiplexors and latches and such.
+T 1478635332 18<25tsquar3d18>	timemage:  that's kind of what I thought.
+T 1478635332 18<25timemage18>	tsquar3d, or shift registers/gpio expanders.   if you had something generating 16bits of a numeric value with say a stobe, you could take the upper (most significant) 8bits to get an approximation.
+T 1478635332 18<25Yotson18>	Playing with kst ( https://kst-plot.kde.org/ ), damn its nice. :D
+T 1478635332 18<25Yotson18>	cat serial stuff to file, kst reads file and plots. in 'real time'.
+T 1478635332 18<25d3jake18>	Can it cat from a serial stream, or only a static file?
+T 1478635332 18<25Yotson18>	examples use a file 'in between' serial port and kst. Not sure if there is another way.
+T 1478635332 18<25d3jake18>	Ah, okie. I can see it being a very valuable tool if it can do it directly.
+T 1478635332 18<25Yotson18>	After setting it up its the same. Real time plotting of serial stuff. :)
+T 1478635332 18<25d3jake18>	Ooo...
+T 1478635332 18<25d3jake18>	Sounds like a great resource to display data. Hopefully easier to setup than Processing...
+T 1478635332 18<25d3jake18>	Anyhow, bedtime for me. Hopefully I'll rememeber to resume this conversation with you tomorrow. If my country doesn't detonate over the course of the day, I'll be back online later.
+T 1478635332 18<25Yotson18>	say " cat /dev/ttyUSB0 > ~/Desktop/cutecom.log " Than pointing kst to that file. It can update on change or based on time. Say every sec.
+T 1478635332 18<25Yotson18>	o/ :
+T 1478635332 18<25Yotson18>	:) also..
+T 1478635332 18<22laen18>	Maybe a stupid question, but looking at https://learn.adafruit.com/assets/30921 ..how much mA output should a pin at max give (since I see 2 values mentioned..)
+T 1478635332 18<22laen18>	..is dat 10mA or 65mA?
+T 1478635332 18<22laen18>	At the bottom it says 10mA and at the right under the legend it says 65 oO.
+T 1478635332 18<28deshipu18>	nice component placement: http://www.omgubuntu.co.uk/wp-content/uploads/2016/11/orange-pi-pc-2-board.jpg
+T 1478635332 18<28deshipu18>	I see fritzing is going mainstream ;)
+T 1478635332 18<22laen18>	lol @ that component placement
+T 1478635332 18<28dada18>	laen: 65 is for pin group, not single pin
+T 1478635332 18<22laen18>	What does a pin group mean, then?
+T 1478635332 18<29IcePic18>	several pins on the same PORT on the cpu, perhaps?
+T 1478635332 18<28dada18>	laen: my guess is those marked PA and those marked PB, but not sure
+T 1478635332 18<29IcePic18>	apart from what the limit is, do you really need to push more?
+T 1478635332 18<22laen18>	No just learning what to do and wat not.
+T 1478635332 18<22laen18>	So it's best if I keep it to max 7mA per pin.
+T 1478635332 18<29IcePic18>	I think the common wisdom here is "use pins to signal, and use amplifiers to drive stuff", where the type of amp depends on what kind of monster thing you need to drive.
+T 1478635332 18<22laen18>	Does that mean... if the pins are 3.3V output, 3.3V/470 = 7mA  ..so a 470ohm resistor in a pin would be wise for safety reasons?
+T 1478635332 18<22laen18>	Let's say I want to use a mosfet, then I could place a 470+ ohm between the pin and the Mosfet gate
+T 1478635332 18<22laen18>	Or am I thinking wrong? :P
+T 1478635332 18<29IcePic18>	I drive my relays (not FET but clicking physical relays) by just connecting the pins directly to the relay signal input.
+T 1478635332 18<29IcePic18>	but I guess those already know how to limit the current
+T 1478635332 18<29IcePic18>	probably wont hurt to test with that resister there to begin with
+T 1478635332 18<28frop18>	hey fellas, is this thing good to powerup an arduino? https://www.aliexpress.com/item/AC-85-245V-To-DC-12V-2A-Power-Supply-Adapter-For-Led-Light-Strip/32652637070.html
+T 1478635332 18<29IcePic18>	I would be very cautious with 240V stuff from ali (or any cheap china delivery thing)
+T 1478635332 18<24blathijs18>	laen: You are thinking right. Not everything likes a series resistor, but for FETs it is common practice to have one (also to limit current into the gate0
+T 1478635332 18<28frop18>	IcePic: yeah, I know about that...
+T 1478635332 18<25cehteh18>	IcePic: wtf :F
+T 1478635332 18<22laen18>	blathijs: nice, thanks :)
+T 1478635332 18<28frop18>	...tho, I have no arduino yet...so just trying to figure things out
+T 1478635332 18<25cehteh18>	well i have some ultra tiny reed relays which can be driven by a io pin directly .. including flyback diode
+T 1478635332 18<22laen18>	blathijs: how about, with the FETs, the resistor between 3.3V and GND, I see people sometimes design it with a 10K resistor and sometimes 100K, what's the proper measure for that?
+T 1478635332 18<25cehteh18>	laen: pulldown
+T 1478635332 18<22laen18>	cehteh: but.. how much then?
+T 1478635332 18<25cehteh18>	when the avr boots up the ios are floating
+T 1478635332 18<22laen18>	Or how do I calculate how much the pulldown should be.
+T 1478635332 18<25cehteh18>	may trigger the fet or do anything else badly
+T 1478635332 18<25cehteh18>	no much need to caclulate, almost any value between 1k to 100k will work
+T 1478635332 18<25cehteh18>	better on the 10k-100k side
+T 1478635332 18<25cehteh18>	its just to keep the pin from floating, there flows no current
+T 1478635332 18<22laen18>	But with 1K between the GPIO pin and GND it will still be 3mA that can freely flow right?
+T 1478635332 18<22laen18>	Just trying to understand how it's OK to connect pin output to ground, in my head it says that it will dump at max mA to ground.
+T 1478635332 18<24blathijs18>	!tell laen about pullups
+T 1478635332 18<27grobbebol18>	laen: pullups is https://learn.sparkfun.com/tutorials/pull-up-resistors/what-is-a-pull-up-resistor and also http://www.baldengineer.com/blog/2011/12/19/video-tutorial-buttons-and-pull-ups/ and also http://www.dsscircuits.com/articles/47-effects-of-varying-i2c-pull-up-resistors
+T 1478635332 18<22laen18>	Will read! :)
+T 1478635332 18<24blathijs18>	laen: Usually, with pullups and pulldowns, the size is determined by the amount of leakage current (bigger is better) and the maximum speed of voltage changes (smaller is better)
+T 1478635332 18<29pwillard18>	as with most things electronics related... everything is a trade off.
+T 1478635332 18<22laen18>	pwillard: are you still a fan of the Hakko FX-888D btw? Since I need to order a soldering station anyway, it's either that one, Ersa or Weller.
+T 1478635332 18<29pwillard18>	I owned a weller from 1978 to 2005... the only downsides were weight and cost of replacement heaters or any parts that break.  I have owned a Hakko fx888 since 2005 and love it.
+T 1478635332 18<19cousteau18>	how big is all the Arduino git?  it's taking forever to clone
+T 1478635332 18<29pwillard18>	it aint tiny
+T 1478635332 18<19cousteau18>	anyone mind pulling my PR?  https://github.com/arduino/Arduino/pull/4624
+T 1478635332 18<19cousteau18>	I fixed the conflict
+T 1478635332 18<19cousteau18>	...1.2 GB btw
+T 1478635332 18<19cousteau18>	https://github.com/arduino/Arduino/pull/4624/files  Look at my PR, my PR is amazing!  Give it a try, it fixes issue #4511
+T 1478635332 18<29IcePic18>	cousteau: fwiw, I think I like the wrap to act as "expected", ie, not having gcc assume stuff never happens and zomg-opt away checks and code for things which new people wont really understand until years from now.
+T 1478635332 18<29IcePic18>	I hate to think how many bugs pop up in old code due to that.
+T 1478635332 18<29IcePic18>	as someone said, "the modern compiler writers should be forced to fly on a plane with autopilot code that has been running for 20+ years without issues compiled with their new fancy compilers". ;)
+T 1478635332 18<19cousteau18>	yeah, that's not how things work
+T 1478635332 18<19cousteau18>	but it's how things should work on Arduino
+T 1478635332 18<19cousteau18>	(specially if the Arduino docs itself say that's how it should work)
+T 1478635332 18<19cousteau18>	the thing is, people will rely on UB, and will disable or ignore the warnings (ahem, Arduino...), so the compiler will do its best
+T 1478635332 18<19cousteau18>	IcePic, actually this isn't the compiler's fault.  The compiler did as it was told: to optimize the code
+T 1478635332 18<19cousteau18>	so the compiler generates the fastest code possible complying with the C++ standard and whichever ABI, and in this case this means breaking things it wasn't told not to break
+T 1478635332 18<29IcePic18>	yeah, but I also think that if there would be anywhere people would assume byte rollover would "work", it would be on old 8bitters, when trying to write something in C they saw on some AVR-or-other-8bit cpu asm
+T 1478635332 18<19cousteau18>	...if it makes you feel better, an 8 bit value, or `byte` in Arduino, works as expected
+T 1478635332 18<19cousteau18>	(or any *unsigned* integer, fwiw)
+T 1478635332 18<29IcePic18>	oh sorry. int then
+T 1478635332 18<29IcePic18>	int16_t
+T 1478635332 18<19cousteau18>	in any case, if GCC is not supposed to do weird things, then you shouldn't tell it to optimize.  Since you do, you risk weird things doing weird things.
+T 1478635332 18<19cousteau18>	(the "weird thing" in this case is not really doing the signed overflow itself, but rather encouraging users to do it)
+T 1478635332 18<19cousteau18>	as a side note, the compiler DOES warn you about the weird optimization if you enable -Wall (Warning level: normal)
+T 1478635332 18<19cousteau18>	BUT, somebody decided that warnings are scary to noobs (and developers who write the documentation) and decided to hide all warnings instead
+T 1478635332 18*	19cousteau heavily favors setting the default warning level on Arduino to -Wall rather than -w
+T 1478635332 18<19cousteau18>	...anyway, IcePic, my PR makes Arduino behave like you would expect with signed overflows, and I also think that at least for Arduino it makes sense that the least surprising thing happens.
+T 1478635332 18<29pwillard18>	<facepalm>  Months go by and you are still griping about how GCC behaves...
+T 1478635332 18<19ozzzy_18>	I just either Ctrl-R or press the 'upload' button
+T 1478635332 18<19cousteau18>	pwillard, well, nobody's merging my PR!
+T 1478635332 18<19cousteau18>	nor fixing the documentation
+T 1478635332 18<19ozzzy_18>	what's a PR
+T 1478635332 18<19cousteau18>	pull request
+T 1478635332 18<19ozzzy_18>	ahh... don't know what that is
+T 1478635332 18<19cousteau18>	it means "I found an error on Arduino and I fixed it myself, here you have the fix I made so that you can apply it to the official Arduino program"
+T 1478635332 18<19ozzzy_18>	doesn't that call for regression testing?
+T 1478635332 18<29IcePic18>	yeah, it incorporates a lot of "I did all the work, you only need to look at it and push a button to get it"
+T 1478635332 18<19ozzzy_18>	and some committee?
+T 1478635332 18<29pwillard18>	I know -->  https://github.com/arduino/Arduino/issues/4987   but this is typical...
+T 1478635332 18<19cousteau18>	well of course it's typical, nobody fixes it so I keep complaining
+T 1478635332 18<29pwillard18>	and... no devs are ever here
+T 1478635332 18<19cousteau18>	yeah I noticed, I thought there might be
+T 1478635332 18<19ozzzy_18>	yeah... I submitted a patch for gnome-terminal years ago... the error wasn't fixed for 3 releases
+T 1478635332 18<29pwillard18>	personally... I would be working with Paul Stoffgren (on the side) and see if I could get him engaged.
+T 1478635332 18<19cousteau18>	ozzzy_, the annoying thing is that pull requests may "rot": if someone else makes a change on the file you modified, then your patch cannot be merged because it conflicts
+T 1478635332 18<19ozzzy_18>	why not just email a maintainer
+T 1478635332 18<19cousteau18>	so you often have to keep your pull request (basically a bunch of patches/changes) up to date with the upstream Arduino for it to work
+T 1478635332 18<19cousteau18>	ozzzy_, that's what the github Issues section is supposed to be for
+T 1478635332 18<19cousteau18>	also it's what I thought the IRC channel might be helpful for, but I see there are no devs here
+T 1478635332 18<19cousteau18>	pwillard, btw, what did you mean by "this is typical"?  "this behavior is typical", "PRs taking long to be merged are typical", or "you coming here and complaining about this bug is becoming typical"?
+T 1478635332 18<29pwillard18>	Length of time required to fix "non-urgent" things
+T 1478635332 18<19cousteau18>	ok...
+T 1478635332 18<29pwillard18>	and "documentation" fixes get like automatic "bottom of the pile" importance based on my experience since 2006
+T 1478635332 18<19cousteau18>	yep, although iirc I recently saw an issue about the documentation being fixed quite fast, maybe out of pure luck
+T 1478635332 18<29pwillard18>	^^ agreement
+T 1478635332 18*	19cousteau still waiting for documentation on % renaming "modulo" to "remainder" and adding example on what happens with negatives
+T 1478635332 18<26mcastillo18>	I'm having problems trying to upload a code to Arduino over VirtualBox. I'm using Debian as host and Windows 10 as guest. I have enabled the USB Device in VirtualBox so windows can see the board.
+T 1478635332 18<19cousteau18>	you can just get Arduino for Debian
+T 1478635332 18<26mcastillo18>	In Arduino IDE 1.6.2 I have set the COM port. It starts the upload, but it fails
+T 1478635332 18<29pwillard18>	well, a lot of us would prefer that analogWrite() was called PWMwrite() instead
+T 1478635332 18<29pwillard18>	since there are now devices with TRUE analog DAC's
+T 1478635332 18<26mcastillo18>	The error says: couldn't find a Board on the selected port. Check that you have the correct port selected. ...
+T 1478635332 18<19cousteau18>	pwillard, oh nice
+T 1478635332 18<19cousteau18>	...well, probably just a sigma delta, amirite?
+T 1478635332 18<19cousteau18>	mcastillo, and you do?
+T 1478635332 18<19cousteau18>	what board is it?  I'm not sure how good VBox is with FTDI or similar; anyway you could also ask on the VBox channel
+T 1478635332 18<19cousteau18>	#vbox
+T 1478635332 18<26mcastillo18>	cousteau: it looks like the boards get disconected from virtualbox. It is a Leonardo board
+T 1478635332 18<24louis_18>	Hello
+T 1478635332 18<26mcastillo18>	I will ask in #vbox
+T 1478635332 18<19cousteau18>	iirc the USB connection gets disconnected every time code is uploaded or something like that (I'm no expert; I'm just guessing)
+T 1478635332 18<19cousteau18>	anyway, is there any specific reason for doing this on Windows?  Arduino works on Linux (as long as you have the required Java)
+T 1478635332 18<19cousteau18>	(I think it works with JDK)
+T 1478635332 18<19cousteau18>	*OpenJDK
+T 1478635332 18<19cousteau18>	you need Java version 8 or so I think
+T 1478635332 18<19cousteau18>	(anyway, if there's a different reason why you're doing this on a virtual Windows then never mind)
+T 1478635332 18<24blathijs18>	mcastillo: Leonardo boards re-enumerate on the USB port when they reset and/or an upload happens
+T 1478635332 18<29IcePic18>	a Leonardo runs the USB2serial internally, no? So when it reboots it might just be perceived as "pulled out"
+T 1478635332 18<24blathijs18>	IcePic: Exactly
+T 1478635332 18<29IcePic18>	an Uno would keep the 16u2 alive even if the 328 restarts
+T 1478635332 18<26mcastillo18>	cousteau: my boss wants me to use visual studio with VMicro plugin (that use Arduino IDE), so I need to do this over a windows machine :(
+T 1478635332 18<19cousteau18>	...ouch
+T 1478635332 18*	19cousteau . o O ( people who want you to use Visual Studio are people who don't love you )
+T 1478635332 18<19ozzzy_18>	I like VisualStudio
+T 1478635332 18<19ozzzy_18>	but I don't use VisualMicro
+T 1478635332 18<26mcastillo18>	I have set a filter in VirtualBox so the USB port gets always connected to the guest windows machine.
+T 1478635332 18<26mcastillo18>	I have tried to upload the code and it last a minute or longer trying to upload, but it fails with a different error: "An error occurred while uploading the sketch"
+T 1478635332 18<26mcastillo18>	I can't hear the relay turning on and off... so it haven't worked as the error says.
+T 1478635332 18<26tawr18>	mcastillo: are you sure you have the drivers installed properly
+T 1478635332 18<26tawr18>	the arduino ide setup right (on the right virtual serial port) and the mapping is done correctly etc?
+T 1478635332 18<26mcastillo18>	Yes. I'm using the drivers from the IDE:  I have installed them today from the folder Arduino-1.6.12/drivers. And as I attach the usb port in the windows (over virtualbox) I see COM5 (Arduino Leonardo) under Tools/ Port menu
+T 1478635332 18<26mcastillo18>	I have selected COM5 (Arduino Leonardo)*
+T 1478635332 18<26tawr18>	and the bootloader selection is correct as well?
+T 1478635332 18<26tawr18>	can you upload the examples -> 01 digital -> blink sketch?
+T 1478635332 18<24louis_18>	Please your support
+T 1478635332 18<26tawr18>	wut
+T 1478635332 18<24louis_18>	i need verify that arrived this text " ("+CMTI: \"SM\",1",2000)" to serial1 from mega
+T 1478635332 18<24louis_18>	i´m use this linea command:
+T 1478635332 18<26tawr18>	add a line to echo back receivedcommands ?
+T 1478635332 18<24louis_18>	resp= recibeATcommand ("+CMTI: \"SM\",1",2000)
+T 1478635332 18<24louis_18>	the issue is that the number "1" can go from (1,2, ....... to 20)
+T 1478635332 18<26mcastillo18>	tawr: I have successfully uploaded the blink example code in Debian, using AVRISP mkII, but using the same config under the virtual machine doesn't work.
+T 1478635332 18<26tonton8118>	virtual machine should use the port directly, not emulated
+T 1478635332 18<26tonton8118>	for usb
+T 1478635332 18<26mcastillo18>	what do you mean by directly?
+T 1478635332 18<26mcastillo18>	in the menu of virtualbox I have enabled the USB so the guest can see it. That is emulated?
+T 1478635332 18<26mcastillo18>	is that emulated?*
+T 1478635332 18<29pwillard18>	and make sure you can get exlusive access to it
+T 1478635332 18<24louis_18>	the value  ("+CMTI: \"SM\",value",2000)" can change from 1 to 20
+T 1478635332 18<29pwillard18>	I see 1 to many " there
+T 1478635332 18<24louis_18>	value= 1,2, .....20
+T 1478635332 18<29pwillard18>	So your PARAMETER is "+CMTI: \"SM\",variable"  and 2000...   I'm pretty sure you can't escape " like that -> \"
+T 1478635332 18<24GeDaMo18>	You can in C strings
+T 1478635332 18<22laen18>	Why must Mosfets be so complicated ;p
+T 1478635332 18<29pwillard18>	well, do I just naturally imply/infer that context?
+T 1478635332 18<29pwillard18>	BJT Transistors and Mosfets are as complicated as you want them to be... or simple if you follow some basic guidelines
+T 1478635332 18<26prtz18>	Is there some kind of problem using arduino RXTX serial port in Ubuntu? I tried and wasn't able to use it. so I decided to look for another one, jserialcomm, but I still feel that RXTX is a better option because of documentation and tutorials. Which one do you recommend, RXTX or jserialcomm?
+T 1478635332 18<22laen18>	Well it's those guidelines I suppose. And the filtering I can apply with a choice of 3500 of them ;p
+T 1478635332 18<29pwillard18>	For one... its very dated
+T 1478635332 18<29pwillard18>	Arduino replaced the legacy RXTX java library a while back now.
+T 1478635332 18<29pwillard18>	Version 1.5 IDE --> Replaced RXTX library with JSSC (Alexey Sokolov)
+T 1478635332 18<29pwillard18>	louis_:   Why not use a tool like sprint() to pre-assemble your parameter (with embedded variable value) before using recibeATcommannd()?
+T 1478635332 18<19deskwizard18>	laen: I love mosfets ;) maybe I can be of help
+T 1478635332 18<19deskwizard18>	also, 'morning all
+T 1478635332 18<19deskwizard18>	:)
+T 1478635332 18<26prtz18>	pwillard: thanks man, i'll try to find out more about JSSC
+T 1478635332 18<24louis_18>	pwillard: this is print of the text
+T 1478635332 18<24louis_18>	+CMTI: "SM",1
+T 1478635332 18<24louis_18>	  +CMTI: "SM",2
+T 1478635332 18<24louis_18>	i need put this linea the command
+T 1478635332 18<24louis_18>	recibeATcommand ("+CMTI: \"SM\",1",2000);
+T 1478635332 18<24louis_18>	in the void loop ()
+T 1478635332 18<24louis_18>	from the 1 can change from 1, 2 .... 20
+T 1478635332 18<29pwillard18>	did you read the description of sprintf()?
+T 1478635332 18<24louis_18>	i´m read document of sprintf
+T 1478635332 18<24louis_18>	the idea is use   do { }while into void loop ()
+T 1478635332 18<29pwillard18>	that has nothing to with the problem
+T 1478635332 18<29pwillard18>	If you actually create a valid "String" with sprintF() you might have something you can use to compare with
+T 1478635332 18<29pwillard18>	If you know the value always comes after the comma, then you can use strstr() to find the postion of the , and the use the next higher value as a pointer to the start of the value.  You could then grab the rest of the string and then everything between commas is your value... but that assumes i know what you need... and   I probably don't as you have shared
+T 1478635332 18<29pwillard18>	nearly nothing about what you are doing.
+T 1478635332 18<24louis_18>	you know my code has 3 routine .. the main routine is waiting that arrived a SMS for responds with currente temperature
+T 1478635332 18<24louis_18>	everty time that arrived a SMS in the serial1 appears this text:
+T 1478635332 18<24louis_18>	+CMTI: "SM",1
+T 1478635332 18<24louis_18>	the 1 means that is first SMS
+T 1478635332 18<29pwillard18>	you know my code has 3 routine <--- no, I know nothing at all about your code.
+T 1478635332 18<24louis_18>	but can arrived many SMS at same time to GPRS shield
+T 1478635332 18<24louis_18>	I´m sorry let me explain all code
+T 1478635332 18<24louis_18>	1 routine --> waiting that arrived a SMS for responds with the current temperatue
+T 1478635332 18<24louis_18>	2 routine  --> send a alarm (SMS) whem the temperature is outside from range
+T 1478635332 18<24louis_18>	3 routine --> send (for this use a HTTPAction _GPRS) the value the temperature each 10 minute to cloud.
+T 1478635332 18<24louis_18>	So, I´m try that is 3 routine work
+T 1478635332 18<24louis_18>	i have tested every routine and work well
+T 1478635332 18<24GeDaMo18>	louis_: http://codepad.org/DP1SrAbk
+T 1478635332 18<24louis_18>	the problem appears when the 3 routines work ... because during the send data to cloud the GPRS shield can recieve a SMS
+T 1478635332 18<22laen18>	deskwizard: that would be awesome! Will you be here one of the upcoming days? Because my time is sort-of up (we got something planned for tonight) :).
+T 1478635332 18<24louis_18>	the end user not receive the responds of the SMS because the GPRS shield is busy  send the data to cloud
+T 1478635332 18<24louis_18>	so the end user .... starting a send many SMS
+T 1478635332 18<29pwillard18>	louis_: You are not going to escape that fact that arduino and likely GPRS can only do 1 thing at a time
+T 1478635332 18<24louis_18>	i´m understand that mega+GPRS can only do 1 thing at a time
+T 1478635332 18<24louis_18>	for that reason i need that the code to be executed in the order that I need
+T 1478635332 18<29PinkPing18>	audiuno::louis_ == c++::louis   ?
+T 1478635332 18<19deskwizard18>	laen:  very likely, just hit me up then
+T 1478635332 18<24louis_18>	 My competence is Telecom ... my knowledge from c++ i have learned during the creation from this code
+T 1478635332 18<24louis_18>	all days a read documentation from c++
+T 1478635332 18<24louis_18>	for this reason i need your support and help
+T 1478635332 18<25ozzzy18>	and the question that needs asking is.... why is a 7809 passing Vin
+T 1478635332 18<25ozzzy18>	[sigh]
+T 1478635332 18<29PinkPing18>	louis_: eh you need other’s help? lol
+T 1478635332 18<29PinkPing18>	:|  how about reading book by yourself?
+T 1478635332 18<29PinkPing18>	louis_:
+T 1478635332 18<24louis_18>	yes, need that each routine to run at its corresponding time
+T 1478635332 18<24Apocx18>	program your arduino so it checks temp, sends SMS, then waits for a certain amount of time for SMS to come in. then repeat.
+T 1478635332 18<24Apocx18>	if you want each routine to run independent of one another, use a raspberry pi not an arduino
+T 1478635332 18<24louis_18>	at moment  there is a issue ... the 1 routine stop working because the SMS was sent when the mega+gprs were sent the data to cloud
+T 1478635332 18<24louis_18>	the issue is this linea command:
+T 1478635332 18<24louis_18>	recibeATcommand ("+CMTI: \"SM\",1",2000)
+T 1478635332 18<24louis_18>	becaus the value 1 can change to 1,2 ... 20
+T 1478635332 18<24Apocx18>	you should only look for +CMTI (or +CTMI: "SM") and then dynamically parse the rest then.
+T 1478635332 18<24louis_18>	so. i´m try the use the code that GeDaMo paste here
+T 1478635332 18*	25ozzzy replaced the 7809 with a chinese switch-mode board
+T 1478635332 18<29pwillard18>	How to write a parser routine: http://pwillard.com/files/ASKManualRev5.pdf  page 58
+T 1478635332 18<24louis_18>	Apocx: I will implement yours recommendation
+T 1478635332 18<29pwillard18>	Which is what I said what feels like hours ago
+T 1478635332 18<24louis_18>	i´m sorry pwillard  ...thanks a lot
+T 1478635332 18<28frop18>	gosh, all of this is overwhelming....gotta buy one and start doing things :(
+T 1478635332 18<28Chillum18>	frop: what are you trying to do?
+T 1478635332 18<28frop18>	learning
+T 1478635332 18<28Chillum18>	nice
+T 1478635332 18<28frop18>	right now, I'm puzzled about relays
+T 1478635332 18<28Chillum18>	I knew zero about electronics when I started playing with an arduino. You can do a lot but knowing a little about electronics makes a big difference
+T 1478635332 18<28Chillum18>	what kind of relay?
+T 1478635332 18<28Chillum18>	is it a coil based or a solid state?
+T 1478635332 18<28Chillum18>	ie, does it click?
+T 1478635332 18<25ozzzy18>	it's ticking??? CUT THE BLUE WIRE
+T 1478635332 18<28Chillum18>	hehe
+T 1478635332 18<28Chillum18>	most mechanical relays require too much current to run directly from a GPIO
+T 1478635332 18<28Chillum18>	you need a transistor to drive it
+T 1478635332 18<28Chillum18>	and you will need a flyback diode to absorb the voltage spike when the magnetic field collapses
+T 1478635332 18<28frop18>	http://www.offeraprice.com.au/images/detailed/401/sku_156088_3.jpg
+T 1478635332 18<28frop18>	http://image.made-in-china.com/2f0j00UDTQaytRjzbj/Solid-State-Relay-HHG5-1-.jpg
+T 1478635332 18<28frop18>	what's the difference?
+T 1478635332 18<24Apocx18>	One is mechanical, one is solid state
+T 1478635332 18<28Chillum18>	a mechanical one uses an electomagnet
+T 1478635332 18<28Chillum18>	to pull a metal plate over to complete the connection
+T 1478635332 18<28frop18>	and what's make choose one or another?
+T 1478635332 18<28Chillum18>	a SSD relay generally uses optical coupling to drive a triac or transistor
+T 1478635332 18<28frop18>	"what makes me" <--- sorry
+T 1478635332 18<24Apocx18>	mechanical makes an audible clicking sound when activated, SSRs don't
+T 1478635332 18<24Apocx18>	mechanical is not good for high frequency switching, i.e. switching a lot very fast
+T 1478635332 18<28frop18>	oh
+T 1478635332 18<28frop18>	that makes sense actually
+T 1478635332 18<28frop18>	...but is that it?
+T 1478635332 18<28Chillum18>	SSRs tend to have a higher "on" resistance
+T 1478635332 18<28Chillum18>	which creates heat
+T 1478635332 18<28Chillum18>	they can also leak small amounts when off
+T 1478635332 18<28Chillum18>	but they have a lot of advantages
+T 1478635332 18<28Chillum18>	no bouncing, higher switching speed, less current to drive etc
+T 1478635332 18<28Chillum18>	spark-less, which is nice if you run them in explosive gas
+T 1478635332 18<28frop18>	wait wait wait...you telling me I gotta buy a soldering station for any "semi serious" arduino project? :(
+T 1478635332 18<28Chillum18>	you can do most stuff with breadboard
+T 1478635332 18<28Chillum18>	you will be limited to through hole components and things that have breakout boards though
+T 1478635332 18<28frop18>	that's a good thing...I suck at soldering...maybe cause I've never had a "good" soldering iron...who knows?
+T 1478635332 18<24Apocx18>	a soldering iron is good to have, and if you want to do anything complicated you will most likely need one. if you stick to off the shelf parts and such though all you need is a breadboard and jumper wires
+T 1478635332 18<28Chillum18>	yes
+T 1478635332 18<28Chillum18>	you need a good soldering iron
+T 1478635332 18<28Chillum18>	it is SO much easier
+T 1478635332 18<26tawr18>	frop:
+T 1478635332 18<28Chillum18>	a bad soldering iron makes life hard
+T 1478635332 18<28frop18>	wat
+T 1478635332 18<28Chillum18>	if you are going to solder that is
+T 1478635332 18<28frop18>	yeah Chillum, guess so
+T 1478635332 18<26tawr18>	frop: actually, having an iron setup and tinned properly is imporant, moreso than price/brand
+T 1478635332 18<26tawr18>	though if you have a properly setup 10 dollar iron vs a temp controlled hakko, obviously the hakko wins hands down.
+T 1478635332 18<28Chillum18>	I have a $70 weller station
+T 1478635332 18<24Apocx18>	personally my main concern with irons is if they have a wide selection of tips
+T 1478635332 18<28Chillum18>	hakko is also great
+T 1478635332 18<28frop18>	I was looking at Hakko today....that's fuck expensive
+T 1478635332 18<28Chillum18>	temp control is useful
+T 1478635332 18<28Chillum18>	low watt irons get less hot and actually burn things more
+T 1478635332 18<24Apocx18>	a $20 pencil iron is going to be crap compared to a proper Hakko or Weller station
+T 1478635332 18<28Chillum18>	because higher temperatures require less time and the heat spreads less
+T 1478635332 18<28frop18>	there are soldering station (lafayette for example) much cheaper
+T 1478635332 18<28Chillum18>	low temperatures take longer and the heat spreads out more
+T 1478635332 18<26tawr18>	frop: the gold standard is the hakko fx-888d
+T 1478635332 18<28Chillum18>	a bit counterintuitive
+T 1478635332 18<24Apocx18>	^ I have one of those
+T 1478635332 18<28frop18>	yeah tawr, browsed that
+T 1478635332 18<24Apocx18>	it has replaced my weller
+T 1478635332 18<26tawr18>	it heats up to temperature in 10-15 seconds. computer controlled, keeps the temp at that.
+T 1478635332 18<28frop18>	it's like 150€
+T 1478635332 18<26tawr18>	so, say you havea cheap iron and you're trying to solder something big
+T 1478635332 18<26tawr18>	a cheap iron you have to hold it there for a really long time til everything heats up
+T 1478635332 18<28Chillum18>	couple some basic soldering skills with some custom PCB and suddenly a whole world of parts open up that just don't work on a breadboard
+T 1478635332 18<26tawr18>	the hakko pumps more power into the tip to keep the temp, soldering big things easier
+T 1478635332 18<28Chillum18>	but if you are just getting started there is plenty you can do with a breadboard and jumper wires
+T 1478635332 18<28frop18>	anyway...the problem at hand....relays...
+T 1478635332 18<28frop18>	what should I use to fire up a lamp?
+T 1478635332 18<24Apocx18>	http://electronicdesign.com/components/electromechanical-relays-versus-solid-state-each-has-its-place
+T 1478635332 18<20sibiria18>	voltage and current, is my take on it
+T 1478635332 18<26tawr18>	frop:
+T 1478635332 18<28Chillum18>	frop: either will pwoer a lamp. However a solid state relay with zero crossing will be easier on the light bulb
+T 1478635332 18<26tawr18>	something simple like a lamp is a non issue
+T 1478635332 18<26tawr18>	especially since it uses almost no power
+T 1478635332 18<28Chillum18>	but ya, either will do
+T 1478635332 18<29pwillard18>	SSR is often AC voltage specific
+T 1478635332 18<28Chillum18>	yup
+T 1478635332 18<26tawr18>	frop: if you do it from scratch, you need a transistor and diodes to drive the relay from your mcu
+T 1478635332 18<26tawr18>	but you can buy shields / little boards that do all that for you
+T 1478635332 18<28frop18>	like the one I linked?
+T 1478635332 18<28Chillum18>	frop: be really careful working with mains power. Make sure you have no exposed metal before you plug it in. It will ruin your day
+T 1478635332 18<26tawr18>	didnt look frop
+T 1478635332 18<28frop18>	http://www.offeraprice.com.au/images/detailed/401/sku_156088_3.jpg  <--- 2€ one
+T 1478635332 18<26tawr18>	yup
+T 1478635332 18<26tawr18>	see how there is stuff on the board?
+T 1478635332 18<28Chillum18>	ya those songle boards are good
+T 1478635332 18<28frop18>	that's relay+shield...good
+T 1478635332 18<28frop18>	yeah
+T 1478635332 18<26tawr18>	that's not a shield, frop
+T 1478635332 18<28Chillum18>	they have build in opto-isolation and take care of switching from low current and flyback for you
+T 1478635332 18<26tawr18>	shields sit on top of the arduino
+T 1478635332 18<29pwillard18>	Frop... your choice... buy a good soldering iron once.  or a crap soldering iron many times (with lower quality results that also die aftyer a few years)
+T 1478635332 18<28Chillum18>	can't we just call all of these things modules or daughterboards?
+T 1478635332 18<28Chillum18>	shields, capes, geez
+T 1478635332 18<28frop18>	pwillard: like everything else....right? :D
+T 1478635332 18<26tawr18>	when you power up a relay (or any electromagnet), when you remove power, the magnetic field stored in the electromagnet collapses
+T 1478635332 18<26tawr18>	and creates a very high voltage pulse
+T 1478635332 18<26tawr18>	that will fry your arduino (or any computer) instantly
+T 1478635332 18<29pwillard18>	for years... all we called them was modules... thats what they should be called
+T 1478635332 18<28Chillum18>	yup
+T 1478635332 18<20sibiria18>	there's a risk of it, not a guarantee
+T 1478635332 18<20sibiria18>	depends plenty on what's going through the coil
+T 1478635332 18<26tawr18>	incorrect
+T 1478635332 18<29pwillard18>	depends totally on the coil
+T 1478635332 18<20sibiria18>	the size of the coil etc.
+T 1478635332 18<26tawr18>	this is a person that has no idea what they are doing or has any electronics knowledge what so ever
+T 1478635332 18<26tawr18>	don't be pedantic over shit that will make his situation even harder.
+T 1478635332 18<20sibiria18>	so don't scare him off by telling him relays will always fry your computer if you don't have a flyback diode on them
+T 1478635332 18<28Chillum18>	I played with a solonoid relay from a car with and without a diode with my oscilloscope. A 12V charged coil gave spikes over 100V
+T 1478635332 18<20sibiria18>	you're establishing err knowledge
+T 1478635332 18<26tawr18>	uh, yeah. let him think there's no danger.
+T 1478635332 18<24Apocx18>	frop: You want to control a light with an arduino? Buy one of these. It's not cheap but it does everything for you. http://www.powerswitchtail.com/Pages/default.aspx
+T 1478635332 18<20sibiria18>	no - teach him the correct danger of it
+T 1478635332 18<20sibiria18>	don't inflate it
+T 1478635332 18<28frop18>	dw fellas...I'm a grown up man....i'm not easily scared
+T 1478635332 18<26tawr18>	incorrect, you are being pedantic. how is he supposed to judge if it is dangerous or not, exactly?
+T 1478635332 18<29pwillard18>	you *can* run a small reed relay coil from a pin... draws like 20mA... but I'd still use a diode... even with that.  AS the voltage that can be "reversed" into the pin on collapse can be high.
+T 1478635332 18<20sibiria18>	tawr: it's not about being pedantic, it's about being correct instead of being wrong
+T 1478635332 18<20sibiria18>	wrong is bad
+T 1478635332 18<26tawr18>	it's being pedantic.
+T 1478635332 18<28frop18>	Apocx: reading around I saw that, already, yep
+T 1478635332 18<28Chillum18>	I would use a flyback diode regardless of the size of the coil
+T 1478635332 18<20sibiria18>	tawr: you're being pedantic now, and stubborn
+T 1478635332 18<28Chillum18>	and reverse flow is undesirable
+T 1478635332 18<26tawr18>	this is a person that has no use of that knowledge what so ever. and you are not helping, you popped in being pedantic over shit
+T 1478635332 18<24Apocx18>	you pay a bit more but you don't have to worry about anything. just plug in to wires and you're good
+T 1478635332 18<28Chillum18>	s/and/any/
+T 1478635332 18<29pwillard18>	Frop... yes... buy many used cars... or few new "decent" cars
+T 1478635332 18<24Apocx18>	two*
+T 1478635332 18<20sibiria18>	spreading err knowledge is never a good option. ever. teach them correctly
+T 1478635332 18<26tawr18>	he stated his knowledge level earlier
+T 1478635332 18<28Chillum18>	sibiria: when teaching new people it is certainly possible to provide too much detail and make learning harder
+T 1478635332 18<26tawr18>	it serves no purpose what so ever. saying to use a flyback diode (actually, we were talking about modules that do the driving, isolating, and diodes all together) to make it easier for him
+T 1478635332 18<20sibiria18>	i'm not sure on what earth that merits feeding him a completely wrong perspective instead of properly explaining the dangers
+T 1478635332 18<26tawr18>	how do you suppose he is to judge the use of diodes, exactly?
+T 1478635332 18<29pwillard18>	Just because you can "get away" with something does not make it correct.
+T 1478635332 18<28Chillum18>	^^
+T 1478635332 18<28Chillum18>	even if the flyback spike is small it should still be suppressed
+T 1478635332 18<28frop18>	I have a very basic electronic background...
+T 1478635332 18<26tawr18>	you run flyback diodes on relays. bad things happen if you don't. can you, in very specific circumstances, get away with it? sure you can
+T 1478635332 18<29pwillard18>	So leaving "fiddly annoying details out to save noobs feelings" is never good
+T 1478635332 18<20sibiria18>	no one said it was correct to avoid the flyback diode. of course you should protect the circuit
+T 1478635332 18<28Snert_18>	there's no substitute for a good tutorial and basic reading skills.
+T 1478635332 18<28Chillum18>	it might work for months then fail
+T 1478635332 18<26tawr18>	lol
+T 1478635332 18<29pwillard18>	exactly Chillum
+T 1478635332 18<29pwillard18>	You can't build an Airbus that way
+T 1478635332 18<28Chillum18>	then some guy will open it and say "WTF, no flyback diode... geez"
+T 1478635332 18<26tawr18>	then you help him. you came in latched on to an insignificant detail while i was trying to help a user
+T 1478635332 18<28Chillum18>	frop: one of those songle relay boards handy all the little details of driving a relay
+T 1478635332 18<28Chillum18>	once you get your project working you can look up the schematic of the board and see what it is doing
+T 1478635332 18<29pwillard18>	!driver
+T 1478635332 18<27grobbebol18>	pwillard: relay is http://pwillard.com/files/driver.jpg and also https://www.youtube.com/watch?v=hhYWEh4Dfoc
+T 1478635332 18<26tawr18>	while offering no input on your own except to argue over the dumbest shit ever. he is a nub. he is not able to properly assess cheap ebay / axpress modules. telling him to make sure he gets a flyback diode version so he doesn't fry his shit
+T 1478635332 18<20sibiria18>	for the purpose of someone, anyone, properly understanding what's going on, it's not an insignificant detail to point out that lack of flyback diodes will always "fry computers"
+T 1478635332 18<26tawr18>	is not incorrect
+T 1478635332 18<26tawr18>	oh i think i see the problem, you are supposed to ride your tall horse, not be halfway down it
+T 1478635332 18*	26tawr will brb, i'll find some tongs
+T 1478635332 18<20sibiria18>	not at all. stop trying to second-guess people, it's not your thing :)
+T 1478635332 18<28Chillum18>	a lack of a flyback diode will at the very least stress what it is connected to, if not fry it
+T 1478635332 18<28Chillum18>	like saying cyanide won't always kill you, still not a good idea to eat it
+T 1478635332 18<25cyanide18>	sup
+T 1478635332 18<28frop18>	well, I've learnt something already
+T 1478635332 18<28Chillum18>	and not helpful advice when teaching someone about poison
+T 1478635332 18<28frop18>	relay = diode :D
+T 1478635332 18<20sibiria18>	exactly - but no one advised him on eating cyanide, or leaving out the flyback diode
+T 1478635332 18<29pwillard18>	There should be a maker commandments:   1) use good tools  2) use best practices  3) listen to your elders (profs)  4) blow stuff up... but be damn sure you understand why
+T 1478635332 18<20sibiria18>	i'm not sure why you keep holding on to that misinterpretation
+T 1478635332 18<28frop18>	SORRY, I DID NOT MEAN TO USE "="
+T 1478635332 18<25cyanide18>	im a flyback diode now?
+T 1478635332 18<24Apocx18>	lol poor cyanide getting pinged
+T 1478635332 18<28Chillum18>	sibiria: well if we are examining interpretations, nobody said it will "always" fry a computer
+T 1478635332 18<28Chillum18>	cyanide: oops, did not mean to imply you killed people
+T 1478635332 18<20sibiria18>	someone certainly implied it would
+T 1478635332 18<28Chillum18>	or that people might eat you
+T 1478635332 18<28Chillum18>	it was said that it could instantly fry a computer
+T 1478635332 18<20sibiria18>	then that someone went on a tirade after being inable to accept someone pointing out the implication wasn't a good thing to stir into someone's mind instead of letting them know how it works
+T 1478635332 18<25cyanide18>	you can eat cyanide without dying though
+T 1478635332 18<28Chillum18>	so it sort of seems like this is an argument where this is no exact thing being disagreed about]
+T 1478635332 18<25cyanide18>	just small amounts of it
+T 1478635332 18<24Apocx18>	the powerswitch tail has no flyback diode. though it uses an optoisolator and some MOVs. considering I copied their circuit for one of my own projects, should I add a flyback diode? :P
+T 1478635332 18<28Chillum18>	the moral was that a flyback diode protects things
+T 1478635332 18<25cyanide18>	anyways, back to work...
+T 1478635332 18<28Chillum18>	ya, cyanide is found in various seeds so the body has facilities to process small amounts
+T 1478635332 18<24Apocx18>	yeah some guy on Youtube ate some to prove that point
+T 1478635332 18<29pwillard18>	Apocx:  I'm afraid is DOES have flyback protection
+T 1478635332 18<29pwillard18>	They just used a more expensive diode
+T 1478635332 18<24Apocx18>	right that's what I figured
+T 1478635332 18<28Chillum18>	I have never opened my powerswitch
+T 1478635332 18<24Apocx18>	http://www.powerswitchtail.com/Documents/80136%20PST%20II%20Instructions%202015-11.pdf
+T 1478635332 18<24Apocx18>	there's the schematic
+T 1478635332 18<28frop18>	so, back at my "light"...considering I won't turn it on/off millions times...and I don't care about "noise"...EMR should do, right?
+T 1478635332 18<28Chillum18>	I am so happy that item teardown videos have become so popular
+T 1478635332 18<24Apocx18>	either one is fine yes
+T 1478635332 18<28Chillum18>	before that I used to take everything apart
+T 1478635332 18<28Chillum18>	they take stuff apart so I don't have to
+T 1478635332 18<24Apocx18>	yep :)
+T 1478635332 18<29pwillard18>	frop a normal relay will not create noise
+T 1478635332 18<29pwillard18>	it will just create heat
+T 1478635332 18<28frop18>	normal, as in SSR?
+T 1478635332 18<29pwillard18>	SSR can create noise... but usually has embedded noise snubbing circuit
+T 1478635332 18<19thinkt4nk18>	Chillum any particular resources you would recommend for people who want to mess with arduino who might like to learn a bit about electronics to help them along the way?
+T 1478635332 18<28frop18>	MRC isn't mechanical, aka noise?
+T 1478635332 18<28Chillum18>	thinkt4nk: the way I learned was by doing various tutorials, then looking up every term I saw like "pull-up" and "flyback"
+T 1478635332 18<19thinkt4nk18>	cool, ok, thanks
+T 1478635332 18<28frop18>	I guess that's what I will do....
+T 1478635332 18<28Chillum18>	and also I asked a lot of questions here and in ##electronics
+T 1478635332 18<28frop18>	waiting 11/11 to buy cheap from aliexpress :D
+T 1478635332 18<28Chillum18>	and http://electronics.stackexchange.com has lots of good info
+T 1478635332 18<28Chillum18>	you can ask questions there, but they have to be intelligent questions or they reject it
+T 1478635332 18<28Chillum18>	ie you need to be specific
+T 1478635332 18<28Chillum18>	and know what you don't know
+T 1478635332 18<28frop18>	http://devacron.com/wp-content/uploads/2014/06/relay-arduino.png
+T 1478635332 18<28frop18>	what's the thing in the lower/right corner?
+T 1478635332 18<24GeDaMo18>	Power?
+T 1478635332 18<28frop18>	right, stupid me
+T 1478635332 18<24Apocx18>	maybe someone can enlighten me, because I'm having a hard time wrapping my head around it. I have this (greatly simplified) setup: http://i.imgur.com/9BgHlDG.png
+T 1478635332 18<24Apocx18>	how can I measure the solar and battery voltages without frying things when, say, the load is off?
+T 1478635332 18<24Apocx18>	figured I'd need a voltage divider to start
+T 1478635332 18<24Apocx18>	which would feed into an ADC
+T 1478635332 18<28frop18>	wow, a solarpowered UPS? :D
+T 1478635332 18<24Apocx18>	the arduino in this case is actually a custom board I made that utilizes an atmega328 uC. I just want to be able to also monitor the solar/battery voltage levels. the atmega controls some motors/pumps
+T 1478635332 18<24Apocx18>	I just don't know if, say, having positive voltage on the ADC pin while the uC is not powered will fry it
+T 1478635332 18<24Apocx18>	I'd probably actually use a dedicated ADC chip though
+T 1478635366 23*	Aboba (~Bob@node-1w7jr9sqc1awwlkk7me99dn6o.ipv6.telus.net23) has joined
+T 1478635420 24*	Levitator has quit (Ping timeout: 258 seconds)
+T 1478635422 24*	ariel_17 has quit (Read error: Connection reset by peer)
+T 1478635518 24*	tdy has quit (Ping timeout: 260 seconds)
+T 1478635683 23*	onegray (~textual@134.17.133.10523) has joined
+T 1478635694 18<28Snert_18>	I doubt it.
+T 1478635715 18<28Snert_18>	meaning failure mode is prolly non-destructive.
+T 1478635716 23*	Dimik (~Dimik@pool-108-21-86-98.nycmny.fios.verizon.net23) has joined
+T 1478635733 18<28Snert_18>	the adc just loses input.
+T 1478635761 18<28Snert_18>	or the arduino, whichever loses power.
+T 1478635768 18<24Apocx18>	that's what I was hoping. I'll check out some ADC chip datasheets and see what it says.
+T 1478635791 18<24Apocx18>	cause the charge controller will turn the load off if the levels get too low, but until that point I want to measure the voltages and log them over wifi
+T 1478635798 18<28Snert_18>	most that could happen is the pin goes high instead of low....the arduino would just see a high.
+T 1478635849 18<28Snert_18>	a steady high might mess up the program and crash it but no physical damage done is my bet.
+T 1478635889 18<24Apocx18>	alright, thanks :)
+T 1478635921 24*	fredp2 has quit (Ping timeout: 245 seconds)
+T 1478635940 18<28Snert_18>	in my breadboard life I've never had anything destruct because a part of the circuit was unpowered.
+T 1478635977 18<28Snert_18>	when I put a chip in backwards - different story.
+T 1478636022 24*	Dark-Show has quit ()
+T 1478636098 23*	scorpion (~scorpion@2601:804:8402:6e67:dce:abdd:fb9e:13a223) has joined
+T 1478636190 24*	onegray has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1478636223 23*	Dark-Show (Newbro@sydnns0115w-047055200046.dhcp-dynamic.FibreOp.ns.bellaliant.net23) has joined
+T 1478636322 24*	BOKALDO has quit (Quit: Leaving)
+T 1478636373 24*	asimismo has quit (Ping timeout: 268 seconds)

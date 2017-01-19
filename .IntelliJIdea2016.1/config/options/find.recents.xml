@@ -1,0 +1,39 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>increme</find>
+      <find>findfood</find>
+      <find>findfoo</find>
+      <find>move</find>
+      <find>Jtext</find>
+      <find>notify</find>
+      <find>newAnimal</find>
+      <find>colo</find>
+      <find>while (tru</find>
+      <find>leaving</find>
+      <find>carparksimulator</find>
+      <find>view</find>
+      <find>model</find>
+      <find>location</find>
+      <find>index</find>
+      <find>thread</find>
+      <find>tickPa</find>
+      <find>getDay</find>
+      <find>if</find>
+      <find>tick(</find>
+      <find>this.</find>
+      <find>main</find>
+      <find>frshtt</find>
+      <find>fr</find>
+      <find>speed</find>
+      <find>print</find>
+      <find>null</find>
+      <find>workers</find>
+      <find>log</find>
+      <find>sync</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>carpark</replace>
+    </replaceStrings>
+  </component>
+</application>

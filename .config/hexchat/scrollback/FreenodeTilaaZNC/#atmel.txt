@@ -1,0 +1,2 @@
+T 1478345889 19*	Now talking on 22#atmel
+T 1478345895 24*	ChanServ (ChanServ@services.24) has left

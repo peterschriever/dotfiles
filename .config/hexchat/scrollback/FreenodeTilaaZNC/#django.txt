@@ -1,0 +1,500 @@
+T 1480933918 18<28tomchristie18>	If that's working for you then stick with it.
+T 1480933918 18<26MikiSoft18>	pardon me, i'm using offset now
+T 1480933918 18<28tomchristie18>	Well in that case stick with that then :p
+T 1480933918 18<26MikiSoft18>	that what i want to hear, thanks
+T 1480933918 18<26MikiSoft18>	*that's
+T 1480933918 18<26MikiSoft18>	i thought there was some big disadvantage in using offset instead of cursor pagination, but fortunately it seems that there's no such thing
+T 1480933918 18<19moldy18>	Ryanar: ansible with gitlab ci
+T 1480933918 18<22stole18>	I'm trying to do almost this exact thing: https://groups.google.com/forum/#!topic/django-users/9CQbwWRV-S0
+T 1480933918 18<22stole18>	That was written in 2008, is the method he describes still viable, or recommendable? The idea is that I want different fields for different filetypes.
+T 1480933918 18<19Koterpillar18>	stole: tl;dr - what do you have/want, maybe in terms of a short code sample showcasing your ideal API?
+T 1480933918 18<22stole18>	Koterpillar: I could write something up, i suppose.
+T 1480933918 18<19Koterpillar18>	there was a package with nice managers for inherited models, but I forgot its name :\
+T 1480933918 18<19moldy18>	stole: at first glance this sounds like django-polymorphic or the corresponding thing from django-model-utils
+T 1480933918 18<22stole18>	Koterpillar: here's what I was thinking of in terms of generating data, and inserting it: http://pastebin.com/09yacjs3
+T 1480933918 18<22stole18>	moldy: it does, although wouldn't simply using the contenttypes framework directly be enough?
+T 1480933918 18<19Koterpillar18>	stole: you can use one of the PostgreSQL-specific fields, like HStoreField
+T 1480933918 18<19Koterpillar18>	or JSONField
+T 1480933918 18<22stole18>	Koterpillar: I could, but I wouldn't be able to enforce certain entries, or even enforce them for a certain filetype, would I?
+T 1480933918 18<22stole18>	I'd rather not use either of those fields.
+T 1480933918 18<19Koterpillar18>	your model can though
+T 1480933918 18<19Koterpillar18>	and you don't need any extra complexity
+T 1480933918 18<19Koterpillar18>	you can create wrapper properties for those specific metadata
+T 1480933918 18<19vlt18>	moldy: Setting end_date to start_date sounds dangerous because you might have events that really ended on the same date.
+T 1480933918 18<24rocky18>	anyone using django's builtin full text search for postgres support? i'm using it myself but calling count() on my filtered objects generates a crazy (and very slow) query
+T 1480933918 18<24rocky18>	is there anyway to tell django to dumb down it's auto-count() mechanism to not do dumb group bys and the like ?
+T 1480933918 18<22stole18>	Koterpillar: I suppose, though it'd only lock me in to postgresql
+T 1480933918 18<29FunkyBob18>	rocky: not really... you might just want to fork your queryset
+T 1480933918 18<29FunkyBob18>	it's not easy for the ORM to know those operations re not relevant
+T 1480933918 18<19vlt18>	moldy: Sorry, I answered to the backlog :-D
+T 1480933918 18<19moldy18>	vlt: no problem
+T 1480933918 18<19moldy18>	vlt: hmm not sure, why that would be a problem
+T 1480933918 18<27wyoung18>	Is it possible to cache or pre-fetch @property's of a model?
+T 1480933918 18<24rocky18>	FunkyBob, the issue is that it's generating a very unusual SQL query from a simple tsvector search to do it's count()
+T 1480933918 18<24rocky18>	https://gist.github.com/rockyburt/326376c06b309dfd060e4bed95b65ac6
+T 1480933918 18<27wyoung18>	I have looked into annotation however I need to do some calculates with parameters / inputs.  I could do some raw sql stuff however I am not sure if that will be efficient
+T 1480933918 18<27wyoung18>	s/calculates/calculations/
+T 1480933918 18<27wyoung18>	(or maybe some stored procedures.....)
+T 1480933918 18<29FunkyBob18>	oh, that reminds me... I was writing a fts engine...
+T 1480933918 18<27wyoung18>	nice
+T 1480933918 18<29FunkyBob18>	morning, wyoung !
+T 1480933918 18<27wyoung18>	hey hey!  I am back from my month off :)
+T 1480933918 18<24reisio18>	wb
+T 1480933918 18<27wyoung18>	thnx
+T 1480933918 18<25telamont18>	ok so probably a stupid question but im trying to get elasticsearch setup in my django project and the current version is 5.0.2 but literally everything i find says 2.3.x. Whats the deal?
+T 1480933918 18<19apollo1318>	5 is new
+T 1480933918 18<25telamont18>	did they skip 3 and 4?
+T 1480933918 18<29FunkyBob18>	yes
+T 1480933918 18<29FunkyBob18>	2.3 (latest on AWS), 2.4, 5.0
+T 1480933918 18<25telamont18>	wow ok i thought it was only microsoft who didnt know how to count lol
+T 1480933918 18<25telamont18>	thanks
+T 1480933918 18<25telamont18>	so to use https://github.com/jprante/elasticsearch-jdbc i guess ill have to downgrade to 2.3.4
+T 1480933918 18<29FunkyBob18>	jdbc? that sounds javaish
+T 1480933918 18<29FunkyBob18>	have you looked at elasticsearch-dsl ?
+T 1480933918 18<25telamont18>	well elasticsearch is java lol
+T 1480933918 18<25telamont18>	its a database connector to keep the index updated from a mysql database
+T 1480933918 18<29FunkyBob18>	Honza did a great talk at PyConAU about it "Don't be afraid to search" iirc
+T 1480933918 18<25telamont18>	still have it in my browser from our last talk lol
+T 1480933918 18<19moldy18>	http://docs.django-cms.org/en/release-3.4.x/how_to/placeholders.html#admin-integration i don't quite understand this documentation. what exactly is the point of PlaceHolderAdminMixin?
+T 1480933918 18<24rocky18>	anyone ever seen anything like this:  'QuerySet' object has no attribute 'clone'
+T 1480933918 18<24rocky18>	line 1072 of django/db/models/query.py
+T 1480933918 18<29FunkyBob18>	rocky: I'm not sure how that's even possible, unless you've defined your own class called QuerySet
+T 1480933918 18<29FunkyBob18>	querysets rely on cloning
+T 1480933918 18<24rocky18>	i'm probably doing something stupid...  https://gist.github.com/rockyburt/37b409d79c88cb1c4f9c4c3e09ba429e
+T 1480933918 18<19Koterpillar18>	rocky: and traceback?
+T 1480933918 18<24rocky18>	traceback is: https://gist.github.com/rockyburt/d912b93e0d20f38e849af3543adc95f6
+T 1480933918 18<29FunkyBob18>	why do you have the count malarky when you're not counting the queryset?
+T 1480933918 18<24rocky18>	the reason i'm subclassing QuerySet is because i have to implement a much saner count() that doesn't do perverse queries due to my tsvector
+T 1480933918 18<29FunkyBob18>	but your search vector is part of the filter, and so influences the count
+T 1480933918 18<29FunkyBob18>	how can you get a valid count without it?
+T 1480933918 18<24rocky18>	FunkyBob, look at the sql query being generated by count() - https://gist.github.com/rockyburt/326376c06b309dfd060e4bed95b65ac6
+T 1480933918 18<24rocky18>	tell me that's not messed up
+T 1480933918 18<19Koterpillar18>	rocky: why are you passing 'query' argument as a QuerySet, not as Query?
+T 1480933918 18<24rocky18>	Koterpillar, didn't realize they weren't interchangeable... perhaps that's my problem?
+T 1480933918 18<19Koterpillar18>	they are definitely not
+T 1480933918 18<24rocky18>	can i just wrap a QuerySet instance inside a sql.Query(my_query_set) ?
+T 1480933918 18<24rocky18>	ah no, i just have to do FixCount(query=recipes.query)
+T 1480933918 18<25Fry_18>	Hi all, I'm messing around with Django Admin inline forms...is there a way to either a) filter the inline form dynamically or b) programatically add N inline forms for the same model filtered by each value of a particular column?
+T 1480933918 18<19Koterpillar18>	Fry_: consider writing your own views instead of admin
+T 1480933918 18<25Fry_18>	D:
+T 1480933918 18<25Fry_18>	sounds difficult
+T 1480933918 18<29FunkyBob18>	it's what the framework is for
+T 1480933918 18<19Koterpillar18>	the admin is limited, it will get you that far, and then become... difficult
+T 1480933918 18<25Fry_18>	especially since I'm already using two different admin plugins already on this inline
+T 1480933918 18<19Koterpillar18>	Is there a common setting name for the site's canonical domain?
+T 1480933918 18<27wyoung18>	hmmmmm
+T 1480933918 18<29FunkyBob18>	no
+T 1480933918 18<19moldy18>	Koterpillar: if you're using contrib.sites, it's in the database
+T 1480933918 18<19Koterpillar18>	moldy: noted, but sites is overkill, as I only have one domain
+T 1480933918 18<19moldy18>	fwiw, i always use it even for single-domain sites
+T 1480933918 18<29FunkyBob18>	I thought there was a way to set that for when you don't have sites installed
+T 1480933918 18<19Koterpillar18>	do you then create a dev instance in there for localhost:8000?
+T 1480933918 18<19moldy18>	it allows me to treat things consistently
+T 1480933918 18<19moldy18>	Koterpillar: no
+T 1480933918 18<19Koterpillar18>	moldy: and how do you get that URL out then?
+T 1480933918 18<19moldy18>	Koterpillar: it is quite rare that i need to. when i do need to, i don't mind if i have the wrong URL on localhost
+T 1480933918 18<19moldy18>	on my staging / production systems, a small management command sets the right domain on deployment
+T 1480933918 18<29FunkyBob18>	hmm
+T 1480933918 18<29FunkyBob18>	I thought there were some settings for site model values for when you didn't have sites installed
+T 1480933918 18<19moldy18>	i could use this on localhost, of course. i just never need to.
+T 1480933918 18<29FunkyBob18>	I'd +1 a PR for that
+T 1480933918 18<19moldy18>	Koterpillar: where do you need to output the domain?
+T 1480933918 18<19Koterpillar18>	in an email sent from Celery task
+T 1480933918 18<19moldy18>	Koterpillar: then it doesn't matter on localhost/development, right?
+T 1480933918 18<19Koterpillar18>	why not?
+T 1480933918 18<19moldy18>	because you're not really sending the email out to any real users, are you?
+T 1480933918 18<19Koterpillar18>	I'm lazy, I don't want to copy-paste it and change to localhost
+T 1480933918 18<19Koterpillar18>	i reroute it to myself
+T 1480933918 18<19moldy18>	and is it a problem if you have the wrong in the mail to yourself?
+T 1480933918 18<19Koterpillar18>	I'm lazy, I don't want to copy-paste it and change to localhost
+T 1480933918 18<19moldy18>	i don't understand. change what?
+T 1480933918 18<25mcspud18>	o/
+T 1480933918 18<19Koterpillar18>	the link
+T 1480933918 18<19moldy18>	why would you want to change it to localhost?
+T 1480933918 18<19Koterpillar18>	because I want to visit it?
+T 1480933918 18<19moldy18>	ahh, *that* is the problem
+T 1480933918 18<19moldy18>	well i never do this. but having a row for localhost in the sites table would work, i guess.
+T 1480933918 18<29FunkyBob18>	I'd go with SITE_DOMAIN and SITE_NAME
+T 1480933918 18<19moldy18>	i'd go with the sites framework because then you have a consistent API in all of your projects which doesn't change if you switch to sites later. but ymmv.
+T 1480933918 18<29FunkyBob18>	the lodge a PR that updates django/contrib/sites/requests.py to use those and fall-back to request.get_host
+T 1480933918 18<19Koterpillar18>	FunkyBob: so, SITE_{DOMAIN,NAME} -> SITE_ID + lookup -> request.get_host + lookup
+T 1480933918 18<19moldy18>	also, i'd take a look at how django itself does this, e.g. for password reset emails
+T 1480933918 18<19Koterpillar18>	moldy: request.get_host, I'm pretty sure
+T 1480933918 18<29FunkyBob18>	Koterpillar: well currently it branches on """    if apps.is_installed('django.contrib.sites'):
+T 1480933918 18<19moldy18>	Koterpillar: sites if it's installed and request.get_host as a fallback
+T 1480933918 18<29FunkyBob18>	if sites isn't installed, it uses a RequestSite which uses get_host
+T 1480933918 18<29FunkyBob18>	I suppose you could extend get_current_site to make the branch, instead
+T 1480933918 18<25mcspud18>	o/
+T 1480933918 18<19Koterpillar18>	there's a lot of that is_installed..
+T 1480933918 18<19Koterpillar18>	get_current_site looks like the right place
+T 1480933918 18<27wyoung18>	FunkyBob: What do you think of django-denorm?
+T 1480933918 18<19Koterpillar18>	...aargh, none of this has a place to store HTTP/HTTPS
+T 1480933918 18<27wyoung18>	mcspud: \o
+T 1480933918 18<29FunkyBob18>	wyoung: think I looked at it... a few years ago
+T 1480933918 18<19moldy18>	Koterpillar: it doesn't have to, usually
+T 1480933918 18<19moldy18>	Koterpillar: it uses the protocol of the request, so you should end up with http on localhost and https elsewhere, if you redirect everything to https on your servers
+T 1480933918 18<29FunkyBob18>	IOW, pass sufficient context from your request :P
+T 1480933918 18<27wyoung18>	FunkyBob: hmmm, ok, so you haven't really found it useful?  Or you don't work on applications that require it?  I am trying to optimise @property methods that perform calculations on a value stored in database (converting to different stored value into different "units" using a specific formula / algorithm).
+T 1480933918 18<19moldy18>	Koterpillar: another "solution" might be to change your workflow such that you get those mails from some kind of staging system rather than localhost :)
+T 1480933918 18<27wyoung18>	s/to different/a/
+T 1480933918 18<20Valduare18>	so virtualenvs is that something you have to reactivate or something when logging into the server?
+T 1480933918 18<24schinckel18>	wyoung: There was a postgres project floating around that did something with si units.
+T 1480933918 18<29FunkyBob18>	wyoung: if it's the app I remember, it was a neat idea, and a step in the right direction
+T 1480933918 18<29FunkyBob18>	but I think people are forgetting the benefits of denormalising tend to come when you significantly process the data to achieve that form
+T 1480933918 18<24schinckel18>	young: https://www.postgresql.org/message-id/20160922142552.agfzqhawq5zxizdh%40msg.df7cb.de
+T 1480933918 18<24schinckel18>	wyoung I mean. Damn autocarrot
+T 1480933918 18<29FunkyBob18>	and so remove that workload by denormalising in before
+T 1480933918 18<27wyoung18>	schinckel: heh
+T 1480933918 18<27wyoung18>	FunkyBob: There are sections of code that uses signals to do the same as denorm however it uses celery as the calculations can cause a performance hit.  I might need to roll my own solution :\
+T 1480933918 18<29FunkyBob18>	the trick with a good solution is keeping track of what's dirtied by normalised state updates
+T 1480933918 18<29FunkyBob18>	and then removing duplicate updates
+T 1480933918 18<27wyoung18>	yeah, implementing denorm with celery will be "fun" :\
+T 1480933918 18<29FunkyBob18>	heh... my whole life now is async triggers and reactions :P
+T 1480933918 18<27wyoung18>	........
+T 1480933918 18<25mcspud18>	hi wyoung
+T 1480933918 18<25mcspud18>	o/
+T 1480933918 18<25mcspud18>	\o
+T 1480933918 18<25mcspud18>	\o/
+T 1480933918 18<27wyoung18>	well I will try with annotate first, the calculations are quite simple but does require joining to another table
+T 1480933918 18<27wyoung18>	\o/
+T 1480933918 18<27wyoung18>	mcspud: I am back!
+T 1480933918 18<20legostormtroopr18>	So, has this been discussed yet? "Django debates user tracking" https://lwn.net/SubscriberLink/707443/5710ef3733710462/
+T 1480933918 18<20legostormtroopr18>	Why is the DSF trying to introduce user tracking?
+T 1480933918 18<19apollo1318>	first off, the DSF cannot do anything with django, only the core devs can
+T 1480933918 18<24schinckel18>	There was a good blog post about why.
+T 1480933918 18<19apollo1318>	and the "why" is outlined in the dep
+T 1480933918 18<24schinckel18>	Oh, it was the DEP, you are right ;)
+T 1480933918 18<20legostormtroopr18>	If the "why" is DSF needs money I agree - but this is a terrible way to try and raise funds
+T 1480933918 18<20legostormtroopr18>	Link to the blog, I'm curious, but unlikely to be convinced :(
+T 1480933918 18<19apollo1318>	our goal is not to convince you, everyone is entitled to their opinion ;)
+T 1480933918 18<20legostormtroopr18>	Can I see the blog post anyway? I'm concerned, because depending on how this is implemented, I may either need to rewrite my whole code base to use another framework or maintain a 'tracking-free' fork
+T 1480933918 18<19Koterpillar18>	FunkyBob: moldy: I don't *have* a request
+T 1480933918 18<29FunkyBob18>	oh, is this the DEP so we can get solid numbers on how many people are using Django?
+T 1480933918 18<29FunkyBob18>	Koterpillar: never had one?  what created the celery task?
+T 1480933918 18<19apollo1318>	legostormtroopr: there is no blog post, there is the dep which is linked from the lwn link you have
+T 1480933918 18<20legostormtroopr18>	ah, well then this is not good.
+T 1480933918 18<19apollo1318>	lol?
+T 1480933918 18<19apollo1318>	seriously, you will have a mechanism to opt out easily -- so what is the problem?
+T 1480933918 18<19Koterpillar18>	FunkyBob: it did, right, but in general, that's not a valid assumption because it might have been a periodic task
+T 1480933918 18<29FunkyBob18>	Koterpillar: in which case it's up to do you determine the policy of how you choose the domain
+T 1480933918 18<20legostormtroopr18>	Just the existence of phone home code in a server framework, even if it is opt-out would jepordise some govenrment contracts
+T 1480933918 18<19Koterpillar18>	FunkyBob: as I said, I only have one :)
+T 1480933918 18<19apollo1318>	legostormtroopr: where? any evidence of that?
+T 1480933918 18<22vaibhavmule18>	Hi
+T 1480933918 18<22vaibhavmule18>	Anybody up,
+T 1480933918 18<19apollo1318>	legostormtroopr: you do realize that for instance the author of the dep is working for the us gov and as such would probably be aware/consider that?
+T 1480933918 18<20legostormtroopr18>	I don't work in or for the US governments, what their requirements are are totally different to mine.
+T 1480933918 18<24schinckel18>	Hence the discussion about how "phone-home" on productions servers is a no-no, and before the first "phone-home", it asks if you want to do that.
+T 1480933918 18<20legostormtroopr18>	I don't have past tender documents on hand, but dial-back has always been a serious concern.
+T 1480933918 18<29FunkyBob18>	if you don't like it,weigh in on the discussion
+T 1480933918 18<20legostormtroopr18>	I have
+T 1480933918 18<19apollo1318>	and yeah, this is about developer usage, we do not care about servers
+T 1480933918 18<29FunkyBob18>	on record, not just in here.
+T 1480933918 18<19apollo1318>	legostormtroopr: well we'd need hard evidence supporting your arguments
+T 1480933918 18<29FunkyBob18>	I'm not all that comfortable with it, either, but I certainly understand the reasons behind it
+T 1480933918 18<20legostormtroopr18>	I'd be glad to oblige, but as near as I can see there is no hard evidence saying that we need usage stats.
+T 1480933918 18<25mcspud18>	wyoung me too!
+T 1480933918 18<25mcspud18>	Was away for a week in Bali
+T 1480933918 18<20legostormtroopr18>	Eg. no list of people who have said 'I'd love to support you, but I need to know what I'll get'
+T 1480933918 18<19moldy18>	Koterpillar: if you never had a request to begin with i'd just hardcode https, probably
+T 1480933918 18<19moldy18>	Koterpillar: maybe check if host == "localhost" or DEBUG = True and use http in that case
+T 1480933918 18<19apollo1318>	legostormtroopr: anyways, it would be interesting to see documents from the australian government where "calling home" like django would do would be a problem
+T 1480933918 18<19apollo1318>	legostormtroopr: basically, you shouldn't be using an operating system then, since all call home to some extend
+T 1480933918 18<20legostormtroopr18>	apollo13: I'd be happy to oblige when i find some
+T 1480933918 18<25mcspud18>	The Aus gov doesn't care about that
+T 1480933918 18<20legostormtroopr18>	apollo13: I'd prefer that I didn't have another thing to worry about. I have enough trouble convincing people to use FOSS software without having to get over this hoop too.
+T 1480933918 18<25mcspud18>	They only care about citizen data sovereignity
+T 1480933918 18<25mcspud18>	legostormtroopr - its a non-issue
+T 1480933918 18<22vaibhavmule18>	I'm using Django Rest Framework, I have created API to access records from database. What I want to do is, if user 'A' calls api and get record from db, say record id :'1346' and now if user 'B' calls api, I want to exclude that id 1346 from records because A user is already accessing it , what should be my approach to solve this problem?
+T 1480933918 18<20legostormtroopr18>	Its not a non issue to me? And certainly others have already expressed dislike in the DEP8 github thread.
+T 1480933918 18<25mcspud18>	Meh
+T 1480933918 18<24schinckel18>	vaibhavmule: How do you know when they have "finished looking at" the record.
+T 1480933918 18<25mcspud18>	We deal with Australian financial data
+T 1480933918 18<24schinckel18>	legostormtroopr: So you set the variable to prevent phoning home. Job done.
+T 1480933918 18<22vaibhavmule18>	If that user access new record
+T 1480933918 18<22vaibhavmule18>	She finished looking at previous record
+T 1480933918 18<25mcspud18>	What if she goes out to lunch and doesn't access a new record?
+T 1480933918 18<22vaibhavmule18>	She maning user here
+T 1480933918 18<24schinckel18>	vaibhavmule: What if she ... yeah, what mcspud said.
+T 1480933918 18<24schinckel18>	Is there a time limit^
+T 1480933918 18<22vaibhavmule18>	Within half hour it should expire
+T 1480933918 18<24schinckel18>	What's the rationale behind only one user being able to look at a record at a time?
+T 1480933918 18<24schinckel18>	To prevent updates stomping over one another?
+T 1480933918 18<22vaibhavmule18>	It just read operation not creation or updation of records in db
+T 1480933918 18<29FunkyBob18>	there's that word again... "updation"
+T 1480933918 18<29FunkyBob18>	logically it should exist... but it doesn't ... ah English, you mongrel
+T 1480933918 18<25mcspud18>	claiming it
+T 1480933918 18<22vaibhavmule18>	Sorry, I'm not that good at English
+T 1480933918 18<24schinckel18>	vaibhavmule: So, why is it only permissible that a single user view a record at a time? Seems like an odd restriction.
+T 1480933918 18<29FunkyBob18>	vaibhavmule: no, honestly, you're doing fine
+T 1480933918 18<24schinckel18>	vaibhavmule: he's blaming our language, not you ;)
+T 1480933918 18<20DrCuriosity18>	{{ obligatoryJamesNicollQuote }}
+T 1480933918 18<19apollo1318>	legostormtroopr: but honestly, I think it will not be that much of a problem as you imagine it currently to be. There are certainly a few things to iron out with regards to privacy, but in the end nothing unsolvable
+T 1480933918 18<22vaibhavmule18>	Ok cool, assume it is as CRM system where one should only work on tickets not others. What I have done is I'm trying to stop tickets system and just queue base work flow where user need work on the record
+T 1480933918 18<22vaibhavmule18>	Need to work on*
+T 1480933918 18<20DrCuriosity18>	So people should not be able to view tickets that are not assigned to them?
+T 1480933918 18<22vaibhavmule18>	There is nothing like assignment.
+T 1480933918 18<22vaibhavmule18>	If there is assignment and the it solve a problem
+T 1480933918 18<22vaibhavmule18>	Then*
+T 1480933918 18<24schinckel18>	vaibhavmule: Thanks for actually following up.
+T 1480933918 18<22vaibhavmule18>	Ticket can be accessed by everyone and everyone can work on it
+T 1480933918 18<24schinckel18>	You _could_ look at having some type of web socket connection and show on a given record who else is currently looking at that record.
+T 1480933918 18<24schinckel18>	Because it's a web socket, you could _know_ when it goes away (and update the other viewers).
+T 1480933918 18<24schinckel18>	s/web socket/WebSocket/
+T 1480933918 18<22vaibhavmule18>	Thanks for suggestions, I should do that
+T 1480933918 18<24schinckel18>	If you can look at django-channels, it may make that part of it simpler ;)
+T 1480933918 18<22vaibhavmule18>	So using webspckets I can know what other user accessinh the records and I can exclude all ids if any user asks for records
+T 1480933918 18<22vaibhavmule18>	Sry for typos , im on mobile
+T 1480933918 18<29FunkyBob18>	this all sounds like overcomplicating the problem
+T 1480933918 18<24schinckel18>	That wasn't quite what I was suggesting. I was suggesting show on a record page who else was currently viewing it.
+T 1480933918 18<24schinckel18>	If you really want to do what you are suggesting, then you'll need some mechanism for placing a "lock" on a record when viewing it.
+T 1480933918 18<24schinckel18>	I'd suggest maybe an every 30 second "refresh-lock"
+T 1480933918 18<24schinckel18>	Ugh. hit return.
+T 1480933918 18<24schinckel18>	I'd suggest maybe an every-30-second "refresh-lock" using ajax, to ensure the page is still active, and then have the lock expire after <whatever>.
+T 1480933918 18<22vaibhavmule18>	Looks cool, Thanks
+T 1480933918 18<19AzMoo18>	Hi, I’ve got a DateField on a Model and I want to filter on  “(MyDateField - 1 Day) <= datetime.now()” I thought I could probably use F objects for this but I’m struggling to figure out the combination.
+T 1480933918 18<22v0lksman18>	myfield__lte=datetimedelta would work
+T 1480933918 18<29cybojenix18>	AzMoo, now() + 1 day ;)
+T 1480933918 18<22v0lksman18>	no need for Q or F objects
+T 1480933918 18<19AzMoo18>	problem with now() + 1 day is it will only work on 1 day
+T 1480933918 18<29cybojenix18>	only if you do it in a part of the code that is run at launch time
+T 1480933918 18<29cybojenix18>	in which case, your current question will only work on 1 day
+T 1480933918 18<29cybojenix18>	can you paste your code please, so we can get the context?
+T 1480933918 18<19AzMoo18>	Hrm bad phrasing of the question
+T 1480933918 18<19AzMoo18>	If MyDateField is 2016-12-10, I want to return the record if it’s given any value from 2016-10-09 onwards
+T 1480933918 18<29cybojenix18>	 mydatefield__gte=now() - 1 day
+T 1480933918 18<29cybojenix18>	forgive me for not writing out the timedelta. using a tablet
+T 1480933918 18<29cybojenix18>	sorry, it's __gt=
+T 1480933918 18<29cybojenix18>	OK, I'm messing this up. going to sleep. someone else will undoubtedly correct me
+T 1480933918 18<19AzMoo18>	I can’t paste the code because I haven’t written it, but I can explain the goal. I’m writing a celery task that will send an email 1 day before the date in MyDateField, and then update the model that contains it. If for some reason my celery task doesn’t run on a particular day I want it to send the emails the next time it runs.
+T 1480933918 18<29Evidlo18>	Is there an easy way to create admin pages that display results from some custom query?
+T 1480933918 18<29cybojenix18>	AzMoo, just increment the date you put into the query by 1 day
+T 1480933918 18<29Evidlo18>	Like a page that display users created in the last 7 days that have no email
+T 1480933918 18<28mattmcc18>	Evidlo: It'd be much easier to just make your own view, and link to that from the admin.
+T 1480933918 18<28mattmcc18>	But you can define your own list filters.  https://docs.djangoproject.com/en/1.10/ref/contrib/admin/#django.contrib.admin.ModelAdmin.list_filter
+T 1480933918 18<29Evidlo18>	I was thinking this would be more like a stats reporting page
+T 1480933918 18<28mattmcc18>	Then I'd make my own view.
+T 1480933918 18<28mattmcc18>	The admin isn't really made to be a generic reporting tool.
+T 1480933918 18<19AzMoo18>	cybojenix: oh man, that was the first thing I tried but I didn’t get the right result. I must’ve screwed something up and then overcomplicated it.
+T 1480933918 18<29cybojenix18>	believe me, writing an email scheduler with a fail safe is a pita
+T 1480933918 18<19AzMoo18>	I think I need a nap :p
+T 1480933918 18<29cybojenix18>	AzMoo, wait till they tell you to do emails "5 working days on" instead of "5 days"
+T 1480933918 18<19AzMoo18>	cybojenix: been there with dashboards. “We don’t work sundays so don’t include them in the monthly average. Except for the sundays we do.”
+T 1480933918 18<29cybojenix18>	2 words. public holidays.
+T 1480933918 18<24schinckel18>	There was a nice package I saw called "business days" or something.
+T 1480933918 18<24schinckel18>	Plan to use that at some point.
+T 1480933918 18<29cybojenix18>	yeah I looked it at, it's not that bad
+T 1480933918 18<24schinckel18>	https://pypi.python.org/pypi/bdateutil/0.1
+T 1480933918 18<24schinckel18>	I already have code in place to do that, but we manually need to maintain a db of public holidays.
+T 1480933918 18<29cybojenix18>	AzMoo, we basically have 1 loop which sends 4 different base emails, each after a set period of days. no duplication of the email is allowed, and no sending 2 emails in 1 say. 2 are sent 2 working days then 5 working days. the others are sent on a normal day rotation, but never on a weekend
+T 1480933918 18<29cybojenix18>	schinckel, since our codebase is actively maintained, and only operate in 1 country, we hard coded
+T 1480933918 18<19AzMoo18>	Australian government provides a public holiday dataset that we use: https://data.gov.au/dataset/australian-holidays-machine-readable-dataset
+T 1480933918 18<19AzMoo18>	that’s handy
+T 1480933918 18<19AzMoo18>	the actual legislation is much more complex than that but it’s close enough for almost every purpose.
+T 1480933918 18<29cybojenix18>	62??? do you even work?
+T 1480933918 18<29FunkyBob18>	not if we can help it
+T 1480933918 18<19AzMoo18>	We try not to
+T 1480933918 18<19AzMoo18>	haha
+T 1480933918 18<29cybojenix18>	you know I meant officially working.
+T 1480933918 18<29FunkyBob18>	don't forget the standard 4 weeks annual leave
+T 1480933918 18<29cybojenix18>	we get 28 days incl public holidays
+T 1480933918 18<19AzMoo18>	I get 3 months long service leave next year.
+T 1480933918 18<29FunkyBob18>	well, not all states get all holidays
+T 1480933918 18<19AzMoo18>	+ my 4 weeks annual leave
+T 1480933918 18<29FunkyBob18>	Melbourne Cup Day is Vic only
+T 1480933918 18<19AzMoo18>	+ public holidays
+T 1480933918 18<29cybojenix18>	I probably should have taken more holidays this year
+T 1480933918 18<20dodobrain18>	cybojenix, those days are not across every state
+T 1480933918 18<29cybojenix18>	dodobrain, I saw. I was making a joke
+T 1480933918 18<20dodobrain18>	i wonder what happens when the queen passes and theres a king in place
+T 1480933918 18<20dodobrain18>	i imagine our holidays get renamed to "King's Birthday"
+T 1480933918 18<29FunkyBob18>	ep
+T 1480933918 18<29FunkyBob18>	yep
+T 1480933918 18<19AzMoo18>	viva la republique
+T 1480933918 18<20dodobrain18>	we should just rename that to "Monarch's Birthday"
+T 1480933918 18<20dodobrain18>	that way we don;t have to do further renames
+T 1480933918 18<29FunkyBob18>	ok, this doesn't bode well
+T 1480933918 18<20dodobrain18>	?
+T 1480933918 18<29FunkyBob18>	even with just 25 records, ES is taking over 6 seconds
+T 1480933918 18<29FunkyBob18>	well, it says 485 searchable docvuments, but nost of them are the wrong type for what I've m doing
+T 1480933918 18<20dodobrain18>	woah.. 6 seconds for 25 records?
+T 1480933918 18<29cybojenix18>	dodobrain, or maybe you'll just get another 2 holidays
+T 1480933918 18<29FunkyBob18>	IKR?
+T 1480933918 18<20dodobrain18>	they deprecated rivers, right?
+T 1480933918 18<29FunkyBob18>	just hit it then, got 1.17s full round trip (through API)
+T 1480933918 18<20DrCuriosity18>	In my area they have. They're not safe to swim in anymore :-\
+T 1480933918 18<29FunkyBob18>	why not go all the way, and have "Technical Debt's Birthday" ? :P
+T 1480933918 18<29cybojenix18>	holiday every day, woot
+T 1480933918 18<20dodobrain18>	DrCuriosity, heh.. good one
+T 1480933918 18<20dodobrain18>	i was speaking of ES rivers :)
+T 1480933918 18<20DrCuriosity18>	I clicked to that later - I was still stuck on people discussing holidays ;-)
+T 1480933918 18<29FunkyBob18>	dodobrain: rivers?
+T 1480933918 18<20dodobrain18>	https://www.elastic.co/blog/deprecating-rivers
+T 1480933918 18<29FunkyBob18>	is that "we're too hipster for streams"?
+T 1480933918 18<22rodigan18>	how can i disable the rounding up or down of a DecimalField?
+T 1480933918 18<29FunkyBob18>	you can't... you specified a precision.. that's what it gets
+T 1480933918 18<22rodigan18>	that sounds very broken. what if i wanted an exact value?
+T 1480933918 18<19Koterpillar18>	rodigan: as in long arithmetic exact?
+T 1480933918 18<22rodigan18>	Koterpillar, as in 0.035 shouldnt become 0.04
+T 1480933918 18<19Koterpillar18>	rodigan: how about 0.00000000000000000000000000000000000000000000000000000000000000000000000035?
+T 1480933918 18<29FunkyBob18>	the Postgres NUMERIC type is limited to 1000 digits of precision
+T 1480933918 18<29FunkyBob18>	rodigan: tell your DecimalField to have more sig figs, then
+T 1480933918 18<19Koterpillar18>	rodigan: 1000 digits is not exact
+T 1480933918 18<29FunkyBob18>	rodigan: it's always a trade off... I mean, how much precision is useful to you?
+T 1480933918 18<22rodigan18>	i had to increase the decimal places beyond the point that i needed
+T 1480933918 18<22rodigan18>	5 decimal places gives me 0.03500 instead of 0.04
+T 1480933918 18<19Koterpillar18>	there are further options if you want to store exact rational numbers
+T 1480933918 18<22rodigan18>	i had 2 decimal places before
+T 1480933918 18<29FunkyBob18>	you had 2, and tried to use 3...
+T 1480933918 18<22rodigan18>	yea :D
+T 1480933918 18<22rodigan18>	when you code a lot, smaller problems become harder to solve and the bigger ones become easier because you keep looking at the bigger picture
+T 1480933918 18<29FunkyBob18>	:)
+T 1480933918 18<25narfman018>	hey, pardon im probably missing something derpy, if i have a public shared django app (with no project or manage.py), what is the optimal way id makemigrations for it?
+T 1480933918 18<29FunkyBob18>	narfman0: with a dummy project
+T 1480933918 18<19Koterpillar18>	narfman0: how are you testing it?
+T 1480933918 18<25narfman018>	tox... i have a minimal dummy runtests py file (from a django app cookiecutter template) i could leverage probs
+T 1480933918 18<19Koterpillar18>	come up with a DJANGO_SETTINGS_MODULE and do "django makemigrations"
+T 1480933918 18<25narfman018>	ok cool ill try that. i think i know what you mean at least
+T 1480933918 18<27lolol18>	in django, how many different types of fields are there?
+T 1480933918 18<29FunkyBob18>	well, apart from the ones in the docs
+T 1480933918 18<29FunkyBob18>	youcan define your own
+T 1480933918 18<29FunkyBob18>	https://docs.djangoproject.com/en/1.10/ref/models/fields/
+T 1480933918 18<27lolol18>	damn, that was just what i needed
+T 1480933918 18<27lolol18>	thx
+T 1480933918 18<24schinckel18>	narfman0: I have an example at https://bitbucket.org/schinckel/django-boardinghouse/src
+T 1480933918 18<24schinckel18>	It is reusable, and has tests that are _almost_ 100% coverage.
+T 1480933918 18<24schinckel18>	I also supply an example project, which helps with some test coverage (of things like migrations)
+T 1480933918 18<19bambanx18>	hello
+T 1480933918 18<27badkeypoints18>	Guys, I need to formulate a query, but I can't come around to it.
+T 1480933918 18<27badkeypoints18>	Here's the thing. User is a merchant model. Customer is for customers of a User. Order is Order in store of User
+T 1480933918 18<27badkeypoints18>	Now, in Order, email is what links an order to a Customer (no fk) because we allow unregistered users to order.
+T 1480933918 18*	19Koterpillar . o O ( ForeignKey(null=True) )
+T 1480933918 18<27badkeypoints18>	I want a query, so that I can get the last orders of a couple of emails
+T 1480933918 18<27badkeypoints18>	Say I have 4 emails - 1 of an unregistered user, and 3 registered in Customer. Ho
+T 1480933918 18<27badkeypoints18>	Do I get the last order of all those mails?
+T 1480933918 18<19Koterpillar18>	if "a couple" is really just a couple, make a couple of queries
+T 1480933918 18<27badkeypoints18>	Koterpillar: That is just for example. It could be 100s..
+T 1480933918 18<27badkeypoints18>	The requirement is unclear on that.
+T 1480933918 18<19Koterpillar18>	I get what you're trying to do, but I don't know the answer, I don't think it's possible in a single SQL query
+T 1480933918 18<24schinckel18>	Sounds like a challenge...
+T 1480933918 18<19Koterpillar18>	http://stackoverflow.com/questions/12113699/get-top-n-records-for-each-group-of-grouped-results
+T 1480933918 18<24schinckel18>	Do you just care about the last one?
+T 1480933918 18<27badkeypoints18>	schinckel: Yes just the last one for each email
+T 1480933918 18<27badkeypoints18>	Koterpillar: exactly, when my android friend who's starting to learn django, asked me this
+T 1480933918 18<27badkeypoints18>	I also came to a halt :D
+T 1480933918 18<19Koterpillar18>	well, I'm fairly confident that at least for MySQL, there's no straight solution
+T 1480933918 18<27badkeypoints18>	At best I could think of looping per email.. But I wanted to know if it could be done by Q objects or something.. Like,
+T 1480933918 18<27badkeypoints18>	.last_each() sort of thing
+T 1480933918 18<19Koterpillar18>	Q objects don't even matter if your _database_ can't do it
+T 1480933918 18<27badkeypoints18>	What if it's Postgres?
+T 1480933918 18<19Koterpillar18>	http://stackoverflow.com/questions/1124603/grouped-limit-in-postgresql-show-the-first-n-rows-for-each-group
+T 1480933918 18<19Koterpillar18>	I doubt Django will help you here, but I didn't look deep into functions
+T 1480933918 18<24schinckel18>	Oh, I've been doing some AWESOME stuff with functions lately.
+T 1480933918 18<19Koterpillar18>	SELECT AWESOME
+T 1480933918 18<24schinckel18>	I've been able to extract the parts of a queryset's filters that are applicable, and apply those as arguments to a function that returns TABLE().
+T 1480933918 18<24schinckel18>	...and then use that as the source of data for the queryset/model.
+T 1480933918 18<28mattmcc18>	PG set-returning functions are pretty cool.
+T 1480933918 18<24schinckel18>	Yep.
+T 1480933918 18<28mattmcc18>	My favorite use so far is the one that populates our FTS matview.
+T 1480933918 18<28mattmcc18>	It's a function because the values used by the tsvectors can be customized through the admin.
+T 1480933918 18<24schinckel18>	I use them to wrap a CTE where I want to filter the first clause of the CTE to make it perform in a reasonable time.
+T 1480933918 18<24schinckel18>	It could be possible to write a VIEW that uses sub-queries, but a CTE is much nicer to write.
+T 1480933918 18<24schinckel18>	And read.
+T 1480933918 18<24schinckel18>	I'm talking about 20+ level CTEs.
+T 1480933918 18<28mattmcc18>	You should write something up about that queryset extraction to TABLE(), I bet it'd come in handy elsewhere.
+T 1480933918 18<24schinckel18>	Yeah, I'm going to.
+T 1480933918 18<24schinckel18>	I'm also using a class based on Form to define the signature of a function.
+T 1480933918 18<24schinckel18>	Which also validates the input.
+T 1480933918 18<24schinckel18>	The real reason behind it is that I need to be able to .annotate() the queryset that has come from the function.
+T 1480933918 18<24schinckel18>	I was able to use QuerySet.raw() to just execute the function with desired arguments, but this is far nicer.
+T 1480933918 18<24schinckel18>	Bah. I wish ValuesQuerySet let me use  UNION on two different models when the columns are identical.
+T 1480933918 18<29FunkyBob18>	:/
+T 1480933918 18<29FunkyBob18>	perhaps you can tackle that after you get that other PR working? :)
+T 1480933918 18<28mattmcc18>	Which model would it populate? :)
+T 1480933918 18<24schinckel18>	It's a .values(): it's just a dict.
+T 1480933918 18<24schinckel18>	or list of dicts
+T 1480933918 18<28mattmcc18>	Oh, values.
+T 1480933918 18<24schinckel18>	FunkyBob: I blame SQLite for that one.
+T 1480933918 18<29FunkyBob18>	aye
+T 1480933918 18<24schinckel18>	Oh, did ValuesQuerySet go away?
+T 1480933918 18<28mattmcc18>	Oh, yeah.
+T 1480933918 18<24schinckel18>	Well, that breaks that plan then.
+T 1480933918 18<24schinckel18>	Looks like .values('x', 'y') will never be |-able with the same values(...) but from a different model.
+T 1480933918 18<27wyoung18>	hmmmm, I have made a custom queryset and assigned MyCustomQuerySet.as_manager() to MyModel.objects.  I am guessing that in order to use it I need to call MyModel.objects.get_queryset()?  as MyModel.objects doesn't use the custom queryset
+T 1480933918 18<27wyoung18>	this has to do with the default query set on the model right?
+T 1480933918 18<24schinckel18>	Is that your first defined manager on the model class?
+T 1480933918 18<24schinckel18>	(There's also something you have to do if you want to use it for "related" queries)
+T 1480933918 18<20Valduare18>	woo just finished building first ultra basic blog with django heh
+T 1480933918 18<19maks2518>	congrats!
+T 1480933918 18<27wyoung18>	schinckel: does that include parent / ancestor classes?
+T 1480933918 18<24schinckel18>	I thought managers pretty much ignored ancestor classes. I might be wrong though.
+T 1480933918 18<24schinckel18>	IIRC, there was something about that that changed at some point.
+T 1480933918 18<27wyoung18>	schinckel: I am not testing it in a reverse reference, I am testing it on the actual class it is defined in
+T 1480933918 18<24schinckel18>	Okay, that should work then.
+T 1480933918 18<24schinckel18>	Can you dpaste your QuerySet? I just tested on one here, and I got the desired response.
+T 1480933918 18<27wyoung18>	Methods with a queryset_only attribute set to False are always copied.
+T 1480933918 18<27wyoung18>	schinckel: I am overiding all(self)
+T 1480933918 18<27wyoung18>	schinckel: ok, according to the source code of django all() isn't proxied :/
+T 1480933918 18<27wyoung18>	and BaseManager all() is used instead
+T 1480933918 18<24schinckel18>	oh.
+T 1480933918 18<27wyoung18>	schinckel: yeah, I need to explicitly call MyModel.objects.get_queryset().all() to use my overrided version of it
+T 1480933918 18<27vitalyvolkov18>	Hi. Anybody knows what happens with clean checkbox in ModelAdmin starting 1.10.1 it looks like does not work at all and I can't remove files assigned to file fields
+T 1480933918 18<24dodobas18>	yutro
+T 1480933918 18<28amille18>	Hi everyone ~ I'm trying to upgrade from dj109 to dj110. However I'm getting broken migration because of broken lazy reference. The point is, I didn't meet such issue on dj109 and the migration system worked fine. Does it sound familiar to anyone? I found nothing on the release notes or elsewhere
+T 1480933918 18<24zetab18>	amille: yep, i have had big problems using old migration files which are generated in older versions
+T 1480933918 18<24zetab18>	how i solved it is: that i took database from backup/production and deleted all information in tables, only thing what i left is table column structure
+T 1480933918 18<24zetab18>	then i executed python3 manage.py migrate --fake
+T 1480933918 18<24zetab18>	someone in django dev should really think how well old migration files work in newer versions, because currently that is not how it should be.
+T 1480933918 18<19hylje18>	there's going to be new breaking changes in migrations come django 2.0
+T 1480933918 18<24zetab18>	nice
+T 1480933918 18<19hylje18>	but the main thing here is that migrations can have backwards incompatible changes *after the standard depreciation period*
+T 1480933918 18<19hylje18>	migrations aren't exempt from the usual depreciation policy
+T 1480933918 18<24zetab18>	yeah but i am thinking like command which will just print out sql creation commands for tables? now it is crashing to first init file
+T 1480933918 18<24zetab18>	well, in my opinion that policy is stupid. Why? do you really think that people start developing their application always when django drops support to some version?
+T 1480933918 18<24zetab18>	at least i am not clearing migrations all the time? should i?
+T 1480933918 18<19hylje18>	you can keep using ancient django versions if you don't like change
+T 1480933918 18<24zetab18>	rm -rf migrations/* and generate newer ones?
+T 1480933918 18<19hylje18>	there's also a LTS version policy if you want a supported ancient django
+T 1480933918 18<19hylje18>	it's also entirely open source so you can support any ancient version of django for however long you like
+T 1480933918 18<24zetab18>	how well it works if i 1) remove all existing migration files from disk/db 2) generate new ones 3) execute migrate --fake?
+T 1480933918 18<28amille18>	I think I'll give a try with squashed migrations and a bit of manual changes on those to start with clean migrations from now on without any breakings on my production
+T 1480933918 18<26foxmask18>	bonjello
+T 1480933918 18<28amille18>	but the point is, I saw nothing about breaking changes on the release notes, for migrations at least
+T 1480933918 18<19hylje18>	it's probably mentioned at model changes
+T 1480933918 18<22timkofu18>	hey people
+T 1480933918 18<29badsol18>	Hello everyone, I am trying to test if my view displays a form if request.user is not authenticated but somehow request.user.is_authenticated doesn't return any value, it only returns property object
+T 1480933918 18<29badsol18>	I am using request factory and AnonymousUser as user
+T 1480933918 18<19hylje18>	is request.user an instance or a class
+T 1480933918 18<19hylje18>	because descriptors (like property) don't trigger on a class
+T 1480933918 18<25drake0118>	How do we generate reports where a row is generated for a model object using attributes' values and a few other columns for the row are generated using method calls. Right now for loop with individual obj.attr or obj.func() calls is really slow. takes too much time to generate csvs.
+T 1480933918 18<29badsol18>	oh i get what You mean, i have to define user as and instance of Anonymoususer?
+T 1480933918 18<19hylje18>	yeah
+T 1480933918 18<29badsol18>	Thanks hylje, its always the simplest things that are the roots of problems :)
+T 1480933918 18<19hylje18>	drake01: annotate and F objects and things like that, https://docs.djangoproject.com/en/1.10/topics/db/queries/#filters-can-reference-fields-on-the-model
+T 1480933918 18<19hylje18>	Case/When annotations can shunt a lot of simple derived field calculations into a db query
+T 1480933918 18<28mattmcc18>	drake01: If you can express what you want in SQL, it'll be much faster.
+T 1480933918 18<19kyrix18>	anyone using docker for development? how do you manage python virtualenv flexibility (allowing the team have several virtualenvs, etc... and or debugging stuff like celery over telnet? )
+T 1480933918 18<24dang`r`us18>	that sounds like inflicting pain on yourself
+T 1480933918 18<29kozmix18>	save() doesnt work for me
+T 1480933918 18<29kozmix18>	If I call save() objects is not saving into db
+T 1480933918 18<19hylje18>	did you override save() and not call the parent class's save()
+T 1480933918 18<29kozmix18>	no
+T 1480933918 18<29kozmix18>	If i call save() from view its ok, but I call function from view, and this function contains save() which does not work
+T 1480933918 18<29kozmix18>	strange
+T 1480933918 18<29audio18>	how can i stop the execution of a function (infinite while loop) from outside of that function?
+T 1480933918 18<29audio18>	x-post #python
+T 1480933918 18<22pundurs18>	set a global to True and use that for the loop .. like "while run_loop" and then from the outside set run_loop to False whenever you need to stop it
+T 1480933918 18<29badsol18>	I want to have two different views on the root url, one for authorized user and one for not authenticated? How to work this problem out? I was thinking about just redirecting to alternative view if the user is authenticated but it requires matching url pattern
+T 1480933918 18<24zetab18>	http://dpaste.com/3AW4VJR
+T 1480933918 18<19kyrix18>	@dang`r`us doesn't seem neatly solved. I would have liked to be able to skip having vm's... but docker for python seems like more pain than fun.
+T 1480933918 18<29kozmix18>	thats strange
+T 1480933918 18<29kozmix18>	when I rebuild from scratch my db save() method worked two times, and no more
+T 1480933918 18<29kozmix18>	my save() method is unable to override filled field in db
+T 1480933918 18<29kozmix18>	when its empty save() writes there data
+T 1480933918 18<29kozmix18>	did not change anything in save() method
+T 1480933918 18<24dang`r`us18>	kyrix, my only semi informed opinion is that docker is probably better only for deploying, at least in the django world
+T 1480933918 18<29kozmix18>	is there a mmaximum number of save() methods somewhere?
+T 1480933918 18<29kozmix18>	or is it controlled by some db settings?
+T 1480933918 18<28mattmcc18>	No?
+T 1480933918 18<29kozmix18>	I try to find out why save() works only sometimes 1 for 100
+T 1480933918 18<29kozmix18>	no error messages tahts why i ask stupid questions

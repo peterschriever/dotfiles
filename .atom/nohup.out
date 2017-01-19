@@ -1,0 +1,6 @@
+/home/peterzen/.gtkrc-2.0.mine:20: Unable to find include file: "main.rc"
+/home/peterzen/.gtkrc-2.0.mine:21: Unable to find include file: "apps.rc"
+/home/peterzen/.gtkrc-2.0.mine:22: Unable to find include file: "panel.rc"
+/home/peterzen/.gtkrc-2.0.mine:23: Unable to find include file: "xfce-notify.rc"
+/home/peterzen/.gtkrc-2.0.mine:24: Unable to find include file: "menubar-toolbar/menubar-toolbar-dark.rc"
+Gtk-Message: Failed to load module "canberra-gtk-module"

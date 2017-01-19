@@ -1,0 +1,39 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>.msg_con</find>
+      <find>.panel-f</find>
+      <find>convers</find>
+      <find>hidden</find>
+      <find>with</find>
+      <find>iban(</find>
+      <find>iban</find>
+      <find>bank</find>
+      <find>user</find>
+      <find>FROM</find>
+      <find>minify</find>
+      <find>grace</find>
+      <find>mini</find>
+      <find>lodas</find>
+      <find>auth</find>
+      <find>destro</find>
+      <find>crud</find>
+      <find>delete</find>
+      <find>watch</find>
+      <find>fullTit</find>
+      <find>fullti</find>
+      <find>fulltitle</find>
+      <find>fullTitle</find>
+      <find>edit</find>
+      <find>view</find>
+      <find>login</find>
+      <find>html</find>
+      <find>Submit</find>
+      <find>button</find>
+      <find>submit</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>title</replace>
+    </replaceStrings>
+  </component>
+</application>

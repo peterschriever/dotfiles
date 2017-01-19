@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright (c) 2011-2014 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+  ~ Copyright (c) 2015-2015 Vladimir Schneider <vladimir.schneider@gmail.com>
+  ~
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+<idea-plugin version="2" url="http://github.com/vsch/idea-multimarkdown" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <id>com.vladsch.idea.multimarkdown</id>
+    <name>MultiMarkdown</name>
+    <category>Custom Languages</category>
+    <vendor url="http://github.com/vsch" email="vladimir.schneider@gmail.com">Vladimir Schneider</vendor>
+    <depends>com.intellij.modules.lang</depends>
+    <depends optional="true" config-file="plugin-intellilang.xml">org.intellij.intelliLang</depends>
+    <depends optional="true">com.intellij.tasks</depends>
+    <depends optional="false">Git4Idea</depends>
+
+    <description><![CDATA[
+        <div xmlns="http://www.w3.org/1999/html">
+            <img src="https://raw.githubusercontent.com/vsch/idea-multimarkdown/master/assets/images/ScreenShot_preview_small.png"
+                    border="0" width="540" height="384" alt="Screenshot">
+            <p>
+                <strong><a href="http://daringfireball.net/projects/markdown"><span
+                        style="color:#30A0D8">Markdown</span></a> language support for IntelliJ platform.</strong>
+                <br>With GitHub Flavoured Markdown extensions and GitHub style formatting. HTML Preview and HTML Text tabs. <br><strong
+                    style="color:#30A0D8">The only markdown plugin for more than just previewing. Features include link address completions, refactoring, validation and language injections. Works with GitHub wiki and main repository files.</strong>
+            </p>
+            <p>Now with <strong><span style="color:#b200c2">Split Editor</span></strong> in Enhanced Edition</p>
+            <p><strong>Plugin website: <a href="http://vladsch.com/product/multimarkdown"><span
+                    style="color:#30A0D8">idea-multimarkdown Enhanced Edition</span></a></strong></p>
+            <p><strong>Bug tracking & feature requests: <a href="https://github.com/vsch/idea-multimarkdown/issues"><span
+                    style="color:#30A0D8">MultiMarkdown GitHub Issues</span></a></strong></p>
+            <p><strong>Documentation: <a href="https://github.com/vsch/idea-multimarkdown/wiki"><span
+                    style="color:#30A0D8">MultiMarkdown GitHub Wiki page.</span></a></strong></p>
+        </div>
+        ]]>
+    </description>
+
+    <version>1.4.10</version>
+    <idea-version since-build="141.1532"/>
+
+    <xi:include href="/META-INF/version-notes.xml" xpointer="xpointer(/idea-plugin/*)"/>
+    <xi:include href="/META-INF/markdown-extensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+    <xi:include href="/META-INF/intentions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+    <xi:include href="/META-INF/actions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+    <xi:include href="/META-INF/configurables.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <project-components>
+        <!-- Plugin's project components -->
+        <component>
+            <implementation-class>com.vladsch.idea.multimarkdown.MultiMarkdownProjectComponent</implementation-class>
+        </component>
+    </project-components>
+
+    <application-components>
+        <!-- Add your application components here -->
+        <component>
+            <implementation-class>com.vladsch.idea.multimarkdown.MultiMarkdownPlugin</implementation-class>
+        </component>
+    </application-components>
+
+    <!-- @formatter:off -->
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.MultiMarkdownNamedElement" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownNamedElementManipulator"/>
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.MultiMarkdownVerbatim" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownVerbatimManipulator"/>
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownImageLinkRefUrlContentImpl" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownImageMultiLineUrlContentManipulator"/>
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.MultiMarkdownHtmlBlock" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownHtmlBlockManipulator"/>
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.MultiMarkdownJekyllFrontMatterBlock" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownJekyllFrontMatterBlockManipulator"/>
+        <lang.elementManipulator forClass="com.vladsch.idea.multimarkdown.psi.MultiMarkdownReference" implementationClass="com.vladsch.idea.multimarkdown.psi.impl.MultiMarkdownReferenceManipulator"/>
+
+        <fileEditorProvider implementation="com.vladsch.idea.multimarkdown.editor.MarkdownSplitEditorProvider"/>
+        <fileEditorProvider implementation="com.vladsch.idea.multimarkdown.editor.HtmlSplitEditorProvider"/>
+        <fileEditorProvider implementation="com.vladsch.idea.multimarkdown.editor.MultiMarkdownFxPreviewEditorProvider"/>
+        <fileEditorProvider implementation="com.vladsch.idea.multimarkdown.editor.MultiMarkdownFxHtmlEditorProvider"/>
+        <fileEditorProvider implementation="com.vladsch.idea.multimarkdown.editor.MultiMarkdownFxUnmodifiedHtmlEditorProvider"/>
+
+        <findUsagesHandlerFactory implementation="com.vladsch.idea.multimarkdown.language.MultiMarkdownFindUsagesHandlerFactory"/>
+        <moveFileHandler implementation="com.vladsch.idea.multimarkdown.refactoring.MoveMarkdownFileHandler"/>
+
+        <editorNotificationProvider implementation="com.vladsch.idea.multimarkdown.editor.javafx.JavaFxCouldBeEnabledNotificationProvider"/>
+
+        <!-- Code Folding -->
+        <lang.foldingBuilder language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.folding.MultiMarkdownFoldingBuilder"/>
+        <codeFoldingOptionsProvider instance="com.vladsch.idea.multimarkdown.language.folding.MarkdownCodeFoldingOptionsProvider"/>
+        <applicationService serviceImplementation="com.vladsch.idea.multimarkdown.language.folding.MarkdownFoldingSettings"/>
+
+        <!-- Code Style Settings -->
+        <langCodeStyleSettingsProvider implementation="com.vladsch.idea.multimarkdown.language.codeStyle.MultiMarkdownLanguageCodeStyleSettingsProvider"/>
+        <codeStyleSettingsProvider implementation="com.vladsch.idea.multimarkdown.language.codeStyle.MultiMarkdownCodeStyleSettingsProvider"/>
+
+
+        <!-- Typing Handlers -->
+        <enterHandlerDelegate implementation="com.vladsch.idea.multimarkdown.editor.actions.handlers.EnterHandler"/>
+        <typedHandler implementation="com.vladsch.idea.multimarkdown.editor.actions.handlers.TypedCharHandler"/>
+        <backspaceHandlerDelegate implementation="com.vladsch.idea.multimarkdown.editor.actions.handlers.BackspaceHandler"/>
+
+        <!--RELEASE : uncomment to get default scheme colors-->
+        <additionalTextAttributes scheme="Darcula" file="com/vladsch/idea/multimarkdown/colorSchemes/MultiMarkdownDarcula.xml"/>
+        <additionalTextAttributes scheme="Default" file="com/vladsch/idea/multimarkdown/colorSchemes/MultiMarkdownDefault.xml"/>
+
+        <annotator language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.annotator.MultiMarkdownAnnotator"/>
+        <externalAnnotator language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.annotator.MultiMarkdownExternalAnnotator"/>
+
+        <braceMatcher filetype="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownBraceMatcher"/>
+
+        <colorSettingsPage implementation="com.vladsch.idea.multimarkdown.highlighter.MultiMarkdownColorSettingsPage"/>
+        <completion.contributor language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.completion.MultiMarkdownCompletionContributor"/>
+        <fileTypeFactory implementation="com.vladsch.idea.multimarkdown.MultiMarkdownFileTypeFactory"/>
+        <gotoSymbolContributor implementation="com.vladsch.idea.multimarkdown.language.MultiMarkdownChooseByNameContributor"/>
+        <lang.commenter language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownCommenter"/>
+        <!--<lang.documentationProvider language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.documentation.MultiMarkdownDocumentationProvider"/>-->
+        <lang.findUsagesProvider language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownFindUsagesProvider"/>
+        <lang.namesValidator language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownNamesValidator"/>
+        <lang.parserDefinition language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.parser.MultiMarkdownParserDefinition"/>
+        <lang.refactoringSupport language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownRefactoringSupportProvider"/>
+        <!--suppress PluginXmlValidity -->
+        <lang.syntaxHighlighterFactory key="MultiMarkdown" language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.highlighter.MultiMarkdownSyntaxHighlighterFactory"/>
+        <psi.referenceContributor language="MultiMarkdown" implementation="com.vladsch.idea.multimarkdown.language.MultiMarkdownReferenceContributor"/>
+        <spellchecker.support language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.spellchecking.MultiMarkdownSpellcheckingStrategy"/>
+        <todoIndexer filetype="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.todo.MultiMarkdownTodoIndexer"/>
+        <fileIconProvider implementation="com.vladsch.idea.multimarkdown.MultiMarkdownFileIconProvider"/>
+        <referencesSearch implementation="com.vladsch.idea.multimarkdown.language.MultiMarkdownReferenceSearch"/>
+        <codeInsight.lineMarkerProvider language="MultiMarkdown" implementationClass="com.vladsch.idea.multimarkdown.language.MultiMarkdownLineMarkerProvider"/>
+        <nameSuggestionProvider implementation="com.vladsch.idea.multimarkdown.language.ElementNameSuggestionProvider"/>
+        <!--<renameHandler implementation="com.vladsch.idea.multimarkdown.language.TestRenameHandler"/>-->
+    </extensions>
+    <!-- @formatter:on -->
+</idea-plugin>

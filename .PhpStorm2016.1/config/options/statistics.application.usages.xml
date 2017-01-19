@@ -1,0 +1,127 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="pogo-toolkit-api" values="ECMAScript 5.1" collectionTime="1474058875995" />
+      <project id="KpnHackathon" values="ECMAScript 5.1" collectionTime="1464598628609" />
+      <project id="FillOracleDB" values="ECMAScript 5.1" collectionTime="1467462176104" />
+      <project id="PrimeTwo-MVC" values="ECMAScript 5.1" collectionTime="1460201250645" />
+      <project id="website" values="ECMAScript 5.1" collectionTime="1478743863038" />
+      <project id="RevicedSystem" values="ECMAScript 5.1" collectionTime="1480530103705" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="pogo-toolkit-api" values="not installed" collectionTime="1474058876004" />
+      <project id="KpnHackathon" values="not installed" collectionTime="1464598628613" />
+      <project id="FillOracleDB" values="not installed" collectionTime="1467462176110" />
+      <project id="PrimeTwo-MVC" values="not installed" collectionTime="1460201250648" />
+      <project id="website" values="not installed" collectionTime="1478743863044" />
+      <project id="RevicedSystem" values="not installed" collectionTime="1480530103709" />
+    </group>
+    <group name="vcs">
+      <project id="pogo-toolkit-api" values="Git" collectionTime="1474058875655" />
+      <project id="KpnHackathon" values="Git" collectionTime="1464598628454" />
+      <project id="FillOracleDB" values="Git" collectionTime="1467462175914" />
+      <project id="PrimeTwo-MVC" values="Git" collectionTime="1460201250535" />
+      <project id="website" values="Git" collectionTime="1478743862841" />
+      <project id="RevicedSystem" values="Git" collectionTime="1480530103561" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="FillOracleDB" values="oracle.jdbc.OracleDriver,oracle.jdbc.OracleDriver" collectionTime="1467462176103" />
+      <project id="KpnHackathon" values="com.mysql.jdbc.Driver" collectionTime="1464598628608" />
+      <project id="website" values="com.mysql.jdbc.Driver" collectionTime="1478743863037" />
+    </group>
+    <group name="php-interpreters">
+      <project id="pogo-toolkit-api" values="0" collectionTime="1474058876013" />
+      <project id="KpnHackathon" values="0" collectionTime="1464598628616" />
+      <project id="FillOracleDB" values="0" collectionTime="1467462176116" />
+      <project id="PrimeTwo-MVC" values="0" collectionTime="1460201250651" />
+      <project id="website" values="0" collectionTime="1478743863049" />
+      <project id="RevicedSystem" values="0" collectionTime="1480530103713" />
+    </group>
+    <group name="file-type">
+      <project id="pogo-toolkit-api" values="Locale,Git file,TypeScript,Images,htaccess,Markdown,YAML,C++,PLAIN_TEXT,JavaScript,JSON,UNKNOWN,Ini,CSS,PHP,XML" collectionTime="1474058875717" />
+      <project id="KpnHackathon" values="Markdown,JSCS,ARCHIVE,Less,MultiMarkdown,JSON,Git file,HTML,Locale,Blade,UNKNOWN,htaccess,JSHint,YAML,SCSS,Images,CSS,SourceMap,JavaScript,Npm file,PLAIN_TEXT,PHP,C++,ReST,XML,TypeScript,Ini" collectionTime="1464598628475" />
+      <project id="FillOracleDB" values="Markdown,PHP,SQL,XML,YAML,UNKNOWN,JSON,PLAIN_TEXT,ARCHIVE,Git file" collectionTime="1467462175953" />
+      <project id="PrimeTwo-MVC" values="Locale,JavaScript,SCSS,HTML,UNKNOWN,Ini,Less,XML,JSON,SQL,PHP,htaccess,YAML,TypeScript,CSS,JSHint,SourceMap,PLAIN_TEXT,Images" collectionTime="1460201250552" />
+      <project id="website" values="Git file,htaccess,CSS,Scratch,UNKNOWN,JavaScript,JSON,CoffeeScript,Npm file,DTD,Markdown,Images,ESLint,YAML,SmartyConfig,Smarty,Locale,PHP,PLAIN_TEXT,JSCS,ReST,ESLint file,Cucumber,ARCHIVE,C++,Less,JSHint file,TypeScript,XML,Blade,Ini,PATCH,JSHint,SourceMap,HTML,SCSS,MultiMarkdown" collectionTime="1478743862858" />
+      <project id="RevicedSystem" values="TypeScript,Markdown,SourceMap,XML,Ini,Locale,CSS,ESLint,JSHint file,YAML,JSCS,Npm file,htaccess,Images,ARCHIVE,ESLint file,SQL,JavaScript,JSON,UNKNOWN,Blade,Sass,ReST,Git file,PLAIN_TEXT,HTML,CoffeeScript,SmartyConfig,SCSS,JSHint,Native,Less,C++,PHP,Docker file,MultiMarkdown,PATCH" collectionTime="1480530103573" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="pogo-toolkit-api" values="0" collectionTime="1474058876015" />
+      <project id="KpnHackathon" values="0" collectionTime="1464598628618" />
+      <project id="FillOracleDB" values="0" collectionTime="1467462176117" />
+      <project id="PrimeTwo-MVC" values="0" collectionTime="1460201250652" />
+      <project id="website" values="0" collectionTime="1478743863051" />
+      <project id="RevicedSystem" values="0" collectionTime="1480530103714" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="FillOracleDB" values="Oracle/Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning  OLAP  Advanced Analytics and Real Application Testing options" collectionTime="1467462176103" />
+      <project id="KpnHackathon" values="MySQL/5.7.11" collectionTime="1464598628608" />
+      <project id="website" values="MySQL/5.6.19-0ubuntu0.14.04.1" collectionTime="1478743863037" />
+    </group>
+    <group name="module type">
+      <project id="pogo-toolkit-api" values="WEB_MODULE" collectionTime="1474058875656" />
+      <project id="KpnHackathon" values="WEB_MODULE" collectionTime="1464598628454" />
+      <project id="FillOracleDB" values="WEB_MODULE" collectionTime="1467462175914" />
+      <project id="PrimeTwo-MVC" values="WEB_MODULE" collectionTime="1460201250535" />
+      <project id="website" values="WEB_MODULE" collectionTime="1478743862842" />
+      <project id="RevicedSystem" values="WEB_MODULE" collectionTime="1480530103561" />
+    </group>
+    <group name="php-include-path">
+      <project id="pogo-toolkit-api" values="0" collectionTime="1474058875996" />
+      <project id="KpnHackathon" values="0" collectionTime="1464598628609" />
+      <project id="FillOracleDB" values="0" collectionTime="1467462176106" />
+      <project id="PrimeTwo-MVC" values="0" collectionTime="1460201250646" />
+      <project id="website" values="0" collectionTime="1478743863039" />
+      <project id="RevicedSystem" values="0" collectionTime="1480530103706" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="pogo-toolkit-api" values="Project,Project" collectionTime="1474058875995" />
+      <project id="KpnHackathon" values="Project,Project" collectionTime="1464598628609" />
+      <project id="FillOracleDB" values="Project,Project" collectionTime="1467462176104" />
+      <project id="PrimeTwo-MVC" values="Project,Project" collectionTime="1460201250645" />
+      <project id="website" values="Project,Project" collectionTime="1478743863038" />
+      <project id="RevicedSystem" values="Project,Project" collectionTime="1480530103705" />
+    </group>
+    <group name="Git">
+      <project id="pogo-toolkit-api" values="config.save.policy.STASH,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,config.ssh.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,config.force.push.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1474058875739" />
+      <project id="KpnHackathon" values="data.remote.branches.count.2+,data.local.branches.count.2+,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.save.policy.STASH" collectionTime="1464598628484" />
+      <project id="FillOracleDB" values="config.save.policy.STASH,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.1,data.remotes.in.project.1,data.local.branches.count.1,config.ssh.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1467462175963" />
+      <project id="PrimeTwo-MVC" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,data.remote.branches.count.5+,data.local.branches.count.1,config.warn.about.crlf.enabled,config.force.push.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1460201250558" />
+      <project id="website" values="config.warn.about.detached.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,data.remote.branches.count.1,data.local.branches.count.1" collectionTime="1478743862868" />
+      <project id="RevicedSystem" values="data.remote.branches.count.8+,config.ssh.enabled,config.save.policy.STASH,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.8+,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1480530103579" />
+    </group>
+    <group name="php-servers">
+      <project id="pogo-toolkit-api" values="0" collectionTime="1474058876004" />
+      <project id="KpnHackathon" values="0" collectionTime="1464598628613" />
+      <project id="FillOracleDB" values="0" collectionTime="1467462176110" />
+      <project id="PrimeTwo-MVC" values="0" collectionTime="1460201250648" />
+      <project id="website" values="0" collectionTime="1478743863044" />
+      <project id="RevicedSystem" values="0" collectionTime="1480530103709" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="diff.DirDiffTableModel" count="1" />
+      <entry feature="diff.DirDiffViewer" count="1" />
+      <entry feature="git.branch.checkout.local" count="11" />
+      <entry feature="git.branch.checkout.remote" count="1" />
+      <entry feature="git.branch.create.new" count="4" />
+      <entry feature="git.branch.delete.local" count="2" />
+      <entry feature="git.branch.delete.remote" count="3" />
+      <entry feature="ide.settings.Appearance" count="14" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.Directories" count="2" />
+      <entry feature="ide.settings.Font" count="6" />
+      <entry feature="ide.settings.Keymap" count="7" />
+      <entry feature="ide.settings.SQL_Dialects" count="1" />
+      <entry feature="ideaapp.started" count="51" />
+      <entry feature="terminal.linux" count="51" />
+      <entry feature="uml.ShowDiagram.DATABASE" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateWebProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="7" />
+    </counts>
+  </component>
+</application>

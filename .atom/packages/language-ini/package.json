@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-116118-3608-uh571q/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-116118-3608-uh571q/package.tgz",
+        "spec": "/tmp/d-116118-3608-uh571q/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-116118-3608-1fxjvet"
+    ]
+  ],
+  "_from": "../d-116118-3608-uh571q/package.tgz",
+  "_id": "language-ini@1.17.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-ini",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-116118-3608-uh571q/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-116118-3608-uh571q/package.tgz",
+    "spec": "/tmp/d-116118-3608-uh571q/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116118-3608-uh571q/package.tgz",
+  "_shasum": "93c93520019ec8d18967e2ee6f666ff1fef82af3",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-116118-3608-uh571q/package.tgz",
+  "_where": "/tmp/apm-install-dir-116118-3608-1fxjvet",
+  "author": {
+    "name": "Jacob Bednarz",
+    "email": "jacob.bednarz@gmail.com",
+    "url": "https://jacobbednarz.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/jacobbednarz/atom-language-ini/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax support for ini files.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jacobbednarz/atom-language-ini",
+  "license": "MIT",
+  "name": "language-ini",
+  "optionalDependencies": {},
+  "readme": "# Syntax support for INI files in Atom\n\nContributions are welcome and bonus are awarded for pull requests. Please fork and send a pull requests for updates to grammars, snippets or documentation.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbednarz/atom-language-ini.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.17.0"
+}

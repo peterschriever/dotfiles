@@ -1,0 +1,730 @@
+T 1482321193 18<24TML18>	TheWild: No, don't do that
+T 1482321193 18<27Komanda828618>	TML: yeah it will be abused, but that in itself might endup spark innovation
+T 1482321193 18<26anthonym18>	yes they can, we use them in the ambulances, its called p2p dPMR
+T 1482321193 18<19FlyLo18>	TheWild: if you feel like you need references, then you don't :)
+T 1482321193 18<27googleguy18>	TheWild, You can't in a local scope, but you can with $GLOBALS
+T 1482321193 18<26anthonym18>	(or dPMR Mode 1)
+T 1482321193 18<27Komanda828618>	TML: the first online money  transaction  was some college kids buying weed from eachother
+T 1482321193 18<24TML18>	Komanda8286: Well, again - it's NEVER YET worked that way in the entire world, not sure where your optimism comes from.
+T 1482321193 18<27googleguy18>	TheWild, The only local scope solution is to foreach(get_defined_vars() &$var)
+T 1482321193 18<27Komanda828618>	TML: bitcoin, tor etc are all kinda being abused yet kinda bleeding edge
+T 1482321193 18<27googleguy18>	Which would make no sense, really.
+T 1482321193 18<19FlyLo18>	googleguy: that still won't create references to the original variables
+T 1482321193 18<27Komanda828618>	TML: my optimism comes from seeing what can be
+T 1482321193 18<27googleguy18>	FlyLo, In a local scope the variable is a reference to itself
+T 1482321193 18<26anthonym18>	uhf however is always broadcast
+T 1482321193 18<24TML18>	Komanda8286: My pessimism comes from seeing what is, and what will be.
+T 1482321193 18<26anthonym18>	why are we talking about radios anyway
+T 1482321193 18<27googleguy18>	foreach(get_defined_vars() as $name => $value) { $$name = $newValue; }
+T 1482321193 18<27Komanda828618>	"Two years from now, spam will be solved," Gates told delegates to a World Economic Forum meeting in Davos, Switzerland last weekend, AP reports 26 Jan 2004
+T 1482321193 18<27Komanda828618>	TML: maybe i'm too optimistic and you too pessimistic
+T 1482321193 18<24TML18>	Right - spam === no solved
+T 1482321193 18<19FlyLo18>	googleguy: ok, that should work
+T 1482321193 18<26anthonym18>	O M G  Bill gates said something?
+T 1482321193 18<24TML18>	s/no/not/
+T 1482321193 18<27googleguy18>	But if you're doing that something is very wrong.
+T 1482321193 18<27Komanda828618>	TML: meh, in a centralized fashion it is kinda solved; gmail etc
+T 1482321193 18<27googleguy18>	:/
+T 1482321193 18<27Komanda828618>	but thats cheating
+T 1482321193 18<24TML18>	Komanda8286: No it isn't
+T 1482321193 18<27Komanda828618>	not in a real solution, you are right
+T 1482321193 18<24TML18>	I get several thousand spam in my gmail inbox daily
+T 1482321193 18<27Komanda828618>	oh ok, i personally dont use gmail
+T 1482321193 18<27Komanda828618>	but i assumed they were pretty good with machine learning etc
+T 1482321193 18<27Komanda828618>	so sorry for saying that, didnt know that
+T 1482321193 18<26anthonym18>	does it tag it as spam ?
+T 1482321193 18<24TML18>	No
+T 1482321193 18<26anthonym18>	or is that just mixed in with your inbox?
+T 1482321193 18<26anthonym18>	oh lovely
+T 1482321193 18<24TML18>	I mean, it catches a lot of stuff that IS spam
+T 1482321193 18<26anthonym18>	stop signing up to all the porn sites then mate :)
+T 1482321193 18<24TML18>	But I get ~14k emails / day.
+T 1482321193 18<27Komanda828618>	whoa
+T 1482321193 18<24TML18>	only a few hundred of them are actual, legitimate emails
+T 1482321193 18<26anthonym18>	thats nuts.
+T 1482321193 18<22Xatenev18>	TML: wtf
+T 1482321193 18<27googleguy18>	TheWild, Another solution might be to use extract, but proceed with caution
+T 1482321193 18<26lilltiger18>	I'm actualy more annoyed by ad's then of spam now adays
+T 1482321193 18<26TheWild18>	googleguy, FlyLo: http://kopy.io/jAUoy - yet this way I have to sacrifice 3 variables that could be in scope
+T 1482321193 18<27Komanda828618>	TML: if you had unlimited time and money, how would you create the ideal spamfilter for yourself?
+T 1482321193 18<22Xatenev18>	I don't get spam and I dont see ads except for rare exceptions.
+T 1482321193 18<27googleguy18>	TheWild, What exactly are you trying to do?
+T 1482321193 18<24TML18>	lilltiger: Well, I don't watch video or use a javascript-capable browser most of them time, so I'm spared that particular beast.
+T 1482321193 18<26anthonym18>	Komanda8286, don't use email.
+T 1482321193 18<27Komanda828618>	anthonym: and hire hot secretaries i guess :D
+T 1482321193 18<26TheWild18>	googleguy: it's an experiment
+T 1482321193 18<26anthonym18>	yes exactly. :)
+T 1482321193 18<19FlyLo18>	TheWild: yeah, that should work. maybe explain why you want a ref array, what problem you need solving? maybe you don't actually need to have a ref array
+T 1482321193 18<26lilltiger18>	TML: well ofcourse yuo dont, you spend all your day going throught 14k mail ;)
+T 1482321193 18<27googleguy18>	TheWild, That doesn't tell me anything about what you're trying to do. What are you "experimenting" to do?
+T 1482321193 18<24TML18>	Komanda8286: If I had unlimited time and money, I would start an online DAC that offered bounties for identifying the people at the root of sending spam, and punish them with physical, emotional, and financial torture until people stopped doing it.
+T 1482321193 18<24TML18>	lilltiger: As I said, almost all of that is spam that made it past the gmail filters
+T 1482321193 18<26lilltiger18>	TML: I know, was just being silly
+T 1482321193 18<24TML18>	I don't even know how much it catches, but on the few instances I have to go wade into my "All mail" folder, it's a terrifying thing
+T 1482321193 18<26TheWild18>	I thought I can pass that array to function by reference so it can modify caller's scope.
+T 1482321193 18<27Komanda828618>	TML: lol :D
+T 1482321193 18<27Komanda828618>	that would certainly be effective
+T 1482321193 18<24TML18>	TheWild: Don't do that
+T 1482321193 18<27googleguy18>	TheWild, I think we safely assume at this point that you've strayed very far from the path of sanity. Might be time to take a step back and figure out how you got there.
+T 1482321193 18<27Komanda828618>	maybe the email protocol is just broken and we need to put a reputation layer on top; bitcoin post stamps, or maybe a like button
+T 1482321193 18<27Komanda828618>	googleguy: Spam eats away at your soul
+T 1482321193 18<27Komanda828618>	hes holding up pretty good
+T 1482321193 18<27googleguy18>	Komanda8286, I think you're having a different conversation than I am.
+T 1482321193 18<24TML18>	Komanda8286: googleguy isn't talking to me, he's talking to TheWild, who is doing something they really shouldn't.
+T 1482321193 18<27Komanda828618>	oh now i see
+T 1482321193 18<27Komanda828618>	doing to many things at once
+T 1482321193 18<27Komanda828618>	need to focus
+T 1482321193 18<27Komanda828618>	gonna quit irc
+T 1482321193 18<27Komanda828618>	it was fun guys
+T 1482321193 18<27Komanda828618>	thanks
+T 1482321193 18<28Bad_Advice_Cat18>	\o/
+T 1482321193 18<19FlyLo18>	 /o\
+T 1482321193 18<24biberu18>	>o<
+T 1482321193 18<28TotallyNotKim18>	<o>
+T 1482321193 18<26lilltiger18>	_o/
+T 1482321193 18<28TotallyNotKim18>	god damn it, jerry,
+T 1482321193 18<22nindustries18>	Hi, how do you guys deploy PHP apps in Docker? Do you put the source in a container, PHP-FPM in a container and the web server in a container along with the assets?
+T 1482321193 18<29slax0r18>	source on machine, bound to containers
+T 1482321193 18<29slax0r18>	one container for web server, one for fpm, one for db
+T 1482321193 18<27googleguy18>	I just use AWS and not have to worry about coming up with my own logical partitioning.
+T 1482321193 18<27googleguy18>	AWS seems to have figured it out for me quite nicely.
+T 1482321193 18<27googleguy18>	i.e. I don't use Docker.
+T 1482321193 18<19delboy1978uk18>	oh he's gone, thank god
+T 1482321193 18<26lilltiger18>	delboy1978uk: no, sorry to say it but googleguy is still here. :p
+T 1482321193 18<19delboy1978uk18>	googleguy is cool. a very dry sense of humour, and quick to slap you down when coding rubbishly, but i've learned a few things from him and i respect his opinions
+T 1482321193 18<19delboy1978uk18>	you need to be able to take criticism in order to improve
+T 1482321193 18<22nindustries18>	source on machine? hm, that's strange
+T 1482321193 18<29slax0r18>	why would it be strange?
+T 1482321193 18<22nindustries18>	Well, suppose you failover to another box with an old source
+T 1482321193 18<29slax0r18>	you re-deploy a newer source?
+T 1482321193 18<22nindustries18>	Then it's not really a seamless failover, is it :P I suppose you're not using swarm?
+T 1482321193 18<29||JD||18>	delboy1978uk: problem here and programming irc channels in general is some users think they can talk to other people like if they were garbage. just because their systems knowledge level is not good enough
+T 1482321193 18<29slax0r18>	no, no I don't
+T 1482321193 18<29slax0r18>	but I deploy my production version to all my failover servers
+T 1482321193 18<29||JD||18>	I mean, you can be critic, but you need to respect your peers
+T 1482321193 18<29slax0r18>	whenever a new version is deployed
+T 1482321193 18<29slax0r18>	don't see a problem with that
+T 1482321193 18<29slax0r18>	although, I did also consider rebuilding a container each time a new version was ready to be deployed, and then just re-pull that updated container
+T 1482321193 18<22nindustries18>	Yeah, sure. Im looking at automatic rescheduling, so I need it
+T 1482321193 18<29slax0r18>	and have everything set up in that single container
+T 1482321193 18<29slax0r18>	as in, have the code in the container as well
+T 1482321193 18<22nindustries18>	Everything in the same container? THere goes microservices :P
+T 1482321193 18<29slax0r18>	true :P
+T 1482321193 18<29slax0r18>	but I believe there is no one-size-fits-all setup, so it all depends on project and requirements
+T 1482321193 18<24TML18>	nindustries: PHP isn't really a great platform for "microservices" anyway
+T 1482321193 18<22nindustries18>	TML: how so?
+T 1482321193 18<19SlashLife18>	nindustries: You need to pull up your not-so-light PHP process for every request. (Even if you reuse the process itself, the base dataset required for each fresh request is still somewhat heavy.)
+T 1482321193 18<19SlashLife18>	As opposed to having some relatively big application server that requires more resources than PHP, but will be up and running to instantly serve your requests.
+T 1482321193 18<22nindustries18>	eh? The PHP-FPM is still running somewhere with connection pooling, no?
+T 1482321193 18<22nindustries18>	Exactly like on baremetal
+T 1482321193 18<22nindustries18>	SlashLife: Im not talking about Serverless
+T 1482321193 18<19SlashLife18>	No, not exactly like on bare metal. And for all I know, FPM processes need to be replaced regularly, too.
+T 1482321193 18<19SlashLife18>	But you still need to set up a fresh request environment every time.
+T 1482321193 18<19SlashLife18>	So you're only saving about half of the startup process work.
+T 1482321193 18<19SlashLife18>	You will then still need to parse the scripts on every request.
+T 1482321193 18<19SlashLife18>	An opcode cache can help you optimize it further.
+T 1482321193 18<19SlashLife18>	But that still doesn't get you to the same point a permanently running system would have.
+T 1482321193 18<27googleguy18>	nindustries, For stateless services PHP works just fine.
+T 1482321193 18<19SlashLife18>	In the end even if you avoid all the process setup, teardown and parsing, you will still need to set up your request handling; sessions need to be loaded, database connections need to be established, ...
+T 1482321193 18<22nindustries18>	I don't see how that is any different without docker ?
+T 1482321193 18<19SlashLife18>	... in an application server you'd simply have that data already around within the execution environment.
+T 1482321193 18<19SlashLife18>	docket has nothing to do with it.
+T 1482321193 18<19SlashLife18>	*docker
+T 1482321193 18<26drupol18>	Hi all,
+T 1482321193 18<19SlashLife18>	PHP isn't a great platform for microservices.
+T 1482321193 18<26drupol18>	I'm trying to convert a class using an iterator, is there someone who would like to help? Here's the project: https://github.com/drupol/phpermutations
+T 1482321193 18<27googleguy18>	SlashLife, Yea, that's absolute nonsense.
+T 1482321193 18<19SlashLife18>	If you can't separate the concept of microservices from docker, then you have a much more fundamental problem.
+T 1482321193 18<19delboy1978uk18>	lmao, just reading the original thread where that guy bought a pizza for 10,000 BTC https://bitcointalk.org/index.php?topic=137.0 thats $7.9M now!!!
+T 1482321193 18<28PSUser218>	how can i sort something like this, by score? $multi['root'][1]["score"]=7; $multi['root'][2]["score"]=5; $multi['root'][3]["score"]=10;
+T 1482321193 18<27googleguy18>	PSUser2, !+usort
+T 1482321193 18<26php-bot18>	PSUser2, bool usort(array array_arg, mixed comparator)  - Sort an array by values using a user-defined comparison function - http://php.net/usort
+T 1482321193 18<22nindustries18>	Oh ok, I thought we were discussing docker/microservices
+T 1482321193 18<19delboy1978uk18>	PSUser2: https://delboy1978uk.wordpress.com/2012/09/19/sorting-multidimensional-arrays-using-php/
+T 1482321193 18<27googleguy18>	usort($multi['root'], function($a,$b) { return $a['score'] <=> $b['score']; })
+T 1482321193 18<28PSUser218>	thank you googleguy, and delboy1978uk
+T 1482321193 18<19SlashLife18>	spaceship <3
+T 1482321193 18<22nindustries18>	Microservices here mean a separate php-fpm process or.. ?
+T 1482321193 18<19delboy1978uk18>	^^
+T 1482321193 18<19SlashLife18>	nindustries: https://en.wikipedia.org/wiki/Microservices
+T 1482321193 18<27googleguy18>	Microservice is an architectural style, not specific to any one language.
+T 1482321193 18<22nindustries18>	Oh, ok
+T 1482321193 18<27googleguy18>	You're building microservices, but you aren't aware of what it is?
+T 1482321193 18<22nindustries18>	I was unsure of the meaning of the word microservices
+T 1482321193 18<19SlashLife18>	I wonder if it was the "micro" or the "services".
+T 1482321193 18<27googleguy18>	That doesn't really answer my question though.
+T 1482321193 18<22nindustries18>	So if you run php-fpm with a unix socket, is it still a microservice?
+T 1482321193 18<27googleguy18>	nindustries, No.
+T 1482321193 18<19SlashLife18>	php-fpm is not a microservice.
+T 1482321193 18<27googleguy18>	No more than if you if you go "vroom vroom" with your mouth are you a car.
+T 1482321193 18<19SlashLife18>	A script running on it might be.
+T 1482321193 18<19SlashLife18>	Well, might *implement* or *offer* one.
+T 1482321193 18<27googleguy18>	nindustries, The Microservices architecture conceives of an entire service that can be self-contained around a single capability of the system. So for example a service that handles the system's billing capabilities is an independent, self-contained, service reachable by other parts of the system. This could mean everything from your database to your runtime environment are collectively a service.
+T 1482321193 18<27googleguy18>	Nothing there restricts you from having a runtime that is comprised of multiple language runtimes either.
+T 1482321193 18<27googleguy18>	As long as it's all self-contained, it's essentially viewed as a black box. You don't know how it works, you don't care. All you know is that you can give it input and get some expected output.
+T 1482321193 18<27googleguy18>	This is only *really* useful when your business needs requires cross-functional collaboration at an agile methodology.
+T 1482321193 18<19delboy1978uk18>	i like this approach
+T 1482321193 18<27fleetfox18>	meh
+T 1482321193 18<27googleguy18>	Almost every company I've consulted for that wanted to use "microservice" basically ignores this and starts off thinking "oh, microservices, that's what the cool kids are using now! I want one!"
+T 1482321193 18<27googleguy18>	I mean.. .when you're using a waterfall methodology it makes absolutely no sense for you to start using a microservices architecture.
+T 1482321193 18<24Shard18>	googleguy, TML: Is he gone? Is it safe again? :D
+T 1482321193 18<27googleguy18>	Shard, https://www.youtube.com/watch?v=kzw1_2b-I7A
+T 1482321193 18<24Shard18>	"This video is not available in your country." :D
+T 1482321193 18<27googleguy18>	ah
+T 1482321193 18<27googleguy18>	heh, it's Marathon Man
+T 1482321193 18<27googleguy18>	The "is it safe" scene.
+T 1482321193 18<24Shard18>	I saw the title, just not the actual thingymagic. Found an alternative :)
+T 1482321193 18<20mas88618>	Can someone help me a bit? Why does the first case work, but the second one not? http://pastebin.com/QPT5LVzQ
+T 1482321193 18<20zap018>	select * <--   never really a use case where this makes sense
+T 1482321193 18<24biberu18>	mas886: how doesn't it work? what does your `query` method return? clearly something iterable, but an array? some sort of resultset?
+T 1482321193 18<20zap018>	mas886, the cool thing about all the PDO functions, is they all return errors you can read.
+T 1482321193 18<24biberu18>	mas886: also, the first case might surprise you if there are no rows, you should initialize that variable to an array
+T 1482321193 18<20mas88618>	biberu: it returns PDOStatement Object ( [queryString] => SELECT * FROM cotxe ) instead of the values
+T 1482321193 18<20mas88618>	biberu: didn't contemplate that, thanks for preventing a future error. :)
+T 1482321193 18<20mas88618>	zap0: I don't think it really returns me an "error" answered to biberu the response it gives.
+T 1482321193 18<24biberu18>	mas886: http://www.php.net/PDOStatement. your first case iterates over the result set and stores each row in the array, but in the second case there is no array, just your result set
+T 1482321193 18<20zap018>	mas886, query() can fail for multiple reasons.   pretending like it wont is foolish.
+T 1482321193 18<20mas88618>	zap0: that's not what we are talking about here
+T 1482321193 18<20mas88618>	biberu: yeah I got that, but if query() returns an array I set the variable equal to that method
+T 1482321193 18<20mas88618>	biberu: why does it work then iterating the array and loading each value to the first variable?
+T 1482321193 18<24biberu18>	mas886: except it doesn't return an array :)
+T 1482321193 18<20mas88618>	biberu: Ooooh...
+T 1482321193 18<20mas88618>	What's it then? Haha
+T 1482321193 18<24biberu18>	it returns a result set (if it works at all), and that is traversable (look at the manpage above), so your foreach iterates over that and creates an array like *you* told it to
+T 1482321193 18<20zap018>	mas886, if only there was some way to tell if it worked or not..*sigh*
+T 1482321193 18<24biberu18>	in the second case you never said anyting about an array
+T 1482321193 18<24biberu18>	well, it returns a pdostatement
+T 1482321193 18<24biberu18>	mas886: http://php.net/manual/en/pdo.query.php <- ctrl-f "return values"
+T 1482321193 18<20mas88618>	zap0: Do you know how to read? <mas886> biberu: it returns PDOStatement Object ( [queryString] => SELECT * FROM cotxe ), the second case returns an array if you read it.
+T 1482321193 18<24biberu18>	relax
+T 1482321193 18<20mas88618>	biberu: so how is that php is able to iterate a pdo statement, but when printing will print the statement?
+T 1482321193 18<20mas88618>	biberu: sorry I dislike rude people.
+T 1482321193 18<24biberu18>	you are simply misunderstanding each other
+T 1482321193 18<20mas88618>	biberu: I'm sure of it, I'm quite new to php and there are some things I still miss!
+T 1482321193 18<24biberu18>	you can iterate over the statement because it defines a behaviour for that
+T 1482321193 18<24biberu18>	PDOStatement implements --> Traversable <-- {
+T 1482321193 18<20mas88618>	but when returning it I get simply the value then?
+T 1482321193 18<20zap018>	"and there are some things I still miss"    if only there was some way to have the functions i call tell me when i screwed them up... *sigh*
+T 1482321193 18<24biberu18>	you get the statement result in both cases, it's just that in one you're doing some work with it, and in the other one not
+T 1482321193 18<28OnkelTem18>	Hi. What is the shortest way to extract a part of associative array starting from specific key and too the end?
+T 1482321193 18<19sonu_nk18>	how to generate DKIM / DomainKeys for a domain. domain name to generate your DNS record:
+T 1482321193 18<24biberu18>	zap0: the query isn't failing, he's just confused about what happens with the return value when looping over it or not
+T 1482321193 18<19sonu_nk18>	i need this records TXT Record Name and  TXT Record Value:
+T 1482321193 18<20mas88618>	biberu: in both cases I do a "print_r", in first case prints the values, second one prints what I said here.
+T 1482321193 18<20mas88618>	print_r seems to be able to iterate the array (of course) but doesn't seem to be able to iterate that pdo thingy.
+T 1482321193 18<20mas88618>	zap0: I already said that the query doesn't fail, just returns unexpected answer.
+T 1482321193 18<20mas88618>	Of course not unexpected to php, but to me. Haha.
+T 1482321193 18<20zap018>	i find query() to wrap too many things;  so many, when something goes wrong you have little idea of the problem.   i prefer  ->prepare();  ->exec()  ->fetch()   or ->fetchAll()
+T 1482321193 18<20mas88618>	zap0: no need to prepare the statement since I can keep it simple as the query does not need any user input.
+T 1482321193 18<20mas88618>	biberu: So about what zap0 would actually select * be wrong in this case? I mean, I need all the data from every register.
+T 1482321193 18<25Naktibalda18>	query actually prepares
+T 1482321213 24*	Cabanossi has quit (Ping timeout: 258 seconds)
+T 1482321217 18<24biberu18>	mas886: https://3v4l.org/8ekfh <- does this clarify anything?
+T 1482321248 18<24_jan18>	sonu_nk: you should ask this on other channel, it has nothing to do with php, try in #reddit-sysadmin for example (dkim /domainkeys are related to a server, not to a language code)
+T 1482321298 23*	nimomo (~nimomo@amex-lod.bb.netvision.net.il23) has joined
+T 1482321305 18<20zap018>	mas886, you'll not find many experienced SQL'ers that would ever use SELECT *..    there must be good reasons.
+T 1482321333 18<24biberu18>	zap0: that's not what the question is about tho :)
+T 1482333104 20*	Disconnected (20Connection timed out)
+T 1482333114 19*	Now talking on 22##php
+T 1482333114 22*	Topic for 22##php is: Stable PHP versions: 5.6.29, 7.0.14, 7.1.0 · /msg php-bot guidelines · keep your language clean · Use a pastebin for code · http://hashphp.org has some useful links
+T 1482333114 22*	Topic for 22##php set by 26ChanServ (24Mon Dec 19 15:58:06 2016)
+T 1482333114 18<27Komanda828618>	Xatenev: what protocol/application would you use?
+T 1482333114 18<24TML18>	Komanda8286: Oh, I don't know. When a child is kidnapped, "content" seems to go out pretty effectively.
+T 1482333114 18<27Komanda828618>	TML: great point
+T 1482333114 18<27Komanda828618>	but thats top down
+T 1482333114 18<27Komanda828618>	not bottom up
+T 1482333114 18<27googleguy18>	Shard, Yea, we definitely need that quantum entanglement machine.
+T 1482333114 18<22Xatenev18>	Komanda8286: I'd invite them to any group in any chat client and send them a message there.
+T 1482333114 18<22Xatenev18>	Komanda8286: lol
+T 1482333114 18<27googleguy18>	Somebody should get on that STAT.
+T 1482333114 18<27googleguy18>	I delegate to Komanda8286 (Chief Innovator Officer of LalaLand)
+T 1482333114 18<24TML18>	Komanda8286: I really hope no one ever solves the "bottom-up send a message to people living within 5 miles surrounding"
+T 1482333114 18<27Komanda828618>	its a bit like how gsm standard pings gsm towers and allows for location triangulation; your own cellphone doesnt have access to that location information; pretty shitty since in some cases gps doesnt work and that would be useful
+T 1482333114 18<24TML18>	I don't want millions of text messages every time the food truck rally is within 5 miles of me.
+T 1482333114 18<22Xatenev18>	^
+T 1482333114 18<27Komanda828618>	TML: it could be centered around irc channels, or twitter hashtags, or dns like a solution
+T 1482333114 18<27Komanda828618>	fuck i don't know
+T 1482333114 18<27Komanda828618>	i just want more people to think about these things
+T 1482333114 18<24TML18>	Komanda8286: Please keep the profanity out of ##PHP
+T 1482333114 18<27Komanda828618>	mkay
+T 1482333114 18<24TML18>	I hold to my opinion that I'm quite *GLAD* there aren't more people thinking about these things. There's already far too much abuse of "push marketing" in the world - the last thing I want is for it to be leveraged locally.
+T 1482333114 18<27Komanda828618>	yeah because spam filters can't be created
+T 1482333114 18<27Komanda828618>	bad argument
+T 1482333114 18<27Komanda828618>	Content centric networking is a wrong term for this
+T 1482333114 18<24TML18>	if your neighborhood wants to opt-in to a community platform of some kind to discuss the bbq, there are already hundreds - if not thousands - of ways to do it
+T 1482333114 18<27Komanda828618>	Context centric networking seems better
+T 1482333114 18<27Komanda828618>	TML: no-one should have to optin, thats the point
+T 1482333114 18<22Xatenev18>	Komanda8286: Definetly everybody should have to opt in
+T 1482333114 18<24TML18>	Komanda8286: And that's exactly the point of why I hope it never comes about
+T 1482333114 18<22Xatenev18>	Komanda8286: or GTFO of my life.
+T 1482333114 18<24TML18>	I don't want commuincations that I didn't actively opt-in for
+T 1482333114 18<22Xatenev18>	^
+T 1482333114 18<27Komanda828618>	http://www.12news.com/news/nation-now/motorcycle-crash-survivor-says-final-goodbyes-in-cellphone-video/345083284
+T 1482333114 18<27Komanda828618>	that guy had a cellphone
+T 1482333114 18<24TML18>	Except assume I spelled "communications" correctly
+T 1482333114 18<27Komanda828618>	all the people on the road near him had a cellphone
+T 1482333114 18<27googleguy18>	commmmuneeekayshons
+T 1482333114 18<27Komanda828618>	yet he almost died since no celltower within the area
+T 1482333114 18<27googleguy18>	Did I get it?
+T 1482333114 18<27googleguy18>	Was I close?
+T 1482333114 18<24TML18>	Komanda8286: Sounds like it was a bad idea to go motorcycling in that area
+T 1482333114 18<27Komanda828618>	TML: sounds like the tools we use to communicate are broken
+T 1482333114 18<24TML18>	I don't want you taking over my cell phone because some idiot made poor life decisions.
+T 1482333114 18<24Snowman2318>	To be fair, motocycling is already one of the most dangerous things you can do
+T 1482333114 18<24TML18>	Komanda8286: Agree to disagree, I suppose
+T 1482333114 18<24TML18>	I'm not ok with you using my cell phone to save that guy's life unless I opted into that
+T 1482333114 18<27googleguy18>	Jumping out of an airplane without a parachute might be more dangerous.
+T 1482333114 18<27Komanda828618>	TML: "you using my cellphone"?
+T 1482333114 18<27Komanda828618>	what do you mean with that?
+T 1482333114 18<22Xatenev18>	googleguy: Who does that on a regular basis though?
+T 1482333114 18<24TML18>	 Komanda8286> all the people on the road near him had a cellphone
+T 1482333114 18<27googleguy18>	Xatenev, Good question. I don't know of anyone, but keep an eye out.
+T 1482333114 18<27Komanda828618>	sending a text message to people within 1 mile has nothing to do with me using your cellphone to save his life
+T 1482333114 18<24TML18>	Komanda8286: Sure it does
+T 1482333114 18<27Komanda828618>	not if its a decentralized bottom up approach; like a walky talky
+T 1482333114 18<27Komanda828618>	but for internet packages so lots of things can be created on top of it
+T 1482333114 18<24TML18>	Cell phones aren't "walkie talkies"
+T 1482333114 18<27Komanda828618>	but they could be; software defined radios etc
+T 1482333114 18<27Komanda828618>	stop being so closed minded
+T 1482333114 18<24TML18>	A walkie talkie is an open broadcast system. A cellphone is a point to point system. There's no sensible way to equate the two.
+T 1482333114 18<27googleguy18>	Well, a broadcast system anyway.
+T 1482333114 18<27Komanda828618>	yeah because smartphones don't have millions of other feautures than just telephone calls right?
+T 1482333114 18<28Bad_Advice_Cat18>	Frankly, I wouldn't want any of this myself.
+T 1482333114 18<27googleguy18>	Doesn't have to be open.
+T 1482333114 18<24TML18>	Just because they COULD be doesn't mean they SHOULD be. If cell phones start working the way you describe/desire, I will stop carrying a cell phone.
+T 1482333114 18<27Komanda828618>	TML: why? you could turn off notifications etc?
+T 1482333114 18<27Komanda828618>	why do you assume the worst?
+T 1482333114 18<24TML18>	Simply because every time anyone has done any of the things you're talking about, it's *always*, 100% of the time, been leveraged for "the worst"
+T 1482333114 18<29HcsOmot18>	hi, could someone help out with setting up phpspec in phpstorm, please?
+T 1482333114 18<22Xatenev18>	HcsOmot: No sorry, but theres #jetbrains iirc
+T 1482333114 18<22Xatenev18>	HcsOmot: #idea-users
+T 1482333114 18<28Bad_Advice_Cat18>	##phpstorm exists too.
+T 1482333114 18<24TML18>	HcsOmot: I think phpstorm has their own support channel, they might have a better idea of how to direct you
+T 1482333114 18<24TML18>	someone should make a factoid about that
+T 1482333114 18<29HcsOmot18>	ok, thanks
+T 1482333114 18<27Komanda828618>	TML: every new system has weaknesses, but eventually we kinda endup iroing out the kinks etc. you sound pretty misanthropic
+T 1482333114 18<24TML18>	Komanda8286: Well, given that we still haven't "ironed out the kinks" in any of the systems we have that DO work as you describe, I have serious doubts about your ability to protect the system.
+T 1482333114 18<27Komanda828618>	TML: " any of the systems we have that DO work as you describe"
+T 1482333114 18<24TML18>	Sure
+T 1482333114 18<27Komanda828618>	?
+T 1482333114 18<27Komanda828618>	what systems do work like i describe?
+T 1482333114 18<24TML18>	telephones and SMTP are pretty obvious examples
+T 1482333114 18<27Komanda828618>	not really
+T 1482333114 18<24TML18>	Last time I sat down and looked at my detailed phone bill, more than 80% of the phone calls I receive each month on my existing cell phone are unsolicited marketing calls, or lawyers/collections agencies trying to contact some individual that hasn't had that phone number for more than a decade.
+T 1482333114 18<24TML18>	Significantly more than 95% of the email that hits my servers is unsolicited bulk commercial messages
+T 1482333114 18<27Komanda828618>	TML: https://www.donotcall.gov
+T 1482333114 18<24TML18>	Komanda8286: Yeah, that doesn't work
+T 1482333114 18<24TML18>	But thanks
+T 1482333114 18<27Komanda828618>	i agree, we need better tools to deal with the firehose of useless stuff
+T 1482333114 18<24TML18>	I've been on it for more than 8 years
+T 1482333114 18<24TML18>	hasn't helped a bit
+T 1482333114 18<28Bad_Advice_Cat18>	TML, and I presume you got number changed? - Or is it "too important" number that can not be changed (risking the chances of losing contacts.)?
+T 1482333114 18<26lilltiger18>	TML: just imagine how meny calls you would have gotten if you where not!
+T 1482333114 18<27Komanda828618>	Bad_Advice_Cat: new number the same will happen once you share it
+T 1482333114 18<24TML18>	Bad_Advice_Cat: Why would I change the number? I have no reason to believe that any other number won't have the same problem.
+T 1482333114 18<26TheWild18>	how I can do get_defined_vars() to have references to then in resulting array?
+T 1482333114 18<20TomJepp18>	TML: you made me just check, actually. I reject about 95% outright, and about another 3% goes to spam folders
+T 1482333114 18<27Komanda828618>	TML: but i mean, not embracing new "communication paths" doesn't feel right
+T 1482333114 18<24TML18>	TomJepp: Last time I surveyed it, less than 0.5% of the email that hits my servers is actually routed to someone's inbox. And that's with really, really, well trained Bayesian classifiers.
+T 1482333114 18<27Komanda828618>	if it can happen it will happen eventually
+T 1482333114 18<27Komanda828618>	software defined radio's will endup in cellphones
+T 1482333114 18<24TML18>	Komanda8286: That doesn't mean I *want* to see it happen.
+T 1482333114 18<27Komanda828618>	p2p communication will happen in walky talky like fashion
+T 1482333114 18<24TML18>	walkie talkies aren't p2p
+T 1482333114 18<27Komanda828618>	TML: u gonna be like; "get off my lawn" ?
+T 1482333114 18<26anthonym18>	unless they're digital radios.. and they can then be p2p
+T 1482333114 18<26anthonym18>	:)
+T 1482333114 18<27Komanda828618>	TML: well i just mean decentralized communcation, whatever specific form i don't care
+T 1482333114 18<24TML18>	anthonym: No, they're not p2p - even if the channel is encrypted, it still a broadcast system.
+T 1482333114 18<27Komanda828618>	one 2 many, many 2 many etc
+T 1482333114 18<24TML18>	Komanda8286: bottom-up 02:50 < Komanda8286> TML: well i just mean decentralized communcation, whatever specific form i don't care
+T 1482333114 18<24TML18>	guh - need to unplug that dang mouse
+T 1482333114 18<19FlyLo18>	TheWild: hm? you want the get_defined_vars() array to have references to the original variables?
+T 1482333114 18<26TheWild18>	exactly
+T 1482333114 18<24TML18>	Komanda8286: bottom-up is the problem I have with it - if just anyone can do it, it WILL be abused. We have plenty of proof.
+T 1482333114 18<27Komanda828618>	TML:  well i meant,  "bottom up, one 2 many"
+T 1482333114 18<27Komanda828618>	in a localize dfashion basically
+T 1482333114 18<24TML18>	TheWild: No, don't do that
+T 1482333114 18<27Komanda828618>	TML: yeah it will be abused, but that in itself might endup spark innovation
+T 1482333114 18<26anthonym18>	yes they can, we use them in the ambulances, its called p2p dPMR
+T 1482333114 18<19FlyLo18>	TheWild: if you feel like you need references, then you don't :)
+T 1482333114 18<27googleguy18>	TheWild, You can't in a local scope, but you can with $GLOBALS
+T 1482333114 18<26anthonym18>	(or dPMR Mode 1)
+T 1482333114 18<27Komanda828618>	TML: the first online money  transaction  was some college kids buying weed from eachother
+T 1482333114 18<24TML18>	Komanda8286: Well, again - it's NEVER YET worked that way in the entire world, not sure where your optimism comes from.
+T 1482333114 18<27googleguy18>	TheWild, The only local scope solution is to foreach(get_defined_vars() &$var)
+T 1482333114 18<27Komanda828618>	TML: bitcoin, tor etc are all kinda being abused yet kinda bleeding edge
+T 1482333114 18<27googleguy18>	Which would make no sense, really.
+T 1482333114 18<19FlyLo18>	googleguy: that still won't create references to the original variables
+T 1482333114 18<27Komanda828618>	TML: my optimism comes from seeing what can be
+T 1482333114 18<27googleguy18>	FlyLo, In a local scope the variable is a reference to itself
+T 1482333114 18<26anthonym18>	uhf however is always broadcast
+T 1482333114 18<24TML18>	Komanda8286: My pessimism comes from seeing what is, and what will be.
+T 1482333114 18<26anthonym18>	why are we talking about radios anyway
+T 1482333114 18<27googleguy18>	foreach(get_defined_vars() as $name => $value) { $$name = $newValue; }
+T 1482333114 18<27Komanda828618>	"Two years from now, spam will be solved," Gates told delegates to a World Economic Forum meeting in Davos, Switzerland last weekend, AP reports 26 Jan 2004
+T 1482333114 18<27Komanda828618>	TML: maybe i'm too optimistic and you too pessimistic
+T 1482333114 18<24TML18>	Right - spam === no solved
+T 1482333114 18<19FlyLo18>	googleguy: ok, that should work
+T 1482333114 18<26anthonym18>	O M G  Bill gates said something?
+T 1482333114 18<24TML18>	s/no/not/
+T 1482333114 18<27googleguy18>	But if you're doing that something is very wrong.
+T 1482333114 18<27Komanda828618>	TML: meh, in a centralized fashion it is kinda solved; gmail etc
+T 1482333114 18<27googleguy18>	:/
+T 1482333114 18<27Komanda828618>	but thats cheating
+T 1482333114 18<24TML18>	Komanda8286: No it isn't
+T 1482333114 18<27Komanda828618>	not in a real solution, you are right
+T 1482333114 18<24TML18>	I get several thousand spam in my gmail inbox daily
+T 1482333114 18<27Komanda828618>	oh ok, i personally dont use gmail
+T 1482333114 18<27Komanda828618>	but i assumed they were pretty good with machine learning etc
+T 1482333114 18<27Komanda828618>	so sorry for saying that, didnt know that
+T 1482333114 18<26anthonym18>	does it tag it as spam ?
+T 1482333114 18<24TML18>	No
+T 1482333114 18<26anthonym18>	or is that just mixed in with your inbox?
+T 1482333114 18<26anthonym18>	oh lovely
+T 1482333114 18<24TML18>	I mean, it catches a lot of stuff that IS spam
+T 1482333114 18<26anthonym18>	stop signing up to all the porn sites then mate :)
+T 1482333114 18<24TML18>	But I get ~14k emails / day.
+T 1482333114 18<27Komanda828618>	whoa
+T 1482333114 18<24TML18>	only a few hundred of them are actual, legitimate emails
+T 1482333114 18<26anthonym18>	thats nuts.
+T 1482333114 18<22Xatenev18>	TML: wtf
+T 1482333114 18<27googleguy18>	TheWild, Another solution might be to use extract, but proceed with caution
+T 1482333114 18<26lilltiger18>	I'm actualy more annoyed by ad's then of spam now adays
+T 1482333114 18<26TheWild18>	googleguy, FlyLo: http://kopy.io/jAUoy - yet this way I have to sacrifice 3 variables that could be in scope
+T 1482333114 18<27Komanda828618>	TML: if you had unlimited time and money, how would you create the ideal spamfilter for yourself?
+T 1482333114 18<22Xatenev18>	I don't get spam and I dont see ads except for rare exceptions.
+T 1482333114 18<27googleguy18>	TheWild, What exactly are you trying to do?
+T 1482333114 18<24TML18>	lilltiger: Well, I don't watch video or use a javascript-capable browser most of them time, so I'm spared that particular beast.
+T 1482333114 18<26anthonym18>	Komanda8286, don't use email.
+T 1482333114 18<27Komanda828618>	anthonym: and hire hot secretaries i guess :D
+T 1482333114 18<26TheWild18>	googleguy: it's an experiment
+T 1482333114 18<26anthonym18>	yes exactly. :)
+T 1482333114 18<19FlyLo18>	TheWild: yeah, that should work. maybe explain why you want a ref array, what problem you need solving? maybe you don't actually need to have a ref array
+T 1482333114 18<26lilltiger18>	TML: well ofcourse yuo dont, you spend all your day going throught 14k mail ;)
+T 1482333114 18<27googleguy18>	TheWild, That doesn't tell me anything about what you're trying to do. What are you "experimenting" to do?
+T 1482333114 18<24TML18>	Komanda8286: If I had unlimited time and money, I would start an online DAC that offered bounties for identifying the people at the root of sending spam, and punish them with physical, emotional, and financial torture until people stopped doing it.
+T 1482333114 18<24TML18>	lilltiger: As I said, almost all of that is spam that made it past the gmail filters
+T 1482333114 18<26lilltiger18>	TML: I know, was just being silly
+T 1482333114 18<24TML18>	I don't even know how much it catches, but on the few instances I have to go wade into my "All mail" folder, it's a terrifying thing
+T 1482333114 18<26TheWild18>	I thought I can pass that array to function by reference so it can modify caller's scope.
+T 1482333114 18<27Komanda828618>	TML: lol :D
+T 1482333114 18<27Komanda828618>	that would certainly be effective
+T 1482333114 18<24TML18>	TheWild: Don't do that
+T 1482333114 18<27googleguy18>	TheWild, I think we safely assume at this point that you've strayed very far from the path of sanity. Might be time to take a step back and figure out how you got there.
+T 1482333114 18<27Komanda828618>	maybe the email protocol is just broken and we need to put a reputation layer on top; bitcoin post stamps, or maybe a like button
+T 1482333114 18<27Komanda828618>	googleguy: Spam eats away at your soul
+T 1482333114 18<27Komanda828618>	hes holding up pretty good
+T 1482333114 18<27googleguy18>	Komanda8286, I think you're having a different conversation than I am.
+T 1482333114 18<24TML18>	Komanda8286: googleguy isn't talking to me, he's talking to TheWild, who is doing something they really shouldn't.
+T 1482333114 18<27Komanda828618>	oh now i see
+T 1482333114 18<27Komanda828618>	doing to many things at once
+T 1482333114 18<27Komanda828618>	need to focus
+T 1482333114 18<27Komanda828618>	gonna quit irc
+T 1482333114 18<27Komanda828618>	it was fun guys
+T 1482333114 18<27Komanda828618>	thanks
+T 1482333114 18<28Bad_Advice_Cat18>	\o/
+T 1482333114 18<19FlyLo18>	 /o\
+T 1482333114 18<24biberu18>	>o<
+T 1482333114 18<28TotallyNotKim18>	<o>
+T 1482333114 18<26lilltiger18>	_o/
+T 1482333114 18<28TotallyNotKim18>	god damn it, jerry,
+T 1482333114 18<22nindustries18>	Hi, how do you guys deploy PHP apps in Docker? Do you put the source in a container, PHP-FPM in a container and the web server in a container along with the assets?
+T 1482333114 18<29slax0r18>	source on machine, bound to containers
+T 1482333114 18<29slax0r18>	one container for web server, one for fpm, one for db
+T 1482333114 18<27googleguy18>	I just use AWS and not have to worry about coming up with my own logical partitioning.
+T 1482333114 18<27googleguy18>	AWS seems to have figured it out for me quite nicely.
+T 1482333114 18<27googleguy18>	i.e. I don't use Docker.
+T 1482333114 18<19delboy1978uk18>	oh he's gone, thank god
+T 1482333114 18<26lilltiger18>	delboy1978uk: no, sorry to say it but googleguy is still here. :p
+T 1482333114 18<19delboy1978uk18>	googleguy is cool. a very dry sense of humour, and quick to slap you down when coding rubbishly, but i've learned a few things from him and i respect his opinions
+T 1482333114 18<19delboy1978uk18>	you need to be able to take criticism in order to improve
+T 1482333114 18<22nindustries18>	source on machine? hm, that's strange
+T 1482333114 18<29slax0r18>	why would it be strange?
+T 1482333114 18<22nindustries18>	Well, suppose you failover to another box with an old source
+T 1482333114 18<29slax0r18>	you re-deploy a newer source?
+T 1482333114 18<22nindustries18>	Then it's not really a seamless failover, is it :P I suppose you're not using swarm?
+T 1482333114 18<29||JD||18>	delboy1978uk: problem here and programming irc channels in general is some users think they can talk to other people like if they were garbage. just because their systems knowledge level is not good enough
+T 1482333114 18<29slax0r18>	no, no I don't
+T 1482333114 18<29slax0r18>	but I deploy my production version to all my failover servers
+T 1482333114 18<29||JD||18>	I mean, you can be critic, but you need to respect your peers
+T 1482333114 18<29slax0r18>	whenever a new version is deployed
+T 1482333114 18<29slax0r18>	don't see a problem with that
+T 1482333114 18<29slax0r18>	although, I did also consider rebuilding a container each time a new version was ready to be deployed, and then just re-pull that updated container
+T 1482333114 18<22nindustries18>	Yeah, sure. Im looking at automatic rescheduling, so I need it
+T 1482333114 18<29slax0r18>	and have everything set up in that single container
+T 1482333114 18<29slax0r18>	as in, have the code in the container as well
+T 1482333114 18<22nindustries18>	Everything in the same container? THere goes microservices :P
+T 1482333114 18<29slax0r18>	true :P
+T 1482333114 18<29slax0r18>	but I believe there is no one-size-fits-all setup, so it all depends on project and requirements
+T 1482333114 18<24TML18>	nindustries: PHP isn't really a great platform for "microservices" anyway
+T 1482333114 18<22nindustries18>	TML: how so?
+T 1482333114 18<19SlashLife18>	nindustries: You need to pull up your not-so-light PHP process for every request. (Even if you reuse the process itself, the base dataset required for each fresh request is still somewhat heavy.)
+T 1482333114 18<19SlashLife18>	As opposed to having some relatively big application server that requires more resources than PHP, but will be up and running to instantly serve your requests.
+T 1482333114 18<22nindustries18>	eh? The PHP-FPM is still running somewhere with connection pooling, no?
+T 1482333114 18<22nindustries18>	Exactly like on baremetal
+T 1482333114 18<22nindustries18>	SlashLife: Im not talking about Serverless
+T 1482333114 18<19SlashLife18>	No, not exactly like on bare metal. And for all I know, FPM processes need to be replaced regularly, too.
+T 1482333114 18<19SlashLife18>	But you still need to set up a fresh request environment every time.
+T 1482333114 18<19SlashLife18>	So you're only saving about half of the startup process work.
+T 1482333114 18<19SlashLife18>	You will then still need to parse the scripts on every request.
+T 1482333114 18<19SlashLife18>	An opcode cache can help you optimize it further.
+T 1482333114 18<19SlashLife18>	But that still doesn't get you to the same point a permanently running system would have.
+T 1482333114 18<27googleguy18>	nindustries, For stateless services PHP works just fine.
+T 1482333114 18<19SlashLife18>	In the end even if you avoid all the process setup, teardown and parsing, you will still need to set up your request handling; sessions need to be loaded, database connections need to be established, ...
+T 1482333114 18<22nindustries18>	I don't see how that is any different without docker ?
+T 1482333114 18<19SlashLife18>	... in an application server you'd simply have that data already around within the execution environment.
+T 1482333114 18<19SlashLife18>	docket has nothing to do with it.
+T 1482333114 18<19SlashLife18>	*docker
+T 1482333114 18<26drupol18>	Hi all,
+T 1482333114 18<19SlashLife18>	PHP isn't a great platform for microservices.
+T 1482333114 18<26drupol18>	I'm trying to convert a class using an iterator, is there someone who would like to help? Here's the project: https://github.com/drupol/phpermutations
+T 1482333114 18<27googleguy18>	SlashLife, Yea, that's absolute nonsense.
+T 1482333114 18<19SlashLife18>	If you can't separate the concept of microservices from docker, then you have a much more fundamental problem.
+T 1482333114 18<19delboy1978uk18>	lmao, just reading the original thread where that guy bought a pizza for 10,000 BTC https://bitcointalk.org/index.php?topic=137.0 thats $7.9M now!!!
+T 1482333114 18<28PSUser218>	how can i sort something like this, by score? $multi['root'][1]["score"]=7; $multi['root'][2]["score"]=5; $multi['root'][3]["score"]=10;
+T 1482333114 18<27googleguy18>	PSUser2, !+usort
+T 1482333114 18<26php-bot18>	PSUser2, bool usort(array array_arg, mixed comparator)  - Sort an array by values using a user-defined comparison function - http://php.net/usort
+T 1482333114 18<22nindustries18>	Oh ok, I thought we were discussing docker/microservices
+T 1482333114 18<19delboy1978uk18>	PSUser2: https://delboy1978uk.wordpress.com/2012/09/19/sorting-multidimensional-arrays-using-php/
+T 1482333114 18<27googleguy18>	usort($multi['root'], function($a,$b) { return $a['score'] <=> $b['score']; })
+T 1482333114 18<28PSUser218>	thank you googleguy, and delboy1978uk
+T 1482333114 18<19SlashLife18>	spaceship <3
+T 1482333114 18<22nindustries18>	Microservices here mean a separate php-fpm process or.. ?
+T 1482333114 18<19delboy1978uk18>	^^
+T 1482333114 18<19SlashLife18>	nindustries: https://en.wikipedia.org/wiki/Microservices
+T 1482333114 18<27googleguy18>	Microservice is an architectural style, not specific to any one language.
+T 1482333114 18<22nindustries18>	Oh, ok
+T 1482333114 18<27googleguy18>	You're building microservices, but you aren't aware of what it is?
+T 1482333114 18<22nindustries18>	I was unsure of the meaning of the word microservices
+T 1482333114 18<19SlashLife18>	I wonder if it was the "micro" or the "services".
+T 1482333114 18<27googleguy18>	That doesn't really answer my question though.
+T 1482333114 18<22nindustries18>	So if you run php-fpm with a unix socket, is it still a microservice?
+T 1482333114 18<27googleguy18>	nindustries, No.
+T 1482333114 18<19SlashLife18>	php-fpm is not a microservice.
+T 1482333114 18<27googleguy18>	No more than if you if you go "vroom vroom" with your mouth are you a car.
+T 1482333114 18<19SlashLife18>	A script running on it might be.
+T 1482333114 18<19SlashLife18>	Well, might *implement* or *offer* one.
+T 1482333114 18<27googleguy18>	nindustries, The Microservices architecture conceives of an entire service that can be self-contained around a single capability of the system. So for example a service that handles the system's billing capabilities is an independent, self-contained, service reachable by other parts of the system. This could mean everything from your database to your runtime environment are collectively a service.
+T 1482333114 18<27googleguy18>	Nothing there restricts you from having a runtime that is comprised of multiple language runtimes either.
+T 1482333114 18<27googleguy18>	As long as it's all self-contained, it's essentially viewed as a black box. You don't know how it works, you don't care. All you know is that you can give it input and get some expected output.
+T 1482333114 18<27googleguy18>	This is only *really* useful when your business needs requires cross-functional collaboration at an agile methodology.
+T 1482333114 18<19delboy1978uk18>	i like this approach
+T 1482333114 18<27fleetfox18>	meh
+T 1482333114 18<27googleguy18>	Almost every company I've consulted for that wanted to use "microservice" basically ignores this and starts off thinking "oh, microservices, that's what the cool kids are using now! I want one!"
+T 1482333114 18<27googleguy18>	I mean.. .when you're using a waterfall methodology it makes absolutely no sense for you to start using a microservices architecture.
+T 1482333114 18<24Shard18>	googleguy, TML: Is he gone? Is it safe again? :D
+T 1482333114 18<27googleguy18>	Shard, https://www.youtube.com/watch?v=kzw1_2b-I7A
+T 1482333114 18<24Shard18>	"This video is not available in your country." :D
+T 1482333114 18<27googleguy18>	ah
+T 1482333114 18<27googleguy18>	heh, it's Marathon Man
+T 1482333114 18<27googleguy18>	The "is it safe" scene.
+T 1482333114 18<24Shard18>	I saw the title, just not the actual thingymagic. Found an alternative :)
+T 1482333114 18<20mas88618>	Can someone help me a bit? Why does the first case work, but the second one not? http://pastebin.com/QPT5LVzQ
+T 1482333114 18<20zap018>	select * <--   never really a use case where this makes sense
+T 1482333114 18<24biberu18>	mas886: how doesn't it work? what does your `query` method return? clearly something iterable, but an array? some sort of resultset?
+T 1482333114 18<20zap018>	mas886, the cool thing about all the PDO functions, is they all return errors you can read.
+T 1482333114 18<24biberu18>	mas886: also, the first case might surprise you if there are no rows, you should initialize that variable to an array
+T 1482333114 18<20mas88618>	biberu: it returns PDOStatement Object ( [queryString] => SELECT * FROM cotxe ) instead of the values
+T 1482333114 18<20mas88618>	biberu: didn't contemplate that, thanks for preventing a future error. :)
+T 1482333114 18<20mas88618>	zap0: I don't think it really returns me an "error" answered to biberu the response it gives.
+T 1482333114 18<24biberu18>	mas886: http://www.php.net/PDOStatement. your first case iterates over the result set and stores each row in the array, but in the second case there is no array, just your result set
+T 1482333114 18<20zap018>	mas886, query() can fail for multiple reasons.   pretending like it wont is foolish.
+T 1482333114 18<20mas88618>	zap0: that's not what we are talking about here
+T 1482333114 18<20mas88618>	biberu: yeah I got that, but if query() returns an array I set the variable equal to that method
+T 1482333114 18<20mas88618>	biberu: why does it work then iterating the array and loading each value to the first variable?
+T 1482333114 18<24biberu18>	mas886: except it doesn't return an array :)
+T 1482333114 18<20mas88618>	biberu: Ooooh...
+T 1482333114 18<20mas88618>	What's it then? Haha
+T 1482333114 18<24biberu18>	it returns a result set (if it works at all), and that is traversable (look at the manpage above), so your foreach iterates over that and creates an array like *you* told it to
+T 1482333114 18<20zap018>	mas886, if only there was some way to tell if it worked or not..*sigh*
+T 1482333114 18<24biberu18>	in the second case you never said anyting about an array
+T 1482333114 18<24biberu18>	well, it returns a pdostatement
+T 1482333114 18<24biberu18>	mas886: http://php.net/manual/en/pdo.query.php <- ctrl-f "return values"
+T 1482333114 18<20mas88618>	zap0: Do you know how to read? <mas886> biberu: it returns PDOStatement Object ( [queryString] => SELECT * FROM cotxe ), the second case returns an array if you read it.
+T 1482333114 18<24biberu18>	relax
+T 1482333114 18<20mas88618>	biberu: so how is that php is able to iterate a pdo statement, but when printing will print the statement?
+T 1482333114 18<20mas88618>	biberu: sorry I dislike rude people.
+T 1482333114 18<24biberu18>	you are simply misunderstanding each other
+T 1482333114 18<20mas88618>	biberu: I'm sure of it, I'm quite new to php and there are some things I still miss!
+T 1482333114 18<24biberu18>	you can iterate over the statement because it defines a behaviour for that
+T 1482333114 18<24biberu18>	PDOStatement implements --> Traversable <-- {
+T 1482333114 18<20mas88618>	but when returning it I get simply the value then?
+T 1482333114 18<20zap018>	"and there are some things I still miss"    if only there was some way to have the functions i call tell me when i screwed them up... *sigh*
+T 1482333114 18<24biberu18>	you get the statement result in both cases, it's just that in one you're doing some work with it, and in the other one not
+T 1482333114 18<28OnkelTem18>	Hi. What is the shortest way to extract a part of associative array starting from specific key and too the end?
+T 1482333114 18<19sonu_nk18>	how to generate DKIM / DomainKeys for a domain. domain name to generate your DNS record:
+T 1482333114 18<24biberu18>	zap0: the query isn't failing, he's just confused about what happens with the return value when looping over it or not
+T 1482333114 18<19sonu_nk18>	i need this records TXT Record Name and  TXT Record Value:
+T 1482333114 18<20mas88618>	biberu: in both cases I do a "print_r", in first case prints the values, second one prints what I said here.
+T 1482333114 18<20mas88618>	print_r seems to be able to iterate the array (of course) but doesn't seem to be able to iterate that pdo thingy.
+T 1482333114 18<20mas88618>	zap0: I already said that the query doesn't fail, just returns unexpected answer.
+T 1482333114 18<20mas88618>	Of course not unexpected to php, but to me. Haha.
+T 1482333114 18<20zap018>	i find query() to wrap too many things;  so many, when something goes wrong you have little idea of the problem.   i prefer  ->prepare();  ->exec()  ->fetch()   or ->fetchAll()
+T 1482333114 18<20mas88618>	zap0: no need to prepare the statement since I can keep it simple as the query does not need any user input.
+T 1482333114 18<20mas88618>	biberu: So about what zap0 would actually select * be wrong in this case? I mean, I need all the data from every register.
+T 1482333114 18<25Naktibalda18>	query actually prepares
+T 1482333114 18<24biberu18>	mas886: https://3v4l.org/8ekfh <- does this clarify anything?
+T 1482333114 18<24_jan18>	sonu_nk: you should ask this on other channel, it has nothing to do with php, try in #reddit-sysadmin for example (dkim /domainkeys are related to a server, not to a language code)
+T 1482333114 18<20zap018>	mas886, you'll not find many experienced SQL'ers that would ever use SELECT *..    there must be good reasons.
+T 1482333114 18<24biberu18>	zap0: that's not what the question is about tho :)
+T 1482333114 18<20mas88618>	biberu: it actually does, thanks!
+T 1482333114 18<24biberu18>	great
+T 1482333114 18<20mas88618>	So in case I was an "experienced developer" I wouldn't use *?
+T 1482333114 18<20mas88618>	in this case.
+T 1482333114 18<24biberu18>	you'd probably be explicit about what columns you need
+T 1482333114 18<20mas88618>	Even if I need all of them and the table is quite simple?
+T 1482333114 18<20mas88618>	i mean, there are just 4 columns.
+T 1482333114 18<20zap018>	then there is just 4 column names to type :)
+T 1482333114 18<24biberu18>	if you list them it's easier to work with the code without looking up the table definition later, but at some point it becomes a matter of preference too
+T 1482333114 18<20mas88618>	Okay thanks :)
+T 1482333114 18<20zap018>	i'm not going to repeat the literally hundreds of blogs you could google about the SELECT *
+T 1482333114 18<24biberu18>	i sometimes select *, it depends on when and why, just be pragmatic
+T 1482333114 18<20zap018>	the reasons are many.    the risks many.
+T 1482333114 18<26Khadafi18>	Anyone using FuelPHP here ?
+T 1482333114 18<20mas88618>	zap0: There are many ways to say things, no need to be rude about that.
+T 1482333114 18<25Naktibalda18>	Khadafi: have you asked in #fuelphp ?
+T 1482333114 18<19delboy1978uk18>	Khadafi: we only support PHP in here, but if your question can be made generic enough we might be able to help ;-)
+T 1482333114 18<26Khadafi18>	Naktibalda : Yes but no one answer me.
+T 1482333114 18<25Naktibalda18>	try to find a forum, raise an issue in github or ask a question in stackoverflow
+T 1482333114 18<26Khadafi18>	delboy1978uk I think it's mor FuelPHP than generic PHP.
+T 1482333114 18<25Naktibalda18>	http://fuelphp.com/forums/
+T 1482333114 18<26Khadafi18>	Naktibalda Okay, I just think that I can have quick answer here :)
+T 1482333114 18<26Khadafi18>	Thanks
+T 1482333114 18<26Khadafi18>	Is ther some channel for AJAX ?
+T 1482333114 18<22Xatenev18>	Khadafi: Feel free to PM me if you want to.
+T 1482333114 18<25Naktibalda18>	there is no such thing as ajax
+T 1482333114 18<25Naktibalda18>	Xatenev: or you could join #fuelphp and make it more lively
+T 1482333114 18<29||JD||18>	Xatenev: go ban appeal that ICQ account x_x
+T 1482333114 18<29||JD||18>	Khadafi: /msg alis list *ajax* or w/e you are interested in
+T 1482333114 18<20yuta18>	hello
+T 1482333114 18<20yuta18>	why this code isn't showing me the option selected when i echo $_POST['gmodes']; in cfg.php?
+T 1482333114 18<20yuta18>	http://pastebin.com/J2BK3rcV
+T 1482333114 18<20yuta18>	it is inside a form with method post and action cfg.php
+T 1482333114 18<25Naktibalda18>	have you heard about foreach loop?
+T 1482333114 18<25Naktibalda18>	!+strtok
+T 1482333114 18<26php-bot18>	string strtok([string str,] string token)  - Tokenize a string - http://php.net/strtok
+T 1482333114 18<20yuta18>	Naktibalda are u talking to me?
+T 1482333114 18<25Naktibalda18>	yes
+T 1482333114 18<20yuta18>	yes, i never used it, but i think that is like a for loop, it is irght?
+T 1482333114 18<25Naktibalda18>	!+foreach
+T 1482333114 18<26php-bot18>	foreach (array_expression as $value) or foreach (array_expression as $key => $value) - A construct to loop over an array - http://php.net/foreach
+T 1482333114 18<25Naktibalda18>	are you sure that your form is using POST method?
+T 1482333114 18<25Naktibalda18>	you haven't pasted your form tag
+T 1482333114 18<24biberu18>	yuta: check your browser's network log to verify what is sent
+T 1482333114 18<20yuta18>	with tamperdata?
+T 1482333114 18<20yuta18>	yes, the form is using post method
+T 1482333114 18<20yuta18>	im sure
+T 1482333114 18<20yuta18>						<form action="cfg.php" method="post"> 					<label>Gamemode: </label> 					<select name="gmodes"> 						<?php  					$gmodes = scandir($data['ruta'].'/gamemodes');  					for($a=0; $a<sizeof($gmodes); $a++) 					{ 						$s = strtok($gmodes[$a], "."); 						$s = strtok("."); 						if(!strcmp($s, "amx")) 						{ 							echo '<option value="'.$gmodes[$a].'">'.$gmodes[$a].'</option>'; 						} 					} 						?> 					</select>
+T 1482333114 18<24biberu18>	i don't know what that is, doesn't your browser have a log?
+T 1482333114 18<19delboy1978uk18>	am i missing anything in this curl call? it keeps coming back with an empty reply https://hastebin.com/asigahecaq.php
+T 1482333114 18<20yuta18>	i will check with tamperdata
+T 1482333114 18<19delboy1978uk18>	yuta: dont do that!
+T 1482333114 18<24biberu18>	you can usually get to the developer tools with F12 or ctrl-shift-i
+T 1482333114 18<19delboy1978uk18>	yuta: use a paste website and send the link
+T 1482333114 18<20yuta18>	i used tamperdata and it is sending the option correctly through post method
+T 1482333114 18<20yuta18>	i think the issue is in server.cfg, i will upload the code
+T 1482333114 18<19delboy1978uk18>	in a paste this time
+T 1482333114 18<20yuta18>	http://pastebin.com/csJFaCt3 this is the full code of cfg.php. i do $gmodes = $_POST['gmodes'];, and then echo $gmodes,;, but nothing
+T 1482333114 18<19delboy1978uk18>	yuta: that form html should not have php logic jammed in there. move it all above, and just do echoes where you need them
+T 1482333114 18<20yuta18>	you say getting the options in the php tags on the top of the document, save every one in an array, and then echo every element in the select tag?
+T 1482333114 18<25GladiaTeur18>	hello there
+T 1482333114 18<25GladiaTeur18>	hi delboy1978uk how are you?
+T 1482333114 18<19delboy1978uk18>	yeah fine
+T 1482333114 18<25GladiaTeur18>	Good
+T 1482333114 18<19delboy1978uk18>	my curl is returning this, can anyone help? https://hastebin.com/ganejafuqe.vbs
+T 1482333114 18<25Naktibalda18>	delboy1978uk: what does status 100 mean?
+T 1482333114 18<25GladiaTeur18>	Can someone help me with a weird problem yii framework CNumberFormatter
+T 1482333114 18<25Naktibalda18>	GladiaTeur: no
+T 1482333114 18<25Naktibalda18>	GladiaTeur: ask in #yii
+T 1482333114 18<25GladiaTeur18>	ok Naktibalda
+T 1482333114 18<26hugleo18>	hey!
+T 1482333114 18<26hugleo18>	i'll try to use a php-expect: http://php.net/manual/en/expect.examples-usage.php
+T 1482333114 18<26hugleo18>	but i'll need to ignore more strings like this one:
+T 1482333114 18<26hugleo18>	http://stackoverflow.com/questions/14381653/expect-telnet-script-cant-handle-more-string
+T 1482333114 18<26hugleo18>	how could i do it using php?
+T 1482333114 18<26hugleo18>	i'll try the php example in php net manual. it can work :)
+T 1482333114 18<20yuta18>	if(!strlen($_POST['hostname'])) header('Location: index.php?accion=configura&err=2');
+T 1482333114 18<20yuta18>	why this condition never takes effect, even if the value of $_POST['hostname'] is empty?
+T 1482333114 18<19delboy1978uk18>	Naktibalda: continue. like it's expecting something else from me. why though?
+T 1482333114 18<25Naktibalda18>	yuta: generaly you need to die() after header Location or execution continues
+T 1482333114 18<20yuta18>	i will try
+T 1482333114 18<20yuta18>	yes, that was the problem. thanks Naktibalda
+T 1482333114 18<20yuta18>	can i access to a process memory space through php? in linux
+T 1482333114 18<25Naktibalda18>	err, what?
+T 1482333114 18<20yuta18>	i mean, modify a memory address value of another process
+T 1482333114 18<25Naktibalda18>	php code can't do that
+T 1482333114 18<20yuta18>	ah, ok
+T 1482333114 18<22elpoptardo18>	If I have a string like "18:00" (24-hour time meaning "today"), how can I construct a valid timestamp corresponding to today's occurence of that time? For example, if it says "15:45", I want the timestamp to be strtotime('2016-12-21 15:45:00')... and I just realized how I would do this. Thanks for the help.
+T 1482333114 18<22elpoptardo18>	You don't often see people figure out their own problem in the same message, do you?
+T 1482333114 18<22Xatenev18>	elpoptardo: Actually it happens more often than people might think. :)
+T 1482333114 18<22Xatenev18>	elpoptardo: #rubberDuckDebugging
+T 1482333114 18<29Sourcey18>	If im checking a session variable like 5 times during one pageload. same variable every time (bad coding) - is it actually processed and checked every time or is it still in the "memory" after the first?
+T 1482333114 18<25Naktibalda18>	there is no magic, $_SESSION is a simple array
+T 1482333114 18<29Sourcey18>	Im back on this old project and wondering if I want to re-code some structural things.
+T 1482333114 18<29Sourcey18>	so its no doubt a waste of resources checking it multiple times instead of storing it in a variable Naktibalda ?
+T 1482333114 18<29Sourcey18>	checking a session versus checking variable containing the session : same thing or not?
+T 1482333114 18<25Naktibalda18>	Sourcey: you are picking up on a wrong thing
+T 1482333114 18<24hellier18>	Hai
+T 1482333114 18<22elpoptardo18>	Am I the only one who is slightly annoyed by how "responsive design" sites keep modifying the contents when I resize the window? I mean, I realize that's the whole point, but it sort of makes the site feel like something other than a... website.
+T 1482333114 18<19delboy1978uk18>	elpoptardo: not really. add some media queries to your css
+T 1482333114 18<22elpoptardo18>	delboy1978uk: ?
+T 1482333114 18<19delboy1978uk18>	elpoptardo: yes?
+T 1482333114 18<22elpoptardo18>	WTF are you talking about?
+T 1482333114 18<22Xatenev18>	TML: Did you ever/ are you using vim for PHP development?
+T 1482333114 18<22Xatenev18>	TML: Asking you directly cause I know you're terminal fan
+T 1482333114 18<22MassDebates18>	elpoptardo:  This is more of a question suited for #css - advise you consult them there.
+T 1482333114 18<22MassDebates18>	elpoptardo:  There _ARE_ initiatives to 'clean up' the way responsive design works in general - (this includes things along the lines of creating better fluidity for flow content and better naturalization of sizing and negotiation for block content) - you can see it with the experimental technologies and also by what is being deprecated from the dr
+T 1482333114 18<22MassDebates18>	afts.
+T 1482333114 18<19delboy1978uk18>	elpoptardo: css media queries, of course https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+T 1482333114 18<22MassDebates18>	Yes, these are good for structuring certain breakpoints - #css can help you with your media queries.
+T 1482333114 18<22MassDebates18>	Albeit they are heavily (and wrongly) disregarded for print and people say "but its tough ¯\_(ツ)_/¯  "
+T 1482333114 18<19delboy1978uk18>	which will stop your contents from looking weird, which is what you were asking about.
+T 1482333114 18<19delboy1978uk18>	MassDebates: for print?
+T 1482333114 18<22MassDebates18>	Oh yeah, sorry, I'm just bitching about common practices.
+T 1482333114 18<19delboy1978uk18>	hehe
+T 1482333114 18<22MassDebates18>	I'll be quiet now.
+T 1482333114 18<19nyuszika7h18>	I'm trying to use PHP on a Windows Server 2008 R2 machine, it's complaining about missing VCRUNTIME140.dll - I downloaded that but it keeps wanting more DLLs, is there a way to get everything required? I don't have admin rights on the server so I can't install MSVC or whatever
+T 1482333114 18<19nyuszika7h18>	now it's actually complaining it can't find ucrtbase.abort in api-ms-win-crt-runtime-l1-1-0.dll
+T 1482333114 18<24TinoDidriksen18>	Without admin rights, nope. 2008 is hilariously old.
+T 1482333114 18<19g105b18>	Is a VM running Linux an option?
+T 1482333114 18<25pthreat18>	g105b: it's the prefered option
+T 1482333114 18<19delboy1978uk18>	i hope he isnt using xampp
+T 1482333114 18<19delboy1978uk18>	!+xampp
+T 1482333114 18<26php-bot18>	Don’t use XAMPP or WAMP. Use a real dev server on a VM. Install VirtualBox and Vagrant, then head over to http://www.puphpet.com
+T 1482333114 18<22elpoptardo18>	MassDebates & delboy1978uk: But I'm talking about others' sites. Not my own.
+T 1482333114 18<22elpoptardo18>	I don't control their CSS.
+T 1482333114 18<22MassDebates18>	yeah, I hate how google has like, all of those freaking colors on their logo.
+T 1482333114 18<27googleguy18>	There are sites on the web that are screwed up? Whaaaaaaa? GTFO
+T 1482333114 18<27googleguy18>	This is crazy talk.
+T 1482333114 18<22MassDebates18>	I don't control their logo.
+T 1482333114 18<22MassDebates18>	If I did, I'd make it all grey.
+T 1482333114 18<22MassDebates18>	Not the letters, mind you. I'd just have a grey block.
+T 1482333114 18<22MassDebates18>	Idk why the frick I don't control their design, though.
+T 1482333114 18<27googleguy18>	MassDebates, I think they call that iGoogle
+T 1482333114 18<19nyuszika7h18>	no, I'm not using XAMPP, in fact this is not a web app, it's a CLI script someone decided to write in PHP
+T 1482333114 18<22MassDebates18>	lol googleguy
+T 1482333114 18<22MassDebates18>	I don't want to control -my- sites tho
+T 1482333114 18<22MassDebates18>	I want to control how everyone else sees it.
+T 1482333114 18<22MassDebates18>	Can iGoogle do that? :P
+T 1482333114 18<19rizonz18>	ok over to Atom, let's see
+T 1482333114 18<27googleguy18>	MassDebates, I think they call that China.
+T 1482333114 18<22elpoptardo18>	MassDebates: Huh?
+T 1482333114 18<27googleguy18>	MassHysteria
+T 1482333114 18<22MassDebates18>	lol
+T 1482333114 18<22MassDebates18>	elpoptardo:  you can use userscripts to change how you view everyone else's sites, but it'll take you a long time to fix them the way you like
+T 1482333114 18<19nyuszika7h18>	okay never mind it seems someone made a .NET port of the program
+T 1482333114 18<19nyuszika7h18>	except it doesn't work for what I want, great...
+T 1482333114 18<19delboy1978uk18>	i thought i could smell .NET for a second there. can anyone else smell that?
+T 1482333114 18*	19delboy1978uk holds nose
+T 1482333114 18<19FlyLo18>	i smell jquery, but that's probably just me
+T 1482333114 18<22ProNoob1318>	It definitely reeks like .NET if you ask me.
+T 1482333114 18<19delboy1978uk18>	i remember this crap digital design agency i had a contract with. php job, but they had one client who was dot net. i refused to touch it. then they said parts of it were in php. caught my interest. you want to have seen what the previous php dev did!
+T 1482333114 18<19FlyLo18>	i'll inherit the .NET apps from here in a few months
+T 1482333114 18<19delboy1978uk18>	so, an asp.net store, on IIS on a windows server. he welded on php and mysql. then he used jquery to prevent default, grab details, redirect to php, which did stuff with mysql db, eventually returned stuff, which jquery then sent to IIS again. so he didnt need to code any .NET!
+T 1482333114 18<19FlyLo18>	should be fun
+T 1482333114 18*	22ProNoob13 twitches
+T 1482333114 18<19delboy1978uk18>	ProNoob13: lol
+T 1482333114 18<22Xatenev18>	FlyLo: Its not too much difference, atleast when its not a webforms site :P
+T 1482333114 18<22Xatenev18>	FlyLo: Otherwise you're trolled
+T 1482333114 18<19FlyLo18>	no, just a few apps receiving input from laser scanner thingies, talking through a php web api, and showing stuff on a monitor

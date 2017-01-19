@@ -1,0 +1,502 @@
+T 1478613674 20<Peterzen>30	Ello
+T 1478613674 20<Peterzen>30	raafje, #deltion
+T 1478613674 18<25corne18>	hey
+T 1478613674 18<29Chameleon18>	morge
+T 1478613674 18<25corne18>	morge
+T 1478613674 29*	*** Notice -- TS for #hanze changed from 1453333365 to 1268395521
+T 1478613674 20<Peterzen>30	yo
+T 1478613674 18<19corne_18>	hey
+T 1478613674 18<29wilvin18>	Found it
+T 1478613674 18<29wilvin18>	IM A GEINUS MUAHHAhAh
+T 1478613674 18<29wilvin18>	hoi..
+T 1478613674 20<Peterzen>30	hallo
+T 1478613674 20<Peterzen>30	welkom tot onze geheime club
+T 1478613674 20<Peterzen>30	waar eigenlijk niks gebeurd want we hebben nog niet genoeg mensen overgehaald om irc te gebruiken
+T 1478613674 18<27wilvin_away18>	toch fijn dat ik in deze geheime club
+T 1478613674 18<27wilvin_away18>	mag
+T 1478613674 18<27wilvin_away18>	wanneer is de volgende iluminatie bijeenkomst?
+T 1478613674 29*	*** Notice -- TS for #hanze changed from 1455180973 to 1268395521
+T 1478613674 18<19jeroen_18>	hoi
+T 1478613674 18<19jeroen_18>	jo
+T 1478613674 18<19jeroen_18>	gerard
+T 1478613674 18<25gerard_18>	moie
+T 1478613674 18<19jeroen_18>	lol dit werkt ook nog mooi ja
+T 1478613674 18<19jeroen_18>	irc
+T 1478613674 18<25gerard_18>	geinig
+T 1478613674 18<19jeroen_18>	steam wil niet opstarten
+T 1478613674 20<Peterzen>30	irc is de shiz
+T 1478613674 20<Peterzen>30	watvoor opleiding doen jullie op hanze dan?
+T 1478613674 19<gerard_>	Wij werken bij de Hanze, Peterzen.
+T 1478613674 20<Peterzen>30	:O
+T 1478613674 20<Peterzen>30	watvoor werk doen jullie hier dan?
+T 1478613674 18<25gerard_18>	ICT
+T 1478613674 20<Peterzen>30	ah nice, wij doen over het algemeen ook allemaal ict opleiding of werk
+T 1478613674 18<29Chameleon18>	ja dat is vaak zo met irc'ers haha
+T 1478613674 18<29Chameleon18>	morge
+T 1478613674 18<29wilvin18>	Goden morgen
+T 1478613674 20<Peterzen>30	Chameleon, btw je moet even mijn score +2 doen :D
+T 1478613674 20<Peterzen>30	2 mensen op linux
+T 1478635332 19*	Now talking on 22#hanze
+T 1478635332 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1478635332 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1478635332 29*	[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+T 1478635332 18<29Chameleon18>	morge
+T 1478635332 18<25corne18>	middag
+T 1478635332 18<26xehbit18>	o/
+T 1478635332 20<Peterzen>30	avond?
+T 1478635332 18<29Chameleon18>	morgen
+T 1478635332 18<29Chameleon18>	avond
+T 1478635332 18<26raafje18>	Gutentag, wat was de andere channel die jullie ook weleens gebruikten?
+T 1478635332 20<Peterzen>30	Ello
+T 1478635332 20<Peterzen>30	raafje, #deltion
+T 1478635332 18<25corne18>	hey
+T 1478635332 18<29Chameleon18>	morge
+T 1478635332 18<25corne18>	morge
+T 1478635332 29*	*** Notice -- TS for #hanze changed from 1453333365 to 1268395521
+T 1478635332 20<Peterzen>30	yo
+T 1478635332 18<19corne_18>	hey
+T 1478635332 18<29wilvin18>	Found it
+T 1478635332 18<29wilvin18>	IM A GEINUS MUAHHAhAh
+T 1478635332 18<29wilvin18>	hoi..
+T 1478635332 20<Peterzen>30	hallo
+T 1478635332 20<Peterzen>30	welkom tot onze geheime club
+T 1478635332 20<Peterzen>30	waar eigenlijk niks gebeurd want we hebben nog niet genoeg mensen overgehaald om irc te gebruiken
+T 1478635332 18<27wilvin_away18>	toch fijn dat ik in deze geheime club
+T 1478635332 18<27wilvin_away18>	mag
+T 1478635332 18<27wilvin_away18>	wanneer is de volgende iluminatie bijeenkomst?
+T 1478635332 29*	*** Notice -- TS for #hanze changed from 1455180973 to 1268395521
+T 1478635332 18<19jeroen_18>	hoi
+T 1478635332 18<19jeroen_18>	jo
+T 1478635332 18<19jeroen_18>	gerard
+T 1478635332 18<25gerard_18>	moie
+T 1478635332 18<19jeroen_18>	lol dit werkt ook nog mooi ja
+T 1478635332 18<19jeroen_18>	irc
+T 1478635332 18<25gerard_18>	geinig
+T 1478635332 18<19jeroen_18>	steam wil niet opstarten
+T 1478635332 20<Peterzen>30	irc is de shiz
+T 1478635332 20<Peterzen>30	watvoor opleiding doen jullie op hanze dan?
+T 1478635332 19<gerard_>	Wij werken bij de Hanze, Peterzen.
+T 1478635332 20<Peterzen>30	:O
+T 1478635332 20<Peterzen>30	watvoor werk doen jullie hier dan?
+T 1478635332 18<25gerard_18>	ICT
+T 1478635332 20<Peterzen>30	ah nice, wij doen over het algemeen ook allemaal ict opleiding of werk
+T 1478635332 18<29Chameleon18>	ja dat is vaak zo met irc'ers haha
+T 1478635332 18<29Chameleon18>	morge
+T 1478635332 18<29wilvin18>	Goden morgen
+T 1478635332 20<Peterzen>30	Chameleon, btw je moet even mijn score +2 doen :D
+T 1478635332 20<Peterzen>30	2 mensen op linux
+T 1478974395 19*	Now talking on 22#hanze
+T 1478974395 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1478974395 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1478974395 -18NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1478974415 >18NickServ<	identify ****
+T 1478974415 -18NickServ-	You are now identified for Peterzen.
+T 1479026232 19*	Now talking on 22#hanze
+T 1479026232 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479026232 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479115980 19*	Now talking on 22#hanze
+T 1479115980 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479115980 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479149328 19*	Now talking on 22#hanze
+T 1479149328 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479149328 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479193446 20*	Disconnected (20Connection timed out)
+T 1479193456 19*	Now talking on 22#hanze
+T 1479193456 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479193456 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479201537 20*	Disconnected (20Connection timed out)
+T 1479201547 19*	Now talking on 22#hanze
+T 1479201547 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479201547 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479216041 19*	Now talking on 22#hanze
+T 1479216041 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479216041 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479245441 20*	Disconnected (20Connection reset by peer)
+T 1479245451 19*	Now talking on 22#hanze
+T 1479245451 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479245451 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479249998 20*	Disconnected (20Connection timed out)
+T 1479250008 19*	Now talking on 22#hanze
+T 1479250008 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479250008 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479284553 19*	Now talking on 22#hanze
+T 1479284553 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479284553 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479293295 20*	Disconnected (20Connection timed out)
+T 1479293305 19*	Now talking on 22#hanze
+T 1479293305 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479293305 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479382945 19*	Now talking on 22#hanze
+T 1479382945 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479382945 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479391043 20*	Disconnected (20Connection timed out)
+T 1479391053 19*	Now talking on 22#hanze
+T 1479391053 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479391053 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479402118 20*	Disconnected (20Connection timed out)
+T 1479409294 19*	Now talking on 22#hanze
+T 1479409294 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479409294 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479410291 20*	Disconnected (20Connection timed out)
+T 1479410301 19*	Now talking on 22#hanze
+T 1479410301 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479410301 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479455622 19*	Now talking on 22#hanze
+T 1479455622 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479455622 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479460409 20*	Disconnected (20Connection timed out)
+T 1479460420 19*	Now talking on 22#hanze
+T 1479460420 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479460420 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479471713 20*	Disconnected (20Connection timed out)
+T 1479471723 19*	Now talking on 22#hanze
+T 1479471723 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479471723 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479476113 20*	Disconnected (20No route to host)
+T 1479476123 19*	Now talking on 22#hanze
+T 1479476123 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479476123 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479477602 20*	Disconnected (20Connection timed out)
+T 1479477612 19*	Now talking on 22#hanze
+T 1479477612 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479477612 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479630880 19*	Now talking on 22#hanze
+T 1479630880 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479630880 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479645273 20*	Disconnected (20Connection reset by peer)
+T 1479645283 19*	Now talking on 22#hanze
+T 1479645283 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479645283 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479647460 23*	powderbots (~Kitteh@162.243.251.623) has joined
+T 1479647839 24*	powderbots has quit (Remote host closed the connection)
+T 1479656737 20*	Disconnected (20Connection reset by peer)
+T 1479656747 19*	Now talking on 22#hanze
+T 1479656747 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479656747 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479741170 19*	Now talking on 22#hanze
+T 1479741170 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479741170 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479758266 19*	Now talking on 22#hanze
+T 1479758266 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479758266 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479809832 19*	Now talking on 22#hanze
+T 1479809832 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479809832 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479822857 20*	Disconnected (20Connection timed out)
+T 1479822867 19*	Now talking on 22#hanze
+T 1479822867 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479822867 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479841658 19*	Now talking on 22#hanze
+T 1479841658 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479841658 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479853530 19*	Now talking on 22#hanze
+T 1479853530 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479853530 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479891699 19*	Now talking on 22#hanze
+T 1479891699 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479891699 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479895308 19*	Now talking on 22#hanze
+T 1479895308 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479895308 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479910317 19*	Now talking on 22#hanze
+T 1479910317 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479910317 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479975795 19*	Now talking on 22#hanze
+T 1479975795 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479975795 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479987785 20*	Disconnected (20Connection timed out)
+T 1479987795 19*	Now talking on 22#hanze
+T 1479987795 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479987795 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479993897 20*	Disconnected (20Connection reset by peer)
+T 1479993908 19*	Now talking on 22#hanze
+T 1479993908 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479993908 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1479999083 20*	Disconnected (20Connection reset by peer)
+T 1479999093 19*	Now talking on 22#hanze
+T 1479999093 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1479999093 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480071292 19*	Now talking on 22#hanze
+T 1480071292 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480071292 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480165745 19*	Now talking on 22#hanze
+T 1480165745 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480165745 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480236380 19*	Now talking on 22#hanze
+T 1480236380 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480236380 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480330469 19*	Now talking on 22#hanze
+T 1480330469 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480330469 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480335849 19*	Now talking on 22#hanze
+T 1480335849 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480335849 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480343248 20*	Disconnected (20Connection reset by peer)
+T 1480343258 19*	Now talking on 22#hanze
+T 1480343258 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480343258 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480420427 20*	Disconnected (20Connection timed out)
+T 1480420437 19*	Now talking on 22#hanze
+T 1480420437 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480420437 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480525731 20*	Disconnected (20Connection timed out)
+T 1480525741 19*	Now talking on 22#hanze
+T 1480525741 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480525741 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480579698 19*	Now talking on 22#hanze
+T 1480579698 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480579698 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480592966 20*	Disconnected (20Connection timed out)
+T 1480592977 19*	Now talking on 22#hanze
+T 1480592977 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480592977 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480616825 19*	Now talking on 22#hanze
+T 1480616825 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480616825 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480668591 19*	Now talking on 22#hanze
+T 1480668591 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480668591 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480676647 20*	Disconnected (20Connection timed out)
+T 1480676657 19*	Now talking on 22#hanze
+T 1480676657 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480676657 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480688203 20*	Disconnected (20Connection reset by peer)
+T 1480688214 19*	Now talking on 22#hanze
+T 1480688214 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480688214 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480793259 19*	Now talking on 22#hanze
+T 1480793259 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480793259 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480852667 19*	Now talking on 22#hanze
+T 1480852667 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480852667 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480933869 20*	Disconnected (20Invalid argument)
+T 1480933879 19*	Now talking on 22#hanze
+T 1480933879 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480933879 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480933918 19*	Now talking on 22#hanze
+T 1480933918 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480933918 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480936709 20*	Disconnected (20Connection reset by peer)
+T 1480936719 19*	Now talking on 22#hanze
+T 1480936719 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480936719 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480942942 20*	Disconnected (20Connection reset by peer)
+T 1480942952 19*	Now talking on 22#hanze
+T 1480942952 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480942952 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480947749 20*	Disconnected (20Connection reset by peer)
+T 1480947759 19*	Now talking on 22#hanze
+T 1480947759 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480947759 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1480961726 19*	Now talking on 22#hanze
+T 1480961726 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1480961726 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481015836 20*	Disconnected (20Connection timed out)
+T 1481015846 19*	Now talking on 22#hanze
+T 1481015846 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481015846 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481052337 20*	Disconnected (20Invalid argument)
+T 1481052347 19*	Now talking on 22#hanze
+T 1481052347 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481052347 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481060022 20*	Disconnected (20Invalid argument)
+T 1481060032 19*	Now talking on 22#hanze
+T 1481060032 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481060032 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481104736 19*	Now talking on 22#hanze
+T 1481104736 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481104736 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481110873 20*	Disconnected (20Connection reset by peer)
+T 1481110883 19*	Now talking on 22#hanze
+T 1481110883 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481110883 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481116653 20*	Disconnected (20Connection reset by peer)
+T 1481116664 19*	Now talking on 22#hanze
+T 1481116664 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481116664 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481120746 19*	Now talking on 22#hanze
+T 1481120746 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481120746 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481182321 19*	Now talking on 22#hanze
+T 1481182321 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481182321 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481198228 20*	Disconnected (20Connection timed out)
+T 1481198238 19*	Now talking on 22#hanze
+T 1481198238 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481198238 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481203087 20*	Disconnected (20Connection timed out)
+T 1481203097 19*	Now talking on 22#hanze
+T 1481203097 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481203097 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481282354 19*	Now talking on 22#hanze
+T 1481282354 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481282354 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481290611 19*	Now talking on 22#hanze
+T 1481290611 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481290611 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481301890 20*	Disconnected (20Connection timed out)
+T 1481301900 19*	Now talking on 22#hanze
+T 1481301900 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481301900 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481367141 20*	Disconnected (20Connection timed out)
+T 1481367214 19*	Now talking on 22#hanze
+T 1481367214 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481367214 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481533226 19*	Now talking on 22#hanze
+T 1481533226 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481533226 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481614096 20*	Disconnected (20Connection reset by peer)
+T 1481614106 19*	Now talking on 22#hanze
+T 1481614106 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481614106 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481651533 20*	Disconnected (20Connection timed out)
+T 1481651543 19*	Now talking on 22#hanze
+T 1481651543 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481651543 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481703534 19*	Now talking on 22#hanze
+T 1481703534 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481703534 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481705495 20*	Disconnected (20Connection reset by peer)
+T 1481705505 19*	Now talking on 22#hanze
+T 1481705505 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481705505 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481873703 19*	Now talking on 22#hanze
+T 1481873703 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481873703 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481875912 20*	Disconnected (20Connection reset by peer)
+T 1481875922 19*	Now talking on 22#hanze
+T 1481875922 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481875922 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481889682 19*	Now talking on 22#hanze
+T 1481889682 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481889682 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1481996743 19*	Now talking on 22#hanze
+T 1481996743 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1481996743 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482008440 19*	Now talking on 22#hanze
+T 1482008440 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482008440 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482056549 20*	Disconnected (20Connection timed out)
+T 1482056559 19*	Now talking on 22#hanze
+T 1482056559 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482056559 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482063848 20*	Disconnected (20Connection reset by peer)
+T 1482063863 19*	Now talking on 22#hanze
+T 1482063863 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482063863 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482079524 20*	Disconnected (20Connection timed out)
+T 1482079534 19*	Now talking on 22#hanze
+T 1482079534 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482079534 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482086412 20*	Disconnected (20Connection timed out)
+T 1482086422 19*	Now talking on 22#hanze
+T 1482086422 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482086422 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482087528 20*	Disconnected (20Connection reset by peer)
+T 1482087538 19*	Now talking on 22#hanze
+T 1482087538 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482087538 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482138250 19*	Now talking on 22#hanze
+T 1482138250 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482138250 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482151383 20*	Disconnected (20Connection reset by peer)
+T 1482151393 19*	Now talking on 22#hanze
+T 1482151393 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482151393 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482154283 20*	Disconnected (20Connection reset by peer)
+T 1482154294 19*	Now talking on 22#hanze
+T 1482154294 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482154294 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482157876 20*	Disconnected (20Connection reset by peer)
+T 1482157887 19*	Now talking on 22#hanze
+T 1482157887 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482157887 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482159978 20*	Disconnected (20Connection reset by peer)
+T 1482159988 19*	Now talking on 22#hanze
+T 1482159988 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482159988 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482180706 19*	Now talking on 22#hanze
+T 1482180706 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482180706 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482225796 19*	Now talking on 22#hanze
+T 1482225796 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482225796 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482308934 19*	Now talking on 22#hanze
+T 1482308934 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482308934 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482314176 20*	Disconnected (20Connection reset by peer)
+T 1482314186 19*	Now talking on 22#hanze
+T 1482314186 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482314186 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482321183 20*	Disconnected (20Connection reset by peer)
+T 1482321193 19*	Now talking on 22#hanze
+T 1482321193 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482321193 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482333104 20*	Disconnected (20Connection timed out)
+T 1482333114 19*	Now talking on 22#hanze
+T 1482333114 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482333114 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482839061 19*	Now talking on 22#hanze
+T 1482839061 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482839061 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1482858669 20*	Disconnected (20Connection reset by peer)
+T 1482858683 19*	Now talking on 22#hanze
+T 1482858683 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1482858683 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483086812 19*	Now talking on 22#hanze
+T 1483086812 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483086812 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483368147 19*	Now talking on 22#hanze
+T 1483368147 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483368147 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483432953 20*	Disconnected (20Connection timed out)
+T 1483435900 19*	Now talking on 22#hanze
+T 1483435900 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483435900 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483461858 20*	Disconnected (20Connection timed out)
+T 1483461869 19*	Now talking on 22#hanze
+T 1483461869 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483461869 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483472223 20*	Disconnected (20Connection timed out)
+T 1483472233 19*	Now talking on 22#hanze
+T 1483472233 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483472233 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483621575 20*	Disconnected (20Invalid argument)
+T 1483621585 19*	Now talking on 22#hanze
+T 1483621585 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483621585 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1483700392 19*	Now talking on 22#hanze
+T 1483700392 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1483700392 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484125590 19*	Now talking on 22#hanze
+T 1484125590 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484125590 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484132591 19*	Now talking on 22#hanze
+T 1484132591 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484132591 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484135018 20*	Disconnected (20Connection timed out)
+T 1484135541 19*	Now talking on 22#hanze
+T 1484135541 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484135541 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484142347 19*	Now talking on 22#hanze
+T 1484142347 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484142347 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484162973 20*	Disconnected (20Connection timed out)
+T 1484162983 19*	Now talking on 22#hanze
+T 1484162983 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484162983 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484208210 20*	Disconnected (20Invalid argument)
+T 1484208222 19*	Now talking on 22#hanze
+T 1484208222 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484208222 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484214113 20*	Disconnected (20Connection timed out)
+T 1484214123 19*	Now talking on 22#hanze
+T 1484214123 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484214123 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484568869 19*	Now talking on 22#hanze
+T 1484568869 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484568869 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)
+T 1484814080 19*	Now talking on 22#hanze
+T 1484814080 22*	Topic for 22#hanze is: Hanze | Peterzen: 1 vs Koen: 4
+T 1484814080 22*	Topic for 22#hanze set by 26Chameleon (24Wed Sep 30 14:17:34 2015)

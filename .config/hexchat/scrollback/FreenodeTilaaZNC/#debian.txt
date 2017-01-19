@@ -1,0 +1,508 @@
+T 1484814080 18<27Iridos18>	dionysus69, you're not on debian stable, right?
+T 1484814080 18<25somiaj18>	!tell Mortvert about firmware images
+T 1484814080 18<27Iridos18>	judd, versions openssl
+T 1484814080 18<19judd18>	Package: openssl on amd64 -- wheezy: 1.0.1e-2+deb7u20; wheezy-security: 1.0.1t-1+deb7u1; jessie-security: 1.0.1t-1+deb8u5; jessie: 1.0.1t-1+deb8u5; jessie-backports: 1.0.2j-1~bpo8+1; stretch: 1.1.0c-2; sid: 1.1.0c-2
+T 1484814080 18<25somiaj18>	Mortvert: there are unoffical firmware images that have most non-free firmware for wifi cards.
+T 1484814080 18<25somiaj18>	Mortvert: read what the bot sent you a message about
+T 1484814080 18<24Mortvert18>	I will.
+T 1484814080 18<24Mortvert18>	Eh, it's late today anyway and I gotta bounce. Thanks.
+T 1484814080 18<26MaxLanar18>	somiaj: in fact I just want to delete xserver-xorg-video-intel (because this in the package description : "The use of this driver is discouraged if your hw is new enough (ca. 2007 and newer). You can try uninstalling this driver and let the server use it's builtin modesetting driver instead.") but aptitude want to delete 3 other packages before to proceed. If I accept the solution all desktop packages will be remove as well ?
+T 1484814080 18<25jelly18>	MaxLanar: which other package?
+T 1484814080 18<26MaxLanar18>	jelly: 1)     task-desktop
+T 1484814080 18<26MaxLanar18>	2)     task-lxde-desktop
+T 1484814080 18<26MaxLanar18>	3)     xserver-xorg-video-all
+T 1484814080 18<25jelly18>	ah, fun
+T 1484814080 18<25jelly18>	MaxLanar: you're on testing?
+T 1484814080 18<25somiaj18>	MaxLanar: What video card do you have? xserver-xorg-video-intel should work with the modsetting driver
+T 1484814080 18<25jelly18>	somiaj: having xserver-xorg-video-intel installed overrides the built-in modesetting for me on stretch
+T 1484814080 18<26MaxLanar18>	jelly: 8.7
+T 1484814080 18<25somiaj18>	jelly: I think I missunderstood what built-in means, that still uses modsetting but it uses it via intel's driver and the built in just uses the modsetting standards for multiple drivers?
+T 1484814080 18<22awal118>	Mortvert, with 2 gb ram you only have enough for kde
+T 1484814080 18<26MaxLanar18>	jelly: but linux from bpo (xserver-xorg-video-intel as well)
+T 1484814080 18<25somiaj18>	jelly: yea that seems new to me, just noiced the jessie version dosen't mention that, but the stretch one does, so is this built in modsetting video driver need a newer xorg?
+T 1484814080 18<26MaxLanar18>	somiaj: HD graphics 530
+T 1484814080 18<25somiaj18>	MaxLanar: Might want to double check what this built in modsetting driver is, and if you need a newer xorg for it or not. This is news to me, so I don't know.
+T 1484814080 18<25somiaj18>	MaxLanar: I don't see such a warning in the jessie package, so maybe the jessie xorg doesn't contain this built in driver, trying to find info on this.
+T 1484814080 18<27dionysus6918>	I am not but would the error be cause by that?
+T 1484814080 18<25somiaj18>	MaxLanar: it's there, I guess you can try it, I think it is talking about the driver, 'xserver-xorg-video-modesetting' -- which is in jessie.
+T 1484814080 18<25somiaj18>	MaxLanar: the packages it wants to remove is just meta packages, but this could have side affects with auto installed packages as I mentioned eariler you will need to deal with.
+T 1484814080 18<25somiaj18>	MaxLanar: also use apt-get, not aptitude, otherwise the auto-installed packages will be removed automatically. apt-get requires a seperate step so it gives you time to mark some packages as manual.
+T 1484814080 18<27ztealmax18>	evening all
+T 1484814080 18<26MaxLanar18>	somiaj: 'xserver-xorg-video-modesetting' is already installed on my box (Should I do something with that ?)
+T 1484814080 18<25tobiasBora18>	Hello,
+T 1484814080 18<29eran18>	Hi. Anyone familiar with bootstrap-vz?
+T 1484814080 18<25tobiasBora18>	I'm trying to play with manual creation of bootable usb key, and I would like to know if it is possible to have several casper persistant file for one device.
+T 1484814080 18<25somiaj18>	MaxLanar: no it just seems the suggestion is to uninstall the intel driver and force xorg to hopefully use the modsetting driver. Additionally you maybe able to force this using an xorg.conf.d snippet
+T 1484814080 18<25somiaj18>	MaxLanar: The fact I don't see this warning in jessie still makes me wonder if the xorg server in jessie's modsetting driver shoudl be used over the intel one, but it may be worth checking out. I use the intel one from backports on my system.
+T 1484814080 18<27dionysus6918>	Iridos: that did it, installed libssl1.0-dev package which removed newer version, and now it went through :) thank
+T 1484814080 18<27Iridos18>	yw
+T 1484814080 18<27Iridos18>	oh… there's x drivers in backports…
+T 1484814080 18<27Iridos18>	somiaj, can you just use a newer version of the intel driver or were you speaking of the whole xorg blurb from backports
+T 1484814080 18<25somiaj18>	MaxLanar: according to the change log, this change in description occured in the newer intel driver package in Feb 2016.
+T 1484814080 18<25somiaj18>	Iridos: the newer intel driver is depricated in favor of xserver-xorg-video-modesetting it seems
+T 1484814080 18<25somiaj18>	Iridos: this happened in the newer packages (which are now in jessie-backports giving a warning about this in favor of the other driver).
+T 1484814080 18<27Iridos18>	hm
+T 1484814080 18<25somiaj18>	Iridos: what i'm not sure is if the version of xorg and the driver in jessie were ready for this change and if in jessie you should ignore the warning and use the intel driver over the generic modesetting one as is prefered in newer xorg versions.
+T 1484814080 18<27Iridos18>	also… does that need/want/profit from a newer kernel for the kernel modules therein
+T 1484814080 18<27Iridos18>	oh, so it doesn't even use a specific driver anymore for intel … hm… but it still has the driver and you're still using it
+T 1484814080 18<25somiaj18>	yea aperentally you need to remove that driver to get xorg to use the now prefered generic modesetting driver (it still talks to the kms module)
+T 1484814080 18<25somiaj18>	though this is news to me.
+T 1484814080 18<27Iridos18>	"now preferred" might not be our preference
+T 1484814080 18<25somiaj18>	Iridos: https://packages.debian.org/jessie-backports/xserver-xorg-video-intel -- read the description, aperentally the matainer though it was important enough to annouce it in the strech package which has snuck its way into jessie-backports
+T 1484814080 18<25somiaj18>	as to if that applies to jessie + jessie-backports, I have no clue.
+T 1484814080 18<26MaxLanar18>	somiaj: Ok. thank for your help. I will try to apt-get remove it first, and see how it goes.
+T 1484814080 18<26MaxLanar18>	ok, it's done.... I reboot and I tell you what.
+T 1484814080 18<25jelly18>	MaxLanar: you probably don't want to use modesetting on jessie, it's not as full-featured and you've left now
+T 1484814080 18<25jelly18>	can't even rotate a monitor output with it
+T 1484814080 18<26MaxLanar18>	jelly: so i remove xserver-xorg-intel package, rebooted, and I can see some improvements ! :)
+T 1484814080 18<25somiaj18>	jelly: wonder if it is a bug that the description made its way onto the jessie-backports package then? That is what I was courious about if jessie was ready for the switch.
+T 1484814080 18<26MaxLanar18>	jelly: minors thought but now  1/ nexuiz is *slightly*  smoother 2/ I can set the resolution of my two screens (vga + hdmi) and their emplacements (one above the other) with the default tool in lxde (I couldn't before)
+T 1484814080 18<25jelly18>	somiaj: backports don't exactly get cosmetic Description updates
+T 1484814080 18<25jelly18>	MaxLanar: then it works better on your system than on mine
+T 1484814080 18<25somiaj18>	jelly: were you using the backported kernel?
+T 1484814080 18<25jelly18>	stopped making mine be able to xrandr -o 1
+T 1484814080 18<25somiaj18>	MaxLanar: ^^
+T 1484814080 18<25jelly18>	(but yes)
+T 1484814080 18<27Iridos18>	uh… I think I've used xrandr -o like… twice or so in the last decade?
+T 1484814080 18<27Iridos18>	I'd bet it messes like hell with a dual-monitor setup
+T 1484814080 18<25jelly18>	I guess your monitors do not do PIVOT
+T 1484814080 18<27Iridos18>	together, no…
+T 1484814080 18<27Iridos18>	one would… can that be used per-output?
+T 1484814080 18<27Iridos18>	and … the one for the laptop also does, but only with the laptop ^ ^
+T 1484814080 18<25jelly18>	Iridos: it can.  Except on ivybridge on jessie when it fails to work apparently
+T 1484814080 18<27Iridos18>	think it just did
+T 1484814080 18<22zuiss118>	anyone here run their own xmpp server? i found a prosody tutorial for debian but if i do this, would i be able to just create the server so that i could connect to it from the localhost and chat to people on other xmpp networks? or do i need a domain name for this to actually work?
+T 1484814080 18<25Pavr18>	need a domain name and ssl certs
+T 1484814080 18<27Iridos18>	zuiss1, xmpp networks aren't connected… you can chat with them with pidgin anyway, configuring their server
+T 1484814080 18<27Iridos18>	if you run alone, that is standalone…
+T 1484814080 18<27Iridos18>	so people would have to connect to your server
+T 1484814080 18<22zuiss118>	even if they have xmpp accounts from other servers?
+T 1484814080 18<22zuiss118>	they still have to connect to mine?
+T 1484814080 18<25Pavr18>	no
+T 1484814080 18<27Iridos18>	you cannot login to yahoo to use your gmail
+T 1484814080 18<22zuiss118>	Pavr: why do i need a domain name and ssl certs just to make an account i can chat to other people with?
+T 1484814080 18<25Pavr18>	you do if you want to allow your server to establish server 2 server connections
+T 1484814080 18<27Iridos18>	you don't need a server to connect to other networks
+T 1484814080 18<27Iridos18>	you only need a client. pidgin is one
+T 1484814080 18<22zuiss118>	i heard pidgin has a lot of security holes
+T 1484814080 18<27Iridos18>	then you should download its source code and read it carefully from start to finish, looking for any holes you can spot ^ ^
+T 1484814080 18<25Pavr18>	zuiss1, why do you want your own xmpp server?
+T 1484814080 18<22zuiss118>	Pavr: so servers won't log my chats
+T 1484814080 18<22zuiss118>	Iridos: i don't need to. others already have
+T 1484814080 18<22zuiss118>	and reported on it
+T 1484814080 18<27Iridos18>	well… if they have, the holes have been all fixed and it's secure now and open source has won
+T 1484814080 18<25Pavr18>	if you're talking with other people that aren't on your own xmpp server your server connects to their server and they can still log it.
+T 1484814080 18<22zuiss118>	Iridos: nope. there are open issues that have been unresolved if you take a look at their issue tracker page
+T 1484814080 18<27TomTomTo118>	only unimportant issues on the security tracker. https://security-tracker.debian.org/tracker/source-package/pidgin
+T 1484814080 18<27Iridos18>	heh "DISPUTED"
+T 1484814080 18<22zuiss118>	oh i meant the one on pidgin.im but yea i didn't check the debian one
+T 1484814080 18<27TomTomTo118>	the one on pidgin.im has exactly the same CVEs
+T 1484814080 18<22zuiss118>	the EFF says " Pidgin has a large attack surface. It is a complex program, which has not been written with security as a top priority. It almost certainly has bugs, some of which might be used by governments or even big companies to break into computers that are using it."
+T 1484814080 18<22zuiss118>	https://ssd.eff.org/en/module/how-use-otr-windows
+T 1484814080 18<25Pavr18>	that is a totally creditable source...
+T 1484814080 18<22zuiss118>	wikipedia "As observed by Wired in 2015, the libpurple codebase is "known for its bountiful security bugs".[35]"
+T 1484814080 18<22zuiss118>	Pavr: why is EFF uncredible?
+T 1484814080 18<27Iridos18>	I guess if a government REALLY  wants into your computer it makes about zilch of a difference if you use pidgin or not
+T 1484814080 18<25teraflops18>	zuiss1: ok. so you want your own xmp server because security but complain about using certificates?
+T 1484814080 18<25teraflops18>	odd
+T 1484814080 18<22zuiss118>	teraflops: i didn't complain. i asked why since i'm trying to understand the concept of using the server running on my own machine
+T 1484814080 18<25somiaj18>	anyway to determine if an ipaddress is from a common public proxy or not?
+T 1484814080 18<27Iridos18>	hm, prosody does have an s2s module … but as has been pointed out, that would defeat the purpose
+T 1484814080 18<27Iridos18>	it makes more sense to connect the client to multiple networks, including your own standalone server than have the server handle that
+T 1484814080 18<27Iridos18>	and I wonder why gmail.com or jabber.org would allow random servers to speak via an s2s protocol with them
+T 1484814080 18<25n4dir18>	zuiss1: you might want to have a look at the freedombox project, there is a debian-subproject having at it. (you might already know, or it simply is not interesting to you).
+T 1484814080 18<25Pavr18>	because it's the power of xmpp
+T 1484814080 18<22zuiss118>	n4dir: i'll check it out, thanks
+T 1484814080 18<25Pavr18>	so you only need one login and everyone can talk together no matter what network you're on.
+T 1484814080 18<22zuiss118>	Iridos: that's the whole point of federation right?
+T 1484814080 18<25n4dir18>	the bot doesn't know about it "parse error: dunno what the heck you're talking about, n4dir" , but the debian wiki does.
+T 1484814080 18<22zuiss118>	also on the topic of pidgin, https://www.pidgin.im/news/security/  look at how many security advisories there were in 2014, then look at how many there were in 2015 (0). but then a bunch were discovered again in 2016. so just because there are no known exploits, it doesn't mean the codebase is secure, just that nobody has had time to audit it recently. but everytime someone does spend time auditing pidgin, they find a lot of bugs vs. other chat
+T 1484814080 18<22zuiss118>	software that is not based in the libpurple codebase
+T 1484814080 18<22zuiss118>	so saying pidgin is secure just because there are no open bugs, or one "disputed" bug isn't quite true
+T 1484814080 18<22zuiss118>	sorry for offtopic, just wanted to clear that up
+T 1484814080 18<25Pavr18>	well that goes for every software. saying pidging is insecure without bugs to back it up doesn't make much sense
+T 1484814080 18<27Iridos18>	sure… but if I look at openssl and ssh bugs the same is unfortunately true…
+T 1484814080 18<19RajRajRaj18>	https://usercontent.irccloud-cdn.com/file/9bH7C72t/irccloudcapture603005445.jpg
+T 1484814080 18<19RajRajRaj18>	Can anyone help please
+T 1484814080 18<22zuiss118>	Iridos: yes it's true for all software but my point was your comment is not quite true "<Iridos> well… if they have, the holes have been all fixed and it's secure now and open source has won" and also that libpurple has a reputation for security holes, moreso than other similar software
+T 1484814080 18<25tobiasBora18>	Hello, I'm trying to configure a persistent session using casper in a live usb so I ried to add the "persistent" key-word in my grub.cfg file. Here is my grub.cfg file : http://paste.debian.net/909404
+T 1484814080 18<25tobiasBora18>	However I tried to boot on it, then "touch /opt/myfile.txt", and after a reboot, the file isn't present (note that I created an ext2 file /casper-rw of 542MiB).
+T 1484814080 18<25Pavr18>	zuiss1, what similar software?
+T 1484814080 18<27Iridos18>	well, that was just on your "other people did" …
+T 1484814080 18<25n4dir18>	isn't casper ubuntu?
+T 1484814080 18<27TomTomTo118>	zuiss1: nobody was arguing pidgin is perfectly secure. you claimed there were open security issues, which is why i pointer you to the security tracker. you don't need to convince anybody.
+T 1484814080 18<27Iridos18>	actually the "attack surface" thing reminds me of the IRIX philosophy of having huge suid root  binaries around that were just waiting for the next exploit
+T 1484814080 18<22zuiss118>	Pavr: gajim, bitlbee, conversations, to name a few
+T 1484814080 18<25Pavr18>	zuiss1, This leads nowhere, but your argument defeats itself. Just because bugs haven't been filed doesn't mean they aren't insecure. But yes offtopic. I'll let it go now :)
+T 1484814080 18<28SuperTramp8318>	zuiss1: apparmor
+T 1484814080 18<25Pavr18>	zuiss1, But yes you if you want to talk with others (on other xmpp servers) via your own xmpp server S2S i required. And for them to be able to connect to you, you would need a domain and cert.
+T 1484814080 18<25n4dir18>	wasn't his main point how a xmmp server works, not if or if not pidgin is secure or not?
+T 1484814080 18<22zuiss118>	n4dir: yes lol
+T 1484814080 18<22zuiss118>	i made a comment that everyone latched onto though so it got sidetracked
+T 1484814080 18<25Pavr18>	zuiss1, if you do decide to setup your own server i can recommend testing it with https://xmpp.net/
+T 1484814080 18<22zuiss118>	i'll look into it
+T 1484814080 18<19pingouin18>	hello #debian
+T 1484814080 18<22zuiss118>	i will probably just use a third party server
+T 1484814080 18<22zuiss118>	or a p2p client instead
+T 1484814080 18<25n4dir18>	thinking of a p2p client i use, but i sure forgot the name. damnit
+T 1484814080 18<25n4dir18>	tox.
+T 1484814080 18<28SuperTramp8318>	only text chat and only for PC (no wise phoons) -> https://ricochet.im
+T 1484814080 18<22zuiss118>	i'll try those
+T 1484814080 18<22zuiss118>	thanks
+T 1484814080 18<25teraflops18>	tox is a good choice. plenty of clients for all platforms it supports audio/video too
+T 1484814080 18<25teraflops18>	all encrypted
+T 1484814080 18<28SuperTramp8318>	ricochet is anoymous and leaks no metadata AFAIK
+T 1484814080 18<26gry18>	i'm wondering why a debian vps would have awful lag when i type. is it networking? if yes then how do i measure it?
+T 1484814080 18<29SerajewelKS18>	ping?
+T 1484814080 18<29SerajewelKS18>	it could also be that the hypervisor's CPU is exhausted
+T 1484814080 18<29SerajewelKS18>	and your VPS can't get enough CPU time
+T 1484814080 18<29SerajewelKS18>	which is a common scenario for less expensive providers that oversell capacity
+T 1484814080 18<26gry18>	i'm getting 2ms ping response time for it
+T 1484814080 18<26gry18>	i think that's not a lot
+T 1484814080 18<29SerajewelKS18>	no, 2ms is pretty good
+T 1484814080 18<26gry18>	right
+T 1484814080 18<29SerajewelKS18>	check top, in particular the CPU time for %st (stolen by hypervison)
+T 1484814080 18<26gry18>	it's probably an intermittent issue; i'll try pinging it again at the same time the lag happens
+T 1484814080 18<29SerajewelKS18>	hypervisor*
+T 1484814080 18<26gry18>	 %Cpu(s):  0,0 us,  0,0 sy,  0,0 ni,100,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+T 1484814080 18<29SerajewelKS18>	ah well yeah, if 2ms is a sample when the issue isn't present then that doesn't really mean much
+T 1484814080 18<29SerajewelKS18>	if the issue happens frequently, keep ping running so you can see latency history, then when the issue happens switch to the screen running ping and see if the latency changed
+T 1484814080 18<29SerajewelKS18>	for comparison, ping to one of my VPSes is ~30ms and that causes no perceivable delay when typing over ssh
+T 1484814080 18<20Dissent18>	why can'ty my apache write to a folder?
+T 1484814080 18<25Pavr18>	Dissent, wrong permissions?
+T 1484814080 18<20Dissent18>	I cant fix it
+T 1484814080 18<20Dissent18>	so I'm going to run as root
+T 1484814080 18<20Dissent18>	unless someone has a better idea
+T 1484814080 18<20Dissent18>	I tried chmod 777
+T 1484814080 18<20Dissent18>	I tried some chown action
+T 1484814080 18<20Dissent18>	a little bit of smashing things
+T 1484814080 18<20Dissent18>	and still no luck
+T 1484814080 18<20Dissent18>	I'm two weeks in now
+T 1484814080 18<27Iridos18>	execute permissions on directories have to be there for the server all the way down to /
+T 1484814080 18<20Dissent18>	changing my envvars
+T 1484814080 18<20Dissent18>	fucked it all up
+T 1484814080 18<20Dissent18>	now it wont even start
+T 1484814080 18*	20Dissent rages
+T 1484814080 18<20Dissent18>	2 weeks now
+T 1484814080 18<20Dissent18>	any other ideas?
+T 1484814080 18<20Dissent18>	Iridos, what does that mean
+T 1484814080 18<20Dissent18>	https://docs.oseems.com/general/application/apache/change-user-and-group
+T 1484814080 18<25SynrG18>	no process that traverses the directcory structure from / down to a subfolder can see that subfolder unless every intervening folder has granted x permission to the process
+T 1484814080 18<20Dissent18>	I did this
+T 1484814080 18<20Dissent18>	chown www-data:www-data /var/www/*
+T 1484814080 18<20Dissent18>	is that not enough?
+T 1484814080 18<20Dissent18>	then I did
+T 1484814080 18<20Dissent18>	chmod 777 /var/www/*
+T 1484814080 18<22dTal18>	Dissent: I notice neither of those commands were recursive
+T 1484814080 18<25tobiasBora18>	All right, I found how to solve my casper problem.
+T 1484814080 18<22biheho18>	ciao
+T 1484814080 18<22biheho18>	!list
+T 1484814080 18<29dpkg18>	biheho: È possibile scaricare un sacco di software libero puntando il tuo browser a http://cdimage.debian.org/debian-cd/current/multi-arch/iso-cd/debian-8.7.0-amd64-i386-netinst.iso !
+T 1484814080 18<27Iridos18>	Dissent, chmod a+x / /var /var/www
+T 1484814080 18<20Dissent18>	I'lll try that Iridos , ty
+T 1484814080 18<22biheho18>	!list
+T 1484814080 18<29dpkg18>	biheho: È possibile scaricare un sacco di software libero puntando il tuo browser a http://cdimage.debian.org/debian-cd/current/multi-arch/iso-cd/debian-8.7.0-amd64-i386-netinst.iso !
+T 1484814080 18<27Iridos18>	but /var/www is the default dir in debian and permissions should have been correct
+T 1484814080 18<22biheho18>	ciao
+T 1484814080 18<22biheho18>	!list
+T 1484814080 18<29dpkg18>	biheho: vedi http://packages.debian.org/
+T 1484814080 18<25tobiasBora18>	Now I've a question about casper : is it possible to do something like "persistent-path" but for partition instead of files ? I'd like to provide a multi-boot where each system has it's own casper partition.
+T 1484814080 18<24velix18>	For Jessie there were websites, who guessed the release date. Is there something for Stretch, too?
+T 1484814080 18<25SynrG18>	tobiasBora: casper? have you mistaken this for ubuntu support? casper is not a part of debian
+T 1484814080 18<25SynrG18>	tobiasBora: i think you need to see #ubuntu for that
+T 1484814080 18<25SynrG18>	or else your own distribution
+T 1484814080 18<19tomcres18>	!ubuntu
+T 1484814080 18<29dpkg18>	Ubuntu is based on Debian, but it is not Debian.  Only Debian is supported on #debian.  Use #ubuntu on chat.freenode.net instead.  Even if the channel happens to be less helpful, support for distributions other than Debian is offtopic on #debian.  See also <based on debian> and <ubuntuirc>.
+T 1484814080 18<24velix18>	Hit me baby one more time!
+T 1484814080 18<25tobiasBora18>	SynrG: Hum it's really linked with ubuntu ? Well how can this tutorial work with debian if casper is ubuntu-specific ? https://www.linux.com/blog/creating-debian-live-usb-flash-drive-persistence-non-techies
+T 1484814080 18<20Dissent18>	Iridos, thayt didnt work
+T 1484814080 18<20Dissent18>	I'm ripping my hair out
+T 1484814080 18<20Dissent18>	I haven't eaten in 12 hours
+T 1484814080 18<20Dissent18>	not helping
+T 1484814080 18<22awal118>	velix, stretch will be released this year (2017) :P
+T 1484814080 18<25n4dir18>	tobiasBora: where does the how-to mention casper?
+T 1484814080 18<26gry18>	 /lastlog dissent
+T 1484814080 18<26gry18>	er
+T 1484814080 18<25tobiasBora18>	n4dir: For me, the "home-rw" tips is the way casper works, so I though that capser was behind this. But if it's not, I'd be curious to know what's beyout that
+T 1484814080 18<27Iridos18>	Disse… well, gorn
+T 1484814080 18<20steven_is_false18>	Hi. I'm  trying the demo Hurd image on kvm and I can't get shutdown to fully unmount everything.
+T 1484814080 18<20Dissent18>	still no luck
+T 1484814080 18<20Dissent18>	ircnode0,
+T 1484814080 18<20Dissent18>	Iridos,
+T 1484814080 18<26gry18>	for Dissent's issue, we can log in as apache user and test file permissions from there
+T 1484814080 18<20Dissent18>	any other ideas?
+T 1484814080 18<20Dissent18>	does apache user have a password?
+T 1484814080 18<20Dissent18>	I didn't make www-data user
+T 1484814080 18<20Dissent18>	I dont even know where it came from
+T 1484814080 18<20Dissent18>	something made it for me
+T 1484814080 18<20Dissent18>	and setup apache to run w/ it
+T 1484814080 18<25Pavr18>	what are you trying to make apache write?
+T 1484814080 18<27Iridos18>	wait… *write* to a folder?
+T 1484814080 18<27Iridos18>	what are you trying to do?
+T 1484814080 18<25somiaj18>	Dissent: that is a default user provided by debian, as you don't want the webserver running as root.
+T 1484814080 18<26gry18>	Dissent: something like `sudo -u www-data ls /var/www/`
+T 1484814080 18<26gry18>	Dissent: sudo -u www-data touch /var/www/testfile
+T 1484814080 18<26gry18>	Dissent: and so on
+T 1484814080 18<20Dissent18>	touch: cannot touch '/var/www/ampache/ampache/index.php': Permission denied
+T 1484814080 18<20Dissent18>	this can't be good
+T 1484814080 18<25somiaj18>	Dissent: actually it probabaly is good, you do'nt want the webserver to be able to write to .php files, easy way to comprimise your system.
+T 1484814080 18<20Dissent18>	its not even my system
+T 1484814080 18<26gry18>	yes
+T 1484814080 18<20Dissent18>	so I'm bnot paranoid
+T 1484814080 18<20Dissent18>	its just a vps
+T 1484814080 18<25somiaj18>	Dissent: you have to be very careful about which directoires you give your webserver access to.
+T 1484814080 18<25somiaj18>	I mean access to write too (read is a different story)
+T 1484814080 18<20Dissent18>	well the webserver is running a web app
+T 1484814080 18<20Dissent18>	called ampache
+T 1484814080 18<20Dissent18>	it needs to write files
+T 1484814080 18<26gry18>	you need to do this right
+T 1484814080 18<26gry18>	it needs to be able to read and exeute that file
+T 1484814080 18<20Dissent18>	from user uploads
+T 1484814080 18<20Dissent18>	and it can't even write .... it's own log
+T 1484814080 18<20Dissent18>	right now
+T 1484814080 18*	20Dissent confused
+T 1484814080 18<26gry18>	so test the directory where it needs to write to
+T 1484814080 18<25somiaj18>	Dissent: sure, this is a common thing and usually one directory is setup to do this with permissions like 1777 or 1775
+T 1484814080 18<25somiaj18>	Dissent: but this has to be done during the install of the php software, and usually install docs talk about this.
+T 1484814080 18<20Dissent18>	Warning: Unable to write to log (/var/log/ampache/ampache.20170118.log)
+T 1484814080 18<20Dissent18>	what is the easiest wya to just fix this now
+T 1484814080 18<20Dissent18>	I tried running as root (not scared) and it didnt even work
+T 1484814080 18<25somiaj18>	Dissent: how did you install ampache?
+T 1484814080 18<20Dissent18>	manually
+T 1484814080 18<20Dissent18>	then put it into my /var/www
+T 1484814080 18<20Dissent18>	pointed the dir root to its indexc folder
+T 1484814080 18<20Dissent18>	I have all dependencies installed
+T 1484814080 18<25somiaj18>	Dissent: well you need to then manually setup all of the write permisions for the logs and various other things it needs access to.
+T 1484814080 18<20Dissent18>	but it can't write its own log, and user upload was failing probably for the same reason
+T 1484814080 18<20Dissent18>	I also couldnt create a new catalog
+T 1484814080 18<25somiaj18>	Dissent: I do noitce an ampache debian package, which most likely would have set this all up for you.
+T 1484814080 18<20Dissent18>	somiaj, well I did chmod 777 on thos dirs
+T 1484814080 18<20Dissent18>	then I did chown www-data:www-data ont hose dirs
+T 1484814080 18<20Dissent18>	it didnt seem to work
+T 1484814080 18<25somiaj18>	Dissent: and all the subdirs? Also be careful, you don't want to just make everything 777. I don't know amapche at all so unsure on the details, but if using the debian package I would assume this would all be setup correctly when installing the debian package.
+T 1484814080 18<20missmbob_18>	777 means anyway can change your config files, for example. it's very ...not smart
+T 1484814080 18<20Dissent18>	I wasn't able to use the pakcage
+T 1484814080 18<25somiaj18>	installing the upstream php manually requires you to manually set up all these permissions.
+T 1484814080 18<20missmbob_18>	anyone*
+T 1484814080 18<20Dissent18>	how?
+T 1484814080 18<20Dissent18>	you mean if they compromise the box
+T 1484814080 18<20Dissent18>	or do you mean just casually through the webpage
+T 1484814080 18<20missmbob_18>	you need to read the document of the software you're using and follow its steps and permissions
+T 1484814080 18<20Dissent18>	I did
+T 1484814080 18<20Dissent18>	trust me
+T 1484814080 18<20Dissent18>	this issue has been ongoing for two weeks now
+T 1484814080 18<20Dissent18>	the developers never helped
+T 1484814080 18<20Dissent18>	I had to give up today
+T 1484814080 18<20Dissent18>	the 15th day
+T 1484814080 18<20Dissent18>	I'll try some more chowning
+T 1484814080 18<25Pavr18>	it's a user problem not the developers issue
+T 1484814080 18<20Dissent18>	drwxr-xr-x 2 www-data www-data     4096 Jan 18 18:53 ampache
+T 1484814080 18<20Dissent18>	Warning: Unable to write to log (/var/log/ampache/ampache.20170118.log)
+T 1484814080 18<20Dissent18>	its actually a bit of both
+T 1484814080 18<20Dissent18>	making progress
+T 1484814080 18<25SynrG18>	err, ampache?
+T 1484814080 18<25SynrG18>	ampache is not apache ...
+T 1484814080 18<25SynrG18>	how does this relate?
+T 1484814080 18<25Pavr18>	he's hosting it using apache. and having issues with permissions.
+T 1484814080 18<25SynrG18>	ok. i just read a bit of the backlog.
+T 1484814080 18<20Dissent18>	I got the log working
+T 1484814080 18<25SynrG18>	ampache is a third-party component not provided by debian?
+T 1484814080 18<20Dissent18>	ty, I understanda biut better now
+T 1484814080 18<20Dissent18>	ampache is famous software man
+T 1484814080 18<25somiaj18>	SynrG: there is a debian package, i already suggested it
+T 1484814080 18<20Dissent18>	the debian package has no upload functionality
+T 1484814080 18<20Dissent18>	its too out of datew
+T 1484814080 18<25SynrG18>	i don't see anything in testing. has it been removed?
+T 1484814080 18<25somiaj18>	oh maybe, i only see it in jessie, wonder why it was removed
+T 1484814080 18<25SynrG18>	from lack of being maintained?
+T 1484814080 18<25SynrG18>	sounds like a real winner :p
+T 1484814080 18<25somiaj18>	https://packages.qa.debian.org/a/ampache/news/20170113T130122Z.html
+T 1484814080 18<20Dissent18>	its really, really good.
+T 1484814080 18<25SynrG18>	consider an alternative that is in debian perhaps?
+T 1484814080 18<25somiaj18>	yea it was orphaned and outdated
+T 1484814080 18<25SynrG18>	well, i can believe maybe it *was*
+T 1484814080 18<20Dissent18>	I got a new version from the git
+T 1484814080 18<20Dissent18>	not sure why its not in the package manager
+T 1484814080 18<25somiaj18>	It might be fine, just no on in debian wants to spend the time to make it ready for debian users so you are kinda left with making sure you follow upstreams install instructions correctly.
+T 1484814080 18<25somiaj18>	Dissent: read the link I just sent, it will tell you why.
+T 1484814080 18<20Dissent18>	ok
+T 1484814080 18<25jelly18>	and hope their insta
+T 1484814080 18<25jelly18>	ructions are not broken
+T 1484814080 18<24KidBeta18>	Hi guys im having trouble with my intel 7260 wifi card in debian and was wondering where would be the best channel to goto to get help?.
+T 1484814080 18<26gry18>	KidBeta: ask here and give all details
+T 1484814080 18<24KidBeta18>	running debian 8.6 with a intel 7260 (rev 73) and im getting an error every time i try and connect to a wifi network that is "No association and the time event is over already..." after it previously says that is authenticated. iwlwifi is loading iwlwifi-7260-9.ucode. I have tried tricking it by renaming 7260-13.ucode to 7260-9.ucode, didnt work so I swapped them back. I have 7260-13.ucode in /lib/firmware but im not sure itll fix the problem.
+T 1484814080 18<24KidBeta18>	I also get an aborting authentication MAC_ADDRESS by local choice (Reason: 3=DEUATH_LEAVING) soon after the "No assocation..."
+T 1484814080 18<20steven_is_false18>	How can I blacklist an environment variable in ssh? SendEnv only lets me add ones
+T 1484814080 18<26gry18>	you mean unset?
+T 1484814080 18<20steven_is_false18>	gry: yes
+T 1484814080 18<20stew18>	steven_is_false: without SendEnv, nothing is sent, right?
+T 1484814080 18<20stew18>	steven_is_false: so then you must be using SendEnv?
+T 1484814080 18<20stew18>	but you are telling it to send something you don't want it to send?
+T 1484814080 18<20steven_is_false18>	stew: There's a default SendEnv in /etc/ssh/config which sends LC_ALL
+T 1484814080 18<20stew18>	steven_is_false: and you don't want to send LC_ALL?
+T 1484814080 18<20steven_is_false18>	GNU Hurd doesn't seem to support LC_ALL
+T 1484814080 18<20steven_is_false18>	or at least en_CA.UTF-8
+T 1484814080 18<20stew18>	so isn't the answer to change SendEnv to not send LC_ALL if you don't want to send LC_ALL?
+T 1484814080 18<20steven_is_false18>	stew: I'd rather change ~/.ssh/config then /etc/ssh/config
+T 1484814080 18<20stew18>	yes, certainly that's what I'd recommend
+T 1484814080 18<20stew18>	steven_is_false: i'd say just add to ~/.ssh/config, something like "Host my.hurd.host \n SendEnv LANG
+T 1484814080 18<20steven_is_false18>	stew: > SendEnv only lets me add ones
+T 1484814080 18<20spacebison18>	Was there a big update for Jessie recently? It suddenly wants to update a 100+ packages.
+T 1484814080 18<19heston18>	8.6 -> 8.7
+T 1484814080 18<19dvs18>	no 8.7.1
+T 1484814080 18<19heston18>	 /msg dpkg 7.11
+T 1484814080 18<26^v18>	connecting my phone as a audio source isnt working anymore after my last apt-get upgrade
+T 1484814080 18<26^v18>	(on sid)
+T 1484814080 18<26^v18>	i get an audio source but its silent
+T 1484814080 18<25Zardoz18>	did you try and remove the device and re-add it?
+T 1484814080 18<26^v18>	Zardoz, yes
+T 1484814080 18<25Zardoz18>	^V, reboot the phone?
+T 1484814080 18<26^v18>	yep
+T 1484814080 18<26^v18>	many times
+T 1484814080 18<25Zardoz18>	mmm
+T 1484814080 18<22awal118>	,v mtn
+T 1484814080 18<19judd18>	No package named 'mtn' was found in amd64.
+T 1484814080 18<19heston18>	there really doesnt seem to be much in the jessie backports :/
+T 1484814080 18<25themill18>	heston: there's 5000 packages
+T 1484814080 18<19heston18>	well jessie has an ancient version xfce and gtk-redshift(which doesnt work) and there's no backports
+T 1484814080 18<19heston18>	version of*
+T 1484814080 18<26missmbob18>	heston: i backported redshift if you want it https://dipconsultants.com/debian/jessie/?dir=redshift/binaries
+T 1484814080 18<19heston18>	missmbob, nice, you did lighdm  and light-locker too. Looks like you have a bunch of good one. Now it comes down to trust
+T 1484814080 18<19heston18>	ones*
+T 1484814080 18<19heston18>	missmbob, I dont suppose you could provide the makefile
+T 1484814080 18<26missmbob18>	heston: it's in the source dir. i have the source on there for everything
+T 1484814080 18<25themill18>	heston: if you're looking for lots of backports, it might be time to look at stretch given that it is all but frozen at this stage
+T 1484814080 18<19heston18>	Not sure what to expect with the Testing branch
+T 1484814080 18<25themill18>	something that is very close to being releasable, I hope
+T 1484814080 18<19heston18>	missmbob, ah right, I missed that. Cool thanks
+T 1484814080 18<19darxmurf18>	hi all
+T 1484814080 18<28M4dH4TT3r218>	Hello, I'm having some troubles with an nvidia graphics card installation, I have tried several tuts ending in the same results of booting to a black screen with a blinking underscore, with ctrl+alt+f1 I have terminal and have setup networking so I have internet access from there. Most of the tuts have me install the nvidia-driver and run nvidia-xconfig, currently when I try to startx or restart gdm3 I get "xinit: unable to connect to X server: connection r
+T 1484814080 18<19darxmurf18>	M4dH4TT3r2: what's the result of "lsmod | grep nouveau" ?
+T 1484814080 18<28M4dH4TT3r218>	Just goes to the next line, no result
+T 1484814080 18<19darxmurf18>	and lsmod | grep nvidia ?
+T 1484814080 18<19darxmurf18>	did you install the driver using the Nvidia installer or the debian package ?
+T 1484814080 18<28M4dH4TT3r218>	Shows nvidia, some numbers, 0 /n drm, some numbers, 5, ttm, drm_kms_helper, mgag200, nvidia /n i2c_core, some numbers, 6, drm, 12c_i801, drm_kms_helper, mgag200, i2c_algo_bit, nvidia
+T 1484814080 18<19darxmurf18>	okay, so it's loaded
+T 1484814080 18<28M4dH4TT3r218>	I've tried both darxmurf, most recently the debian pkg
+T 1484814080 18<19darxmurf18>	and if you try to restart your Graphical Manager what's the result ?
+T 1484814080 18<28tdn_18>	On my Debian 7 servers, my ssh servers does only have a single RSA host key. But on my Debian 8 servers, there seems to be three host keys for each ssh server: RSA, EDSA and ED25519. What is the reason for adding the two extra ssh host keys on debian 8? What are the implications of removing all but one (RSA)?
+T 1484814080 18<19darxmurf18>	M4dH4TT3r2: in another terminal, launch this: tail -f /var/log/Xorg.0.log
+T 1484814080 18<28M4dH4TT3r218>	It loads to a black screen with a blinking underscore after I select debian in grub. My only option from there is ctrl+alt+f1
+T 1484814080 18<19darxmurf18>	which graphical manager is installed ?
+T 1484814080 18<19darxmurf18>	gdm ?
+T 1484814080 18<28M4dH4TT3r218>	Gdm3
+T 1484814080 18<24towo^work18>	before x-log better would be a lspci | egrep -i "vga|display|3d"
+T 1484814080 18<19darxmurf18>	true
+T 1484814080 18<28M4dH4TT3r218>	Shows 2, Matrox and nvidia controllers
+T 1484814080 18<28M4dH4TT3r218>	Both listed as vga compatible controllers
+T 1484814080 18<28M4dH4TT3r218>	I think Matrox is the embedded
+T 1484814080 18<28M4dH4TT3r218>	Which is what I'm using to get this terminal
+T 1484814080 18<29Vialas|218>	hello everyone
+T 1484814080 18<29Vialas|218>	jelly: hello mate, you still here?
+T 1484814080 18<29Vialas|218>	hi somiaj hellooooooo
+T 1484814080 18<29Vialas|218>	ive 'successfuly' installed Debian onto my computer for now the 8th time
+T 1484814080 18<29Vialas|218>	i seem to be having an issue with graphics driver?
+T 1484814080 18<28M4dH4TT3r218>	Me too
+T 1484814080 18<29Vialas|218>	whats your issue M4dH4TT3r2?
+T 1484814080 18<28M4dH4TT3r218>	8th was 2 days ago
+T 1484814080 18<28M4dH4TT3r218>	Nvidia
+T 1484814080 18<29Vialas|218>	dang
+T 1484814080 18<28M4dH4TT3r218>	Hello, I'm having some troubles with an nvidia graphics card installation, I have tried several tuts ending in the same results of booting to a black screen with a blinking underscore, with ctrl+alt+f1 I have terminal and have setup networking so I have internet access from there. Most of the tuts have me install the nvidia-driver and run nvidia-xconfig, currently when I try to startx or restart gdm3 I get "xinit: unable to connect to X server: connection r
+T 1484814080 18<28M4dH4TT3r218>	Ya...
+T 1484814080 18<29Vialas|218>	your better off than me M4dH4TT3r2 :(
+T 1484814080 18<29Vialas|218>	my issue causes my comptuer to freeze it wont do anything
+T 1484814080 18<28M4dH4TT3r218>	How so? I been at this 2 days and this is as far as I've gotten :(
+T 1484814080 18<29Vialas|218>	tried botting into level 3 but still no joy
+T 1484814080 18<28M4dH4TT3r218>	Hello bazhang long time no see
+T 1484814080 18<29Vialas|218>	hmm irc crashed on me :(
+T 1484814080 18<29Vialas|218>	no joy :(
+T 1484814080 18<29slax0r18>	hi, is it possible to run a script when a display is connected/disconnected?
+T 1484814080 18<28M4dH4TT3r218>	Any ideas darxmurf or towo^work ?
+T 1484814080 18<28M4dH4TT3r218>	lspci | egrep -i "vga|display|3d|" http://paste.debian.net/909456/
+T 1484814080 18<28M4dH4TT3r218>	lsmod | grep nvidia http://paste.debian.net/909457/
+T 1484814080 18<24towo^work18>	M4dH4TT3r2, you need that matrox device?
+T 1484814080 18<28M4dH4TT3r218>	It's embedded so kinda
+T 1484814080 18<28M4dH4TT3r218>	But I guess not
+T 1484814080 18<24towo^work18>	can you disable it in your bios?
+T 1484814080 18<24towo^work18>	as long the matrox is your primary device, you cant use your nvidia card in the way you have tryed
+T 1484814080 18<28M4dH4TT3r218>	No, tried looking for that
+T 1484814080 18<28M4dH4TT3r218>	Ok can I rm it somehow?
+T 1484814080 18<24towo^work18>	rm what?
+T 1484814080 18<28M4dH4TT3r218>	Or change so that nvidia is primary?
+T 1484814080 18<28M4dH4TT3r218>	The Matrox dev
+T 1484814080 18<24towo^work18>	it's your hardware, i don't know
+T 1484814080 18<24towo^work18>	if you can't set it in your bios, i have no clue
+T 1484814080 18<28M4dH4TT3r218>	I know but it would still need a driver to exist
+T 1484814080 18<28M4dH4TT3r218>	startx http://picpaste.com/20170118_232358-UO4N5mz0.jpg
+T 1484814080 18<19darxmurf18>	if you disable the embedded VGA chip it will not be listed in linux then
+T 1484814080 18<28M4dH4TT3r218>	xorg.conf http://paste.debian.net/909459
+T 1484814080 18<26mad_hatter18>	hey all -- so im doing a debian 8 install and I'm having a problem with debian supporting my wireless card. Apparently, I need some non-free firmware for it to be supported? Problem is I'm booting from a bootable USB stick with the debian netinstal iso on it. Is there a way that I can load the firmware onto the usb stick prior to booting from it so that the installer will automatically 'see' it and install it?
+T 1484814080 18<28M4dH4TT3r218>	Hi mad_hatter ...
+T 1484814080 18<26missmbob18>	!firmware iso
+T 1484814080 18<29dpkg18>	Unofficial <netinst> images - containing non-free Debian <firmware> packages - for installing Debian 8 "Jessie" are available from http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/ .  See also <install guide>.
+T 1484814080 18<26missmbob18>	mad_hatter: ^
+T 1484814080 18<29smeert18>	hey guys
+T 1484814080 18<29smeert18>	can i configure ssh server to work with passwords only from few IP's and from other IP's you need a key?
+T 1484814080 18<25Zardoz18>	dpkg, you have that macro lmao that was fast... lol
+T 1484814080 18<29dpkg18>	I resemble that remark!
+T 1484814080 18<27DexterF18>	hi
+T 1484814080 18<26mad_hatter18>	missmbob, thanks :)
+T 1484814080 18<25Zardoz18>	oh lmao
+T 1484814080 18<25Zardoz18>	dpkg, is a bot
+T 1484814080 18<29dpkg18>	parse error: dunno what the heck you're talking about, Zardoz
+T 1484814080 18<25Zardoz18>	haha
+T 1484814080 18<27DexterF18>	deb8+openbox, browser launch script in ~/bin/chromium.sh that launches chromium $URL. URL is sourced from /etc/default/chromkiosk from within the script. now - when I put chromium.sh in ~/.config/openbox/autostart it just launches chromium but ignores $URL. when I run it manually from a terminal, it works. why?
+T 1484814080 18<22J-BBB18>	anybody know when the proftpd bug will fixed? -> https://security-tracker.debian.org/tracker/CVE-2016-3125
+T 1484814080 18<26missmbob18>	DexterF: sounds like you need quotes
+T 1484814080 18<28M4dH4TT3r218>	Went into bios again, it's already listed as "auto-detect" not "embedded-video" which bios says if it auto detects another controller it won't be the primary so that's not the issue
+T 1484814080 18<28M4dH4TT3r218>	Any ideas would be great...
+T 1484814080 18<24towo^work18>	M4dH4TT3r2, update-pciids && lspci | grep -i vga
+T 1484814080 18<28M4dH4TT3r218>	Same output as last lspci u gave me was, lists Matrox and nvidia controllers
+T 1484814080 18<27DexterF18>	missmbob, quotes where? around the params in the default file, the programm call, its parameters..?
+T 1484814080 18<24towo^work18>	M4dH4TT3r2, what nvidia card that is?
+T 1484814080 18<28M4dH4TT3r218>	Pny GeForce gt 710
+T 1484814080 18<28M4dH4TT3r218>	New
+T 1484814080 18<19darxmurf18>	and which nvidia driver version ?
+T 1484814080 18<27sawk18>	hello everyone
+T 1484814080 18<28M4dH4TT3r218>	How do I check that
+T 1484814080 18<19darxmurf18>	dpkg -l | grep nvidia
+T 1484814080 18<29dpkg18>	No packages found matching | grep nvidia
+T 1484814080 18<27sawk18>	does someone experimented random freeze with debian stretch and intel graphics drivers? I have a Thinkpad T410 that is working fine on Debian Jessie, but it's having freeze (then reboot) in stretch
+T 1484814080 18<26mad_hatter18>	so I downloaded the firmware netinst ISO, and I don't get the firmware errors anymore, but it fails to configure my network still with the error 'your network is probably not using DHCP protocol'
+T 1484814080 18<19darxmurf18>	M4dH4TT3r2: on nvidia website they propose the 375.26
+T 1484814080 18<24towo^work18>	sawk, apt purge xserver-xorg-video-intel
+T 1484814080 18<27sawk18>	towo^work, I'm using wayland. Is that working anyway?
+T 1484814080 18<19darxmurf18>	M4dH4TT3r2: http://www.nvidia.com/download/driverResults.aspx/112992/en-us
+T 1484814080 18<27sawk18>	(first time i use wayland :) )
+T 1484814080 18<28M4dH4TT3r218>	http://paste.debian.net/909462
+T 1484814080 18<26mad_hatter18>	any ideas what could be going on?
+T 1484814080 18<19darxmurf18>	which debian version are you running ?
+T 1484814080 18<28M4dH4TT3r218>	Yeah that was first one I tried darxmurf
+T 1484814080 18<28M4dH4TT3r218>	Jessie 8
+T 1484814080 18<19darxmurf18>	you could install it without problem ?
+T 1484814080 18<19darxmurf18>	(the driver)
+T 1484814080 18<28M4dH4TT3r218>	Yeah but reboot brought me to same place I am now
+T 1484814080 18<19darxmurf18>	I would anyway remove and clean the actual driver and X configuration, install the nvidia one and recreate a xorg.conf (it will ask you in the end of the installation)
+T 1484814080 18<19darxmurf18>	then reboot and see
+T 1484814080 18<19darxmurf18>	in you startx picture it says "no screen found" which is also a bit weird
+T 1484814080 18<28M4dH4TT3r218>	Ya
+T 1484814080 18<28M4dH4TT3r218>	I have done what u mentioned there a few times
+T 1484814080 18<24towo^work18>	sawk, yes, it would
+T 1484814080 18<24towo^work18>	sawk, since even modesetting supports wayland
+T 1484814080 18<19davidbo18>	Hi, my asrock eth0 isn't working, but i found a ubuntu workout. I should add the line "exec rmmod forcedeth" at next line of "script" in the file /etc/init/module-init-tools.conf. But debian jessie doesn't seem to have it. Where should i place this line?
+T 1484814080 18<27sawk18>	ok thank towo^work
+T 1484814080 18<27sawk18>	towo^work, i'm going to try...
+T 1484814080 18<26missmbob18>	davidbo: you can just create that file
+T 1484814080 18<19davidbo18>	missmbob, I'll try that.
+T 1484814080 18<27DexterF18>	missmbob: duuuh... I mistyped #!/bin/bash without the ! and it just parsed it but did not interpret the bash, so it did not source the config file because source is a bash builtin. I spent days on that :D
+T 1484814080 18<27laapstor18>	hello can you tell me how to identify sub domain from a tdl or how does the dns protocol identifies it. For example we have to two subdomains ba.co.google.com how does it know that co isn't a domain but a subdomain ??????
+T 1484814080 18<27laapstor18>	anyone got an answer
+T 1484814080 18<27DexterF18>	laapstor, what's the debian specific part?
+T 1484814087 24*	sandeepkr_ has quit (Ping timeout: 258 seconds)
+T 1484814130 23*	ShaRose (ShaRose@i.am.sharo.se23) has joined
+T 1484814138 24*	BaW has quit (Ping timeout: 240 seconds)
+T 1484814208 24*	lubro_ has quit (Disconnected by services)
+T 1484814224 24*	hepukt4e has quit (Remote host closed the connection)
+T 1484814282 24*	jirka has quit (Quit: jirka)
+T 1484814302 18<27laapstor18>	The debian part is when i use the debian's host and nslookup command to look up dns but the thing is how does this command know the differences ....???
+T 1484814315 FiSHLiM plugin unloaded

@@ -1,0 +1,283 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Code/Java/2-2-infrastructures-leertaak-2" />
+        <option value="$USER_HOME$/git/os-concepts/week-3" />
+        <option value="$USER_HOME$/Code/Java/Research2Werkcollege3" />
+        <option value="$USER_HOME$/Code/Java/BSS-AntiCheat" />
+        <option value="$USER_HOME$/Code/Java/BSS-Anticheat" />
+        <option value="$USER_HOME$/git/os-concepts/week-2" />
+        <option value="$USER_HOME$/Code/Java/School/OSAssignmentsWeek2" />
+        <option value="$USER_HOME$/Code/Java/JavaTesting" />
+        <option value="$USER_HOME$/Code/Java/School/CarParkingProject" />
+        <option value="$USER_HOME$/Code/Java/School/Koen-CarParkSimulation" />
+        <option value="$USER_HOME$/Code/Java/Minecraft/example/example.ipr" />
+        <option value="$USER_HOME$/Code/Java/Minecraft/MinecraftRPG/MinecraftRPG.ipr" />
+        <option value="$USER_HOME$/Code/Java/Minecraft/ModDevTesting/ModDevTesting.ipr" />
+        <option value="$USER_HOME$/Code/Java" />
+        <option value="$USER_HOME$/Code/Java/School/10.50-foxes-and-rabbit" />
+        <option value="$USER_HOME$/Code/Java/School/javaTest" />
+        <option value="$USER_HOME$/Code/Java/School/CarParkingProjectt" />
+        <option value="$USER_HOME$/Code/Java/School/CarParkingProjecttest" />
+        <option value="$USER_HOME$/Code/Java/School/projects/chapter08/network-v2" />
+        <option value="$USER_HOME$/Code/Java/School/11.34-showInputDialog" />
+        <option value="$USER_HOME$/Code/Java/School/oop1testassessment" />
+        <option value="$USER_HOME$/Code/Java/School/10.50-foxes-and-rabbits" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Code/Java/2-2-infrastructures-leertaak-2" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Code/Java/2-2-infrastructures-leertaak-2" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Code/Java">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459534673603" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/2-2-infrastructures-leertaak-2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1484739992559" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/BSS-AntiCheat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1481291162542" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/BSS-Anticheat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1481290764929" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/JavaTesting">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1477858033916" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/Minecraft/MinecraftRPG/MinecraftRPG.ipr">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459784528729" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/Minecraft/ModDevTesting/ModDevTesting.ipr">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459594663473" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/Minecraft/example/example.ipr">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459787645231" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/Research2Werkcollege3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1481877183561" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/10.50-foxes-and-rabbit">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459534220727" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/10.50-foxes-and-rabbits">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458311051883" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/11.34-showInputDialog">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459413190476" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/CarParkingProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1477857685085" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/CarParkingProjectt">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459431617392" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/CarParkingProjecttest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459430485924" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/Koen-CarParkSimulation">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1460104224376" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/OSAssignmentsWeek2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1480580893554" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/javaTest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459442292015" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/oop1testassessment">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458506299142" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/Java/School/projects/chapter08/network-v2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459427556535" />
+              <option name="buildTimestamp" value="1458169200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/os-concepts/week-2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1481015085932" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/os-concepts/week-3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1482138486667" />
+              <option name="buildTimestamp" value="1461880800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/git/os-concepts" />
+  </component>
+</application>

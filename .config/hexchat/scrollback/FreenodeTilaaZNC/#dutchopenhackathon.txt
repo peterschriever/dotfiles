@@ -1,0 +1,21 @@
+T 1481303758 19*	Now talking on 22#dutchopenhackathon
+T 1481303758 22*	26orwell.freenode.net sets mode 24+n on 22#dutchopenhackathon
+T 1481303758 22*	26orwell.freenode.net sets mode 24+s on 22#dutchopenhackathon
+T 1481303758 22*	26Peterzen sets mode 24+t on 22#dutchopenhackathon
+T 1481316413 19*	Now talking on 22#dutchopenhackathon
+T 1481316413 22*	Topic for 22#dutchopenhackathon is: Dutch Open Hackathon 2016 irc channel
+T 1481316413 22*	Topic for 22#dutchopenhackathon set by 26Chameleon!~Chameleon@4dae57fd.ftth.telfortglasvezel.nl (24Fri Dec  9 21:49:10 2016)
+T 1481316863 22*	26xehbit gives channel operator status to 18Chameleon
+T 1481317264 18<29Chameleon18>	sup y'all
+T 1481321502 18<26xehbit18>	Lekker druk ook hier lal
+T 1481367141 20*	Disconnected (20Connection timed out)
+T 1481367287 19*	Now talking on 22#dutchopenhackathon
+T 1481367287 22*	Topic for 22#dutchopenhackathon is: Dutch Open Hackathon 2016 irc channel
+T 1481367287 22*	Topic for 22#dutchopenhackathon set by 26Chameleon!~Chameleon@4dae57fd.ftth.telfortglasvezel.nl (24Fri Dec  9 21:49:10 2016)
+T 1481367287 18<29Chameleon18>	sup y'all
+T 1481367287 18<26xehbit18>	Lekker druk ook hier lal
+T 1481533227 19*	Now talking on 22#dutchopenhackathon
+T 1481533227 22*	Topic for 22#dutchopenhackathon is: Dutch Open Hackathon 2016 irc channel
+T 1481533227 22*	Topic for 22#dutchopenhackathon set by 26Chameleon!~Chameleon@4dae57fd.ftth.telfortglasvezel.nl (24Fri Dec  9 21:49:10 2016)
+T 1481533227 18<29Chameleon18>	sup y'all
+T 1481533227 18<26xehbit18>	Lekker druk ook hier lal

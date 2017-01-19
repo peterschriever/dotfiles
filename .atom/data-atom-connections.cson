@@ -1,0 +1,12 @@
+[
+  {
+    name: "peterschriever"
+    protocol: "mysql"
+    user: "homestead"
+    password: "secret"
+    server: ""
+    database: "peterschriever"
+    options: ""
+    port: "33060"
+  }
+]

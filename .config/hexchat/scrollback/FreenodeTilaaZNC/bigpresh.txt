@@ -1,0 +1,9 @@
+T 1476969133 20<Peterzen>30	Hello there, can you help me with cloaking of my irc ip address?
+T 1476969214 18<bigpresh>	Hi!  One moment and I'll get that set up for you
+T 1476969223 20<Peterzen>30	Thanks a lot!
+T 1476969227 18<bigpresh>	There you go, all set :)
+T 1476969234 18<bigpresh>	Anything else I can do for you?
+T 1476969295 20<Peterzen>30	Nope, all set up :)
+T 1476969303 20<Peterzen>30	Thank you
+T 1476969314 18<bigpresh>	You're welcome!  Have a good day
+T 1476969328 20<Peterzen>30	You too

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2015-2016 Vladimir Schneider <vladimir.schneider@gmail.com>
+  ~
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<idea-plugin version="2">
+    <actions>
+        <group id="MultiMarkdown.Toolbar.Left" class="com.intellij.openapi.actionSystem.DefaultActionGroup" text="MultiMarkdown editor actions">
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleBoldAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleBoldAction"
+            text="Toggle bold mode"
+            description="Toggles bold mode on caret/selection"
+            icon="MarkdownIcons.EditorActions.Bold">
+            <keyboard-shortcut first-keystroke="meta b" keymap="$default"/>
+            </action>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleItalicAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleItalicAction"
+            text="Toggle italic mode"
+            description="Toggles italic mode on caret/selection"
+            icon="MarkdownIcons.EditorActions.Italic">
+            <keyboard-shortcut first-keystroke="meta i" keymap="$default"/>
+            </action>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleStrikeThroughAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleStrikeThroughAction"
+            text="Toggle strike through mode"
+            description="Toggles strike through mode on caret/selection"
+            icon="MarkdownIcons.EditorActions.Strike_through">
+            </action>
+
+            <separator/>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleCodeSpanAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleCodeSpanAction"
+            text="Toggle monospaced (code span) mode"
+            description="Toggles monospaced mode (rendered as code span) on caret/selection"
+            icon="MarkdownIcons.EditorActions.Code_span">
+            <keyboard-shortcut first-keystroke="meta o" keymap="$default"/>
+            </action>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.InsertLinkAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.InsertLinkAction"
+            text="Insert link"
+            description="Insert link on caret/selection"
+            icon="MarkdownIcons.EditorActions.Link">
+            <keyboard-shortcut first-keystroke="meta l" keymap="$default"/>
+            </action>
+
+            <separator/>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderLevelUpAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderLevelUpAction"
+            text="Header level up"
+            description="Increases the header level on caret/selection"
+            icon="MarkdownIcons.EditorActions.Header_level_up">
+            </action>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderLevelDownAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderLevelDownAction"
+            text="Header level down"
+            description="Increases the header level on caret/selection"
+            icon="MarkdownIcons.EditorActions.Header_level_down">
+            </action>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderToggleTypeAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.HeaderToggleTypeAction"
+            text="Toggle header type"
+            description="Toggle header type between setext and atx"
+            icon="MarkdownIcons.EditorActions.Header_toggle_type">
+            </action>
+
+            <separator/>
+
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.styling.ReformatDocumentAction"
+            id="com.vladsch.idea.multimarkdown.editor.actions.styling.ReformatDocumentAction"
+            text="Reformat element"
+            description="Reformat current paragraph or table"
+            icon="MarkdownIcons.EditorActions.Reformat">
+            <!--<keyboard-shortcut first-keystroke="ctrl alt l" keymap="$default"/>-->
+            </action>
+        </group>
+
+        <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.CyclicSplitLayoutChangeAction"
+                id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.CyclicSplitLayoutChangeAction"
+                text="Cycle split layout"
+                description="Toggle markdown editor layout through different values (editor only, preview only, wysiwyg split)"
+                icon="MarkdownIcons.Layout.Cycle_editor_preview">
+        </action>
+
+        <action id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ToggleSplitLayoutChangeAction" class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ToggleSplitLayoutChangeAction" text="Toggle Editor Layout" description="Toggle between Editor Only and Editor &amp; Preview" icon="MarkdownIcons.Layout.Toggle_editor_preview">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl p"/>
+        </action>
+
+        <group id="MultiMarkdown.Toolbar.Right" class="com.intellij.openapi.actionSystem.DefaultActionGroup" text="Markdown editor layout actions">
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.EditorAndPreviewLayoutChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.EditorAndPreviewLayoutChangeAction" text="Show editor and preview" description="Sets markdown editor layout to show editor and preview in split" icon="MarkdownIcons.Layout.Editor_preview"></action>
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.PreviewOnlyLayoutChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.PreviewOnlyLayoutChangeAction" text="Show preview only" description="Sets markdown editor layout to show preview only" icon="MarkdownIcons.Layout.Preview_only"></action>
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.EditorOnlyLayoutChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.EditorOnlyLayoutChangeAction" text="Show editor only" description="Sets markdown editor layout to show editor only" icon="MarkdownIcons.Layout.Editor_only"></action>
+            <separator/>
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.HtmlPreviewChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.HtmlPreviewChangeAction" text="Show HTML Preview" description="Sets preview pane to show rendered HTML" icon="MarkdownIcons.Layout.Html_preview"></action>
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ModifiedHtmlTextChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ModifiedHtmlTextChangeAction" text="Show HTML text used for rendering" description="Sets preview pane to show HTML text as used in rendered preview" icon="MarkdownIcons.Layout.Html_modified"></action>
+            <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.UnmodifiedHtmlTextChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.UnmodifiedHtmlTextChangeAction" text="Show plain HTML as generated by pegdown" description="Sets preview pane to show plain HTML text as generated by pegdown" icon="MarkdownIcons.Layout.Html_unmodified"></action>
+        </group>
+
+        <action class="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.CyclicPreviewChangeAction" id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.CyclicPreviewChangeAction" text="Cycle preview content" description="Toggle markdown editor preview through different HTML previews (rendered, browser, plain pegdown)" icon="MarkdownIcons.Layout.Cycle_html"></action>
+
+    </actions>
+</idea-plugin>

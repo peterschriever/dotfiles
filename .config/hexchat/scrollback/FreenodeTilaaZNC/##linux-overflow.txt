@@ -1,0 +1,63 @@
+T 1482839061 19*	Now talking on 22##linux-overflow
+T 1482839061 22*	Topic for 22##linux-overflow is: NOTE:  This is not ##linux.  Make sure your nick is registered, then please try again to join ##linux.  You may have ended up here due to a lot of users joining the channel or other unforeseen circumstances.  Thank you. (no idling here please)
+T 1482839061 22*	Topic for 22##linux-overflow set by 26lacroix!lacroix@about/linux/staff/lacroix (24Wed Oct 27 17:58:32 2010)
+T 1482839061 -18NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1482839061 -18ChanServ-	[##linux-overflow] Make sure your nick is registered, then please try again to join ##linux.  If you are using the freenode webchat  gateway, we do apologize, but do to abuse it is not allowed in the channel at this time.  Thank you. (no idling here please)
+T 1482839063 24*	JMnemonic has quit (Changing host)
+T 1482839063 23*	JMnemonic (sid195869@unaffiliated/jmnemonic23) has joined
+T 1482839063 24*	JMnemonic has quit (Changing host)
+T 1482839063 23*	JMnemonic (sid195869@gateway/web/irccloud.com/x-xicgmtezyqtemgjy23) has joined
+T 1482839099 24*	JMnemonic (sid195869@gateway/web/irccloud.com/x-xicgmtezyqtemgjy24) has left
+T 1482839141 24*	erikw has quit (Ping timeout: 248 seconds)
+T 1482839198 23*	egsome (~code2be@156.212.226.15423) has joined
+T 1482839207 24*	egsome (~code2be@156.212.226.15424) has left
+T 1482839208 23*	shubhnik (~shubhnik@125.62.97.2423) has joined
+T 1482839211 23*	egsome (~code2be@156.212.226.15423) has joined
+T 1482839241 24*	lolusux (~lolusux@77.87.22.20224) has left
+T 1482839248 24*	egsome (~code2be@156.212.226.15424) has left
+T 1482839324 23*	guardianL_ (~guardian@120.17.80.22023) has joined
+T 1482839545 23*	igbmnwCxjzOh (~igbmnwCxj@x55b33928.dyn.telefonica.de23) has joined
+T 1482839637 23*	_jan (~jan@ns85.dnsdomainserver.com23) has joined
+T 1482839701 24*	Charlie79 has quit (Ping timeout: 260 seconds)
+T 1482839708 24*	blackgoat has quit (Quit: WeeChat 1.5)
+T 1482839711 23*	agi78 (~IceChat9@151.95.13.24523) has joined
+T 1482839872 23*	pulsar12 (~pulsar12@131.228.2.1823) has joined
+T 1482839875 23*	xall (~xall@58.136.148.5823) has joined
+T 1482839876 23*	Stolous (~stolous@cam44-2-82-226-50-139.fbx.proxad.net23) has joined
+T 1482840013 24*	ArchNoob has quit (Ping timeout: 265 seconds)
+T 1482840013 24*	_jan (~jan@ns85.dnsdomainserver.com24) has left
+T 1482840108 24*	guardianL_ (~guardian@120.17.80.22024) has left
+T 1482840584 24*	ibouvousaime has quit (Ping timeout: 250 seconds)
+T 1482840650 23*	taskene (~taskene@CPE-124-190-161-178.snzm1.lon.bigpond.net.au23) has joined
+T 1482840657 23*	ibouvousaime (~ibouvousa@41.83.122.3123) has joined
+T 1482840840 24*	liteIRC_ has quit (Read error: Connection reset by peer)
+T 1482840870 24*	avoozl_ (~avoozl@82.194.220.8924) has left
+T 1482840912 24*	taskene has quit (Client Quit)
+T 1482841189 23*	erapp__ (~erapp@pool-108-46-235-105.nycmny.fios.verizon.net23) has joined
+T 1482841192 23*	Guest66378 (~geetgood@61.158.152.3023) has joined
+T 1482841200 24*	Guest66378 (~geetgood@61.158.152.3024) has left
+T 1482841364 24*	erapp_ has quit (Ping timeout: 250 seconds)
+T 1482841407 24*	el8 has quit (Read error: Connection reset by peer)
+T 1482841422 23*	el8 (~quassel@2a02:908:1d46:f40:b9f5:7225:4249:b62123) has joined
+T 1482841460 23*	hallelujah_shih (~halleluja@117.139.10.14823) has joined
+T 1482841483 23*	youreacun_t (~mypirc@82-132-217-5.dab.02.net23) has joined
+T 1482841483 24*	ivali137 has quit (Ping timeout: 252 seconds)
+T 1482841521 24*	ivali has quit (Ping timeout: 260 seconds)
+T 1482841542 23*	alextai_ (~alextai@188.120.134.15023) has joined
+T 1482841719 24*	alextai has quit (Ping timeout: 246 seconds)
+T 1482841728 24*	giaur has quit (Ping timeout: 250 seconds)
+T 1482841778 24*	shdeng has quit (Quit: Leaving)
+T 1482841789 23*	oles (~oles@178.215.106.923) has joined
+T 1482841839 24*	youreacun_t has quit (Remote host closed the connection)
+T 1482841848 23*	allamoox (~allamoox@ashellz/owner/allamox23) has joined
+T 1482841862 24*	agi78 has quit (Quit: Some folks are wise, and some otherwise.)
+T 1482841915 23*	zadock (~outsider@93.122.249.22923) has joined
+T 1482841944 23*	damaddy- (~maddy@p2E59DAA0.dip0.t-ipconnect.de23) has joined
+T 1482841951 24*	zadock has quit (Remote host closed the connection)
+T 1482842021 24*	damaddy has quit (Ping timeout: 248 seconds)
+T 1482842025 24*	banita has quit (Ping timeout: 260 seconds)
+T 1482842098 24*	Draecos has quit (Quit: This computer has gone to sleep)
+T 1482842106 23*	GabeF4 (~retro@h-155-4-134-173.na.cust.bahnhof.se23) has joined
+T 1482842131 24*	`Cam has quit (Quit: ZZZ)
+T 1482842219 23*	ibttis (~dl@unaffiliated/ibttis23) has joined
+T 1482842340 24*	damaddy- has quit (Read error: Connection reset by peer)

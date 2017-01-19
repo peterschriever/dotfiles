@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2015-2016 Vladimir Schneider <vladimir.schneider@gmail.com>
+  ~
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements.  See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership.  The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License.  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<idea-plugin version="2">
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceInterface="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationSharedSettings" serviceImplementation="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationSharedSettings"/>
+        <applicationService serviceInterface="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationLocalSettings" serviceImplementation="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationLocalSettings"/>
+        <applicationService serviceInterface="com.vladsch.idea.multimarkdown.settings.ConfigurableRenderingProfile" serviceImplementation="com.vladsch.idea.multimarkdown.settings.ConfigurableRenderingProfile"/>
+        <applicationService serviceImplementation="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationSettings"/>
+        <!--<applicationConfigurable instance="com.vladsch.idea.multimarkdown.settings.MultiMarkdownGlobalSettingsConfigurable"/>-->
+        <applicationService serviceInterface="com.vladsch.idea.multimarkdown.settings.MultiMarkdownGlobalSettings" serviceImplementation="com.vladsch.idea.multimarkdown.settings.MultiMarkdownGlobalSettings"/>
+        <applicationService serviceInterface="com.vladsch.idea.multimarkdown.settings.MultiMarkdownNonRoamingGlobalSettings" serviceImplementation="com.vladsch.idea.multimarkdown.settings.MultiMarkdownNonRoamingGlobalSettings"/>
+
+        <applicationConfigurable id="Settings.MultiMarkdown.Application"
+                                 bundle="com.vladsch.idea.multimarkdown.localization.strings"
+                                 groupId="language"
+                                 nonDefaultProject="true"
+                                 key="language.name"
+                                 instance="com.vladsch.idea.multimarkdown.settings.MarkdownApplicationConfigurable">
+
+            <configurable id="Settings.MultiMarkdown.Parser"
+                          bundle="com.vladsch.idea.multimarkdown.localization.strings"
+                          key="settings.markdown.parser.name"
+                          instance="com.vladsch.idea.multimarkdown.settings.MarkdownParserConfigurable"/>
+
+            <configurable id="Settings.MultiMarkdown.Css"
+                          bundle="com.vladsch.idea.multimarkdown.localization.strings"
+                          key="settings.markdown.css.name"
+                          instance="com.vladsch.idea.multimarkdown.settings.MarkdownCssConfigurable"/>
+
+            <configurable id="Settings.MultiMarkdown.Html"
+                          bundle="com.vladsch.idea.multimarkdown.localization.strings"
+                          key="settings.markdown.html.name"
+                          instance="com.vladsch.idea.multimarkdown.settings.MarkdownHtmlConfigurable"/>
+
+            <configurable id="Settings.MultiMarkdown.Notices"
+                          bundle="com.vladsch.idea.multimarkdown.localization.strings"
+                          key="settings.markdown.notices.name"
+                          instance="com.vladsch.idea.multimarkdown.settings.MarkdownNoticesConfigurable"/>
+
+        </applicationConfigurable>
+    </extensions>
+</idea-plugin>

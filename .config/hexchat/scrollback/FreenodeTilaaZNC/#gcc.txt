@@ -1,0 +1,3 @@
+T 1478345945 19*	Now talking on 22#gcc
+T 1478345945 22*	Topic for 22#gcc is: GNU Compiler Collection User Help. https://gcc.gnu.org/ || Be patient. _very_ patient. || Manual: https://gcc.gnu.org/onlinedocs/gcc/ || For binutils questions, /join ##binutils
+T 1478345945 22*	Topic for 22#gcc set by 26redi!~jwakely@april-fools/2014/fifth/redi (24Mon Oct 24 13:44:23 2016)

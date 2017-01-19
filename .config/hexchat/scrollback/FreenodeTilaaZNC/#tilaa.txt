@@ -1,0 +1,703 @@
+T 1480525741 18<24Steffanx18>	cypress does share stuff
+T 1480525741 18<29rawtaz18>	hm ok
+T 1480525741 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480525741 18<29rawtaz18>	most likely not :)
+T 1480525741 18<26markuman18>	Dios mio
+T 1480525741 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480525741 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480525741 18<22xmj18>	Haahahaha
+T 1480525741 18<22xmj18>	next they'll fork android
+T 1480525741 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480525741 18<22xmj18>	ha, what?
+T 1480525741 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480525741 18<22xmj18>	must've changed in the mean time
+T 1480525741 18<26markuman18>	that's a long time ago
+T 1480525741 18<26markuman18>	if you want this now, you have to use mokee
+T 1480525741 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480525741 18<26markuman18>	I've got only the germany news page about that
+T 1480525741 18<22xmj18>	will be fine, i'm native german
+T 1480525741 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480525741 18<22xmj18>	Nein
+T 1480525741 18<26markuman18>	We zijn niet Amerika
+T 1480525741 18<22xmj18>	we no speak americano
+T 1480525741 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480525741 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480525741 18<24Steffanx18>	bing translate
+T 1480525741 18<24Steffanx18>	is there some open sores translator?
+T 1480525741 18<26markuman18>	dunno
+T 1480525741 18<24Steffanx18>	RMS fellow you seld?
+T 1480525741 18<22xmj18>	sold your soul didntcha
+T 1480525741 18<24Steffanx18>	*said
+T 1480525741 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480525741 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480525741 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480535070 23*	grey_w (~grey_w@host239-0-dynamic.37-79-r.retail.telecomitalia.it23) has joined
+T 1480537189 24*	grey_w has quit (Ping timeout: 250 seconds)
+T 1480538872 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480539478 24*	Tectu has quit (Quit: Leaving)
+T 1480540098 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480579698 19*	Now talking on 22#tilaa
+T 1480579698 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480579698 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480579698 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480579698 18<29rawtaz18>	old but worthy :-)
+T 1480579698 18<29rawtaz18>	oh no
+T 1480579698 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480579698 18<29rawtaz18>	lol
+T 1480579698 18<29rawtaz18>	this was a nice one
+T 1480579698 18<29rawtaz18>	!
+T 1480579698 18<26markuman18>	:)
+T 1480579698 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480579698 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480579698 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480579698 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480579698 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480579698 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480579698 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480579698 18<24Steffanx18>	cypress does share stuff
+T 1480579698 18<29rawtaz18>	hm ok
+T 1480579698 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480579698 18<29rawtaz18>	most likely not :)
+T 1480579698 18<26markuman18>	Dios mio
+T 1480579698 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480579698 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480579698 18<22xmj18>	Haahahaha
+T 1480579698 18<22xmj18>	next they'll fork android
+T 1480579698 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480579698 18<22xmj18>	ha, what?
+T 1480579698 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480579698 18<22xmj18>	must've changed in the mean time
+T 1480579698 18<26markuman18>	that's a long time ago
+T 1480579698 18<26markuman18>	if you want this now, you have to use mokee
+T 1480579698 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480579698 18<26markuman18>	I've got only the germany news page about that
+T 1480579698 18<22xmj18>	will be fine, i'm native german
+T 1480579698 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480579698 18<22xmj18>	Nein
+T 1480579698 18<26markuman18>	We zijn niet Amerika
+T 1480579698 18<22xmj18>	we no speak americano
+T 1480579698 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480579698 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480579698 18<24Steffanx18>	bing translate
+T 1480579698 18<24Steffanx18>	is there some open sores translator?
+T 1480579698 18<26markuman18>	dunno
+T 1480579698 18<24Steffanx18>	RMS fellow you seld?
+T 1480579698 18<22xmj18>	sold your soul didntcha
+T 1480579698 18<24Steffanx18>	*said
+T 1480579698 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480579698 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480579698 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480579698 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480579698 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480579698 18<26markuman18>	it's completely cloned :)
+T 1480579698 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480579698 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480579698 18<26markuman18>	haha yes
+T 1480584934 23*	efphe (~efphe@host36-31-static.15-188-b.business.telecomitalia.it23) has joined
+T 1480585059 23*	sven__ (~sven@ip-217-103-179-155.ip.prioritytelecom.net23) has joined
+T 1480586431 24*	sven__ has quit (Remote host closed the connection)
+T 1480588168 23*	rawtaz_ (~rawtaz@rho.hobbyhotellet.se23) has joined
+T 1480588489 23*	grey_w (~grey_w@host36-31-static.15-188-b.business.telecomitalia.it23) has joined
+T 1480588549 24*	rawtaz has quit (*.net *.split)
+T 1480589577 24*	grey_w has quit (Ping timeout: 244 seconds)
+T 1480589604 24*	efphe has quit (Ping timeout: 250 seconds)
+T 1480590056 23*	grey_w (~grey_w@host36-31-static.15-188-b.business.telecomitalia.it23) has joined
+T 1480590362 23*	efphe (~efphe@host36-31-static.15-188-b.business.telecomitalia.it23) has joined
+T 1480592966 20*	Disconnected (20Connection timed out)
+T 1480592977 19*	Now talking on 22#tilaa
+T 1480592977 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480592977 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480592977 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480592977 18<29rawtaz18>	old but worthy :-)
+T 1480592977 18<29rawtaz18>	oh no
+T 1480592977 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480592977 18<29rawtaz18>	lol
+T 1480592977 18<29rawtaz18>	this was a nice one
+T 1480592977 18<29rawtaz18>	!
+T 1480592977 18<26markuman18>	:)
+T 1480592977 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480592977 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480592977 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480592977 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480592977 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480592977 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480592977 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480592977 18<24Steffanx18>	cypress does share stuff
+T 1480592977 18<29rawtaz18>	hm ok
+T 1480592977 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480592977 18<29rawtaz18>	most likely not :)
+T 1480592977 18<26markuman18>	Dios mio
+T 1480592977 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480592977 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480592977 18<22xmj18>	Haahahaha
+T 1480592977 18<22xmj18>	next they'll fork android
+T 1480592977 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480592977 18<22xmj18>	ha, what?
+T 1480592977 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480592977 18<22xmj18>	must've changed in the mean time
+T 1480592977 18<26markuman18>	that's a long time ago
+T 1480592977 18<26markuman18>	if you want this now, you have to use mokee
+T 1480592977 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480592977 18<26markuman18>	I've got only the germany news page about that
+T 1480592977 18<22xmj18>	will be fine, i'm native german
+T 1480592977 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480592977 18<22xmj18>	Nein
+T 1480592977 18<26markuman18>	We zijn niet Amerika
+T 1480592977 18<22xmj18>	we no speak americano
+T 1480592977 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480592977 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480592977 18<24Steffanx18>	bing translate
+T 1480592977 18<24Steffanx18>	is there some open sores translator?
+T 1480592977 18<26markuman18>	dunno
+T 1480592977 18<24Steffanx18>	RMS fellow you seld?
+T 1480592977 18<22xmj18>	sold your soul didntcha
+T 1480592977 18<24Steffanx18>	*said
+T 1480592977 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480592977 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480592977 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480592977 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480592977 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480592977 18<26markuman18>	it's completely cloned :)
+T 1480592977 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480592977 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480592977 18<26markuman18>	haha yes
+T 1480595820 24*	28rawtaz_ is now known as 18rawtaz
+T 1480598655 24*	sven__ has quit ()
+T 1480616825 19*	Now talking on 22#tilaa
+T 1480616825 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480616825 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480616825 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480616825 18<29rawtaz18>	old but worthy :-)
+T 1480616825 18<29rawtaz18>	oh no
+T 1480616825 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480616825 18<29rawtaz18>	lol
+T 1480616825 18<29rawtaz18>	this was a nice one
+T 1480616825 18<29rawtaz18>	!
+T 1480616825 18<26markuman18>	:)
+T 1480616825 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480616825 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480616825 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480616825 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480616825 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480616825 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480616825 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480616825 18<24Steffanx18>	cypress does share stuff
+T 1480616825 18<29rawtaz18>	hm ok
+T 1480616825 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480616825 18<29rawtaz18>	most likely not :)
+T 1480616825 18<26markuman18>	Dios mio
+T 1480616825 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480616825 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480616825 18<22xmj18>	Haahahaha
+T 1480616825 18<22xmj18>	next they'll fork android
+T 1480616825 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480616825 18<22xmj18>	ha, what?
+T 1480616825 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480616825 18<22xmj18>	must've changed in the mean time
+T 1480616825 18<26markuman18>	that's a long time ago
+T 1480616825 18<26markuman18>	if you want this now, you have to use mokee
+T 1480616825 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480616825 18<26markuman18>	I've got only the germany news page about that
+T 1480616825 18<22xmj18>	will be fine, i'm native german
+T 1480616825 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480616825 18<22xmj18>	Nein
+T 1480616825 18<26markuman18>	We zijn niet Amerika
+T 1480616825 18<22xmj18>	we no speak americano
+T 1480616825 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480616825 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480616825 18<24Steffanx18>	bing translate
+T 1480616825 18<24Steffanx18>	is there some open sores translator?
+T 1480616825 18<26markuman18>	dunno
+T 1480616825 18<24Steffanx18>	RMS fellow you seld?
+T 1480616825 18<22xmj18>	sold your soul didntcha
+T 1480616825 18<24Steffanx18>	*said
+T 1480616825 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480616825 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480616825 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480616825 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480616825 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480616825 18<26markuman18>	it's completely cloned :)
+T 1480616825 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480616825 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480616825 18<26markuman18>	haha yes
+T 1480618886 23*	efphe (~efphe@host141-71-dynamic.17-87-r.retail.telecomitalia.it23) has joined
+T 1480620839 24*	efphe has quit (Ping timeout: 260 seconds)
+T 1480621605 23*	efphe (~efphe@host141-71-dynamic.17-87-r.retail.telecomitalia.it23) has joined
+T 1480623308 23*	sven__ (~sven@ip-217-103-179-155.ip.prioritytelecom.net23) has joined
+T 1480623482 24*	sven___ has quit (Ping timeout: 260 seconds)
+T 1480628634 24*	sven__ has quit (Remote host closed the connection)
+T 1480668591 19*	Now talking on 22#tilaa
+T 1480668591 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480668591 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480668591 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480668591 18<29rawtaz18>	old but worthy :-)
+T 1480668591 18<29rawtaz18>	oh no
+T 1480668591 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480668591 18<29rawtaz18>	lol
+T 1480668591 18<29rawtaz18>	this was a nice one
+T 1480668591 18<29rawtaz18>	!
+T 1480668591 18<26markuman18>	:)
+T 1480668591 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480668591 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480668591 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480668591 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480668591 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480668591 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480668591 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480668591 18<24Steffanx18>	cypress does share stuff
+T 1480668591 18<29rawtaz18>	hm ok
+T 1480668591 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480668591 18<29rawtaz18>	most likely not :)
+T 1480668591 18<26markuman18>	Dios mio
+T 1480668591 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480668591 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480668591 18<22xmj18>	Haahahaha
+T 1480668591 18<22xmj18>	next they'll fork android
+T 1480668591 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480668591 18<22xmj18>	ha, what?
+T 1480668591 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480668591 18<22xmj18>	must've changed in the mean time
+T 1480668591 18<26markuman18>	that's a long time ago
+T 1480668591 18<26markuman18>	if you want this now, you have to use mokee
+T 1480668591 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480668591 18<26markuman18>	I've got only the germany news page about that
+T 1480668591 18<22xmj18>	will be fine, i'm native german
+T 1480668591 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480668591 18<22xmj18>	Nein
+T 1480668591 18<26markuman18>	We zijn niet Amerika
+T 1480668591 18<22xmj18>	we no speak americano
+T 1480668591 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480668591 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480668591 18<24Steffanx18>	bing translate
+T 1480668591 18<24Steffanx18>	is there some open sores translator?
+T 1480668591 18<26markuman18>	dunno
+T 1480668591 18<24Steffanx18>	RMS fellow you seld?
+T 1480668591 18<22xmj18>	sold your soul didntcha
+T 1480668591 18<24Steffanx18>	*said
+T 1480668591 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480668591 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480668591 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480668591 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480668591 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480668591 18<26markuman18>	it's completely cloned :)
+T 1480668591 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480668591 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480668591 18<26markuman18>	haha yes
+T 1480676647 20*	Disconnected (20Connection timed out)
+T 1480676657 19*	Now talking on 22#tilaa
+T 1480676657 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480676657 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480676657 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480676657 18<29rawtaz18>	old but worthy :-)
+T 1480676657 18<29rawtaz18>	oh no
+T 1480676657 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480676657 18<29rawtaz18>	lol
+T 1480676657 18<29rawtaz18>	this was a nice one
+T 1480676657 18<29rawtaz18>	!
+T 1480676657 18<26markuman18>	:)
+T 1480676657 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480676657 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480676657 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480676657 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480676657 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480676657 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480676657 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480676657 18<24Steffanx18>	cypress does share stuff
+T 1480676657 18<29rawtaz18>	hm ok
+T 1480676657 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480676657 18<29rawtaz18>	most likely not :)
+T 1480676657 18<26markuman18>	Dios mio
+T 1480676657 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480676657 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480676657 18<22xmj18>	Haahahaha
+T 1480676657 18<22xmj18>	next they'll fork android
+T 1480676657 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480676657 18<22xmj18>	ha, what?
+T 1480676657 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480676657 18<22xmj18>	must've changed in the mean time
+T 1480676657 18<26markuman18>	that's a long time ago
+T 1480676657 18<26markuman18>	if you want this now, you have to use mokee
+T 1480676657 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480676657 18<26markuman18>	I've got only the germany news page about that
+T 1480676657 18<22xmj18>	will be fine, i'm native german
+T 1480676657 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480676657 18<22xmj18>	Nein
+T 1480676657 18<26markuman18>	We zijn niet Amerika
+T 1480676657 18<22xmj18>	we no speak americano
+T 1480676657 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480676657 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480676657 18<24Steffanx18>	bing translate
+T 1480676657 18<24Steffanx18>	is there some open sores translator?
+T 1480676657 18<26markuman18>	dunno
+T 1480676657 18<24Steffanx18>	RMS fellow you seld?
+T 1480676657 18<22xmj18>	sold your soul didntcha
+T 1480676657 18<24Steffanx18>	*said
+T 1480676657 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480676657 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480676657 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480676657 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480676657 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480676657 18<26markuman18>	it's completely cloned :)
+T 1480676657 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480676657 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480676657 18<26markuman18>	haha yes
+T 1480676889 24*	sven__ has quit (Remote host closed the connection)
+T 1480677101 23*	sven__ (~sven@85.17.130.24023) has joined
+T 1480677161 24*	sven__ has quit (Remote host closed the connection)
+T 1480677328 23*	sven__ (~sven@85.17.130.24023) has joined
+T 1480681013 24*	sven__ has quit (Remote host closed the connection)
+T 1480681471 23*	sven__ (~sven@85.17.130.24023) has joined
+T 1480688203 20*	Disconnected (20Connection reset by peer)
+T 1480688214 19*	Now talking on 22#tilaa
+T 1480688214 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480688214 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480688214 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480688214 18<29rawtaz18>	old but worthy :-)
+T 1480688214 18<29rawtaz18>	oh no
+T 1480688214 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480688214 18<29rawtaz18>	lol
+T 1480688214 18<29rawtaz18>	this was a nice one
+T 1480688214 18<29rawtaz18>	!
+T 1480688214 18<26markuman18>	:)
+T 1480688214 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480688214 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480688214 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480688214 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480688214 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480688214 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480688214 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480688214 18<24Steffanx18>	cypress does share stuff
+T 1480688214 18<29rawtaz18>	hm ok
+T 1480688214 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480688214 18<29rawtaz18>	most likely not :)
+T 1480688214 18<26markuman18>	Dios mio
+T 1480688214 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480688214 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480688214 18<22xmj18>	Haahahaha
+T 1480688214 18<22xmj18>	next they'll fork android
+T 1480688214 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480688214 18<22xmj18>	ha, what?
+T 1480688214 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480688214 18<22xmj18>	must've changed in the mean time
+T 1480688214 18<26markuman18>	that's a long time ago
+T 1480688214 18<26markuman18>	if you want this now, you have to use mokee
+T 1480688214 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480688214 18<26markuman18>	I've got only the germany news page about that
+T 1480688214 18<22xmj18>	will be fine, i'm native german
+T 1480688214 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480688214 18<22xmj18>	Nein
+T 1480688214 18<26markuman18>	We zijn niet Amerika
+T 1480688214 18<22xmj18>	we no speak americano
+T 1480688214 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480688214 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480688214 18<24Steffanx18>	bing translate
+T 1480688214 18<24Steffanx18>	is there some open sores translator?
+T 1480688214 18<26markuman18>	dunno
+T 1480688214 18<24Steffanx18>	RMS fellow you seld?
+T 1480688214 18<22xmj18>	sold your soul didntcha
+T 1480688214 18<24Steffanx18>	*said
+T 1480688214 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480688214 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480688214 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480688214 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480688214 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480688214 18<26markuman18>	it's completely cloned :)
+T 1480688214 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480688214 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480688214 18<26markuman18>	haha yes
+T 1480688325 23*	efphe (~efphe@host141-71-dynamic.17-87-r.retail.telecomitalia.it23) has joined
+T 1480693829 24*	sven__ has quit (Remote host closed the connection)
+T 1480793259 19*	Now talking on 22#tilaa
+T 1480793259 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480793259 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480793259 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480793259 18<29rawtaz18>	old but worthy :-)
+T 1480793259 18<29rawtaz18>	oh no
+T 1480793259 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480793259 18<29rawtaz18>	lol
+T 1480793259 18<29rawtaz18>	this was a nice one
+T 1480793259 18<29rawtaz18>	!
+T 1480793259 18<26markuman18>	:)
+T 1480793259 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480793259 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480793259 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480793259 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480793259 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480793259 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480793259 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480793259 18<24Steffanx18>	cypress does share stuff
+T 1480793259 18<29rawtaz18>	hm ok
+T 1480793259 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480793259 18<29rawtaz18>	most likely not :)
+T 1480793259 18<26markuman18>	Dios mio
+T 1480793259 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480793259 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480793259 18<22xmj18>	Haahahaha
+T 1480793259 18<22xmj18>	next they'll fork android
+T 1480793259 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480793259 18<22xmj18>	ha, what?
+T 1480793259 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480793259 18<22xmj18>	must've changed in the mean time
+T 1480793259 18<26markuman18>	that's a long time ago
+T 1480793259 18<26markuman18>	if you want this now, you have to use mokee
+T 1480793259 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480793259 18<26markuman18>	I've got only the germany news page about that
+T 1480793259 18<22xmj18>	will be fine, i'm native german
+T 1480793259 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480793259 18<22xmj18>	Nein
+T 1480793259 18<26markuman18>	We zijn niet Amerika
+T 1480793259 18<22xmj18>	we no speak americano
+T 1480793259 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480793259 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480793259 18<24Steffanx18>	bing translate
+T 1480793259 18<24Steffanx18>	is there some open sores translator?
+T 1480793259 18<26markuman18>	dunno
+T 1480793259 18<24Steffanx18>	RMS fellow you seld?
+T 1480793259 18<22xmj18>	sold your soul didntcha
+T 1480793259 18<24Steffanx18>	*said
+T 1480793259 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480793259 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480793259 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480793259 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480793259 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480793259 18<26markuman18>	it's completely cloned :)
+T 1480793259 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480793259 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480793259 18<26markuman18>	haha yes
+T 1480793259 18<29rawtaz18>	anyone tried macOS 10.12.2 (beta) yet?
+T 1480793259 18<24Steffanx18>	nein.
+T 1480793259 18<29rawtaz18>	markuman: funny, i rarely see things like this in the open source world, but i do see where he's coming from
+T 1480793259 18<26markuman18>	rawtaz: what?
+T 1480793259 18<24Steffanx18>	markuman: what?
+T 1480793259 18<29rawtaz18>	oh, lol
+T 1480793259 18<29rawtaz18>	the link you pasted, the PR where you were asked for agreeing to submit rights
+T 1480793259 18<26markuman18>	Ah ok
+T 1480793259 18<24Steffanx18>	All one needs it MIT or BSD, or wtfpl.
+T 1480793259 18<26markuman18>	+1 for wtfpl
+T 1480793259 18<24Steffanx18>	The code ... strlen on the result of a sqlite3_column_blob?
+T 1480793259 18<29rawtaz18>	what about it?
+T 1480793259 18<26markuman18>	Uh? The idiot got already 39 stars?
+T 1480793259 18<24Steffanx18>	The function can also return stuff that isnt a string (a null ptr for example)  rawtaz.
+T 1480793259 18<29rawtaz18>	oh
+T 1480793259 18<24Steffanx18>	At least he is very busy with 100+ repos markuman :)
+T 1480793259 18<26markuman18>	does anyone know a domain robot  where I can change A records for domains with an API?
+T 1480793259 18<29rawtaz18>	markuman: isnt that what the DynDNS protocol is about? i think there's a lot of clients for that.
+T 1480793259 18<29rawtaz18>	does anyone have a clue on how to fix the issue with secd taking 100% cpu on macOS Sierra, but without using iCloud?
+T 1480793259 18<29rawtaz18>	i know a fix where you just start to enable iCloud keychain, and it solves the problem, but i dont have and dont want to have iCloud, so i cant do that :/
+T 1480793259 18<29rawtaz18>	this is seriously such a great initiative: https://testing.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html
+T 1480793259 18<24Steffanx18>	nope, i dont have that issue rawtaz
+T 1480793259 18<26markuman18>	I don't have that issu too with my 11" macbook air running Arch Linux
+T 1480793259 18<25Tectu18>	arch <3
+T 1480793259 18<26markuman18>	 but systemd is crap
+T 1480793259 18<25Tectu18>	you are crap
+T 1480793259 18<26markuman18>	be aware and polite, I am op
+T 1480793259 18<25Tectu18>	you might to be polite towards systemd too :)
+T 1480793259 18<25Tectu18>	and bragging around with op status is so poor compared to actual conflict resolution...
+T 1480793259 18<26markuman18>	no it's awesome. trump would do the same
+T 1480793259 18<25Tectu18>	lol
+T 1480793455 23*	efphe (~efphe@host141-71-dynamic.17-87-r.retail.telecomitalia.it23) has joined
+T 1480795087 24*	efphe has quit (Ping timeout: 246 seconds)
+T 1480852667 19*	Now talking on 22#tilaa
+T 1480852667 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480852667 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480852667 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480852667 18<29rawtaz18>	old but worthy :-)
+T 1480852667 18<29rawtaz18>	oh no
+T 1480852667 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480852667 18<29rawtaz18>	lol
+T 1480852667 18<29rawtaz18>	this was a nice one
+T 1480852667 18<29rawtaz18>	!
+T 1480852667 18<26markuman18>	:)
+T 1480852667 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480852667 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480852667 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480852667 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480852667 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480852667 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480852667 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480852667 18<24Steffanx18>	cypress does share stuff
+T 1480852667 18<29rawtaz18>	hm ok
+T 1480852667 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480852667 18<29rawtaz18>	most likely not :)
+T 1480852667 18<26markuman18>	Dios mio
+T 1480852667 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480852667 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480852667 18<22xmj18>	Haahahaha
+T 1480852667 18<22xmj18>	next they'll fork android
+T 1480852667 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480852667 18<22xmj18>	ha, what?
+T 1480852667 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480852667 18<22xmj18>	must've changed in the mean time
+T 1480852667 18<26markuman18>	that's a long time ago
+T 1480852667 18<26markuman18>	if you want this now, you have to use mokee
+T 1480852667 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480852667 18<26markuman18>	I've got only the germany news page about that
+T 1480852667 18<22xmj18>	will be fine, i'm native german
+T 1480852667 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480852667 18<22xmj18>	Nein
+T 1480852667 18<26markuman18>	We zijn niet Amerika
+T 1480852667 18<22xmj18>	we no speak americano
+T 1480852667 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480852667 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480852667 18<24Steffanx18>	bing translate
+T 1480852667 18<24Steffanx18>	is there some open sores translator?
+T 1480852667 18<26markuman18>	dunno
+T 1480852667 18<24Steffanx18>	RMS fellow you seld?
+T 1480852667 18<22xmj18>	sold your soul didntcha
+T 1480852667 18<24Steffanx18>	*said
+T 1480852667 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480852667 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480852667 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480852667 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480852667 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480852667 18<26markuman18>	it's completely cloned :)
+T 1480852667 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480852667 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480852667 18<26markuman18>	haha yes
+T 1480852667 18<29rawtaz18>	anyone tried macOS 10.12.2 (beta) yet?
+T 1480852667 18<24Steffanx18>	nein.
+T 1480852667 18<29rawtaz18>	markuman: funny, i rarely see things like this in the open source world, but i do see where he's coming from
+T 1480852667 18<26markuman18>	rawtaz: what?
+T 1480852667 18<24Steffanx18>	markuman: what?
+T 1480852667 18<29rawtaz18>	oh, lol
+T 1480852667 18<29rawtaz18>	the link you pasted, the PR where you were asked for agreeing to submit rights
+T 1480852667 18<26markuman18>	Ah ok
+T 1480852667 18<24Steffanx18>	All one needs it MIT or BSD, or wtfpl.
+T 1480852667 18<26markuman18>	+1 for wtfpl
+T 1480852667 18<24Steffanx18>	The code ... strlen on the result of a sqlite3_column_blob?
+T 1480852667 18<29rawtaz18>	what about it?
+T 1480852667 18<26markuman18>	Uh? The idiot got already 39 stars?
+T 1480852667 18<24Steffanx18>	The function can also return stuff that isnt a string (a null ptr for example)  rawtaz.
+T 1480852667 18<29rawtaz18>	oh
+T 1480852667 18<24Steffanx18>	At least he is very busy with 100+ repos markuman :)
+T 1480852667 18<26markuman18>	does anyone know a domain robot  where I can change A records for domains with an API?
+T 1480852667 18<29rawtaz18>	markuman: isnt that what the DynDNS protocol is about? i think there's a lot of clients for that.
+T 1480852667 18<29rawtaz18>	does anyone have a clue on how to fix the issue with secd taking 100% cpu on macOS Sierra, but without using iCloud?
+T 1480852667 18<29rawtaz18>	i know a fix where you just start to enable iCloud keychain, and it solves the problem, but i dont have and dont want to have iCloud, so i cant do that :/
+T 1480852667 18<29rawtaz18>	this is seriously such a great initiative: https://testing.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html
+T 1480852667 18<24Steffanx18>	nope, i dont have that issue rawtaz
+T 1480852667 18<26markuman18>	I don't have that issu too with my 11" macbook air running Arch Linux
+T 1480852667 18<25Tectu18>	arch <3
+T 1480852667 18<26markuman18>	 but systemd is crap
+T 1480852667 18<25Tectu18>	you are crap
+T 1480852667 18<26markuman18>	be aware and polite, I am op
+T 1480852667 18<25Tectu18>	you might to be polite towards systemd too :)
+T 1480852667 18<25Tectu18>	and bragging around with op status is so poor compared to actual conflict resolution...
+T 1480852667 18<26markuman18>	no it's awesome. trump would do the same
+T 1480852667 18<25Tectu18>	lol
+T 1480852667 18<24Steffanx18>	 /op Steffanx
+T 1480852748 23*	sven__ (~sven@p5DDDCE05.dip0.t-ipconnect.de23) has joined
+T 1480852957 24*	sven__ has quit (Remote host closed the connection)
+T 1480853151 23*	sven__ (~sven@p5DDDCE05.dip0.t-ipconnect.de23) has joined
+T 1480854473 24*	sven__ has quit (Remote host closed the connection)
+T 1480855073 24*	Steffanx has quit (Ping timeout: 250 seconds)
+T 1480855433 23*	Steffanx (~quassel@unaffiliated/steffanx23) has joined
+T 1480933869 20*	Disconnected (20Invalid argument)
+T 1480933879 19*	Now talking on 22#tilaa
+T 1480933879 22*	Topic for 22#tilaa is: https://www.tilaa.com | The European business cloud
+T 1480933879 22*	Topic for 22#tilaa set by 26denn1s!dennis@2a02:2770::21a:4aff:fee2:5724 (24Thu Mar  3 11:27:55 2016)
+T 1480933879 18<26markuman18>	oh http://www.bleepingcomputer.com/news/security/you-can-bypass-linux-disk-encryption-by-pressing-the-enter-key-for-70-seconds/
+T 1480933879 18<29rawtaz18>	old but worthy :-)
+T 1480933879 18<29rawtaz18>	oh no
+T 1480933879 18<29rawtaz18>	i was thinking about that grub thingie
+T 1480933879 18<29rawtaz18>	lol
+T 1480933879 18<29rawtaz18>	this was a nice one
+T 1480933879 18<29rawtaz18>	!
+T 1480933879 18<26markuman18>	:)
+T 1480933879 18<26markuman18>	https://news.ycombinator.com/item?id=12965348
+T 1480933879 18<29rawtaz18>	markuman: what's the thing about that, datasheets?
+T 1480933879 18<24Steffanx18>	it's semi-huge in the driver world probably
+T 1480933879 18<24Steffanx18>	because .. broadcom is very crappy when it comes to datasheets
+T 1480933879 18<24Steffanx18>	always require you to sign 30000 NDA's
+T 1480933879 18<29rawtaz18>	oh ok, so the news here is that they released some datasheets which is amazing compared to how theyve behaved in the past?
+T 1480933879 18<24Steffanx18>	nah, some iot department from broadcom is owned by cypress now
+T 1480933879 18<24Steffanx18>	cypress does share stuff
+T 1480933879 18<29rawtaz18>	hm ok
+T 1480933879 18<24Steffanx18>	i dont think you and me will benifit much from it.
+T 1480933879 18<29rawtaz18>	most likely not :)
+T 1480933879 18<26markuman18>	Dios mio
+T 1480933879 18<26markuman18>	https://techcrunch.com/2016/11/16/microsoft-joins-the-linux-foundation/
+T 1480933879 18<26markuman18>	https://en.wikipedia.org/wiki/Embrace,_extend_and_extinguish
+T 1480933879 18<22xmj18>	Haahahaha
+T 1480933879 18<22xmj18>	next they'll fork android
+T 1480933879 18<26markuman18>	xmj: they did already....with cyanogenmod. it's completely infested with microsoft code and services
+T 1480933879 18<22xmj18>	ha, what?
+T 1480933879 18<22xmj18>	when i was using CM it looked like a cleaner version of android (minus the google parts, that is)
+T 1480933879 18<22xmj18>	must've changed in the mean time
+T 1480933879 18<26markuman18>	that's a long time ago
+T 1480933879 18<26markuman18>	if you want this now, you have to use mokee
+T 1480933879 18<26markuman18>	http://www.heise.de/newsticker/meldung/MWC-2016-Cyanogen-Mods-Microsoft-bohrt-Android-auf-3113496.html
+T 1480933879 18<26markuman18>	I've got only the germany news page about that
+T 1480933879 18<22xmj18>	will be fine, i'm native german
+T 1480933879 18<24Steffanx18>	oh no, are you guys taking over the world again?
+T 1480933879 18<22xmj18>	Nein
+T 1480933879 18<26markuman18>	We zijn niet Amerika
+T 1480933879 18<22xmj18>	we no speak americano
+T 1480933879 18<24Steffanx18>	Did you google translate that or .. markuman?
+T 1480933879 18<26markuman18>	I'm a fellow of rms, I don't use google :D
+T 1480933879 18<24Steffanx18>	bing translate
+T 1480933879 18<24Steffanx18>	is there some open sores translator?
+T 1480933879 18<26markuman18>	dunno
+T 1480933879 18<24Steffanx18>	RMS fellow you seld?
+T 1480933879 18<22xmj18>	sold your soul didntcha
+T 1480933879 18<24Steffanx18>	*said
+T 1480933879 18<24Steffanx18>	not sure how i wrote "seld"
+T 1480933879 18<26markuman18>	oh lol https://github.com/siscia/rediSQL/pull/1#issuecomment-262729328
+T 1480933879 18<26markuman18>	https://www.humblebundle.com/books/unix-book-bundle
+T 1480933879 18<26markuman18>	https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/
+T 1480933879 18<19jbergstroem18>	looks like they got some inspiration from DO, no?
+T 1480933879 18<26markuman18>	it's completely cloned :)
+T 1480933879 18<19denn1s18>	it's nothing more than an easy UI for AWS, technically it's exactly the same thing
+T 1480933879 18<19denn1s18>	so DO once said they wanted to take on AWS, this is amazon's answer ;)
+T 1480933879 18<26markuman18>	haha yes
+T 1480933879 18<29rawtaz18>	anyone tried macOS 10.12.2 (beta) yet?
+T 1480933879 18<24Steffanx18>	nein.
+T 1480933879 18<29rawtaz18>	markuman: funny, i rarely see things like this in the open source world, but i do see where he's coming from
+T 1480933879 18<26markuman18>	rawtaz: what?
+T 1480933879 18<24Steffanx18>	markuman: what?
+T 1480933879 18<29rawtaz18>	oh, lol
+T 1480933879 18<29rawtaz18>	the link you pasted, the PR where you were asked for agreeing to submit rights
+T 1480933879 18<26markuman18>	Ah ok
+T 1480933879 18<24Steffanx18>	All one needs it MIT or BSD, or wtfpl.
+T 1480933879 18<26markuman18>	+1 for wtfpl
+T 1480933879 18<24Steffanx18>	The code ... strlen on the result of a sqlite3_column_blob?
+T 1480933879 18<29rawtaz18>	what about it?
+T 1480933879 18<26markuman18>	Uh? The idiot got already 39 stars?
+T 1480933879 18<24Steffanx18>	The function can also return stuff that isnt a string (a null ptr for example)  rawtaz.
+T 1480933879 18<29rawtaz18>	oh
+T 1480933879 18<24Steffanx18>	At least he is very busy with 100+ repos markuman :)
+T 1480933879 18<26markuman18>	does anyone know a domain robot  where I can change A records for domains with an API?
+T 1480933879 18<29rawtaz18>	markuman: isnt that what the DynDNS protocol is about? i think there's a lot of clients for that.
+T 1480933879 18<29rawtaz18>	does anyone have a clue on how to fix the issue with secd taking 100% cpu on macOS Sierra, but without using iCloud?
+T 1480933879 18<29rawtaz18>	i know a fix where you just start to enable iCloud keychain, and it solves the problem, but i dont have and dont want to have iCloud, so i cant do that :/
+T 1480933879 18<29rawtaz18>	this is seriously such a great initiative: https://testing.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html
+T 1480933879 18<24Steffanx18>	nope, i dont have that issue rawtaz
+T 1480933879 18<26markuman18>	I don't have that issu too with my 11" macbook air running Arch Linux
+T 1480933879 18<25Tectu18>	arch <3
+T 1480933879 18<26markuman18>	 but systemd is crap
+T 1480933879 18<25Tectu18>	you are crap
+T 1480933879 18<26markuman18>	be aware and polite, I am op
+T 1480933879 18<25Tectu18>	you might to be polite towards systemd too :)
+T 1480933879 18<25Tectu18>	and bragging around with op status is so poor compared to actual conflict resolution...
+T 1480933879 18<26markuman18>	no it's awesome. trump would do the same
+T 1480933879 18<25Tectu18>	lol
+T 1480933879 18<24Steffanx18>	 /op Steffanx
+T 1480933879 18<19jbergstroem18>	i'm not a fan of systemd os either :(
+T 1480933879 18<19jbergstroem18>	i can appreciate the consistency of units but that's roughly as far as i go
+T 1480933879 18<29rawtaz18>	jbergstroem: any feedback on 10.12.2 yet or havent you tried it?
+T 1480933879 18<25Tectu18>	How's Mr. C++, Mr. rawtaz ?
+T 1480933879 18<19jbergstroem18>	rawtaz: i usually run the latest betas on my laptop. nothing out of the ordinary to report
+T 1480933879 18<19jbergstroem18>	rawtaz: as in; works as befor
+T 1480933879 18<19jbergstroem18>	e
+T 1480933879 18<29rawtaz18>	im pondering whether to install my new computer with 10.12.x or stick with 10.11 - just feels so silly to use the second to last one since i upgrade so very seldom
+T 1480933879 18<29rawtaz18>	jbergstroem: ok, so youre running it and think 10.12.2 works fine so far? no issues at all?
+T 1480933879 18<29rawtaz18>	Tectu: oh im okay i guess
+T 1480933879 18<19jbergstroem18>	rawtaz: no issues at all. new emoji
+T 1480933879 18<29rawtaz18>	jbergstroem: hehe. ok :D
+T 1480933879 18<29rawtaz18>	its mostly the secd issue im hesitant about, i can live with the time machine problems people seem to have
+T 1480933879 18<29rawtaz18>	other than that it seems to work on the one computer i upgraded from 10.9
+T 1480933879 18<29rawtaz18>	troutsprout
+T 1480933879 18<24Steffanx18>	yes that.
+T 1480933879 18<24Steffanx18>	how is rawtaz?
+T 1480933879 18<29rawtaz18>	thats relative at the moment
+T 1480933879 18<29rawtaz18>	but im learning latex so thats fun
